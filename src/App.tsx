@@ -23,13 +23,16 @@ import {
   modePlans,
   sources,
   type Lang,
+  type Loadout,
   type Localized,
+  type LocalizedTerm,
   type ModeId,
   type Source,
+  type WeaponKit,
   type WeaponMetric,
 } from './data'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
-import { generatedWeaponStats } from './weaponStats'
+import { generatedWeaponStats, normalizeWeaponName } from './weaponStats'
 
 type ViewId = 'planner' | 'meta'
 
@@ -107,7 +110,38 @@ function otherLang(lang: Lang): Lang {
 }
 
 function formatMs(value?: number) {
-  return value ? `${value} ms` : 'TBD'
+  return value !== undefined ? `${value} ms` : '—'
+}
+
+function formatNumber(value?: number) {
+  return value !== undefined ? String(value) : '—'
+}
+
+function attachmentPointTotal(items: LocalizedTerm[]) {
+  if (!items.length || items.some((item) => item.points === undefined)) return undefined
+  return items.reduce((sum, item) => sum + (item.points ?? 0), 0)
+}
+
+function formatAttachmentPoints(items: LocalizedTerm[]) {
+  const total = attachmentPointTotal(items)
+  return total !== undefined ? `${total}/100` : undefined
+}
+
+function battlefieldMetaUrl(weaponName: string) {
+  const aliases = new Map<string, string>([
+    ['MINIFIX', 'mini-scout'],
+    ['SOR300C', 'sor-300sc'],
+  ])
+  const normalized = normalizeWeaponName(weaponName)
+  const slug =
+    aliases.get(normalized) ??
+    weaponName
+      .toLowerCase()
+      .replace(/\+/g, 'plus')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '')
+
+  return `https://battlefieldmeta.gg/best-loadouts/${slug}`
 }
 
 function roleIcon(roleId: string) {
@@ -117,15 +151,37 @@ function roleIcon(roleId: string) {
   return <Zap aria-hidden="true" />
 }
 
-function Term({ value, lang }: { value: { name: Localized }; lang: Lang }) {
+function Term({ value, lang }: { value: LocalizedTerm; lang: Lang }) {
   const alt = t(value.name, otherLang(lang))
   const main = t(value.name, lang)
+  const cost = value.points !== undefined ? ` (${value.points})` : ''
 
   return (
-    <span className="term">
-      <span>{main}</span>
+    <span className={value.verified === false ? 'term unverified' : 'term'}>
+      <span>
+        {main}
+        {cost}
+      </span>
       {alt !== main ? <small>{alt}</small> : null}
     </span>
+  )
+}
+
+function AttachmentBlock({ title, kit, lang }: { title: Localized; kit: WeaponKit; lang: Lang }) {
+  const points = formatAttachmentPoints(kit.attachments)
+
+  return (
+    <section>
+      <h3 className="build-heading">
+        <span>{t(title, lang)}</span>
+        {points ? <small>{points}</small> : <small>{t(copy.buildPending, lang)}</small>}
+      </h3>
+      <div className="chips">
+        {kit.attachments.map((item) => (
+          <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
+        ))}
+      </div>
+    </section>
   )
 }
 
@@ -369,7 +425,7 @@ function WeaponPanel({
         </div>
         <div>
           <span>{t(copy.stk, lang)}</span>
-          <strong>{metric.baselineStk ?? 'TBD'}</strong>
+          <strong>{formatNumber(metric.baselineStk)}</strong>
         </div>
         <div>
           <span>{t(copy.redsecScore, lang)}</span>
@@ -379,11 +435,11 @@ function WeaponPanel({
       <div className="metric-strip compact">
         <div>
           <span>{t(copy.rpm, lang)}</span>
-          <strong>{metric.rpm ?? 'TBD'}</strong>
+          <strong>{formatNumber(metric.rpm)}</strong>
         </div>
         <div>
           <span>{t(copy.mag, lang)}</span>
-          <strong>{metric.magSize ?? 'TBD'}</strong>
+          <strong>{formatNumber(metric.magSize)}</strong>
         </div>
       </div>
       <dl className="weapon-notes">
@@ -463,22 +519,8 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
       </div>
 
       <div className="build-grid">
-        <section>
-          <h3>{t(copy.buildPrimary, lang)}</h3>
-          <div className="chips">
-            {activeLoadout.primary.attachments.map((item) => (
-              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
-            ))}
-          </div>
-        </section>
-        <section>
-          <h3>{t(copy.buildSecondary, lang)}</h3>
-          <div className="chips">
-            {activeLoadout.secondary.attachments.map((item) => (
-              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
-            ))}
-          </div>
-        </section>
+        <AttachmentBlock kit={activeLoadout.primary} lang={lang} title={copy.buildPrimary} />
+        <AttachmentBlock kit={activeLoadout.secondary} lang={lang} title={copy.buildSecondary} />
         <section>
           <h3>{t(copy.gadgets, lang)}</h3>
           <div className="chips">
@@ -584,11 +626,120 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
   )
 }
 
+type MetaBuildLink = {
+  key: string
+  modeId: ModeId
+  modeTitle: Localized
+  roleId: string
+  roleClassName: Localized
+  roleCallSign: Localized
+  loadout: Loadout
+  slot: 'primary' | 'secondary'
+  kit: WeaponKit
+}
+
+function collectMetaBuildLinks(): MetaBuildLink[] {
+  return (Object.values(modePlans) as Array<(typeof modePlans)[ModeId]>).flatMap((plan) =>
+    plan.roles.flatMap((role) =>
+      role.loadouts.flatMap((loadout) =>
+        (['primary', 'secondary'] as const).map((slot) => ({
+          key: `${loadout.id}-${slot}`,
+          modeId: plan.id,
+          modeTitle: plan.title,
+          roleId: role.id,
+          roleClassName: role.className,
+          roleCallSign: role.callSign,
+          loadout,
+          slot,
+          kit: loadout[slot],
+        })),
+      ),
+    ),
+  )
+}
+
+function MetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
+  const buildSources = Array.from(
+    new Set([...build.loadout.sourceIds, ...build.kit.metric.sourceIds, 'battlefieldmeta']),
+  )
+    .map((id) => sourceMap.get(id))
+    .filter((source): source is Source => Boolean(source))
+  const points = formatAttachmentPoints(build.kit.attachments)
+  const localSlotLabel = build.slot === 'primary' ? copy.primary : copy.secondary
+
+  return (
+    <aside className="meta-build-panel" id={`build-${build.key}`}>
+      <div className="meta-build-title">
+        <div>
+          <span>{t(copy.bestBuild, lang)}</span>
+          <h3>{t(build.kit.metric.weapon.name, lang)}</h3>
+        </div>
+        <a href={battlefieldMetaUrl(build.kit.metric.weapon.name.en)} target="_blank" rel="noreferrer">
+          <ExternalLink aria-hidden="true" />
+          <span>{t(copy.externalBuild, lang)}</span>
+        </a>
+      </div>
+      <div className="meta-build-context">
+        <span>{t(build.modeTitle, lang)}</span>
+        <span>{t(build.roleClassName, lang)}</span>
+        <span>{t(build.roleCallSign, lang)}</span>
+        <span>{t(localSlotLabel, lang)}</span>
+        {points ? <strong>{points}</strong> : <strong>{t(copy.buildPending, lang)}</strong>}
+      </div>
+      <p>{t(build.loadout.summary, lang)}</p>
+      <div className="meta-build-grid">
+        <AttachmentBlock kit={build.kit} lang={lang} title={copy.build} />
+        <section>
+          <h3>{t(copy.recommendedSkills, lang)}</h3>
+          <div className="chips">
+            {build.loadout.skills.map((item) => (
+              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
+            ))}
+          </div>
+        </section>
+        <section>
+          <h3>{t(copy.engagement, lang)}</h3>
+          <p>{t(build.loadout.engagement, lang)}</p>
+        </section>
+      </div>
+      <div className="source-row">
+        {buildSources.slice(0, 4).map((source) => (
+          <SourcePill key={source.id} source={source} lang={lang} />
+        ))}
+      </div>
+    </aside>
+  )
+}
+
 function MetaTierSection({ lang }: { lang: Lang }) {
   const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
+  const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
+    typeof window === 'undefined' || !window.location.hash.startsWith('#build-') ? '' : window.location.hash.replace('#build-', ''),
+  )
   const activeScenario = getMetaScenario(scenarioId)
   const rankedWeapons = useMemo(() => rankWeapons(metaWeapons, scenarioId), [scenarioId])
   const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
+  const buildLinks = useMemo(() => collectMetaBuildLinks(), [])
+  const buildLinksByWeapon = useMemo(() => {
+    const map = new Map<string, MetaBuildLink[]>()
+    for (const link of buildLinks) {
+      const key = normalizeWeaponName(link.kit.metric.weapon.name.en)
+      map.set(key, [...(map.get(key) ?? []), link])
+    }
+    return map
+  }, [buildLinks])
+  const selectedBuild = buildLinks.find((link) => link.key === selectedBuildKey)
+  const fallbackBuild = rankedWeapons
+    .map((ranked) => buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))?.[0])
+    .find((link): link is MetaBuildLink => Boolean(link))
+  const activeBuild = selectedBuild ?? fallbackBuild
+  const selectBuild = (key: string) => {
+    setSelectedBuildKey(key)
+    if (typeof window !== 'undefined') {
+      window.history.replaceState(null, '', `#build-${key}`)
+      window.setTimeout(() => document.getElementById(`build-${key}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0)
+    }
+  }
 
   return (
     <section className="meta-page">
@@ -633,6 +784,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           {rankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
       </div>
+      {activeBuild ? <MetaBuildPanel build={activeBuild} lang={lang} /> : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
         <div className="tier-row tier-row-head" role="row">
           <span>Tier</span>
@@ -643,26 +795,43 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.ttkRedsecProxy, lang)}</span>
           <span>{t(copy.roleFit, lang)}</span>
           <span>{t(copy.dataQuality, lang)}</span>
+          <span>{t(copy.bestBuild, lang)}</span>
         </div>
-        {rankedWeapons.map((ranked) => (
-          <div
-            className={`tier-row tier-${ranked.calculatedTier.replace('+', 'plus')}`}
-            key={`${ranked.scenarioId}-${t(ranked.metric.weapon.name, lang)}`}
-            role="row"
-          >
-            <span className="tier-badge">{ranked.calculatedTier}</span>
-            <strong>{t(ranked.metric.weapon.name, lang)}</strong>
-            <span>{t(ranked.metric.className, lang)}</span>
-            <span className="score-cell">{ranked.score}</span>
-            <span>{formatMs(ranked.mpTtkMs)}</span>
-            <span>{formatMs(ranked.redsecTtkMs)}</span>
-            <span>{ranked.roleFit}</span>
-            <span>
-              {ranked.dataQuality}
-              <small>{t(ranked.dataQualityLabel, lang)}</small>
-            </span>
-          </div>
-        ))}
+        {rankedWeapons.map((ranked) => {
+          const weaponBuilds = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en)) ?? []
+          const bestBuild = weaponBuilds[0]
+
+          return (
+            <div
+              className={`tier-row tier-${ranked.calculatedTier.replace('+', 'plus')}`}
+              key={`${ranked.scenarioId}-${t(ranked.metric.weapon.name, lang)}`}
+              role="row"
+            >
+              <span className="tier-badge">{ranked.calculatedTier}</span>
+              <strong>{t(ranked.metric.weapon.name, lang)}</strong>
+              <span>{t(ranked.metric.className, lang)}</span>
+              <span className="score-cell">{ranked.score}</span>
+              <span>{formatMs(ranked.mpTtkMs)}</span>
+              <span>{formatMs(ranked.redsecTtkMs)}</span>
+              <span>{ranked.roleFit}</span>
+              <span>
+                {ranked.dataQuality}
+                <small>{t(ranked.dataQualityLabel, lang)}</small>
+              </span>
+              <span className="build-actions">
+                {bestBuild ? (
+                  <button type="button" onClick={() => selectBuild(bestBuild.key)}>
+                    {t(copy.openBuild, lang)}
+                  </button>
+                ) : (
+                  <a href={battlefieldMetaUrl(ranked.metric.weapon.name.en)} target="_blank" rel="noreferrer">
+                    {t(copy.externalBuild, lang)}
+                  </a>
+                )}
+              </span>
+            </div>
+          )
+        })}
       </div>
     </section>
   )

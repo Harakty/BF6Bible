@@ -589,6 +589,7 @@ h1 {
 .rules-panel h3,
 .source-stack h3,
 .build-grid h3,
+.meta-build-grid h3,
 .playbook h3 {
   margin-bottom: 12px;
   color: #f8fff9;
@@ -777,10 +778,10 @@ h1 {
 
 .tier-row {
   display: grid;
-  grid-template-columns: 70px 170px 130px 105px 110px 130px 90px 130px;
+  grid-template-columns: 62px 156px 118px 96px 108px 126px 78px 112px 132px;
   gap: 12px;
   align-items: center;
-  min-width: 980px;
+  min-width: 1080px;
   padding: 12px 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
@@ -847,6 +848,115 @@ h1 {
 .tier-D .tier-badge {
   color: #fff;
   background: var(--red);
+}
+
+.meta-build-panel {
+  display: grid;
+  gap: 16px;
+  scroll-margin-top: 90px;
+  margin: 18px 24px 24px;
+  padding: 18px;
+  border: 1px solid rgba(120, 208, 138, 0.28);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(120, 208, 138, 0.08), transparent 58%),
+    rgba(255, 255, 255, 0.03);
+}
+
+.meta-build-title,
+.meta-build-context,
+.build-heading,
+.build-actions {
+  display: flex;
+  align-items: center;
+}
+
+.meta-build-title {
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.meta-build-title > div {
+  display: grid;
+  gap: 3px;
+}
+
+.meta-build-title span,
+.build-heading small {
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.meta-build-title h3 {
+  color: #f8fff9;
+  font-size: clamp(24px, 3vw, 38px);
+  line-height: 1;
+}
+
+.meta-build-title a,
+.build-actions a,
+.build-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 34px;
+  border: 1px solid rgba(120, 208, 138, 0.28);
+  border-radius: 7px;
+  padding: 0 10px;
+  color: #f8fff9;
+  background: rgba(120, 208, 138, 0.1);
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.meta-build-title a svg {
+  width: 14px;
+  height: 14px;
+}
+
+.meta-build-context {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.meta-build-context span,
+.meta-build-context strong {
+  min-height: 28px;
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.035);
+  font-size: 12px;
+}
+
+.meta-build-context strong {
+  border-color: rgba(242, 184, 75, 0.32);
+  color: #f8fff9;
+}
+
+.meta-build-panel p,
+.meta-build-grid p {
+  color: #d9e3da;
+}
+
+.meta-build-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(230px, 0.85fr) minmax(180px, 0.65fr);
+  gap: 14px;
+}
+
+.build-actions {
+  gap: 8px;
+}
+
+.build-actions button,
+.build-actions a {
+  width: 100%;
 }
 
 .role-card {
@@ -1031,6 +1141,15 @@ h1 {
   color: #d9e3da;
 }
 
+.build-heading {
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.build-heading small {
+  white-space: nowrap;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -1059,6 +1178,11 @@ h1 {
 .term small {
   color: var(--soft);
   font-size: 11px;
+}
+
+.term.unverified {
+  border-color: rgba(242, 184, 75, 0.24);
+  background: rgba(242, 184, 75, 0.055);
 }
 
 .playbook {
@@ -1099,6 +1223,7 @@ h1 {
   .mode-band,
   .summary-band,
   .role-grid,
+  .meta-build-grid,
   .loadout-buttons,
   .build-grid {
     grid-template-columns: 1fr;
@@ -1147,6 +1272,15 @@ h1 {
 
   .mode-controls {
     grid-template-columns: 1fr;
+  }
+
+  .meta-build-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .meta-build-title a {
+    width: 100%;
   }
 
   .role-card,
