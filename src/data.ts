@@ -1445,6 +1445,8 @@ export const copy = {
   dataPipeline: { it: 'Dati armi', en: 'Weapon data' },
   weaponsParsed: { it: 'armi aggiornate', en: 'updated weapons' },
   formulaWeights: { it: 'Priorità scenario', en: 'Scenario priorities' },
+  scenarioFilter: { it: 'Scenario', en: 'Scenario' },
+  weaponTypeFilter: { it: 'Tipo arma', en: 'Weapon type' },
   metaTier: { it: 'Meta Lab armi', en: 'Weapon Meta Lab' },
   metaTierSubtitle: {
     it: 'Ranking REDSEC calcolato da danni, ROF, ADS, reload, velocity, mag, controllo, mobilità e ruolo.',

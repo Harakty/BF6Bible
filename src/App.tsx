@@ -39,11 +39,37 @@ import {
   type WeaponMetric,
 } from './data'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
-import { generatedWeaponStats, normalizeWeaponName } from './weaponStats'
+import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type GeneratedWeaponStat } from './weaponStats'
 
 type ViewId = 'planner' | 'meta'
+type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
+
+type WeaponTypeOption = {
+  id: WeaponTypeFilterId
+  label: Localized
+}
 
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
+
+const weaponTypeLabelByKey = new Map<GeneratedWeaponStat['categoryKey'], Localized>()
+for (const weapon of generatedWeaponStats.weapons) {
+  if (!weaponTypeLabelByKey.has(weapon.categoryKey)) {
+    weaponTypeLabelByKey.set(weapon.categoryKey, weapon.className)
+  }
+}
+
+const weaponTypeOptions: WeaponTypeOption[] = [
+  { id: 'all', label: { it: 'Tutti i tipi', en: 'All types' } },
+  ...Array.from(weaponTypeLabelByKey.entries()).map(([id, label]) => ({ id, label })),
+]
+
+function weaponTypeKeyForMetric(metric: WeaponMetric) {
+  const stat = generatedStatForName(metric.weapon.name.en)
+  if (stat) return stat.categoryKey
+
+  const className = metric.className.en.toLowerCase()
+  return weaponTypeOptions.find((option) => option.id !== 'all' && option.label.en.toLowerCase() === className)?.id
+}
 
 const tacticalPlans = {
   quads: {
@@ -820,11 +846,19 @@ function MetaBuildPanel({ build, lang }: { build: ActiveMetaBuild; lang: Lang })
 
 function MetaTierSection({ lang }: { lang: Lang }) {
   const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
+  const [weaponTypeId, setWeaponTypeId] = useState<WeaponTypeFilterId>('all')
   const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
     typeof window === 'undefined' || !window.location.hash.startsWith('#build-') ? '' : window.location.hash.replace('#build-', ''),
   )
   const activeScenario = getMetaScenario(scenarioId)
   const rankedWeapons = useMemo(() => rankWeapons(metaWeapons, scenarioId), [scenarioId])
+  const filteredRankedWeapons = useMemo(
+    () =>
+      weaponTypeId === 'all'
+        ? rankedWeapons
+        : rankedWeapons.filter((ranked) => weaponTypeKeyForMetric(ranked.metric) === weaponTypeId),
+    [rankedWeapons, weaponTypeId],
+  )
   const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
   const buildLinks = useMemo(() => collectMetaBuildLinks(), [])
   const buildLinksByWeapon = useMemo(() => {
@@ -842,7 +876,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           .map((build) => ({ key: `algo-${build.weaponId}`, kind: 'algorithmic' as const, build }))
           .find((link) => link.key === selectedBuildKey)
       : undefined)
-  const fallbackBuild = rankedWeapons
+  const fallbackBuild = filteredRankedWeapons
     .map((ranked): ActiveMetaBuild | undefined => {
       const curated = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))?.[0]
       if (curated) return curated
@@ -851,6 +885,12 @@ function MetaTierSection({ lang }: { lang: Lang }) {
     })
     .find((link): link is ActiveMetaBuild => Boolean(link))
   const activeBuild = selectedBuild ?? fallbackBuild
+  const resetSelectedBuild = () => {
+    setSelectedBuildKey('')
+    if (typeof window !== 'undefined' && window.location.hash.startsWith('#build-')) {
+      window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    }
+  }
   const selectBuild = (key: string) => {
     setSelectedBuildKey(key)
     if (typeof window !== 'undefined') {
@@ -868,18 +908,45 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         </div>
         <h2>{t(copy.metaTierSubtitle, lang)}</h2>
         <p className="meta-scenario-copy">{t(activeScenario.description, lang)}</p>
-        <div className="meta-filters" aria-label={t(copy.metaFilter, lang)}>
-          {metaScenarios.map((scenario) => (
-            <button
-              className={scenario.id === scenarioId ? 'active' : ''}
-              key={scenario.id}
-              type="button"
-              aria-pressed={scenario.id === scenarioId}
-              onClick={() => setScenarioId(scenario.id)}
-            >
-              {t(scenario.shortLabel, lang)}
-            </button>
-          ))}
+        <div className="meta-filter-stack">
+          <div className="meta-filter-group">
+            <span>{t(copy.scenarioFilter, lang)}</span>
+            <div className="meta-filters" aria-label={t(copy.metaFilter, lang)}>
+              {metaScenarios.map((scenario) => (
+                <button
+                  className={scenario.id === scenarioId ? 'active' : ''}
+                  key={scenario.id}
+                  type="button"
+                  aria-pressed={scenario.id === scenarioId}
+                  onClick={() => {
+                    setScenarioId(scenario.id)
+                    resetSelectedBuild()
+                  }}
+                >
+                  {t(scenario.shortLabel, lang)}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="meta-filter-group">
+            <span>{t(copy.weaponTypeFilter, lang)}</span>
+            <div className="meta-filters weapon-type-filters" aria-label={t(copy.weaponTypeFilter, lang)}>
+              {weaponTypeOptions.map((option) => (
+                <button
+                  className={option.id === weaponTypeId ? 'active' : ''}
+                  key={option.id}
+                  type="button"
+                  aria-pressed={option.id === weaponTypeId}
+                  onClick={() => {
+                    setWeaponTypeId(option.id)
+                    resetSelectedBuild()
+                  }}
+                >
+                  {t(option.label, lang)}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
         <div className="formula-panel">
           <span>{t(copy.formulaWeights, lang)}</span>
@@ -899,7 +966,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           </strong>
         </div>
         <p className="meta-count">
-          {rankedWeapons.length} {t(copy.weaponsShown, lang)}
+          {filteredRankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
       </div>
       {activeBuild ? <MetaBuildPanel build={activeBuild} lang={lang} /> : null}
@@ -907,7 +974,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         <div className="tier-row tier-row-head" role="row">
           <span>Tier</span>
           <span>Weapon</span>
-          <span>Class</span>
+          <span>{t(copy.weaponTypeFilter, lang)}</span>
           <span>{t(copy.calculatedScore, lang)}</span>
           <span>{t(copy.ttk20, lang)}</span>
           <span>{t(copy.ttkRedsecProxy, lang)}</span>
@@ -915,7 +982,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.dataQuality, lang)}</span>
           <span>{t(copy.bestBuild, lang)}</span>
         </div>
-        {rankedWeapons.map((ranked) => {
+        {filteredRankedWeapons.map((ranked) => {
           const weaponBuilds = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en)) ?? []
           const bestBuild = weaponBuilds[0]
           const algorithmicBuild = algorithmicBuildForWeapon(ranked.metric.weapon.name.en)

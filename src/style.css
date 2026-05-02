@@ -696,6 +696,24 @@ h1 {
   color: var(--muted);
 }
 
+.meta-filter-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.meta-filter-group {
+  display: grid;
+  gap: 7px;
+}
+
+.meta-filter-group > span {
+  color: #f8fff9;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .meta-filters {
   display: flex;
   flex-wrap: wrap;
@@ -715,6 +733,11 @@ h1 {
   border-color: var(--cyan);
   color: #f8fff9;
   background: rgba(105, 199, 213, 0.13);
+}
+
+.weapon-type-filters button.active {
+  border-color: rgba(120, 208, 138, 0.5);
+  background: rgba(120, 208, 138, 0.13);
 }
 
 .meta-count {
