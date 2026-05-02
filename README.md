@@ -27,14 +27,17 @@ Every recommendation must keep a source trail. Current sources:
 - BF6 Public Weapon Stats Sheet.
 - BattlefieldMeta public comparator for secondary validation.
 - Battlefield6.gg public REDSEC weapon catalog.
+- Public BF6 attachment cost sheet, ingested with `npm run ingest:attachments`.
 
 The app does not scrape private endpoints. It fetches a public CSV export, keeps a generated snapshot in the repo, and can be refreshed with `npm run ingest:weapons`.
+Attachment cost/effect data is also pulled from a public CSV export and stored as a generated snapshot. The next build-engine step can use this data to generate algorithmic builds for every weapon before team validation.
 
 ## Commands
 
 ```bash
 npm install
 npm run ingest:weapons
+npm run ingest:attachments
 npm run dev
 npm run build
 ```

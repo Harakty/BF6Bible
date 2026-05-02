@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "ingest:weapons": "node scripts/ingestWeapons.mjs",
+    "ingest:attachments": "node scripts/ingestAttachments.mjs",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
