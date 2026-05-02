@@ -771,7 +771,6 @@ function AlgorithmicMetaBuildPanel({ build, lang }: { build: AlgorithmicBuild; l
       <div className="meta-build-context">
         <span>{t(build.className, lang)}</span>
         <span>{t(build.archetype.label, lang)}</span>
-        <span>{t(copy.algorithmicStatus, lang)}</span>
         <strong>{algorithmicBuildPointLabel(build)}</strong>
         <strong>
           {t(copy.buildScore, lang)} {build.score}
