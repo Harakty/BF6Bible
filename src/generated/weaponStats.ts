@@ -2,10 +2,9 @@
 export const generatedWeaponStats = {
   "schemaVersion": 1,
   "source": {
-    "label": "Public BF6 weapon stats Google Sheet",
+    "label": "Public BF6 weapon data",
     "sheetId": "1oHVJQPfkTGIjdqnuDhNrD16GETNQCWa0aofBQOtjg9w",
     "gid": "314079070",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1oHVJQPfkTGIjdqnuDhNrD16GETNQCWa0aofBQOtjg9w/export?format=csv&gid=314079070",
     "sourceHash": "313642a7c66e0da8",
     "rowCount": 181
   },
@@ -20,9 +19,7 @@ export const generatedWeaponStats = {
       80
     ],
     "standardHp": 100,
-    "redsecEhpProxy": 180,
-    "ttkFormula": "TTK = (STK - 1) * 60000 / ROF",
-    "clickTtkFormula": "clickTTK = TTK + distance / velocity"
+    "redsecEhpProxy": 180
   },
   "weapons": [
     {

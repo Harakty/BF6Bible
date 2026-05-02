@@ -230,10 +230,9 @@ async function main() {
   const dataset = {
     schemaVersion: 1,
     source: {
-      label: 'Public BF6 weapon stats Google Sheet',
+      label: 'Public BF6 weapon data',
       sheetId: SHEET_ID,
       gid: SHEET_GID,
-      csvUrl: SOURCE_URL,
       sourceHash,
       rowCount: rows.length,
     },
@@ -241,8 +240,6 @@ async function main() {
       ranges: RANGES,
       standardHp: STANDARD_HP,
       redsecEhpProxy: REDSEC_EHP_PROXY,
-      ttkFormula: 'TTK = (STK - 1) * 60000 / ROF',
-      clickTtkFormula: 'clickTTK = TTK + distance / velocity',
     },
     weapons,
   }
