@@ -130,7 +130,7 @@ export const sources: Source[] = [
   },
   {
     id: 'sheetonmyface',
-    label: 'BF6 Public Weapon Stats Sheet',
+    label: 'BF6 Public Weapon Dataset',
     url: 'https://docs.google.com/spreadsheets/d/1oHVJQPfkTGIjdqnuDhNrD16GETNQCWa0aofBQOtjg9w/edit?gid=314079070#gid=314079070',
     kind: 'community-sheet',
     weight: 0.9,
@@ -146,8 +146,8 @@ export const sources: Source[] = [
     kind: 'comparator',
     weight: 0.65,
     note: {
-      it: 'Comparator pubblico aggiornato al 1 maggio 2026; utile ma da validare contro Sym/sheet.',
-      en: 'Public comparator updated May 1, 2026; useful but should be validated against Sym/sheets.',
+      it: 'Comparator pubblico aggiornato al 1 maggio 2026; utile ma da validare contro i dati numerici.',
+      en: 'Public comparator updated May 1, 2026; useful but should be validated against numeric data.',
     },
   },
   {
@@ -708,8 +708,8 @@ const generatedWeaponMetric = (entry: GeneratedWeaponStat): WeaponMetric => {
     stk20,
     entry.rpm,
     entry.magSize,
-    'Voce generata dal foglio pubblico: il tier finale viene calcolato dal Meta Lab.',
-    'Generated from the public sheet: final tier is calculated by the Meta Lab.',
+    'Voce generata dal dataset pubblico: il tier finale viene calcolato dal Meta Lab.',
+    'Generated from the public dataset: final tier is calculated by the Meta Lab.',
     'Disponibile nel dataset numerico e valutata automaticamente per scenario.',
     'Available in the numeric dataset and evaluated automatically per scenario.',
     'Danni, ROF, ADS, reload, velocity e handling arrivano dal dataset aggiornato.',
@@ -1402,6 +1402,6 @@ export const copy = {
   },
   metaFilter: { it: 'Filtro meta armi', en: 'Weapon meta filter' },
   weaponsShown: { it: 'armi mostrate', en: 'weapons shown' },
-  soloLocked: { it: 'Solo: placeholder Season 3', en: 'Solos: Season 3 placeholder' },
+  soloLocked: { it: 'Solo: in arrivo con Season 3', en: 'Solos: coming with Season 3' },
   sourceStack: { it: 'Stack fonti', en: 'Source stack' },
 }

@@ -186,6 +186,69 @@ function TacticalDiagram({ mode, lang }: { mode: ModeId; lang: Lang }) {
   )
 }
 
+function CommandBoardVisual({ mode, lang }: { mode: ModeId; lang: Lang }) {
+  const title =
+    mode === 'quads'
+      ? { it: 'Command board REDSEC Quads', en: 'REDSEC Quads command board' }
+      : { it: 'Command board REDSEC Duos', en: 'REDSEC Duos command board' }
+  const roleNodes =
+    mode === 'quads'
+      ? [
+          { id: 'entry', label: { it: 'Assalto', en: 'Assault' }, x: 318, y: 92 },
+          { id: 'support', label: { it: 'Supporto', en: 'Support' }, x: 238, y: 168 },
+          { id: 'engineer', label: { it: 'Geniere', en: 'Engineer' }, x: 394, y: 176 },
+          { id: 'recon', label: { it: 'Ricognitore', en: 'Recon' }, x: 312, y: 242 },
+        ]
+      : [
+          { id: 'support', label: { it: 'Supporto', en: 'Support' }, x: 262, y: 182 },
+          { id: 'engineer', label: { it: 'Flex', en: 'Flex' }, x: 388, y: 128 },
+        ]
+
+  return (
+    <figure className="command-board" aria-label={t(title, lang)}>
+      <svg viewBox="0 0 640 360" role="img" aria-labelledby={`command-board-title-${mode}`}>
+        <title id={`command-board-title-${mode}`}>{t(title, lang)}</title>
+        <defs>
+          <radialGradient id={`boardGlow-${mode}`} cx="50%" cy="48%" r="58%">
+            <stop offset="0%" stopColor="rgba(229, 106, 84, 0.32)" />
+            <stop offset="55%" stopColor="rgba(120, 208, 138, 0.08)" />
+            <stop offset="100%" stopColor="rgba(16, 19, 17, 0)" />
+          </radialGradient>
+        </defs>
+        <rect className="board-frame" x="14" y="14" width="612" height="332" rx="10" />
+        <path className="board-terrain" d="M34 214 C120 158 168 206 254 146 C330 92 382 104 474 76 C526 60 568 68 610 42" />
+        <path className="board-terrain soft" d="M34 278 C118 238 178 268 254 222 C340 170 412 212 490 170 C540 144 582 146 610 118" />
+        <circle className="board-core" cx="320" cy="178" r="58" />
+        <circle className="board-core inner" cx="320" cy="178" r="19" />
+        <path className="board-lane lane-entry" d="M320 74 L320 158" />
+        <path className="board-lane lane-support" d="M228 168 C260 164 284 170 306 178" />
+        <path className="board-lane lane-engineer" d="M414 174 C388 166 362 170 334 178" />
+        <path className="board-lane lane-recon" d="M312 258 C316 230 318 206 320 188" />
+        <path className="board-sweep sweep-a" d="M110 96 C210 132 264 164 320 178 C398 198 466 186 554 140" />
+        <path className="board-sweep sweep-b" d="M96 258 C188 214 254 200 320 178 C396 152 470 118 556 82" />
+        <rect className="side-module module-left" x="34" y="44" width="124" height="102" rx="6" />
+        <rect className="side-module module-left small" x="34" y="164" width="124" height="74" rx="6" />
+        <rect className="side-module module-right" x="482" y="44" width="124" height="102" rx="6" />
+        <rect className="side-module module-right small" x="482" y="164" width="124" height="74" rx="6" />
+        <rect className="bottom-module" x="74" y="294" width="92" height="24" rx="5" />
+        <rect className="bottom-module" x="188" y="294" width="92" height="24" rx="5" />
+        <rect className="bottom-module" x="302" y="294" width="92" height="24" rx="5" />
+        <rect className="bottom-module" x="416" y="294" width="92" height="24" rx="5" />
+        <circle className="board-glow" cx="320" cy="178" r="164" fill={`url(#boardGlow-${mode})`} />
+        {roleNodes.map((node) => (
+          <g className={`board-node ${node.id}`} key={node.id} transform={`translate(${node.x} ${node.y})`}>
+            <circle r="24" />
+            <circle r="8" />
+            <text x="0" y="44">
+              {t(node.label, lang)}
+            </text>
+          </g>
+        ))}
+      </svg>
+    </figure>
+  )
+}
+
 function AppHeader({
   lang,
   setLang,
@@ -257,22 +320,25 @@ function ModeSelector({
         <h1>{t(modePlans[selectedMode].title, lang)}</h1>
         <span>{t(modePlans[selectedMode].subtitle, lang)}</span>
       </div>
-      <div className="mode-controls" aria-label={t(copy.mode, lang)}>
-        {(['quads', 'duos'] as ModeId[]).map((mode) => (
-          <button
-            className={selectedMode === mode ? 'active' : ''}
-            key={mode}
-            type="button"
-            onClick={() => setSelectedMode(mode)}
-          >
-            {mode === 'quads' ? <Users aria-hidden="true" /> : <Target aria-hidden="true" />}
-            <span>{t(modePlans[mode].title, lang)}</span>
+      <div className="mode-action-panel">
+        <CommandBoardVisual lang={lang} mode={selectedMode} />
+        <div className="mode-controls" aria-label={t(copy.mode, lang)}>
+          {(['quads', 'duos'] as ModeId[]).map((mode) => (
+            <button
+              className={selectedMode === mode ? 'active' : ''}
+              key={mode}
+              type="button"
+              onClick={() => setSelectedMode(mode)}
+            >
+              {mode === 'quads' ? <Users aria-hidden="true" /> : <Target aria-hidden="true" />}
+              <span>{t(modePlans[mode].title, lang)}</span>
+            </button>
+          ))}
+          <button className="locked" type="button" disabled>
+            <Crosshair aria-hidden="true" />
+            <span>{t(copy.soloLocked, lang)}</span>
           </button>
-        ))}
-        <button className="locked" type="button" disabled>
-          <Crosshair aria-hidden="true" />
-          <span>{t(copy.soloLocked, lang)}</span>
-        </button>
+        </div>
       </div>
     </section>
   )
