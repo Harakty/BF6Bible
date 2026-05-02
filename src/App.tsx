@@ -562,9 +562,6 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <strong>
             {generatedWeaponStats.weapons.length} {t(copy.weaponsParsed, lang)}
           </strong>
-          <small>
-            {t(copy.sheetHash, lang)} {generatedWeaponStats.source.sourceHash} · {generatedWeaponStats.model.ttkFormula}
-          </small>
         </div>
         <p className="meta-count">
           {rankedWeapons.length} {t(copy.weaponsShown, lang)}
@@ -597,7 +594,6 @@ function MetaTierSection({ lang }: { lang: Lang }) {
             <span>
               {ranked.dataQuality}
               <small>{t(ranked.dataQualityLabel, lang)}</small>
-              <small>{t(ranked.dataSourceLabel, lang)}</small>
             </span>
           </div>
         ))}

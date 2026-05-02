@@ -42,7 +42,6 @@ export type RankedWeapon = {
   roleFit: number
   dataQuality: number
   dataQualityLabel: Localized
-  dataSourceLabel: Localized
   mpTtkMs?: number
   redsecTtkMs?: number
   components: ScoreComponent[]
@@ -74,8 +73,8 @@ export const metaScenarios: MetaScenario[] = [
     label: { it: 'Tutte le armi', en: 'All weapons' },
     shortLabel: { it: 'Generale', en: 'General' },
     description: {
-      it: 'Ranking generale REDSEC: usa il Google Sheet pubblico per damage curve, ROF, ADS, reload, velocity, mag, controllo e mobilità.',
-      en: 'General REDSEC ranking: uses the public Google Sheet for damage curve, ROF, ADS, reload, velocity, mag, control, and mobility.',
+      it: 'Ranking generale REDSEC: combina danni, ROF, ADS, reload, velocity, mag, controllo, mobilità e ruolo.',
+      en: 'General REDSEC ranking: blends damage, ROF, ADS, reload, velocity, mag, control, mobility, and role.',
     },
     weights: {
       publicSignal: 0.24,
@@ -214,7 +213,6 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
     roleFit: scores.roleFit,
     dataQuality: scores.dataQuality,
     dataQualityLabel: dataQualityLabel(scores.dataQuality),
-    dataSourceLabel: dataSourceLabel(stat),
     mpTtkMs,
     redsecTtkMs,
     components,
@@ -453,14 +451,10 @@ function dataQualityScore(metric: WeaponMetric, stat?: GeneratedWeaponStat) {
 }
 
 function dataQualityLabel(score: number): Localized {
-  if (score >= 95) return { it: 'Sheet live', en: 'Live sheet' }
+  if (score >= 95) return { it: 'Aggiornati', en: 'Updated' }
   if (score >= 75) return { it: 'Completa', en: 'Complete' }
   if (score >= 50) return { it: 'Parziale', en: 'Partial' }
   return { it: 'Da validare', en: 'Needs validation' }
-}
-
-function dataSourceLabel(stat?: GeneratedWeaponStat): Localized {
-  return stat ? { it: 'Google Sheet', en: 'Google Sheet' } : { it: 'Seed manuale', en: 'Manual seed' }
 }
 
 function headshotPickScore(stat: GeneratedWeaponStat) {
