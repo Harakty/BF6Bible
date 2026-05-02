@@ -18,6 +18,13 @@ import {
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import {
+  algorithmicBuildForWeapon,
+  algorithmicBuildPointLabel,
+  algorithmicBuilds,
+  type AlgorithmicAttachment,
+  type AlgorithmicBuild,
+} from './buildEngine'
+import {
   copy,
   metaWeapons,
   modePlans,
@@ -178,6 +185,10 @@ function AttachmentBlock({
       </div>
     </section>
   )
+}
+
+function AlgorithmicAttachmentTerm({ value, lang }: { value: AlgorithmicAttachment; lang: Lang }) {
+  return <Term lang={lang} value={{ name: value.name, points: value.points }} />
 }
 
 function SourcePill({ source, lang }: { source: Source; lang: Lang }) {
@@ -625,6 +636,7 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
 
 type MetaBuildLink = {
   key: string
+  kind: 'curated'
   modeId: ModeId
   modeTitle: Localized
   roleId: string
@@ -635,12 +647,21 @@ type MetaBuildLink = {
   kit: WeaponKit
 }
 
+type AlgorithmicBuildLink = {
+  key: string
+  kind: 'algorithmic'
+  build: AlgorithmicBuild
+}
+
+type ActiveMetaBuild = MetaBuildLink | AlgorithmicBuildLink
+
 function collectMetaBuildLinks(): MetaBuildLink[] {
   return (Object.values(modePlans) as Array<(typeof modePlans)[ModeId]>).flatMap((plan) =>
     plan.roles.flatMap((role) =>
       role.loadouts.flatMap((loadout) =>
         (['primary', 'secondary'] as const).map((slot) => ({
           key: `${loadout.id}-${slot}`,
+          kind: 'curated' as const,
           modeId: plan.id,
           modeTitle: plan.title,
           roleId: role.id,
@@ -655,7 +676,7 @@ function collectMetaBuildLinks(): MetaBuildLink[] {
   )
 }
 
-function MetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
+function CuratedMetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
   const buildSources = Array.from(
     new Set([
       ...build.loadout.sourceIds,
@@ -674,7 +695,7 @@ function MetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
     <aside className="meta-build-panel" id={`build-${build.key}`}>
       <div className="meta-build-title">
         <div>
-          <span>{t(copy.bestBuild, lang)}</span>
+          <span>{t(copy.curatedBuild, lang)}</span>
           <h3>
             {t(build.loadout.primary.metric.weapon.name, lang)} + {t(build.loadout.secondary.metric.weapon.name, lang)}
           </h3>
@@ -734,6 +755,70 @@ function MetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
   )
 }
 
+function AlgorithmicMetaBuildPanel({ build, lang }: { build: AlgorithmicBuild; lang: Lang }) {
+  const buildSources = ['sheetonmyface', 'attachment-sheet']
+    .map((id) => sourceMap.get(id))
+    .filter((source): source is Source => Boolean(source))
+
+  return (
+    <aside className="meta-build-panel algorithmic" id={`build-algo-${build.weaponId}`}>
+      <div className="meta-build-title">
+        <div>
+          <span>{t(copy.algorithmicBuild, lang)}</span>
+          <h3>{build.weaponName}</h3>
+        </div>
+      </div>
+      <div className="meta-build-context">
+        <span>{t(build.className, lang)}</span>
+        <span>{t(build.archetype.label, lang)}</span>
+        <span>{t(copy.algorithmicStatus, lang)}</span>
+        <strong>{algorithmicBuildPointLabel(build)}</strong>
+        <strong>
+          {t(copy.buildScore, lang)} {build.score}
+        </strong>
+      </div>
+      <p>{t(build.rationale, lang)}</p>
+      <div className="meta-build-grid">
+        <section className="build-section highlighted wide">
+          <h3 className="build-heading">
+            <span>
+              {t(copy.algorithmicBuild, lang)} · {build.weaponName}
+            </span>
+            <small>{algorithmicBuildPointLabel(build)}</small>
+          </h3>
+          <div className="chips">
+            {build.attachments.map((item) => (
+              <AlgorithmicAttachmentTerm key={item.id} lang={lang} value={item} />
+            ))}
+          </div>
+        </section>
+        <section className="build-section">
+          <h3>{t(copy.engagement, lang)}</h3>
+          <p>{t(build.archetype.label, lang)}</p>
+        </section>
+        <section className="build-section">
+          <h3>{t(copy.tierReason, lang)}</h3>
+          <p>{t(build.rationale, lang)}</p>
+        </section>
+      </div>
+      <span className="source-label">{t(copy.dataSources, lang)}</span>
+      <div className="source-row">
+        {buildSources.map((source) => (
+          <SourcePill key={source.id} source={source} lang={lang} />
+        ))}
+      </div>
+    </aside>
+  )
+}
+
+function MetaBuildPanel({ build, lang }: { build: ActiveMetaBuild; lang: Lang }) {
+  return build.kind === 'curated' ? (
+    <CuratedMetaBuildPanel build={build} lang={lang} />
+  ) : (
+    <AlgorithmicMetaBuildPanel build={build.build} lang={lang} />
+  )
+}
+
 function MetaTierSection({ lang }: { lang: Lang }) {
   const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
   const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
@@ -751,10 +836,21 @@ function MetaTierSection({ lang }: { lang: Lang }) {
     }
     return map
   }, [buildLinks])
-  const selectedBuild = buildLinks.find((link) => link.key === selectedBuildKey)
+  const selectedBuild =
+    buildLinks.find((link) => link.key === selectedBuildKey) ??
+    (selectedBuildKey.startsWith('algo-')
+      ? algorithmicBuilds
+          .map((build) => ({ key: `algo-${build.weaponId}`, kind: 'algorithmic' as const, build }))
+          .find((link) => link.key === selectedBuildKey)
+      : undefined)
   const fallbackBuild = rankedWeapons
-    .map((ranked) => buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))?.[0])
-    .find((link): link is MetaBuildLink => Boolean(link))
+    .map((ranked): ActiveMetaBuild | undefined => {
+      const curated = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))?.[0]
+      if (curated) return curated
+      const algorithmic = algorithmicBuildForWeapon(ranked.metric.weapon.name.en)
+      return algorithmic ? { key: `algo-${algorithmic.weaponId}`, kind: 'algorithmic', build: algorithmic } : undefined
+    })
+    .find((link): link is ActiveMetaBuild => Boolean(link))
   const activeBuild = selectedBuild ?? fallbackBuild
   const selectBuild = (key: string) => {
     setSelectedBuildKey(key)
@@ -823,6 +919,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         {rankedWeapons.map((ranked) => {
           const weaponBuilds = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en)) ?? []
           const bestBuild = weaponBuilds[0]
+          const algorithmicBuild = algorithmicBuildForWeapon(ranked.metric.weapon.name.en)
 
           return (
             <div
@@ -846,8 +943,12 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   <button type="button" onClick={() => selectBuild(bestBuild.key)}>
                     {t(copy.openBuild, lang)}
                   </button>
+                ) : algorithmicBuild ? (
+                  <button type="button" onClick={() => selectBuild(`algo-${algorithmicBuild.weaponId}`)}>
+                    {t(copy.openAlgorithmicBuild, lang)}
+                  </button>
                 ) : (
-                  <span className="build-empty">{t(copy.noLocalBuild, lang)}</span>
+                  <span className="build-empty">{t(copy.buildPending, lang)}</span>
                 )}
               </span>
             </div>

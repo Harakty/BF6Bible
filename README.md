@@ -38,6 +38,7 @@ Attachment cost/effect data is also pulled from a public CSV export and stored a
 npm install
 npm run ingest:weapons
 npm run ingest:attachments
+npm run generate:builds
 npm run dev
 npm run build
 ```
