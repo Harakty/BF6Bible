@@ -113,6 +113,19 @@ main {
   letter-spacing: 0;
 }
 
+.app-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.top-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .brand span,
 .mode-copy span,
 .weapon-head small,
@@ -129,6 +142,7 @@ main {
 }
 
 .language-toggle,
+.app-nav button,
 .mode-controls button {
   display: inline-flex;
   align-items: center;
@@ -145,7 +159,20 @@ main {
   padding: 0 14px;
 }
 
+.app-nav button {
+  padding: 0 14px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.app-nav button.active {
+  border-color: var(--green);
+  color: #f8fff9;
+  background: rgba(120, 208, 138, 0.14);
+}
+
 .language-toggle:hover,
+.app-nav button:hover,
 .mode-controls button:hover:not(:disabled) {
   border-color: var(--green);
 }
@@ -224,6 +251,7 @@ h1 {
 .rules-panel,
 .source-stack,
 .meta-band,
+.meta-page,
 .role-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -450,12 +478,15 @@ h1 {
   padding: 26px clamp(16px, 4vw, 48px) 58px;
 }
 
-.meta-band {
+.meta-band,
+.meta-page {
   margin: 26px clamp(16px, 4vw, 48px) 58px;
   overflow: hidden;
 }
 
 .meta-header {
+  display: grid;
+  gap: 14px;
   padding: 22px 24px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -465,6 +496,32 @@ h1 {
   font-size: clamp(20px, 3vw, 34px);
   line-height: 1.12;
   letter-spacing: 0;
+}
+
+.meta-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.meta-filters button {
+  min-height: 38px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.meta-filters button.active {
+  border-color: var(--cyan);
+  color: #f8fff9;
+  background: rgba(105, 199, 213, 0.13);
+}
+
+.meta-count {
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .tier-table {
@@ -801,11 +858,23 @@ h1 {
 
 @media (max-width: 620px) {
   .topbar {
+    flex-wrap: wrap;
     align-items: flex-start;
   }
 
   .brand span {
     display: none;
+  }
+
+  .app-nav {
+    order: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .app-nav button {
+    padding: 0 10px;
   }
 
   .mode-controls {
@@ -816,7 +885,8 @@ h1 {
   .summary-main,
   .rules-panel,
   .source-stack,
-  .meta-band {
+  .meta-band,
+  .meta-page {
     box-shadow: none;
   }
 

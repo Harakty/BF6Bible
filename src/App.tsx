@@ -1,6 +1,7 @@
 import {
   Activity,
   BarChart3,
+  ClipboardList,
   Crosshair,
   Database,
   ExternalLink,
@@ -28,7 +29,22 @@ import {
   type WeaponMetric,
 } from './data'
 
+type ViewId = 'planner' | 'meta'
+type MetaFilterId = 'all' | 'assault' | 'support' | 'engineer' | 'recon'
+
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
+
+const metaFilters: Array<{ id: MetaFilterId; label: Localized; classes: string[] }> = [
+  { id: 'all', label: { it: 'Tutte le armi', en: 'All weapons' }, classes: [] },
+  { id: 'assault', label: { it: 'Assalto', en: 'Assault' }, classes: ["Fucile d'assalto", 'Assault Rifle'] },
+  { id: 'support', label: { it: 'Supporto', en: 'Support' }, classes: ['LMG'] },
+  {
+    id: 'engineer',
+    label: { it: 'Geniere', en: 'Engineer' },
+    classes: ['Carabina', 'Carbine', 'SMG', 'Fucile a pompa', 'Shotgun'],
+  },
+  { id: 'recon', label: { it: 'Ricognitore', en: 'Recon' }, classes: ['DMR', 'Cecchino', 'Sniper'] },
+]
 
 function t(value: Localized, lang: Lang) {
   return value[lang]
@@ -105,7 +121,17 @@ function MiniMap({ mode }: { mode: ModeId }) {
   )
 }
 
-function AppHeader({ lang, setLang }: { lang: Lang; setLang: (lang: Lang) => void }) {
+function AppHeader({
+  lang,
+  setLang,
+  view,
+  setView,
+}: {
+  lang: Lang
+  setLang: (lang: Lang) => void
+  view: ViewId
+  setView: (view: ViewId) => void
+}) {
   return (
     <header className="topbar">
       <div className="brand">
@@ -115,15 +141,37 @@ function AppHeader({ lang, setLang }: { lang: Lang; setLang: (lang: Lang) => voi
           <span>{t(copy.dataStatus, lang)}</span>
         </div>
       </div>
-      <button
-        className="language-toggle"
-        type="button"
-        onClick={() => setLang(lang === 'it' ? 'en' : 'it')}
-        aria-label="Toggle language"
-      >
-        <Languages aria-hidden="true" />
-        <span>{lang === 'it' ? 'IT' : 'EN'}</span>
-      </button>
+      <nav className="app-nav" aria-label={t(copy.mainNavigation, lang)}>
+        <button
+          className={view === 'planner' ? 'active' : ''}
+          type="button"
+          aria-pressed={view === 'planner'}
+          onClick={() => setView('planner')}
+        >
+          <ClipboardList aria-hidden="true" />
+          <span>{t(copy.redsecPlanner, lang)}</span>
+        </button>
+        <button
+          className={view === 'meta' ? 'active' : ''}
+          type="button"
+          aria-pressed={view === 'meta'}
+          onClick={() => setView('meta')}
+        >
+          <BarChart3 aria-hidden="true" />
+          <span>{t(copy.metaPage, lang)}</span>
+        </button>
+      </nav>
+      <div className="top-actions">
+        <button
+          className="language-toggle"
+          type="button"
+          onClick={() => setLang(lang === 'it' ? 'en' : 'it')}
+          aria-label="Toggle language"
+        >
+          <Languages aria-hidden="true" />
+          <span>{lang === 'it' ? 'IT' : 'EN'}</span>
+        </button>
+      </div>
     </header>
   )
 }
@@ -419,14 +467,41 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
 }
 
 function MetaTierSection({ lang }: { lang: Lang }) {
+  const [filterId, setFilterId] = useState<MetaFilterId>('all')
+  const activeFilter = metaFilters.find((filter) => filter.id === filterId) ?? metaFilters[0]
+  const filteredWeapons =
+    activeFilter.id === 'all'
+      ? metaWeapons
+      : metaWeapons.filter(
+          (metric) =>
+            activeFilter.classes.includes(t(metric.className, 'it')) ||
+            activeFilter.classes.includes(t(metric.className, 'en')),
+        )
+
   return (
-    <section className="meta-band">
+    <section className="meta-page">
       <div className="meta-header">
         <div className="summary-label">
           <BarChart3 aria-hidden="true" />
           <span>{t(copy.metaTier, lang)}</span>
         </div>
         <h2>{t(copy.metaTierSubtitle, lang)}</h2>
+        <div className="meta-filters" aria-label={t(copy.metaFilter, lang)}>
+          {metaFilters.map((filter) => (
+            <button
+              className={filter.id === filterId ? 'active' : ''}
+              key={filter.id}
+              type="button"
+              aria-pressed={filter.id === filterId}
+              onClick={() => setFilterId(filter.id)}
+            >
+              {t(filter.label, lang)}
+            </button>
+          ))}
+        </div>
+        <p className="meta-count">
+          {filteredWeapons.length} {t(copy.weaponsShown, lang)}
+        </p>
       </div>
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
         <div className="tier-row tier-row-head" role="row">
@@ -439,7 +514,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.redsecScore, lang)}</span>
           <span>{t(copy.tierReason, lang)}</span>
         </div>
-        {metaWeapons.map((metric) => (
+        {filteredWeapons.map((metric) => (
           <div className={`tier-row tier-${metric.tier.replace('+', 'plus')}`} key={t(metric.weapon.name, lang)} role="row">
             <span className="tier-badge">{metric.tier}</span>
             <strong>{t(metric.weapon.name, lang)}</strong>
@@ -459,19 +534,25 @@ function MetaTierSection({ lang }: { lang: Lang }) {
 export function App() {
   const [lang, setLang] = useState<Lang>('it')
   const [selectedMode, setSelectedMode] = useState<ModeId>('quads')
+  const [view, setView] = useState<ViewId>('planner')
   const plan = modePlans[selectedMode]
 
   return (
     <main>
-      <AppHeader lang={lang} setLang={setLang} />
-      <ModeSelector lang={lang} selectedMode={selectedMode} setSelectedMode={setSelectedMode} />
-      <PlanSummary lang={lang} mode={selectedMode} />
-      <section className="roles-band">
-        {plan.roles.map((role) => (
-          <RoleCard key={role.id} lang={lang} role={role} />
-        ))}
-      </section>
-      <MetaTierSection lang={lang} />
+      <AppHeader lang={lang} setLang={setLang} view={view} setView={setView} />
+      {view === 'planner' ? (
+        <>
+          <ModeSelector lang={lang} selectedMode={selectedMode} setSelectedMode={setSelectedMode} />
+          <PlanSummary lang={lang} mode={selectedMode} />
+          <section className="roles-band">
+            {plan.roles.map((role) => (
+              <RoleCard key={role.id} lang={lang} role={role} />
+            ))}
+          </section>
+        </>
+      ) : (
+        <MetaTierSection lang={lang} />
+      )}
     </main>
   )
 }

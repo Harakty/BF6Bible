@@ -683,9 +683,9 @@ export const weaponCatalog = {
   sv98: catalogWeapon('SV-98', 'Cecchino', 'Sniper', 'B', 67, 'Sniper classico, valore dipende da conversione team.', 'Classic sniper, value depends on team conversion.'),
   psr: catalogWeapon('PSR', 'Cecchino', 'Sniper', 'B', 69, 'Sniper accessibile e utile su finali aperti.', 'Accessible sniper useful in open endings.'),
   miniFix: catalogWeapon('Mini Fix', 'Cecchino', 'Sniper', 'B', 68, 'Season sniper da testare per handling e follow-up.', 'Season sniper to test for handling and follow-up.'),
-  m87a1: catalogWeapon('M87A1', 'Shotgun', 'Shotgun', 'C', 60, 'Shotgun da edificio: troppo situazionale per default REDSEC.', 'Building shotgun: too situational for REDSEC default.'),
-  m1014: catalogWeapon('M1014', 'Shotgun', 'Shotgun', 'B', 66, 'Shotgun semi-auto migliore come secondaria indoor estrema.', 'Semi-auto shotgun better as extreme indoor secondary.'),
-  ks185: catalogWeapon('18.5KS-K', 'Shotgun', 'Shotgun', 'C', 59, 'Shotgun situazionale, richiede final circle chiuso.', 'Situational shotgun requiring closed final circles.'),
+  m87a1: catalogWeapon('M87A1', 'Fucile a pompa', 'Shotgun', 'C', 60, 'Shotgun da edificio: troppo situazionale per default REDSEC.', 'Building shotgun: too situational for REDSEC default.'),
+  m1014: catalogWeapon('M1014', 'Fucile a pompa', 'Shotgun', 'B', 66, 'Shotgun semi-auto migliore come secondaria indoor estrema.', 'Semi-auto shotgun better as extreme indoor secondary.'),
+  ks185: catalogWeapon('18.5KS-K', 'Fucile a pompa', 'Shotgun', 'C', 59, 'Shotgun situazionale, richiede final circle chiuso.', 'Situational shotgun requiring closed final circles.'),
   ggh22: catalogWeapon('GGH-22', 'Pistola', 'Pistol', 'C', 61, 'Sidearm nuova: catalogata, non vera secondaria REDSEC.', 'New sidearm: catalogued, not a true REDSEC secondary.'),
 }
 
@@ -1316,6 +1316,9 @@ export const metaWeapons = [...Object.values(weapons), ...Object.values(weaponCa
 
 export const copy = {
   appName: { it: 'BF6 Bible', en: 'BF6 Bible' },
+  mainNavigation: { it: 'Navigazione principale', en: 'Main navigation' },
+  redsecPlanner: { it: 'Planner REDSEC', en: 'REDSEC planner' },
+  metaPage: { it: 'Meta armi', en: 'Weapon meta' },
   redsecQuestion: { it: 'Giochi a REDSEC?', en: 'Playing REDSEC?' },
   dataStatus: { it: 'Seed dati v0.2 - aggiornato 2 maggio 2026', en: 'Data seed v0.2 - updated May 2, 2026' },
   rankedSoon: { it: 'Ranked Quads pronto per Season 3', en: 'Ranked Quads ready for Season 3' },
@@ -1351,6 +1354,8 @@ export const copy = {
     it: 'Tier REDSEC v0.2: combina TTK/STK dove disponibili, controllo, armor value, range reale e ruolo in squad.',
     en: 'REDSEC tier v0.2: combines TTK/STK where available, control, armor value, real range, and squad role.',
   },
+  metaFilter: { it: 'Filtro meta armi', en: 'Weapon meta filter' },
+  weaponsShown: { it: 'armi mostrate', en: 'weapons shown' },
   soloLocked: { it: 'Solo: placeholder Season 3', en: 'Solos: Season 3 placeholder' },
   sourceStack: { it: 'Stack fonti', en: 'Source stack' },
 }
