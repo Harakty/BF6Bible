@@ -28,23 +28,74 @@ import {
   type Source,
   type WeaponMetric,
 } from './data'
+import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
 
 type ViewId = 'planner' | 'meta'
-type MetaFilterId = 'all' | 'assault' | 'support' | 'engineer' | 'recon'
 
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
 
-const metaFilters: Array<{ id: MetaFilterId; label: Localized; classes: string[] }> = [
-  { id: 'all', label: { it: 'Tutte le armi', en: 'All weapons' }, classes: [] },
-  { id: 'assault', label: { it: 'Assalto', en: 'Assault' }, classes: ["Fucile d'assalto", 'Assault Rifle'] },
-  { id: 'support', label: { it: 'Supporto', en: 'Support' }, classes: ['LMG'] },
-  {
-    id: 'engineer',
-    label: { it: 'Geniere', en: 'Engineer' },
-    classes: ['Carabina', 'Carbine', 'SMG', 'Fucile a pompa', 'Shotgun'],
+const tacticalPlans = {
+  quads: {
+    title: { it: 'Schema Quads: diamante 12-18 m', en: 'Quads shape: 12-18 m diamond' },
+    caption: {
+      it: 'Entry prende contatto, Supporto tiene reset, Geniere controlla veicoli/flank, Ricognitore mantiene off-angle e ping.',
+      en: 'Entry takes contact, Support holds reset, Engineer controls vehicles/flanks, Recon keeps off-angle and pings.',
+    },
+    nodes: [
+      { id: 'entry', label: { it: 'Assalto', en: 'Assault' }, sub: { it: 'Entry', en: 'Entry' }, x: 350, y: 128 },
+      { id: 'support', label: { it: 'Supporto', en: 'Support' }, sub: { it: 'Reset', en: 'Reset' }, x: 250, y: 188 },
+      { id: 'engineer', label: { it: 'Geniere', en: 'Engineer' }, sub: { it: 'AV / flank', en: 'AV / flank' }, x: 148, y: 158 },
+      { id: 'recon', label: { it: 'Ricognitore', en: 'Recon' }, sub: { it: 'Info', en: 'Info' }, x: 454, y: 76 },
+    ],
+    calls: [
+      {
+        it: 'Assalto non chasea armor crack senza crossfire: chiama target e distanza.',
+        en: 'Assault does not chase armor cracks without crossfire: call target and distance.',
+      },
+      {
+        it: 'Supporto gioca dietro la prima linea: smoke e revive valgono più del trade ego.',
+        en: 'Support plays behind the first line: smoke and revive are worth more than ego trades.',
+      },
+      {
+        it: "Ricognitore e Geniere non duplicano angoli: uno legge rotazioni, l'altro chiude veicoli/flank.",
+        en: 'Recon and Engineer do not duplicate angles: one reads rotations, the other closes vehicles/flanks.',
+      },
+    ],
   },
-  { id: 'recon', label: { it: 'Ricognitore', en: 'Recon' }, classes: ['DMR', 'Cecchino', 'Sniper'] },
-]
+  duos: {
+    title: { it: 'Schema Duos: coppia elastica 8-14 m', en: 'Duos shape: 8-14 m elastic pair' },
+    caption: {
+      it: "Supporto è l'ancora. Il flex prende primo angolo, rompe armor e torna in linea prima che il fight diventi 2v4.",
+      en: 'Support is the anchor. Flex takes first angle, breaks armor, and returns to line before the fight becomes 2v4.',
+    },
+    nodes: [
+      { id: 'support', label: { it: 'Supporto', en: 'Support' }, sub: { it: 'Anchor', en: 'Anchor' }, x: 260, y: 184 },
+      { id: 'engineer', label: { it: 'Flex', en: 'Flex' }, sub: { it: 'Geniere / Recon', en: 'Engineer / Recon' }, x: 382, y: 126 },
+    ],
+    calls: [
+      {
+        it: 'Se il primo trade fallisce, il duo resetta: niente push lunghi senza revive line.',
+        en: 'If the first trade fails, the duo resets: no long push without revive line.',
+      },
+      {
+        it: 'Il flex sceglie Geniere contro veicoli, Ricognitore quando lobby e cerchio sono infantry-heavy.',
+        en: 'Flex chooses Engineer into vehicles, Recon when lobby and circle are infantry-heavy.',
+      },
+      {
+        it: 'La distanza giusta è abbastanza larga per crossfire, abbastanza corta per revive.',
+        en: 'The right spacing is wide enough for crossfire, short enough for revive.',
+      },
+    ],
+  },
+} satisfies Record<
+  ModeId,
+  {
+    title: Localized
+    caption: Localized
+    nodes: Array<{ id: string; label: Localized; sub: Localized; x: number; y: number }>
+    calls: Localized[]
+  }
+>
 
 function t(value: Localized, lang: Lang) {
   return value[lang]
@@ -90,34 +141,49 @@ function SourcePill({ source, lang }: { source: Source; lang: Lang }) {
   )
 }
 
-function MiniMap({ mode }: { mode: ModeId }) {
-  const points =
-    mode === 'quads'
-      ? [
-          ['entry', 64, 44],
-          ['medic', 47, 60],
-          ['av', 30, 47],
-          ['info', 74, 24],
-        ]
-      : [
-          ['medic', 45, 55],
-          ['flex', 62, 39],
-        ]
-
+function TacticalDiagram({ mode, lang }: { mode: ModeId; lang: Lang }) {
+  const plan = tacticalPlans[mode]
   return (
-    <div className="tactical-map" aria-hidden="true">
-      <div className="route primary-route" />
-      <div className="route flank-route" />
-      <div className="zone zone-a" />
-      <div className="zone zone-b" />
-      {points.map(([name, left, top]) => (
-        <span
-          className={`map-point ${name}`}
-          key={name}
-          style={{ left: `${left}%`, top: `${top}%` }}
-        />
-      ))}
-    </div>
+    <figure className="tactical-diagram">
+      <div className="tactical-board">
+        <svg viewBox="0 0 640 320" role="img" aria-label={t(plan.title, lang)}>
+          <defs>
+            <marker id={`arrow-${mode}`} markerHeight="8" markerWidth="8" orient="auto" refX="8" refY="4">
+              <path d="M0,0 L8,4 L0,8 Z" />
+            </marker>
+          </defs>
+          <rect className="map-sector sector-left" x="72" y="56" width="168" height="118" />
+          <rect className="map-sector sector-right" x="394" y="126" width="176" height="112" />
+          <path className="route-line push-line" d="M122 232 C210 194 290 148 396 104" markerEnd={`url(#arrow-${mode})`} />
+          <path className="route-line reset-line" d="M440 226 C350 206 276 218 190 260" markerEnd={`url(#arrow-${mode})`} />
+          <path className="route-line cross-line" d="M150 108 C260 134 356 170 496 206" />
+          <circle className="objective-ring" cx="318" cy="164" r="52" />
+          <text className="objective-label" x="318" y="168">
+            OBJ
+          </text>
+          {plan.nodes.map((node) => (
+            <g className={`role-node ${node.id}`} key={node.id} transform={`translate(${node.x} ${node.y})`}>
+              <circle r="22" />
+              <text className="node-label" x="0" y="-31">
+                {t(node.label, lang)}
+              </text>
+              <text className="node-sub" x="0" y="43">
+                {t(node.sub, lang)}
+              </text>
+            </g>
+          ))}
+        </svg>
+      </div>
+      <figcaption>
+        <strong>{t(plan.title, lang)}</strong>
+        <span>{t(plan.caption, lang)}</span>
+        <ul>
+          {plan.calls.map((call) => (
+            <li key={call.en}>{t(call, lang)}</li>
+          ))}
+        </ul>
+      </figcaption>
+    </figure>
   )
 }
 
@@ -441,7 +507,7 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
           </div>
         </div>
       </div>
-      <MiniMap mode={mode} />
+      <TacticalDiagram lang={lang} mode={mode} />
       <div className="rules-panel">
         <h3>{t(copy.pressureRules, lang)}</h3>
         <ul>
@@ -467,16 +533,10 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
 }
 
 function MetaTierSection({ lang }: { lang: Lang }) {
-  const [filterId, setFilterId] = useState<MetaFilterId>('all')
-  const activeFilter = metaFilters.find((filter) => filter.id === filterId) ?? metaFilters[0]
-  const filteredWeapons =
-    activeFilter.id === 'all'
-      ? metaWeapons
-      : metaWeapons.filter(
-          (metric) =>
-            activeFilter.classes.includes(t(metric.className, 'it')) ||
-            activeFilter.classes.includes(t(metric.className, 'en')),
-        )
+  const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
+  const activeScenario = getMetaScenario(scenarioId)
+  const rankedWeapons = useMemo(() => rankWeapons(metaWeapons, scenarioId), [scenarioId])
+  const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
 
   return (
     <section className="meta-page">
@@ -486,21 +546,33 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.metaTier, lang)}</span>
         </div>
         <h2>{t(copy.metaTierSubtitle, lang)}</h2>
+        <p className="meta-scenario-copy">{t(activeScenario.description, lang)}</p>
         <div className="meta-filters" aria-label={t(copy.metaFilter, lang)}>
-          {metaFilters.map((filter) => (
+          {metaScenarios.map((scenario) => (
             <button
-              className={filter.id === filterId ? 'active' : ''}
-              key={filter.id}
+              className={scenario.id === scenarioId ? 'active' : ''}
+              key={scenario.id}
               type="button"
-              aria-pressed={filter.id === filterId}
-              onClick={() => setFilterId(filter.id)}
+              aria-pressed={scenario.id === scenarioId}
+              onClick={() => setScenarioId(scenario.id)}
             >
-              {t(filter.label, lang)}
+              {t(scenario.shortLabel, lang)}
             </button>
           ))}
         </div>
+        <div className="formula-panel">
+          <span>{t(copy.formulaWeights, lang)}</span>
+          <div>
+            {activeWeights.map(([key, weight]) => (
+              <small key={key}>
+                {t(rankedWeapons[0].components.find((component) => component.key === key)?.label ?? copy.metrics, lang)}{' '}
+                {Math.round((weight ?? 0) * 100)}%
+              </small>
+            ))}
+          </div>
+        </div>
         <p className="meta-count">
-          {filteredWeapons.length} {t(copy.weaponsShown, lang)}
+          {rankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
       </div>
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
@@ -508,22 +580,29 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>Tier</span>
           <span>Weapon</span>
           <span>Class</span>
+          <span>{t(copy.calculatedScore, lang)}</span>
           <span>{t(copy.ttk, lang)}</span>
-          <span>{t(copy.stk, lang)}</span>
-          <span>{t(copy.mag, lang)}</span>
-          <span>{t(copy.redsecScore, lang)}</span>
-          <span>{t(copy.tierReason, lang)}</span>
+          <span>{t(copy.roleFit, lang)}</span>
+          <span>{t(copy.dataQuality, lang)}</span>
+          <span>{t(copy.scoreRationale, lang)}</span>
         </div>
-        {filteredWeapons.map((metric) => (
-          <div className={`tier-row tier-${metric.tier.replace('+', 'plus')}`} key={t(metric.weapon.name, lang)} role="row">
-            <span className="tier-badge">{metric.tier}</span>
-            <strong>{t(metric.weapon.name, lang)}</strong>
-            <span>{t(metric.className, lang)}</span>
-            <span>{metric.baselineTtkMs ? `${metric.baselineTtkMs} ms` : 'TBD'}</span>
-            <span>{metric.baselineStk ?? 'TBD'}</span>
-            <span>{metric.magSize ?? 'TBD'}</span>
-            <span>{metric.redsecScore}</span>
-            <p>{t(metric.tierReason, lang)}</p>
+        {rankedWeapons.map((ranked) => (
+          <div
+            className={`tier-row tier-${ranked.calculatedTier.replace('+', 'plus')}`}
+            key={`${ranked.scenarioId}-${t(ranked.metric.weapon.name, lang)}`}
+            role="row"
+          >
+            <span className="tier-badge">{ranked.calculatedTier}</span>
+            <strong>{t(ranked.metric.weapon.name, lang)}</strong>
+            <span>{t(ranked.metric.className, lang)}</span>
+            <span className="score-cell">{ranked.score}</span>
+            <span>{ranked.metric.baselineTtkMs ? `${ranked.metric.baselineTtkMs} ms` : 'TBD'}</span>
+            <span>{ranked.roleFit}</span>
+            <span>
+              {ranked.dataQuality}
+              <small>{t(ranked.dataQualityLabel, lang)}</small>
+            </span>
+            <p>{t(ranked.rationale, lang)}</p>
           </div>
         ))}
       </div>
