@@ -576,7 +576,8 @@ h1 {
   font-size: 13px;
 }
 
-.formula-panel {
+.formula-panel,
+.data-source-panel {
   display: grid;
   gap: 8px;
   max-width: 980px;
@@ -586,12 +587,27 @@ h1 {
   background: rgba(105, 199, 213, 0.055);
 }
 
-.formula-panel > span {
+.data-source-panel {
+  border-color: rgba(120, 208, 138, 0.22);
+  background: rgba(120, 208, 138, 0.055);
+}
+
+.formula-panel > span,
+.data-source-panel > span {
   color: #f8fff9;
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+.data-source-panel strong {
+  color: #f8fff9;
+  font-size: 18px;
+}
+
+.data-source-panel small {
+  color: var(--muted);
 }
 
 .formula-panel div {
@@ -615,10 +631,10 @@ h1 {
 
 .tier-row {
   display: grid;
-  grid-template-columns: 70px 170px 130px 105px 110px 90px 130px;
+  grid-template-columns: 70px 170px 130px 105px 110px 130px 90px 130px;
   gap: 12px;
   align-items: center;
-  min-width: 850px;
+  min-width: 980px;
   padding: 12px 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
 }

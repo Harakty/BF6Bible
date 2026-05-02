@@ -29,6 +29,7 @@ import {
   type WeaponMetric,
 } from './data'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
+import { generatedWeaponStats } from './weaponStats'
 
 type ViewId = 'planner' | 'meta'
 
@@ -103,6 +104,10 @@ function t(value: Localized, lang: Lang) {
 
 function otherLang(lang: Lang): Lang {
   return lang === 'it' ? 'en' : 'it'
+}
+
+function formatMs(value?: number) {
+  return value ? `${value} ms` : 'TBD'
 }
 
 function roleIcon(roleId: string) {
@@ -294,7 +299,7 @@ function WeaponPanel({
       <div className="metric-strip">
         <div>
           <span>{t(copy.ttk, lang)}</span>
-          <strong>{metric.baselineTtkMs ? `${metric.baselineTtkMs} ms` : 'TBD'}</strong>
+          <strong>{formatMs(metric.baselineTtkMs)}</strong>
         </div>
         <div>
           <span>{t(copy.stk, lang)}</span>
@@ -552,6 +557,15 @@ function MetaTierSection({ lang }: { lang: Lang }) {
             ))}
           </div>
         </div>
+        <div className="data-source-panel">
+          <span>{t(copy.dataPipeline, lang)}</span>
+          <strong>
+            {generatedWeaponStats.weapons.length} {t(copy.weaponsParsed, lang)}
+          </strong>
+          <small>
+            {t(copy.sheetHash, lang)} {generatedWeaponStats.source.sourceHash} · {generatedWeaponStats.model.ttkFormula}
+          </small>
+        </div>
         <p className="meta-count">
           {rankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
@@ -562,7 +576,8 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>Weapon</span>
           <span>Class</span>
           <span>{t(copy.calculatedScore, lang)}</span>
-          <span>{t(copy.ttk, lang)}</span>
+          <span>{t(copy.ttk20, lang)}</span>
+          <span>{t(copy.ttkRedsecProxy, lang)}</span>
           <span>{t(copy.roleFit, lang)}</span>
           <span>{t(copy.dataQuality, lang)}</span>
         </div>
@@ -576,11 +591,13 @@ function MetaTierSection({ lang }: { lang: Lang }) {
             <strong>{t(ranked.metric.weapon.name, lang)}</strong>
             <span>{t(ranked.metric.className, lang)}</span>
             <span className="score-cell">{ranked.score}</span>
-            <span>{ranked.metric.baselineTtkMs ? `${ranked.metric.baselineTtkMs} ms` : 'TBD'}</span>
+            <span>{formatMs(ranked.mpTtkMs)}</span>
+            <span>{formatMs(ranked.redsecTtkMs)}</span>
             <span>{ranked.roleFit}</span>
             <span>
               {ranked.dataQuality}
               <small>{t(ranked.dataQualityLabel, lang)}</small>
+              <small>{t(ranked.dataSourceLabel, lang)}</small>
             </span>
           </div>
         ))}

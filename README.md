@@ -10,28 +10,31 @@ Data-driven REDSEC squad planner for Battlefield 6.
 - Season/version data is isolated in `src/data.ts` so Season 3, Ranked REDSEC, and Solos can be added as new datasets.
 - Each role recommendation is a complete REDSEC weapon pair: one primary weapon and one true second weapon such as an SMG, carbine, DMR, or sniper depending on role. Pistols/sidearms are kept as a separate weapon category in the meta table, not as the squad's planned secondary.
 - Weapon Meta is a dedicated Meta Lab with scenario weights for General, Assault, Support, Engineer, and Recon.
-- The Meta Lab uses `src/metaEngine.ts` to calculate tiers from public signal, TTK, armor value, range, control, sustain, mobility, role fit, and data quality. It separates measured values from `TBD` values that still need automated data ingest.
+- The Meta Lab uses `src/metaEngine.ts` and generated sheet data to calculate tiers from body TTK, REDSEC 180 HP proxy TTK, range retention, control, sustain, mobility, role fit, and data quality.
 - The REDSEC planner uses tactical SVG diagrams for Quads and Duos instead of decorative map art, so positioning rules can evolve as data changes.
 
 ## Data Policy
 
-Every recommendation must keep a source trail and confidence score. Current seed sources:
+The weapon stat pipeline reads the public Google Sheet configured in `scripts/ingestWeapons.mjs`, parses 55 weapons, and writes `src/generated/weaponStats.ts`. The generated model includes damage curves at 0/10/20/35/50/70/80 m, STK/TTK for 100 HP, click TTK, and a 180 HP REDSEC proxy until a reliable armor-damage dataset is available.
+
+Every recommendation must keep a source trail. Current sources:
 
 - EA official REDSEC armor explanation.
 - EA class guide.
 - EA Season 3 / Ranked BR update.
 - EA REDSEC Battle Royale 101.
 - Sym.gg BF6 charts.
-- BF6 Interactive Weapon Data community spreadsheet.
+- BF6 Public Weapon Stats Sheet.
 - BattlefieldMeta public comparator for secondary validation.
 - Battlefield6.gg public REDSEC weapon catalog.
 
-The current engine is a deterministic MVP, not a scraper. Missing weapon stats are penalized through the data-quality component until automated ingest or manual validation fills the gaps.
+The app does not scrape private endpoints. It fetches a public CSV export, keeps a generated snapshot in the repo, and can be refreshed with `npm run ingest:weapons`.
 
 ## Commands
 
 ```bash
 npm install
+npm run ingest:weapons
 npm run dev
 npm run build
 ```

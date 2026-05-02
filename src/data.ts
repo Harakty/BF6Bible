@@ -1,3 +1,5 @@
+import { generatedWeaponStats, normalizeWeaponName, rangeValue, type GeneratedWeaponStat } from './weaponStats'
+
 export type Lang = 'it' | 'en'
 export type ModeId = 'quads' | 'duos'
 export type SourceKind = 'official' | 'sym' | 'community-sheet' | 'comparator' | 'analysis'
@@ -128,13 +130,13 @@ export const sources: Source[] = [
   },
   {
     id: 'sheetonmyface',
-    label: 'BF6 Interactive Weapon Data v1.50',
-    url: 'https://docs.google.com/spreadsheets/d/118MpX9TrSRp_HW7xILEDuDSZC6_GewBGFh1Xa4H6XPg/edit?usp=sharing',
+    label: 'BF6 Public Weapon Stats Sheet',
+    url: 'https://docs.google.com/spreadsheets/d/1oHVJQPfkTGIjdqnuDhNrD16GETNQCWa0aofBQOtjg9w/edit?gid=314079070#gid=314079070',
     kind: 'community-sheet',
-    weight: 0.82,
+    weight: 0.9,
     note: {
-      it: 'Spreadsheet interattivo con TTK, falloff, headshot, ammo, recoil, ADS e proficiencies.',
-      en: 'Interactive spreadsheet with TTK, fall-off, headshots, ammo, recoil, ADS, and proficiencies.',
+      it: 'Fonte CSV pubblica ingerita automaticamente: damage curve, ROF, ADS, reload, velocity, mag, controllo e mobilità.',
+      en: 'Public CSV source ingested automatically: damage curve, ROF, ADS, reload, velocity, mag, control, and mobility.',
     },
   },
   {
@@ -687,6 +689,36 @@ export const weaponCatalog = {
   m1014: catalogWeapon('M1014', 'Fucile a pompa', 'Shotgun', 'B', 66, 'Shotgun semi-auto migliore come secondaria indoor estrema.', 'Semi-auto shotgun better as extreme indoor secondary.'),
   ks185: catalogWeapon('18.5KS-K', 'Fucile a pompa', 'Shotgun', 'C', 59, 'Shotgun situazionale, richiede final circle chiuso.', 'Situational shotgun requiring closed final circles.'),
   ggh22: catalogWeapon('GGH-22', 'Pistola', 'Pistol', 'C', 61, 'Sidearm nuova: catalogata, non vera secondaria REDSEC.', 'New sidearm: catalogued, not a true REDSEC secondary.'),
+}
+
+const generatedWeaponMetric = (entry: GeneratedWeaponStat): WeaponMetric => {
+  const ttk20 = rangeValue(entry.ttk100ByRange, [20, 10, 0, 35])
+  const stk20 = rangeValue(entry.stk100ByRange, [20, 10, 0, 35])
+  const redsec35 = rangeValue(entry.ttk180ByRange, [35, 20, 50, 10])
+  const score = Math.round(Math.max(55, Math.min(88, 112 - (redsec35 ?? 900) / 14)))
+
+  return weapon(
+    entry.name,
+    entry.className.it,
+    entry.className.en,
+    entry.slot as WeaponSlot,
+    'B',
+    score,
+    ttk20,
+    stk20,
+    entry.rpm,
+    entry.magSize,
+    'Voce generata dal foglio pubblico: il tier finale viene calcolato dal Meta Lab.',
+    'Generated from the public sheet: final tier is calculated by the Meta Lab.',
+    'Disponibile nel dataset numerico e valutata automaticamente per scenario.',
+    'Available in the numeric dataset and evaluated automatically per scenario.',
+    'Damage curve, ROF, ADS, reload, velocity e handling sono ingestiti dal CSV pubblico.',
+    'Damage curve, ROF, ADS, reload, velocity, and handling are ingested from the public CSV.',
+    'La build attachment specifica richiede ancora validazione pratica.',
+    'Specific attachment build still needs practical validation.',
+    ['sheetonmyface'],
+    1,
+  )
 }
 
 const primaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
@@ -1309,7 +1341,13 @@ function modePlansPlaceholder(loadoutId: string): Loadout {
   return found
 }
 
-export const metaWeapons = [...Object.values(weapons), ...Object.values(weaponCatalog)].sort((a, b) => {
+const manualMetaWeapons = [...Object.values(weapons), ...Object.values(weaponCatalog)]
+const manualWeaponKeys = new Set(manualMetaWeapons.map((metric) => normalizeWeaponName(metric.weapon.name.en)))
+const generatedOnlyWeapons = generatedWeaponStats.weapons
+  .filter((entry) => !manualWeaponKeys.has(normalizeWeaponName(entry.name)))
+  .map(generatedWeaponMetric)
+
+export const metaWeapons = [...manualMetaWeapons, ...generatedOnlyWeapons].sort((a, b) => {
   const tierRank: Record<Tier, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D: 5 }
   return tierRank[a.tier] - tierRank[b.tier] || b.redsecScore - a.redsecScore
 })
@@ -1320,7 +1358,7 @@ export const copy = {
   redsecPlanner: { it: 'Planner REDSEC', en: 'REDSEC planner' },
   metaPage: { it: 'Meta armi', en: 'Weapon meta' },
   redsecQuestion: { it: 'Giochi a REDSEC?', en: 'Playing REDSEC?' },
-  dataStatus: { it: 'Seed dati v0.2 - aggiornato 2 maggio 2026', en: 'Data seed v0.2 - updated May 2, 2026' },
+  dataStatus: { it: 'Meta engine v0.3 - Google Sheet ingest', en: 'Meta engine v0.3 - Google Sheet ingest' },
   rankedSoon: { it: 'Ranked Quads pronto per Season 3', en: 'Ranked Quads ready for Season 3' },
   mode: { it: 'Modalità', en: 'Mode' },
   squadComp: { it: 'Composizione', en: 'Composition' },
@@ -1341,6 +1379,8 @@ export const copy = {
   pressureRules: { it: 'Regole di fight', en: 'Fight rules' },
   metrics: { it: 'Metriche', en: 'Metrics' },
   ttk: { it: 'TTK MP base', en: 'Base MP TTK' },
+  ttk20: { it: 'TTK corpo 20 m', en: '20 m body TTK' },
+  ttkRedsecProxy: { it: 'TTK corpo 180HP 35 m', en: '180HP 35 m body TTK' },
   stk: { it: 'STK', en: 'STK' },
   rpm: { it: 'RPM', en: 'RPM' },
   mag: { it: 'Mag', en: 'Mag' },
@@ -1352,11 +1392,14 @@ export const copy = {
   calculatedScore: { it: 'Score calcolato', en: 'Calculated score' },
   roleFit: { it: 'Fit ruolo', en: 'Role fit' },
   dataQuality: { it: 'Qualità dati', en: 'Data quality' },
+  dataPipeline: { it: 'Pipeline dati', en: 'Data pipeline' },
+  weaponsParsed: { it: 'armi dal Google Sheet', en: 'weapons from Google Sheet' },
+  sheetHash: { it: 'Hash sorgente', en: 'Source hash' },
   formulaWeights: { it: 'Formula scenario', en: 'Scenario formula' },
   metaTier: { it: 'Meta Lab armi', en: 'Weapon Meta Lab' },
   metaTierSubtitle: {
-    it: 'Ranking REDSEC calcolato: ogni scenario cambia i pesi tra TTK, armor value, range, sustain, mobilità, fit ruolo e qualità dati.',
-    en: 'Calculated REDSEC ranking: every scenario changes the weights between TTK, armor value, range, sustain, mobility, role fit, and data quality.',
+    it: 'Ranking REDSEC calcolato da damage curve, ROF, ADS, reload, velocity, mag, controllo e mobilità ingeriti dal foglio pubblico.',
+    en: 'Calculated REDSEC ranking from damage curve, ROF, ADS, reload, velocity, mag, control, and mobility ingested from the public sheet.',
   },
   metaFilter: { it: 'Filtro meta armi', en: 'Weapon meta filter' },
   weaponsShown: { it: 'armi mostrate', en: 'weapons shown' },

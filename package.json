@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "ingest:weapons": "node scripts/ingestWeapons.mjs",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
