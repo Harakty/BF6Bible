@@ -223,6 +223,7 @@ h1 {
 .summary-main,
 .rules-panel,
 .source-stack,
+.meta-band,
 .role-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -449,6 +450,89 @@ h1 {
   padding: 26px clamp(16px, 4vw, 48px) 58px;
 }
 
+.meta-band {
+  margin: 26px clamp(16px, 4vw, 48px) 58px;
+  overflow: hidden;
+}
+
+.meta-header {
+  padding: 22px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.meta-header h2 {
+  max-width: 980px;
+  font-size: clamp(20px, 3vw, 34px);
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.tier-table {
+  display: grid;
+  overflow-x: auto;
+}
+
+.tier-row {
+  display: grid;
+  grid-template-columns: 70px 150px 120px 110px 70px 70px 110px minmax(360px, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-width: 1100px;
+  padding: 12px 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.tier-row-head {
+  color: var(--soft);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.tier-row p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.tier-row strong {
+  color: #f8fff9;
+}
+
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  min-height: 30px;
+  border-radius: 6px;
+  color: #101311;
+  background: var(--green);
+  font-weight: 800;
+}
+
+.tier-Splus .tier-badge {
+  background: #9af0a8;
+}
+
+.tier-S .tier-badge {
+  background: var(--green);
+}
+
+.tier-A .tier-badge {
+  background: var(--cyan);
+}
+
+.tier-B .tier-badge {
+  background: var(--amber);
+}
+
+.tier-C .tier-badge,
+.tier-D .tier-badge {
+  color: #fff;
+  background: var(--red);
+}
+
 .role-card {
   padding: clamp(18px, 3vw, 28px);
 }
@@ -481,6 +565,70 @@ h1 {
   color: var(--muted);
 }
 
+.loadout-switcher {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.switcher-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.switcher-label svg {
+  color: var(--amber);
+}
+
+.loadout-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.loadout-buttons button {
+  display: grid;
+  gap: 3px;
+  min-height: 58px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  text-align: left;
+  background: rgba(27, 33, 30, 0.86);
+}
+
+.loadout-buttons button.active {
+  border-color: var(--green);
+  background: rgba(120, 208, 138, 0.12);
+}
+
+.loadout-buttons span {
+  color: var(--soft);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.loadout-buttons strong {
+  color: #f8fff9;
+  font-size: 15px;
+}
+
+.loadout-summary {
+  margin-top: 14px;
+  color: #d9e3da;
+}
+
 .role-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(260px, 0.72fr);
@@ -502,6 +650,11 @@ h1 {
   background: rgba(242, 184, 75, 0.045);
 }
 
+.weapon-panel.secondary {
+  border-color: rgba(105, 199, 213, 0.32);
+  background: rgba(105, 199, 213, 0.055);
+}
+
 .weapon-head {
   display: grid;
   gap: 4px;
@@ -514,8 +667,12 @@ h1 {
 
 .metric-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
+}
+
+.metric-strip.compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .weapon-notes {
@@ -543,7 +700,7 @@ h1 {
 
 .build-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 0.7fr 0.7fr;
+  grid-template-columns: 1.2fr 1fr 1fr 0.8fr 1fr 0.8fr;
   gap: 14px;
   margin-top: 18px;
   padding-top: 18px;
@@ -626,12 +783,14 @@ h1 {
   .mode-band,
   .summary-band,
   .role-grid,
+  .loadout-buttons,
   .build-grid {
     grid-template-columns: 1fr;
   }
 
   .summary-stats,
-  .metric-strip {
+  .metric-strip,
+  .metric-strip.compact {
     grid-template-columns: 1fr;
   }
 
@@ -656,7 +815,8 @@ h1 {
   .role-card,
   .summary-main,
   .rules-panel,
-  .source-stack {
+  .source-stack,
+  .meta-band {
     box-shadow: none;
   }
 

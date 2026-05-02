@@ -8,6 +8,8 @@ Data-driven REDSEC squad planner for Battlefield 6.
 - Bilingual interface: Italian and English.
 - Weapon names, attachments, gadgets, and Field Specs are stored as localized terms so Italian and English labels can stay side by side.
 - Season/version data is isolated in `src/data.ts` so Season 3, Ranked REDSEC, and Solos can be added as new datasets.
+- Each role recommendation is a complete loadout: one primary weapon, one secondary weapon, full builds for both, gadgets, Field Spec, recommended skills, playbook, and at least one complete alternative loadout.
+- The Meta Tier section is a REDSEC-first ranking snapshot. It separates measured values from `TBD` values that still need automated data ingest.
 
 ## Data Policy
 

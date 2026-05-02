@@ -1,10 +1,12 @@
 import {
   Activity,
+  BarChart3,
   Crosshair,
   Database,
   ExternalLink,
   Gauge,
   Languages,
+  Layers,
   Radar,
   Shield,
   Stethoscope,
@@ -14,7 +16,17 @@ import {
   Zap,
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
-import { copy, modePlans, sources, type Lang, type Localized, type ModeId, type Source } from './data'
+import {
+  copy,
+  metaWeapons,
+  modePlans,
+  sources,
+  type Lang,
+  type Localized,
+  type ModeId,
+  type Source,
+  type WeaponMetric,
+} from './data'
 
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
 
@@ -156,18 +168,18 @@ function ModeSelector({
 function WeaponPanel({
   lang,
   metric,
-  isAlternative = false,
+  label,
+  variant = 'primary',
 }: {
   lang: Lang
-  metric: ReturnType<typeof getMetricType>
-  isAlternative?: boolean
+  metric: WeaponMetric
+  label: Localized
+  variant?: 'primary' | 'secondary'
 }) {
-  const label = isAlternative ? t(copy.alternative, lang) : t(copy.primary, lang)
-
   return (
-    <div className={isAlternative ? 'weapon-panel alternative' : 'weapon-panel'}>
+    <div className={variant === 'secondary' ? 'weapon-panel secondary' : 'weapon-panel'}>
       <div className="weapon-head">
-        <span>{label}</span>
+        <span>{t(label, lang)}</span>
         <strong>{t(metric.weapon.name, lang)}</strong>
         <small>{t(metric.className, lang)}</small>
       </div>
@@ -181,11 +193,29 @@ function WeaponPanel({
           <strong>{metric.baselineStk ?? 'TBD'}</strong>
         </div>
         <div>
+          <span>{t(copy.redsecScore, lang)}</span>
+          <strong>{metric.redsecScore}</strong>
+        </div>
+      </div>
+      <div className="metric-strip compact">
+        <div>
+          <span>{t(copy.rpm, lang)}</span>
+          <strong>{metric.rpm ?? 'TBD'}</strong>
+        </div>
+        <div>
+          <span>{t(copy.mag, lang)}</span>
+          <strong>{metric.magSize ?? 'TBD'}</strong>
+        </div>
+        <div>
           <span>{t(copy.sourceConfidence, lang)}</span>
           <strong>{confidenceLabel(metric.confidence, lang)}</strong>
         </div>
       </div>
       <dl className="weapon-notes">
+        <div>
+          <dt>{t(copy.tierReason, lang)}</dt>
+          <dd>{t(metric.tierReason, lang)}</dd>
+        </div>
         <div>
           <dt>{t(copy.redsecUse, lang)}</dt>
           <dd>{t(metric.redsecUse, lang)}</dd>
@@ -203,15 +233,15 @@ function WeaponPanel({
   )
 }
 
-function getMetricType() {
-  return modePlans.quads.roles[0].build.primary
-}
-
 function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][number]; lang: Lang }) {
+  const [selectedLoadoutId, setSelectedLoadoutId] = useState(role.loadouts[0].id)
+  const activeLoadout = role.loadouts.find((loadout) => loadout.id === selectedLoadoutId) ?? role.loadouts[0]
+
   const roleSources = Array.from(
     new Set([
-      ...role.build.primary.sourceIds,
-      ...(role.build.alternative?.sourceIds ?? []),
+      ...activeLoadout.primary.metric.sourceIds,
+      ...activeLoadout.secondary.metric.sourceIds,
+      ...activeLoadout.sourceIds,
       'ea-classes',
       'ea-redsec-armor',
     ]),
@@ -230,18 +260,46 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
       </div>
       <p className="mission">{t(role.mission, lang)}</p>
 
+      <div className="loadout-switcher" aria-label={t(copy.chooseLoadout, lang)}>
+        <div className="switcher-label">
+          <Layers aria-hidden="true" />
+          <span>{t(copy.chooseLoadout, lang)}</span>
+        </div>
+        <div className="loadout-buttons">
+          {role.loadouts.map((loadout, index) => (
+            <button
+              className={activeLoadout.id === loadout.id ? 'active' : ''}
+              key={loadout.id}
+              type="button"
+              onClick={() => setSelectedLoadoutId(loadout.id)}
+            >
+              <span>{index === 0 ? t(copy.primary, lang) : t(copy.alternativeLoadout, lang)}</span>
+              <strong>{t(loadout.label, lang)}</strong>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <p className="loadout-summary">{t(activeLoadout.summary, lang)}</p>
+
       <div className="role-grid">
-        <WeaponPanel lang={lang} metric={role.build.primary} />
-        {role.build.alternative ? (
-          <WeaponPanel lang={lang} metric={role.build.alternative} isAlternative />
-        ) : null}
+        <WeaponPanel lang={lang} label={copy.primary} metric={activeLoadout.primary.metric} />
+        <WeaponPanel lang={lang} label={copy.secondary} metric={activeLoadout.secondary.metric} variant="secondary" />
       </div>
 
       <div className="build-grid">
         <section>
-          <h3>{t(copy.build, lang)}</h3>
+          <h3>{t(copy.buildPrimary, lang)}</h3>
           <div className="chips">
-            {role.build.attachments.map((item) => (
+            {activeLoadout.primary.attachments.map((item) => (
+              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
+            ))}
+          </div>
+        </section>
+        <section>
+          <h3>{t(copy.buildSecondary, lang)}</h3>
+          <div className="chips">
+            {activeLoadout.secondary.attachments.map((item) => (
               <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
             ))}
           </div>
@@ -249,7 +307,7 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
         <section>
           <h3>{t(copy.gadgets, lang)}</h3>
           <div className="chips">
-            {role.build.gadgets.map((item) => (
+            {activeLoadout.gadgets.map((item) => (
               <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
             ))}
           </div>
@@ -257,19 +315,27 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
         <section>
           <h3>{t(copy.fieldSpec, lang)}</h3>
           <div className="chips single">
-            <Term lang={lang} value={role.build.fieldSpec} />
+            <Term lang={lang} value={activeLoadout.fieldSpec} />
+          </div>
+        </section>
+        <section>
+          <h3>{t(copy.recommendedSkills, lang)}</h3>
+          <div className="chips">
+            {activeLoadout.skills.map((item) => (
+              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
+            ))}
           </div>
         </section>
         <section>
           <h3>{t(copy.engagement, lang)}</h3>
-          <p>{t(role.build.engagement, lang)}</p>
+          <p>{t(activeLoadout.engagement, lang)}</p>
         </section>
       </div>
 
       <div className="playbook">
         <h3>{t(copy.playbook, lang)}</h3>
         <ol>
-          {role.build.playbook.map((line) => (
+          {activeLoadout.playbook.map((line) => (
             <li key={line.en}>{t(line, lang)}</li>
           ))}
         </ol>
@@ -300,10 +366,7 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
     .filter((source): source is Source => Boolean(source))
 
   const averageConfidence = useMemo(() => {
-    const values = plan.roles.flatMap((role) => [
-      role.build.primary.confidence,
-      role.build.alternative?.confidence ?? role.build.primary.confidence,
-    ])
+    const values = plan.roles.flatMap((role) => role.loadouts.map((loadout) => loadout.confidence))
     return values.reduce((sum, value) => sum + value, 0) / values.length
   }, [plan])
 
@@ -355,6 +418,44 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
   )
 }
 
+function MetaTierSection({ lang }: { lang: Lang }) {
+  return (
+    <section className="meta-band">
+      <div className="meta-header">
+        <div className="summary-label">
+          <BarChart3 aria-hidden="true" />
+          <span>{t(copy.metaTier, lang)}</span>
+        </div>
+        <h2>{t(copy.metaTierSubtitle, lang)}</h2>
+      </div>
+      <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
+        <div className="tier-row tier-row-head" role="row">
+          <span>Tier</span>
+          <span>Weapon</span>
+          <span>Class</span>
+          <span>{t(copy.ttk, lang)}</span>
+          <span>{t(copy.stk, lang)}</span>
+          <span>{t(copy.mag, lang)}</span>
+          <span>{t(copy.redsecScore, lang)}</span>
+          <span>{t(copy.tierReason, lang)}</span>
+        </div>
+        {metaWeapons.map((metric) => (
+          <div className={`tier-row tier-${metric.tier.replace('+', 'plus')}`} key={t(metric.weapon.name, lang)} role="row">
+            <span className="tier-badge">{metric.tier}</span>
+            <strong>{t(metric.weapon.name, lang)}</strong>
+            <span>{t(metric.className, lang)}</span>
+            <span>{metric.baselineTtkMs ? `${metric.baselineTtkMs} ms` : 'TBD'}</span>
+            <span>{metric.baselineStk ?? 'TBD'}</span>
+            <span>{metric.magSize ?? 'TBD'}</span>
+            <span>{metric.redsecScore}</span>
+            <p>{t(metric.tierReason, lang)}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
 export function App() {
   const [lang, setLang] = useState<Lang>('it')
   const [selectedMode, setSelectedMode] = useState<ModeId>('quads')
@@ -370,6 +471,7 @@ export function App() {
           <RoleCard key={role.id} lang={lang} role={role} />
         ))}
       </section>
+      <MetaTierSection lang={lang} />
     </main>
   )
 }

@@ -1,6 +1,8 @@
 export type Lang = 'it' | 'en'
 export type ModeId = 'quads' | 'duos'
 export type SourceKind = 'official' | 'sym' | 'community-sheet' | 'comparator' | 'analysis'
+export type WeaponSlot = 'primary' | 'secondary'
+export type Tier = 'S+' | 'S' | 'A' | 'B' | 'C' | 'D'
 
 export type Localized = {
   it: string
@@ -24,8 +26,14 @@ export type LocalizedTerm = {
 export type WeaponMetric = {
   weapon: LocalizedTerm
   className: Localized
+  slot: WeaponSlot
+  tier: Tier
+  tierReason: Localized
   baselineTtkMs?: number
   baselineStk?: number
+  rpm?: number
+  magSize?: number
+  redsecScore: number
   redsecUse: Localized
   strength: Localized
   risk: Localized
@@ -33,14 +41,24 @@ export type WeaponMetric = {
   confidence: number
 }
 
-export type Build = {
-  primary: WeaponMetric
-  alternative?: WeaponMetric
+export type WeaponKit = {
+  metric: WeaponMetric
   attachments: LocalizedTerm[]
+}
+
+export type Loadout = {
+  id: string
+  label: Localized
+  summary: Localized
+  primary: WeaponKit
+  secondary: WeaponKit
   gadgets: LocalizedTerm[]
   fieldSpec: LocalizedTerm
+  skills: LocalizedTerm[]
   playbook: Localized[]
   engagement: Localized
+  sourceIds: string[]
+  confidence: number
 }
 
 export type SquadRole = {
@@ -48,7 +66,7 @@ export type SquadRole = {
   callSign: Localized
   className: Localized
   mission: Localized
-  build: Build
+  loadouts: Loadout[]
   swapRule?: Localized
 }
 
@@ -132,14 +150,21 @@ export const sources: Source[] = [
   },
 ]
 
-const attachment = (it: string, en: string): LocalizedTerm => ({ name: { it, en } })
+const term = (it: string, en: string): LocalizedTerm => ({ name: { it, en } })
 
 const weapon = (
   name: string,
   classIt: string,
   classEn: string,
+  slot: WeaponSlot,
+  tier: Tier,
+  redsecScore: number,
   baselineTtkMs: number | undefined,
   baselineStk: number | undefined,
+  rpm: number | undefined,
+  magSize: number | undefined,
+  tierReasonIt: string,
+  tierReasonEn: string,
   redsecUseIt: string,
   redsecUseEn: string,
   strengthIt: string,
@@ -151,8 +176,14 @@ const weapon = (
 ): WeaponMetric => ({
   weapon: { name: { it: name, en: name } },
   className: { it: classIt, en: classEn },
+  slot,
+  tier,
+  redsecScore,
   baselineTtkMs,
   baselineStk,
+  rpm,
+  magSize,
+  tierReason: { it: tierReasonIt, en: tierReasonEn },
   redsecUse: { it: redsecUseIt, en: redsecUseEn },
   strength: { it: strengthIt, en: strengthEn },
   risk: { it: riskIt, en: riskEn },
@@ -165,38 +196,37 @@ export const weapons = {
     'KORD 6P67',
     "Fucile d'assalto",
     'Assault Rifle',
+    'primary',
+    'S+',
+    94,
     300,
     4,
+    undefined,
+    36,
+    'Top REDSEC perché unisce TTK, controllo e valore reale contro armor.',
+    'Top REDSEC pick because it combines TTK, control, and real armor value.',
     'Ancora flessibile per mid range e push controllati.',
     'Flexible anchor for mid-range fights and controlled pushes.',
     'ROF alto con recoil gestibile: scala bene con armor e teamfire.',
     'High ROF with manageable recoil: scales well into armor and teamfire.',
-    'Richiede disciplina a lunga distanza; burst brevi oltre il mid range.',
+    'Richiede disciplina a lunga distanza; usa burst brevi oltre il mid range.',
     'Needs discipline at long range; use short bursts past mid range.',
     ['sym-bf6', 'sheetonmyface', 'battlefieldmeta'],
     0.82,
-  ),
-  ak205: weapon(
-    'AK-205',
-    'Carabina',
-    'Carbine',
-    333,
-    5,
-    'Flex weapon per Engineer o Recon che deve vincere duelli a 25-70 m.',
-    'Flex weapon for Engineer or Recon winning 25-70 m duels.',
-    'Buon controllo e performance pratica sopra il TTK teorico.',
-    'Good control and practical performance beyond paper TTK.',
-    'Più lenta in close quarters puro contro SMG/AR ad alto ROF.',
-    'Slower in pure close quarters against high-ROF SMGs/ARs.',
-    ['sym-bf6', 'sheetonmyface', 'battlefieldmeta'],
-    0.78,
   ),
   drs: weapon(
     'DRS-IAR',
     'LMG',
     'LMG',
+    'primary',
+    'S',
+    90,
     300,
     4,
+    undefined,
+    36,
+    'Sustain, teamfire e revive cover la rendono quasi obbligatoria in squad.',
+    'Sustain, teamfire, and revive cover make it close to mandatory in squad play.',
     'Support anchor per tenere lane, chiudere revive e reggere fight lunghi.',
     'Support anchor for lanes, revive cover, and long fights.',
     'Stabilità, volume di fuoco e ottimo valore in teamfight con armor.',
@@ -206,12 +236,41 @@ export const weapons = {
     ['sym-bf6', 'sheetonmyface', 'battlefieldmeta'],
     0.79,
   ),
+  ak205: weapon(
+    'AK-205',
+    'Carabina',
+    'Carbine',
+    'primary',
+    'S',
+    88,
+    333,
+    5,
+    undefined,
+    40,
+    'Flex affidabile: meno sexy del KORD, ma molto più stabile nelle rotazioni.',
+    'Reliable flex: less flashy than KORD, but more stable during rotations.',
+    'Flex weapon per Geniere o Recon che deve vincere duelli a 25-70 m.',
+    'Flex weapon for Engineer or Recon winning 25-70 m duels.',
+    'Buon controllo e performance pratica sopra il TTK teorico.',
+    'Good control and practical performance beyond paper TTK.',
+    'Più lenta in close quarters puro contro SMG/AR ad alto ROF.',
+    'Slower in pure close quarters against high-ROF SMGs/ARs.',
+    ['sym-bf6', 'sheetonmyface', 'battlefieldmeta'],
+    0.78,
+  ),
   sg553: weapon(
     'SG-553R',
     'Carabina',
     'Carbine',
+    'primary',
+    'S',
+    87,
     300,
     4,
+    undefined,
+    36,
+    'Alternativa flex forte quando la squadra deve muoversi più che tenere lane.',
+    'Strong flex alternative when the squad needs movement more than lane holding.',
     'Seconda opzione flex per map flow veloce e rotazioni aggressive.',
     'Second flex option for fast map flow and aggressive rotations.',
     'TTK competitivo con profilo da carabina e buone rotazioni.',
@@ -225,8 +284,15 @@ export const weapons = {
     'VCR-2',
     "Fucile d'assalto",
     'Assault Rifle',
+    'primary',
+    'S',
+    86,
     200,
     4,
+    undefined,
+    30,
+    'Mostruosa da entry, ma il tier scende se il cerchio si apre.',
+    'Monster entry gun, but its tier drops when the circle opens up.',
     'Swap da close-range quando il piano è final circle in edifici.',
     'Close-range swap when the plan is building-heavy final circles.',
     'TTK teorico molto rapido e pressione alta da entry.',
@@ -236,27 +302,19 @@ export const weapons = {
     ['sheetonmyface', 'battlefieldmeta'],
     0.72,
   ),
-  scw: weapon(
-    'SCW-10',
-    'SMG',
-    'SMG',
-    300,
-    4,
-    'Opzione close per Engineer aggressivo in bunker, tunnel e finali stretti.',
-    'Close option for aggressive Engineer in bunkers, tunnels, and tight endings.',
-    'Molto forte quando ogni fight è sotto i 20 metri.',
-    'Very strong when every fight happens under 20 meters.',
-    'In REDSEC perde valore se devi rompere armor a range aperto.',
-    'In REDSEC it loses value when breaking armor in open-range fights.',
-    ['sym-bf6', 'sheetonmyface', 'battlefieldmeta'],
-    0.74,
-  ),
   l110: weapon(
     'L110',
     'LMG',
     'LMG',
+    'primary',
+    'A',
+    82,
     250,
     4,
+    undefined,
+    36,
+    'Ottima quando Support deve muoversi e tradare più velocemente.',
+    'Excellent when Support needs to move and trade faster.',
     'Alternativa Support più rapida quando serve tenere pressione senza immobilizzarsi.',
     'Faster Support alternative when pressure matters without becoming static.',
     'TTK vicino molto forte con buona velocity.',
@@ -266,12 +324,41 @@ export const weapons = {
     ['sheetonmyface', 'battlefieldmeta'],
     0.7,
   ),
+  scw: weapon(
+    'SCW-10',
+    'SMG',
+    'SMG',
+    'primary',
+    'A',
+    80,
+    300,
+    4,
+    undefined,
+    30,
+    'A tier in REDSEC: fortissima nei 20 m, meno universale contro armor a distanza.',
+    'A tier in REDSEC: very strong under 20 m, less universal against armor at range.',
+    'Opzione close per Geniere aggressivo in bunker, tunnel e finali stretti.',
+    'Close option for aggressive Engineer in bunkers, tunnels, and tight endings.',
+    'Molto forte quando ogni fight è sotto i 20 metri.',
+    'Very strong when every fight happens under 20 meters.',
+    'In REDSEC perde valore se devi rompere armor a range aperto.',
+    'In REDSEC it loses value when breaking armor in open-range fights.',
+    ['sym-bf6', 'sheetonmyface', 'battlefieldmeta'],
+    0.74,
+  ),
   m39: weapon(
     'M39 EMR',
     'DMR',
     'DMR',
+    'primary',
+    'A',
+    79,
     467,
     3,
+    undefined,
+    20,
+    'A tier per info squad: non è entry, ma converte armor crack e third-party.',
+    'A tier for information squads: not entry, but converts armor cracks and third parties.',
     'Pick Recon se la squadra gioca info, third-party e distanza.',
     'Recon pick when the squad plays information, third-party pressure, and range.',
     'Punisce armor rotte e force reposition a media-lunga distanza.',
@@ -281,6 +368,387 @@ export const weapons = {
     ['sheetonmyface', 'battlefieldmeta'],
     0.68,
   ),
+  m4a1: weapon(
+    'M4A1',
+    'Carabina',
+    'Carbine',
+    'primary',
+    'A',
+    78,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Tier alto finché i dati completi confermano handling e TTK pratico.',
+    'High tier while complete data keeps confirming handling and practical TTK.',
+    'Baseline solida per chi vuole una carabina semplice e controllabile.',
+    'Solid baseline for players who want a simple controllable carbine.',
+    'Facile da usare, buona in molte distanze.',
+    'Easy to use and good across many distances.',
+    'Non dà lo stesso valore squad del KORD o della DRS-IAR.',
+    'Does not bring the same squad value as KORD or DRS-IAR.',
+    ['sheetonmyface', 'battlefieldmeta'],
+    0.62,
+  ),
+  m433: weapon(
+    'M433',
+    "Fucile d'assalto",
+    'Assault Rifle',
+    'primary',
+    'A',
+    77,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Buona arma default, ma in REDSEC non supera le opzioni S su armor fights.',
+    'Good default weapon, but in REDSEC it does not beat S picks in armor fights.',
+    'Pick accessibile per Assault quando mancano unlock avanzati.',
+    'Accessible Assault pick when advanced unlocks are missing.',
+    'Profilo bilanciato e prevedibile.',
+    'Balanced and predictable profile.',
+    'Rischia di essere superata da KORD, VCR-2 e carabine top.',
+    'Can be outclassed by KORD, VCR-2, and top carbines.',
+    ['sheetonmyface', 'battlefieldmeta'],
+    0.62,
+  ),
+  m250: weapon(
+    'M250',
+    'LMG',
+    'LMG',
+    'primary',
+    'A',
+    76,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Buona LMG di pressure; serve ingest dati per separarla bene da DRS/L110.',
+    'Good pressure LMG; data ingest is needed to separate it from DRS/L110 cleanly.',
+    'Alternativa se vuoi volume e controllo in fight lunghi.',
+    'Alternative when you want volume and control in long fights.',
+    'Tiene pressione e punisce rotate scoperte.',
+    'Maintains pressure and punishes exposed rotations.',
+    'Meno definita nel ruolo rispetto alle due LMG raccomandate.',
+    'Less role-defined than the two recommended LMGs.',
+    ['sheetonmyface', 'battlefieldmeta'],
+    0.6,
+  ),
+  sgx: weapon(
+    'SGX',
+    'SMG',
+    'SMG',
+    'primary',
+    'B',
+    71,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Forte in MP close, più situazionale in REDSEC per armor e spazi aperti.',
+    'Strong in close MP, more situational in REDSEC due to armor and open space.',
+    'Close-range puro quando vuoi movimento e hipfire.',
+    'Pure close-range when you want movement and hipfire.',
+    'Rapidissima in spazi stretti.',
+    'Extremely quick in tight spaces.',
+    'Crolla se il fight si allunga.',
+    'Falls off when the fight extends.',
+    ['sheetonmyface', 'battlefieldmeta'],
+    0.58,
+  ),
+  pw7a2: weapon(
+    'PW7A2',
+    'SMG',
+    'SMG',
+    'primary',
+    'B',
+    70,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Buona SMG, ma non abbastanza universale per essere pick default REDSEC.',
+    'Good SMG, but not universal enough to be a REDSEC default pick.',
+    'Close flex per edifici e finali stretti.',
+    'Close flex for buildings and tight endings.',
+    'Handling e pressione ravvicinata.',
+    'Handling and close pressure.',
+    'Troppo dipendente dal range.',
+    'Too range-dependent.',
+    ['sheetonmyface', 'battlefieldmeta'],
+    0.57,
+  ),
+  m2010: weapon(
+    'M2010 ESR',
+    'Cecchino',
+    'Sniper',
+    'primary',
+    'B',
+    68,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Sniper utile solo se il team sa convertire informazioni e armor crack.',
+    'Sniper is useful only if the team converts information and armor cracks.',
+    'Pick da Recon distanza, non da solo highlight.',
+    'Recon distance pick, not a solo highlight pick.',
+    'Forza riposizionamenti e taglia rotazioni.',
+    'Forces repositioning and cuts rotations.',
+    'In duo/quads può togliere troppo DPS al team.',
+    'In duos/quads it can remove too much team DPS.',
+    ['ea-classes', 'battlefieldmeta'],
+    0.55,
+  ),
+  m45a1: weapon(
+    'M45A1',
+    'Pistola',
+    'Pistol',
+    'secondary',
+    'A',
+    78,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Secondaria default per finire target rotti senza cambiare piano.',
+    'Default sidearm for finishing broken targets without changing the plan.',
+    'Pulizia affidabile dopo primary mag dump.',
+    'Reliable cleanup after a primary mag dump.',
+    'Buon equilibrio tra controllo e danno.',
+    'Good balance of control and damage.',
+    'Non deve mai sostituire una primaria nel piano fight.',
+    'It must never replace a primary in the fight plan.',
+    ['battlefieldmeta'],
+    0.6,
+  ),
+  es57: weapon(
+    'ES 5.7',
+    'Pistola',
+    'Pistol',
+    'secondary',
+    'B',
+    72,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Secondaria più permissiva quando vuoi colpi e controllo.',
+    'More forgiving sidearm when you want ammo and control.',
+    'Backup per Geniere/Support in fight disordinati.',
+    'Backup for Engineer/Support in messy fights.',
+    'Buona gestione colpi e follow-up.',
+    'Good ammo control and follow-up.',
+    'Meno burst di M44/M45A1.',
+    'Less burst than M44/M45A1.',
+    ['battlefieldmeta'],
+    0.56,
+  ),
+  m44: weapon(
+    'M44',
+    'Revolver',
+    'Revolver',
+    'secondary',
+    'A',
+    76,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'High-risk sidearm da Recon: forte per finish, pessima se missi.',
+    'High-risk Recon sidearm: strong for finish, poor if you miss.',
+    'Finire armor crack a distanza corta dopo DMR/sniper.',
+    'Finish armor cracks at short range after DMR/sniper pressure.',
+    'Alto danno e deterrenza.',
+    'High damage and deterrence.',
+    'Punisce mira sporca e panic swap.',
+    'Punishes sloppy aim and panic swaps.',
+    ['battlefieldmeta'],
+    0.54,
+  ),
+  p18: weapon(
+    'P18',
+    'Pistola',
+    'Pistol',
+    'secondary',
+    'C',
+    60,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    'Usabile come emergenza, ma non è una scelta meta REDSEC.',
+    'Usable as emergency backup, but not a REDSEC meta choice.',
+    'Solo backup iniziale prima degli unlock migliori.',
+    'Early backup before better unlocks.',
+    'Accessibile e semplice.',
+    'Accessible and simple.',
+    'Basso impatto contro armor.',
+    'Low impact against armor.',
+    ['battlefieldmeta'],
+    0.5,
+  ),
+}
+
+const primaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
+  metric,
+  attachments,
+})
+
+const secondaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
+  metric,
+  attachments,
+})
+
+const commonSidearm = {
+  m45: secondaryKit(weapons.m45a1, [
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+    term('Caricatore esteso', 'Extended Magazine'),
+    term('Compensatore leggero', 'Light Compensator'),
+  ]),
+  es57: secondaryKit(weapons.es57, [
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+    term('Caricatore esteso', 'Extended Magazine'),
+    term('Laser tattico', 'Tactical Laser'),
+  ]),
+  m44: secondaryKit(weapons.m44, [
+    term('Ottica pulita', 'Clean Sight'),
+    term('Munizioni pesanti', 'Heavy Ammunition'),
+    term('Grip controllo rinculo', 'Recoil Control Grip'),
+  ]),
+}
+
+const loadoutRegistry = new Map<string, Loadout>()
+
+const loadout = (
+  id: string,
+  labelIt: string,
+  labelEn: string,
+  summaryIt: string,
+  summaryEn: string,
+  primary: WeaponKit,
+  secondary: WeaponKit,
+  fieldSpec: LocalizedTerm,
+  skills: LocalizedTerm[],
+  gadgets: LocalizedTerm[],
+  engagement: Localized,
+  playbook: Localized[],
+  sourceIds: string[],
+  confidence: number,
+): Loadout => {
+  const entry = {
+    id,
+    label: { it: labelIt, en: labelEn },
+    summary: { it: summaryIt, en: summaryEn },
+    primary,
+    secondary,
+    fieldSpec,
+    skills,
+    gadgets,
+    engagement,
+    playbook,
+    sourceIds,
+    confidence,
+  }
+  loadoutRegistry.set(id, entry)
+  return entry
+}
+
+const kits = {
+  kordControl: primaryKit(weapons.kord, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Canna Prototype 415 mm', '415mm Prototype Barrel'),
+    term('Impugnatura verticale classica', 'Classic Vertical Grip'),
+    term('Caricatore 36 colpi', '36rnd Magazine'),
+    term('Ottica 3VZR 1,75x', '3VZR 1.75x'),
+  ]),
+  vcrEntry: primaryKit(weapons.vcr2, [
+    term('Compensatore tattico', 'Tactical Compensator'),
+    term('Canna corta reattiva', 'Reactive Short Barrel'),
+    term('Impugnatura angolata', 'Angled Grip'),
+    term('Caricatore rapido', 'Fast Magazine'),
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+  ]),
+  drsAnchor: primaryKit(weapons.drs, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Canna fluted 16,5"', '16.5" Fluted Barrel'),
+    term('Impugnatura 6H64 verticale', '6H64 Vertical Grip'),
+    term('Caricatore 36 colpi', '36rnd Magazine'),
+    term('Magwell flare', 'Magwell Flare'),
+  ]),
+  l110Mobile: primaryKit(weapons.l110, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Canna fluted 16,5"', '16.5" Fluted Barrel'),
+    term('Impugnatura 6H64 verticale', '6H64 Vertical Grip'),
+    term('Caricatore 36 colpi', '36rnd Magazine'),
+    term('Magwell flare', 'Magwell Flare'),
+  ]),
+  ak205Flex: primaryKit(weapons.ak205, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Munizioni Synthetic Tip', 'Synthetic Tip Ammunition'),
+    term('Ottica 3VZR 1,75x', '3VZR 1.75x'),
+    term('Caricatore 40 colpi', '40rnd Magazine'),
+    term('Freno compensato', 'Compensated Brake'),
+  ]),
+  scwClose: primaryKit(weapons.scw, [
+    term('Compensatore tattico', 'Tactical Compensator'),
+    term('Canna corta', 'Short Barrel'),
+    term('Laser tattico', 'Tactical Laser'),
+    term('Caricatore rapido', 'Fast Magazine'),
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+  ]),
+  m39Info: primaryKit(weapons.m39, [
+    term('Ottica 3VZR 1,75x o 2,50x', '3VZR 1.75x or 2.50x Scope'),
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Munizioni precisione', 'Precision Ammunition'),
+    term('Grip controllo rinculo', 'Recoil Control Grip'),
+    term('Caricatore esteso se disponibile', 'Extended Magazine when available'),
+  ]),
+  sg553Mobile: primaryKit(weapons.sg553, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Canna controllo rinculo', 'Recoil Control Barrel'),
+    term('Impugnatura verticale classica', 'Classic Vertical Grip'),
+    term('Caricatore 36 colpi', '36rnd Magazine'),
+    term('Ottica 3VZR 1,75x', '3VZR 1.75x'),
+  ]),
+}
+
+const skills = {
+  frontliner: [
+    term('Frontliner / Prima linea', 'Frontliner'),
+    term('Rally Squad', 'Rally Squad'),
+    term('Adrenaline timing', 'Adrenaline timing'),
+  ],
+  breacher: [
+    term('Breacher / Sfondamento', 'Breacher'),
+    term('Entry utility', 'Entry utility'),
+    term('Beacon disciplinato', 'Disciplined beacon'),
+  ],
+  medic: [
+    term('Combat Medic / Medico da combattimento', 'Combat Medic'),
+    term('Revive sotto smoke', 'Smoke revive'),
+    term('Ammo e armor economy', 'Ammo and armor economy'),
+  ],
+  fireSupport: [
+    term('Fire Support / Fuoco di supporto', 'Fire Support'),
+    term('Lane suppression', 'Lane suppression'),
+    term('Crossfire lento', 'Slow crossfire'),
+  ],
+  antiArmor: [
+    term('Anti-Armour / Anti-corazza', 'Anti-Armour'),
+    term('Vehicle denial', 'Vehicle denial'),
+    term('Launcher discipline', 'Launcher discipline'),
+  ],
+  combatEngineer: [
+    term('Combat Engineer / Geniere da combattimento', 'Combat Engineer'),
+    term('Repair tempo', 'Repair tempo'),
+    term('Close defense', 'Close defense'),
+  ],
+  specOps: [
+    term('Spec Ops / Forze speciali', 'Spec Ops'),
+    term('Motion info', 'Motion info'),
+    term('Rotazioni silenziose', 'Silent rotations'),
+  ],
 }
 
 export const modePlans: Record<ModeId, ModePlan> = {
@@ -292,17 +760,17 @@ export const modePlans: Record<ModeId, ModePlan> = {
       en: 'Ranked-ready squad template: sustain, anti-vehicle, information, entry.',
     },
     squadLogic: {
-      it: 'Un solo entry, un solo anchor, un solo anti-vehicle e un solo info player. Non duplicare ruoli prima di coprire revive, armor, veicoli e ping.',
-      en: 'One entry, one anchor, one anti-vehicle, and one information player. Do not duplicate roles before covering revive, armor, vehicles, and pings.',
+      it: 'Un solo entry, un solo anchor, un solo anti-vehicle e un solo info player. Ogni ruolo ha una primaria, una secondaria e una coppia alternativa completa.',
+      en: 'One entry, one anchor, one anti-vehicle, and one information player. Every role has one primary, one sidearm, and one complete alternative pair.',
     },
     season3Note: {
-      it: 'Season 3 introduce Ranked Battle Royale Quads il 12 maggio 2026. Questa struttura è pronta per ranking, ma i valori delle armi vanno ricontrollati dopo le note complete.',
+      it: 'Season 3 introduce Ranked Battle Royale Quads il 12 maggio 2026. La struttura è pronta per ranking, ma i valori delle armi vanno ricontrollati dopo le note complete.',
       en: 'Season 3 introduces Ranked Battle Royale Quads on May 12, 2026. This structure is ranked-ready, but weapon values need revalidation after full notes.',
     },
     sourceIds: ['ea-redsec-armor', 'ea-season3', 'ea-classes', 'sym-bf6', 'sheetonmyface'],
     pressureRules: [
       {
-        it: 'Se il fight è aperto, non chaseare armor crack: Recon marca, Support tiene crossfire, Engineer controlla veicoli.',
+        it: 'Se il fight è aperto, non chaseare armor crack: Recon marca, Support tiene crossfire, Geniere controlla veicoli.',
         en: 'If the fight is open, do not chase armor cracks: Recon marks, Support holds crossfire, Engineer controls vehicles.',
       },
       {
@@ -310,7 +778,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
         en: 'If the fight is under 20 m, Assault calls the entry and Support smoke/defib holds the reset.',
       },
       {
-        it: 'Un veicolo vicino cambia la priorità: Engineer non fa entry, gioca angoli e conserva utility.',
+        it: 'Un veicolo vicino cambia la priorità: Geniere non fa entry, gioca angoli e conserva utility.',
         en: 'A nearby vehicle changes priority: Engineer stops entrying, plays angles, and preserves utility.',
       },
     ],
@@ -324,41 +792,77 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Open fights, call focus targets, and create spawn pressure without isolating.',
         },
         swapRule: {
-          it: 'Swap VCR-2 solo se il piano è push indoor o final circle stretto.',
-          en: 'Swap to VCR-2 only for indoor pushes or tight final circles.',
+          it: 'Default KORD. Passa a VCR-2 solo se il piano è indoor o final circle stretto.',
+          en: 'Default KORD. Swap to VCR-2 only for indoor plans or tight final circles.',
         },
-        build: {
-          primary: weapons.kord,
-          alternative: weapons.vcr2,
-          fieldSpec: attachment('Frontliner / Prima linea', 'Frontliner'),
-          attachments: [
-            attachment('Silenziatore lungo', 'Long Suppressor'),
-            attachment('Canna Prototype 415 mm', '415mm Prototype Barrel'),
-            attachment('Impugnatura verticale classica', 'Classic Vertical Grip'),
-            attachment('Caricatore 36 colpi', '36rnd Magazine'),
-            attachment('Ottica 3VZR 1,75x', '3VZR 1.75x'),
-          ],
-          gadgets: [
-            attachment('Adrenaline Injector', 'Adrenaline Injector'),
-            attachment('Deploy Beacon / Faro di schieramento', 'Deploy Beacon'),
-            attachment('Granata flash o smoke', 'Flash or Smoke Grenade'),
-          ],
-          engagement: { it: '15-55 m, burst corti oltre 45 m', en: '15-55 m, short bursts past 45 m' },
-          playbook: [
-            {
-              it: 'Non entri per primo se Support non ha linea revive o smoke pronta.',
-              en: 'Do not enter first unless Support has revive line or smoke ready.',
-            },
-            {
-              it: 'Armor crack va chiamato con direzione e distanza, non solo con il nome arma.',
-              en: 'Call armor cracks with direction and range, not only the weapon name.',
-            },
-            {
-              it: 'Se perdi trade iniziale, beacon e reset valgono più di una kill forzata.',
-              en: 'If the opening trade fails, beacon and reset are worth more than a forced kill.',
-            },
-          ],
-        },
+        loadouts: [
+          loadout(
+            'assault-kord',
+            'Meta controllo',
+            'Control meta',
+            'Primaria KORD + M45A1: build da ranked REDSEC per entry che non vuole morire fuori range.',
+            'KORD primary + M45A1: ranked REDSEC entry build that does not collapse outside close range.',
+            kits.kordControl,
+            commonSidearm.m45,
+            term('Frontliner / Prima linea', 'Frontliner'),
+            skills.frontliner,
+            [
+              term('Adrenaline Injector', 'Adrenaline Injector'),
+              term('Deploy Beacon / Faro di schieramento', 'Deploy Beacon'),
+              term('Granata flash o smoke', 'Flash or Smoke Grenade'),
+            ],
+            { it: '15-55 m, burst corti oltre 45 m', en: '15-55 m, short bursts past 45 m' },
+            [
+              {
+                it: 'Non entri per primo se Support non ha linea revive o smoke pronta.',
+                en: 'Do not enter first unless Support has revive line or smoke ready.',
+              },
+              {
+                it: 'Armor crack va chiamato con direzione e distanza, non solo con il nome arma.',
+                en: 'Call armor cracks with direction and range, not only the weapon name.',
+              },
+              {
+                it: 'Se perdi trade iniziale, beacon e reset valgono più di una kill forzata.',
+                en: 'If the opening trade fails, beacon and reset are worth more than a forced kill.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
+            0.82,
+          ),
+          loadout(
+            'assault-vcr',
+            'Alternativa close',
+            'Close alternative',
+            'VCR-2 + ES 5.7: coppia aggressiva per edifici, tunnel e final circle chiusi.',
+            'VCR-2 + ES 5.7: aggressive pair for buildings, tunnels, and tight final circles.',
+            kits.vcrEntry,
+            commonSidearm.es57,
+            term('Breacher / Sfondamento', 'Breacher'),
+            skills.breacher,
+            [
+              term('Adrenaline Injector', 'Adrenaline Injector'),
+              term('Deploy Beacon / Faro di schieramento', 'Deploy Beacon'),
+              term('Granata flash', 'Flash Grenade'),
+            ],
+            { it: '5-30 m, non accettare lane lunghe', en: '5-30 m, do not accept long lanes' },
+            [
+              {
+                it: 'Entra solo con utility: flash o smoke prima del wide swing.',
+                en: 'Enter only with utility: flash or smoke before the wide swing.',
+              },
+              {
+                it: 'Se il fight si apre, riprendi cover e lascia lavorare Support/Recon.',
+                en: 'If the fight opens up, retake cover and let Support/Recon work.',
+              },
+              {
+                it: 'La secondaria serve per finish dopo mag dump, non per riaprire il fight.',
+                en: 'The sidearm is for cleanup after a mag dump, not for reopening the fight.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
+            0.72,
+          ),
+        ],
       },
       {
         id: 'support-anchor',
@@ -369,41 +873,77 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Keep the team alive, cover revives, and win long armor fights.',
         },
         swapRule: {
-          it: 'Swap L110 se vuoi meno peso e più pressione in rotazione.',
-          en: 'Swap to L110 for lighter pressure while rotating.',
+          it: 'Default DRS-IAR. Passa a L110 se vuoi più mobilità in rotate e trade.',
+          en: 'Default DRS-IAR. Swap to L110 when you need more rotation and trade mobility.',
         },
-        build: {
-          primary: weapons.drs,
-          alternative: weapons.l110,
-          fieldSpec: attachment('Combat Medic / Medico da combattimento', 'Combat Medic'),
-          attachments: [
-            attachment('Silenziatore lungo', 'Long Suppressor'),
-            attachment('Canna fluted 16,5"', '16.5" Fluted Barrel'),
-            attachment('Impugnatura 6H64 verticale', '6H64 Vertical Grip'),
-            attachment('Caricatore 36 colpi', '36rnd Magazine'),
-            attachment('Magwell flare', 'Magwell Flare'),
-          ],
-          gadgets: [
-            attachment('Supply Bag / Borsa rifornimenti', 'Supply Bag'),
-            attachment('Defibrillatore', 'Defibrillator'),
-            attachment('Smoke launcher o granata smoke', 'Smoke Launcher or Smoke Grenade'),
-          ],
-          engagement: { it: '25-80 m, tieni crossfire e cover revive', en: '25-80 m, hold crossfire and revive cover' },
-          playbook: [
-            {
-              it: 'Il tuo danno migliore è quello che impedisce al nemico di finire un down.',
-              en: 'Your best damage is the damage that stops enemies from finishing a down.',
-            },
-            {
-              it: 'Non sprecare smoke per push ciechi: prima chiudi linee sniper/DMR, poi revive.',
-              en: 'Do not waste smoke for blind pushes: block sniper/DMR lines first, then revive.',
-            },
-            {
-              it: 'Supply Bag e armor economy sono il motivo per cui il team resta nel match.',
-              en: 'Supply Bag and armor economy are why the squad stays in the match.',
-            },
-          ],
-        },
+        loadouts: [
+          loadout(
+            'support-drs',
+            'Medic anchor',
+            'Medic anchor',
+            'DRS-IAR + M45A1: loadout da revive economy, crossfire e fight lunghi.',
+            'DRS-IAR + M45A1: revive economy, crossfire, and long-fight loadout.',
+            kits.drsAnchor,
+            commonSidearm.m45,
+            term('Combat Medic / Medico da combattimento', 'Combat Medic'),
+            skills.medic,
+            [
+              term('Supply Bag / Borsa rifornimenti', 'Supply Bag'),
+              term('Defibrillatore', 'Defibrillator'),
+              term('Smoke launcher o granata smoke', 'Smoke Launcher or Smoke Grenade'),
+            ],
+            { it: '25-80 m, tieni crossfire e cover revive', en: '25-80 m, hold crossfire and revive cover' },
+            [
+              {
+                it: 'Il tuo danno migliore è quello che impedisce al nemico di finire un down.',
+                en: 'Your best damage is the damage that stops enemies from finishing a down.',
+              },
+              {
+                it: 'Non sprecare smoke per push ciechi: prima chiudi linee sniper/DMR, poi revive.',
+                en: 'Do not waste smoke for blind pushes: block sniper/DMR lines first, then revive.',
+              },
+              {
+                it: 'Supply Bag e armor economy sono il motivo per cui il team resta nel match.',
+                en: 'Supply Bag and armor economy are why the squad stays in the match.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
+            0.8,
+          ),
+          loadout(
+            'support-l110',
+            'Alternativa mobile',
+            'Mobile alternative',
+            'L110 + ES 5.7: più leggera per squad che ruotano aggressivamente.',
+            'L110 + ES 5.7: lighter pair for squads that rotate aggressively.',
+            kits.l110Mobile,
+            commonSidearm.es57,
+            term('Fire Support / Fuoco di supporto', 'Fire Support'),
+            skills.fireSupport,
+            [
+              term('Supply Bag / Borsa rifornimenti', 'Supply Bag'),
+              term('Defibrillatore', 'Defibrillator'),
+              term('Granata smoke', 'Smoke Grenade'),
+            ],
+            { it: '15-65 m, pressione continua in movimento', en: '15-65 m, moving sustained pressure' },
+            [
+              {
+                it: 'Gioca più vicino all entry, ma non trasformarti in primo uomo.',
+                en: 'Play closer to the entry, but do not become the first man in.',
+              },
+              {
+                it: 'Il reload va coperto: comunica quando perdi volume di fuoco.',
+                en: 'Reloads need cover: call when your fire volume drops.',
+              },
+              {
+                it: 'Se il team è rotto, torna immediatamente in modalità medic anchor.',
+                en: 'If the team breaks, immediately return to medic-anchor mode.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
+            0.72,
+          ),
+        ],
       },
       {
         id: 'engineer-av',
@@ -414,41 +954,77 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Deny tanks, transports, and vehicle third parties without losing infantry duels.',
         },
         swapRule: {
-          it: 'Swap SCW-10 solo in bunker/tunnel; fuori, tieni AK-205.',
-          en: 'Swap to SCW-10 only in bunkers/tunnels; outside, keep AK-205.',
+          it: 'Default AK-205. Passa a SCW-10 solo se il cerchio è bunker/tunnel.',
+          en: 'Default AK-205. Swap to SCW-10 only when the circle is bunker/tunnel heavy.',
         },
-        build: {
-          primary: weapons.ak205,
-          alternative: weapons.scw,
-          fieldSpec: attachment('Anti-Armour / Anti-corazza', 'Anti-Armour'),
-          attachments: [
-            attachment('Silenziatore lungo', 'Long Suppressor'),
-            attachment('Munizioni Synthetic Tip', 'Synthetic Tip Ammunition'),
-            attachment('Ottica 3VZR 1,75x', '3VZR 1.75x'),
-            attachment('Caricatore 40 colpi', '40rnd Magazine'),
-            attachment('Freno compensato', 'Compensated Brake'),
-          ],
-          gadgets: [
-            attachment('Repair Tool / Strumento riparazione', 'Repair Tool'),
-            attachment('Launcher anti-veicolo', 'Anti-Vehicle Launcher'),
-            attachment('Mine anti-veicolo o utility smoke', 'Anti-Vehicle Mine or Smoke Utility'),
-          ],
-          engagement: { it: '25-70 m infantry, utility vs veicoli', en: '25-70 m infantry, utility against vehicles' },
-          playbook: [
-            {
-              it: 'Non sparare il launcher per chip damage se il team non può followuppare.',
-              en: 'Do not fire launcher chip damage unless the squad can follow up.',
-            },
-            {
-              it: 'Quando un tank entra audio range, smetti di flankare e giochi counterplay.',
-              en: 'When a tank enters audio range, stop flanking and play counterplay.',
-            },
-            {
-              it: 'Se Support è down, la tua vita vale più del veicolo nemico.',
-              en: 'If Support is down, your life is worth more than the enemy vehicle.',
-            },
-          ],
-        },
+        loadouts: [
+          loadout(
+            'engineer-ak',
+            'Flex AV',
+            'Flex AV',
+            'AK-205 + ES 5.7: anti-vehicle senza perdere consistenza infantry.',
+            'AK-205 + ES 5.7: anti-vehicle without losing infantry consistency.',
+            kits.ak205Flex,
+            commonSidearm.es57,
+            term('Anti-Armour / Anti-corazza', 'Anti-Armour'),
+            skills.antiArmor,
+            [
+              term('Repair Tool / Strumento riparazione', 'Repair Tool'),
+              term('Launcher anti-veicolo', 'Anti-Vehicle Launcher'),
+              term('Mine anti-veicolo o utility smoke', 'Anti-Vehicle Mine or Smoke Utility'),
+            ],
+            { it: '25-70 m infantry, utility vs veicoli', en: '25-70 m infantry, utility against vehicles' },
+            [
+              {
+                it: 'Non sparare il launcher per chip damage se il team non può followuppare.',
+                en: 'Do not fire launcher chip damage unless the squad can follow up.',
+              },
+              {
+                it: 'Quando un tank entra audio range, smetti di flankare e giochi counterplay.',
+                en: 'When a tank enters audio range, stop flanking and play counterplay.',
+              },
+              {
+                it: 'Se Support è down, la tua vita vale più del veicolo nemico.',
+                en: 'If Support is down, your life is worth more than the enemy vehicle.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
+            0.78,
+          ),
+          loadout(
+            'engineer-scw',
+            'Alternativa bunker',
+            'Bunker alternative',
+            'SCW-10 + M45A1: difesa close e push da strutture quando i veicoli contano meno.',
+            'SCW-10 + M45A1: close defense and structure pushes when vehicles matter less.',
+            kits.scwClose,
+            commonSidearm.m45,
+            term('Combat Engineer / Geniere da combattimento', 'Combat Engineer'),
+            skills.combatEngineer,
+            [
+              term('Repair Tool / Strumento riparazione', 'Repair Tool'),
+              term('Launcher anti-veicolo', 'Anti-Vehicle Launcher'),
+              term('Granata smoke', 'Smoke Grenade'),
+            ],
+            { it: '5-25 m, angoli stretti e cover dura', en: '5-25 m, tight angles and hard cover' },
+            [
+              {
+                it: 'Vinci tenendo angoli sporchi, non inseguendo player in campo aperto.',
+                en: 'Win by holding dirty angles, not by chasing players in the open.',
+              },
+              {
+                it: 'La build close non ti libera dal dovere anti-veicolo.',
+                en: 'The close build does not remove your anti-vehicle duty.',
+              },
+              {
+                it: 'Se il cerchio si apre, torna AK-205 appena possibile.',
+                en: 'If the circle opens up, return to AK-205 as soon as possible.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'battlefieldmeta'],
+            0.72,
+          ),
+        ],
       },
       {
         id: 'recon-info',
@@ -459,41 +1035,77 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Provide information, cut rotations, and turn armor cracks into clean wipes.',
         },
         swapRule: {
-          it: 'Swap SG-553R se il cerchio obbliga a combattere in movimento.',
-          en: 'Swap to SG-553R if the circle forces mobile fighting.',
+          it: 'Default M39 se giochi info e distanza. SG-553R se il cerchio obbliga movimento.',
+          en: 'Default M39 for information and range. SG-553R when the circle forces movement.',
         },
-        build: {
-          primary: weapons.m39,
-          alternative: weapons.sg553,
-          fieldSpec: attachment('Spec Ops / Forze speciali', 'Spec Ops'),
-          attachments: [
-            attachment('Ottica 3VZR 1,75x o 2,50x', '3VZR 1.75x or 2.50x Scope'),
-            attachment('Silenziatore lungo', 'Long Suppressor'),
-            attachment('Munizioni precisione', 'Precision Ammunition'),
-            attachment('Grip controllo rinculo', 'Recoil Control Grip'),
-            attachment('Caricatore esteso se disponibile', 'Extended Magazine when available'),
-          ],
-          gadgets: [
-            attachment('Motion Sensor / Sensore movimento', 'Motion Sensor'),
-            attachment('Recon Drone', 'Recon Drone'),
-            attachment('Tracer Dart o Demolition Charge', 'Tracer Dart or Demolition Charge'),
-          ],
-          engagement: { it: '35-110 m, info prima del danno', en: '35-110 m, information before damage' },
-          playbook: [
-            {
-              it: 'Non fare il secondo sniper: sei la minimappa vivente del team.',
-              en: 'Do not become a second sniper: you are the squad live minimap.',
-            },
-            {
-              it: 'Ping e direzione contano più del danno quando il team sta ruotando.',
-              en: 'Pings and direction matter more than damage while the squad rotates.',
-            },
-            {
-              it: 'Il drone è più raro dopo Season 3 tuning: usalo per rotate e finali, non per curiosità.',
-              en: 'Drone uptime is tighter after Season 3 tuning: use it for rotations and endings, not curiosity.',
-            },
-          ],
-        },
+        loadouts: [
+          loadout(
+            'recon-m39',
+            'Info DMR',
+            'Info DMR',
+            'M39 EMR + M44: pressione a distanza e finish su armor crack.',
+            'M39 EMR + M44: range pressure and armor-crack finish.',
+            kits.m39Info,
+            commonSidearm.m44,
+            term('Spec Ops / Forze speciali', 'Spec Ops'),
+            skills.specOps,
+            [
+              term('Motion Sensor / Sensore movimento', 'Motion Sensor'),
+              term('Recon Drone', 'Recon Drone'),
+              term('Tracer Dart o Demolition Charge', 'Tracer Dart or Demolition Charge'),
+            ],
+            { it: '35-110 m, info prima del danno', en: '35-110 m, information before damage' },
+            [
+              {
+                it: 'Non fare il secondo sniper: sei la minimappa vivente del team.',
+                en: 'Do not become a second sniper: you are the squad live minimap.',
+              },
+              {
+                it: 'Ping e direzione contano più del danno quando il team sta ruotando.',
+                en: 'Pings and direction matter more than damage while the squad rotates.',
+              },
+              {
+                it: 'Il drone è più raro dopo Season 3 tuning: usalo per rotate e finali, non per curiosità.',
+                en: 'Drone uptime is tighter after Season 3 tuning: use it for rotations and endings, not curiosity.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
+            0.68,
+          ),
+          loadout(
+            'recon-sg553',
+            'Alternativa mobile',
+            'Mobile alternative',
+            'SG-553R + M45A1: Recon che resta nel fight quando la zona si chiude.',
+            'SG-553R + M45A1: Recon that stays in the fight when zone closes.',
+            kits.sg553Mobile,
+            commonSidearm.m45,
+            term('Spec Ops / Forze speciali', 'Spec Ops'),
+            skills.specOps,
+            [
+              term('Motion Sensor / Sensore movimento', 'Motion Sensor'),
+              term('Recon Drone', 'Recon Drone'),
+              term('Granata smoke', 'Smoke Grenade'),
+            ],
+            { it: '20-65 m, info e trade in movimento', en: '20-65 m, information and moving trades' },
+            [
+              {
+                it: 'Usa motion info per entrare secondo, mai per ego-push ciechi.',
+                en: 'Use motion info to enter second, never for blind ego-pushes.',
+              },
+              {
+                it: 'La carabina ti rende più utile nel wipe, ma non sostituisce il lavoro di info.',
+                en: 'The carbine makes you more useful in wipes, but does not replace information work.',
+              },
+              {
+                it: 'Se perdi visione, rallenta: senza info sei solo un secondo Assault.',
+                en: 'If you lose vision, slow down: without info you are just a second Assault.',
+              },
+            ],
+            ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
+            0.74,
+          ),
+        ],
       },
     ],
   },
@@ -519,7 +1131,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
         en: 'Without Support, every lost trade becomes a coin flip. Not recommended.',
       },
       {
-        it: 'Engineer è la scelta default se la lobby usa mezzi; Recon è il default se la lobby è infantry-heavy.',
+        it: 'Geniere è la scelta default se la lobby usa mezzi; Recon è il default se la lobby è infantry-heavy.',
         en: 'Engineer is default when the lobby uses vehicles; Recon is default when it is infantry-heavy.',
       },
       {
@@ -537,41 +1149,13 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Keep the duo alive and turn every down into a reset, not panic.',
         },
         swapRule: {
-          it: 'Swap L110 se giochi molto mobile e non tieni lane lunghe.',
-          en: 'Swap to L110 if you play mobile and do not hold long lanes.',
+          it: 'Default DRS-IAR. L110 solo se il duo gioca molto mobile.',
+          en: 'Default DRS-IAR. L110 only when the duo plays very mobile.',
         },
-        build: {
-          primary: weapons.drs,
-          alternative: weapons.l110,
-          fieldSpec: attachment('Combat Medic / Medico da combattimento', 'Combat Medic'),
-          attachments: [
-            attachment('Silenziatore lungo', 'Long Suppressor'),
-            attachment('Canna fluted 16,5"', '16.5" Fluted Barrel'),
-            attachment('Impugnatura 6H64 verticale', '6H64 Vertical Grip'),
-            attachment('Caricatore 36 colpi', '36rnd Magazine'),
-            attachment('Magwell flare', 'Magwell Flare'),
-          ],
-          gadgets: [
-            attachment('Supply Bag / Borsa rifornimenti', 'Supply Bag'),
-            attachment('Defibrillatore', 'Defibrillator'),
-            attachment('Smoke launcher o smoke', 'Smoke Launcher or Smoke'),
-          ],
-          engagement: { it: '20-75 m, gioca sempre secondo angolo', en: '20-75 m, always play the second angle' },
-          playbook: [
-            {
-              it: 'Il tuo compagno può prendere spazio solo se tu puoi chiudere revive o trade.',
-              en: 'Your partner can take space only if you can close revive or trade.',
-            },
-            {
-              it: 'Non curare nel mezzo della linea: smoke, drag, revive, poi armor.',
-              en: 'Do not heal in the open: smoke, drag, revive, then armor.',
-            },
-            {
-              it: "Se siete inseguiti, rallenta il fight con LMG e costringi l'altro team a sprecare plate.",
-              en: 'If chased, slow the fight with LMG pressure and force the other team to spend plates.',
-            },
-          ],
-        },
+        loadouts: [
+          modePlansPlaceholder('support-drs'),
+          modePlansPlaceholder('support-l110'),
+        ],
       },
       {
         id: 'engineer-duo',
@@ -585,56 +1169,46 @@ export const modePlans: Record<ModeId, ModePlan> = {
           it: 'Unica alternativa seria: Recon Spec Ops con SG-553R se la lobby è solo infantry.',
           en: 'Only serious alternative: Recon Spec Ops with SG-553R if the lobby is infantry-only.',
         },
-        build: {
-          primary: weapons.ak205,
-          alternative: weapons.sg553,
-          fieldSpec: attachment('Anti-Armour / Anti-corazza', 'Anti-Armour'),
-          attachments: [
-            attachment('Silenziatore lungo', 'Long Suppressor'),
-            attachment('Munizioni Synthetic Tip', 'Synthetic Tip Ammunition'),
-            attachment('Ottica 3VZR 1,75x', '3VZR 1.75x'),
-            attachment('Caricatore 40 colpi', '40rnd Magazine'),
-            attachment('Freno compensato', 'Compensated Brake'),
-          ],
-          gadgets: [
-            attachment('Repair Tool / Strumento riparazione', 'Repair Tool'),
-            attachment('Launcher anti-veicolo', 'Anti-Vehicle Launcher'),
-            attachment('Mine o utility smoke', 'Mine or Smoke Utility'),
-          ],
-          engagement: { it: '25-70 m, fight scelti e mai trade inutili', en: '25-70 m, chosen fights and no wasted trades' },
-          playbook: [
-            {
-              it: 'Tu sei il radar dei rischi: veicoli, third-party e angoli non coperti.',
-              en: 'You are the risk radar: vehicles, third parties, and uncovered angles.',
-            },
-            {
-              it: 'Se Support cade, non ego-challengeare. Smoke, reposition, revive route.',
-              en: 'If Support falls, do not ego-challenge. Smoke, reposition, revive route.',
-            },
-            {
-              it: 'Il duo vince quando rompe armor e forza il team nemico a entrare in due linee di tiro.',
-              en: 'The duo wins when it cracks armor and forces the enemy team into two firing lines.',
-            },
-          ],
-        },
+        loadouts: [
+          modePlansPlaceholder('engineer-ak'),
+          modePlansPlaceholder('recon-sg553'),
+        ],
       },
     ],
   },
 }
 
+function modePlansPlaceholder(loadoutId: string): Loadout {
+  const found = loadoutRegistry.get(loadoutId)
+  if (!found) {
+    throw new Error(`Missing loadout ${loadoutId}`)
+  }
+  return found
+}
+
+export const metaWeapons = Object.values(weapons).sort((a, b) => {
+  const tierRank: Record<Tier, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D: 5 }
+  return tierRank[a.tier] - tierRank[b.tier] || b.redsecScore - a.redsecScore
+})
+
 export const copy = {
   appName: { it: 'BF6 Bible', en: 'BF6 Bible' },
   redsecQuestion: { it: 'Giochi a REDSEC?', en: 'Playing REDSEC?' },
-  dataStatus: { it: 'Seed dati v0.1 - aggiornato 2 maggio 2026', en: 'Data seed v0.1 - updated May 2, 2026' },
+  dataStatus: { it: 'Seed dati v0.2 - aggiornato 2 maggio 2026', en: 'Data seed v0.2 - updated May 2, 2026' },
   rankedSoon: { it: 'Ranked Quads pronto per Season 3', en: 'Ranked Quads ready for Season 3' },
-  mode: { it: 'Modalita', en: 'Mode' },
+  mode: { it: 'Modalità', en: 'Mode' },
   squadComp: { it: 'Composizione', en: 'Composition' },
   sourceConfidence: { it: 'Confidenza fonte', en: 'Source confidence' },
   primary: { it: 'Primaria', en: 'Primary' },
-  alternative: { it: 'Alternativa', en: 'Alternative' },
+  secondary: { it: 'Secondaria', en: 'Secondary' },
+  alternativeLoadout: { it: 'Loadout alternativo', en: 'Alternative loadout' },
+  chooseLoadout: { it: 'Scegli loadout', en: 'Choose loadout' },
+  buildPrimary: { it: 'Build primaria', en: 'Primary build' },
+  buildSecondary: { it: 'Build secondaria', en: 'Secondary build' },
   build: { it: 'Build', en: 'Build' },
   gadgets: { it: 'Gadget', en: 'Gadgets' },
-  fieldSpec: { it: 'Skill / Field Spec', en: 'Skill / Field Spec' },
+  fieldSpec: { it: 'Field Spec', en: 'Field Spec' },
+  recommendedSkills: { it: 'Skill consigliate', en: 'Recommended skills' },
   playbook: { it: 'Come giocarla', en: 'How to play it' },
   engagement: { it: 'Range', en: 'Range' },
   swapRule: { it: 'Regola swap', en: 'Swap rule' },
@@ -642,9 +1216,18 @@ export const copy = {
   metrics: { it: 'Metriche', en: 'Metrics' },
   ttk: { it: 'TTK MP base', en: 'Base MP TTK' },
   stk: { it: 'STK', en: 'STK' },
+  rpm: { it: 'RPM', en: 'RPM' },
+  mag: { it: 'Mag', en: 'Mag' },
   redsecUse: { it: 'Uso REDSEC', en: 'REDSEC use' },
   strength: { it: 'Perché funziona', en: 'Why it works' },
   risk: { it: 'Rischio', en: 'Risk' },
+  tierReason: { it: 'Razionale tier', en: 'Tier rationale' },
+  redsecScore: { it: 'REDSEC score', en: 'REDSEC score' },
+  metaTier: { it: 'Meta Tier armi', en: 'Weapon Meta Tier' },
+  metaTierSubtitle: {
+    it: 'Tier REDSEC v0.2: combina TTK/STK dove disponibili, controllo, armor value, range reale e ruolo in squad.',
+    en: 'REDSEC tier v0.2: combines TTK/STK where available, control, armor value, real range, and squad role.',
+  },
   soloLocked: { it: 'Solo: placeholder Season 3', en: 'Solos: Season 3 placeholder' },
   sourceStack: { it: 'Stack fonti', en: 'Source stack' },
 }
