@@ -127,23 +127,6 @@ function formatAttachmentPoints(items: LocalizedTerm[]) {
   return total !== undefined ? `${total}/100` : undefined
 }
 
-function battlefieldMetaUrl(weaponName: string) {
-  const aliases = new Map<string, string>([
-    ['MINIFIX', 'mini-scout'],
-    ['SOR300C', 'sor-300sc'],
-  ])
-  const normalized = normalizeWeaponName(weaponName)
-  const slug =
-    aliases.get(normalized) ??
-    weaponName
-      .toLowerCase()
-      .replace(/\+/g, 'plus')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-|-$/g, '')
-
-  return `https://battlefieldmeta.gg/best-loadouts/${slug}`
-}
-
 function roleIcon(roleId: string) {
   if (roleId.includes('support')) return <Stethoscope aria-hidden="true" />
   if (roleId.includes('engineer')) return <Wrench aria-hidden="true" />
@@ -167,13 +150,25 @@ function Term({ value, lang }: { value: LocalizedTerm; lang: Lang }) {
   )
 }
 
-function AttachmentBlock({ title, kit, lang }: { title: Localized; kit: WeaponKit; lang: Lang }) {
+function AttachmentBlock({
+  title,
+  kit,
+  lang,
+  highlighted = false,
+}: {
+  title: Localized
+  kit: WeaponKit
+  lang: Lang
+  highlighted?: boolean
+}) {
   const points = formatAttachmentPoints(kit.attachments)
 
   return (
-    <section>
+    <section className={highlighted ? 'build-section highlighted' : 'build-section'}>
       <h3 className="build-heading">
-        <span>{t(title, lang)}</span>
+        <span>
+          {t(title, lang)} · {t(kit.metric.weapon.name, lang)}
+        </span>
         {points ? <small>{points}</small> : <small>{t(copy.buildPending, lang)}</small>}
       </h3>
       <div className="chips">
@@ -189,7 +184,6 @@ function SourcePill({ source, lang }: { source: Source; lang: Lang }) {
   return (
     <a className={`source-pill ${source.kind}`} href={source.url} target="_blank" rel="noreferrer">
       <span>{source.label}</span>
-      <small>{Math.round(source.weight * 100)}%</small>
       <ExternalLink aria-hidden="true" />
       <span className="sr-only">{t(source.note, lang)}</span>
     </a>
@@ -506,6 +500,9 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
             >
               <span>{index === 0 ? t(copy.primary, lang) : t(copy.alternativeLoadout, lang)}</span>
               <strong>{t(loadout.label, lang)}</strong>
+              <em>
+                {t(loadout.primary.metric.weapon.name, lang)} + {t(loadout.secondary.metric.weapon.name, lang)}
+              </em>
             </button>
           ))}
         </div>
@@ -660,36 +657,45 @@ function collectMetaBuildLinks(): MetaBuildLink[] {
 
 function MetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
   const buildSources = Array.from(
-    new Set([...build.loadout.sourceIds, ...build.kit.metric.sourceIds, 'battlefieldmeta']),
+    new Set([
+      ...build.loadout.sourceIds,
+      ...build.loadout.primary.metric.sourceIds,
+      ...build.loadout.secondary.metric.sourceIds,
+      'battlefieldmeta',
+    ]),
   )
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
-  const points = formatAttachmentPoints(build.kit.attachments)
-  const localSlotLabel = build.slot === 'primary' ? copy.primary : copy.secondary
+  const openedSlotLabel = build.slot === 'primary' ? copy.primary : copy.secondary
+  const primaryPoints = formatAttachmentPoints(build.loadout.primary.attachments)
+  const secondaryPoints = formatAttachmentPoints(build.loadout.secondary.attachments)
 
   return (
     <aside className="meta-build-panel" id={`build-${build.key}`}>
       <div className="meta-build-title">
         <div>
           <span>{t(copy.bestBuild, lang)}</span>
-          <h3>{t(build.kit.metric.weapon.name, lang)}</h3>
+          <h3>
+            {t(build.loadout.primary.metric.weapon.name, lang)} + {t(build.loadout.secondary.metric.weapon.name, lang)}
+          </h3>
         </div>
-        <a href={battlefieldMetaUrl(build.kit.metric.weapon.name.en)} target="_blank" rel="noreferrer">
-          <ExternalLink aria-hidden="true" />
-          <span>{t(copy.externalBuild, lang)}</span>
-        </a>
       </div>
       <div className="meta-build-context">
         <span>{t(build.modeTitle, lang)}</span>
         <span>{t(build.roleClassName, lang)}</span>
         <span>{t(build.roleCallSign, lang)}</span>
-        <span>{t(localSlotLabel, lang)}</span>
-        {points ? <strong>{points}</strong> : <strong>{t(copy.buildPending, lang)}</strong>}
+        <span>
+          {t(copy.openedFrom, lang)}: {t(openedSlotLabel, lang)}
+        </span>
+        <strong>
+          {primaryPoints ?? t(copy.buildPending, lang)} + {secondaryPoints ?? t(copy.buildPending, lang)}
+        </strong>
       </div>
       <p>{t(build.loadout.summary, lang)}</p>
       <div className="meta-build-grid">
-        <AttachmentBlock kit={build.kit} lang={lang} title={copy.build} />
-        <section>
+        <AttachmentBlock kit={build.loadout.primary} lang={lang} title={copy.buildPrimary} highlighted={build.slot === 'primary'} />
+        <AttachmentBlock kit={build.loadout.secondary} lang={lang} title={copy.buildSecondary} highlighted={build.slot === 'secondary'} />
+        <section className="build-section">
           <h3>{t(copy.recommendedSkills, lang)}</h3>
           <div className="chips">
             {build.loadout.skills.map((item) => (
@@ -697,11 +703,28 @@ function MetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
             ))}
           </div>
         </section>
-        <section>
+        <section className="build-section">
+          <h3>{t(copy.gadgets, lang)}</h3>
+          <div className="chips">
+            {build.loadout.gadgets.map((item) => (
+              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
+            ))}
+          </div>
+        </section>
+        <section className="build-section">
           <h3>{t(copy.engagement, lang)}</h3>
           <p>{t(build.loadout.engagement, lang)}</p>
         </section>
+        <section className="build-section wide">
+          <h3>{t(copy.playbook, lang)}</h3>
+          <ol className="compact-playbook">
+            {build.loadout.playbook.map((line) => (
+              <li key={line.en}>{t(line, lang)}</li>
+            ))}
+          </ol>
+        </section>
       </div>
+      <span className="source-label">{t(copy.dataSources, lang)}</span>
       <div className="source-row">
         {buildSources.slice(0, 4).map((source) => (
           <SourcePill key={source.id} source={source} lang={lang} />
@@ -824,9 +847,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                     {t(copy.openBuild, lang)}
                   </button>
                 ) : (
-                  <a href={battlefieldMetaUrl(ranked.metric.weapon.name.en)} target="_blank" rel="noreferrer">
-                    {t(copy.externalBuild, lang)}
-                  </a>
+                  <span className="build-empty">{t(copy.noLocalBuild, lang)}</span>
                 )}
               </span>
             </div>

@@ -133,7 +133,6 @@ main {
 .metric-strip span,
 .summary-label,
 .summary-stats span,
-.source-pill small,
 .role-title span {
   color: var(--muted);
   font-size: 12px;
@@ -778,7 +777,7 @@ h1 {
 
 .tier-row {
   display: grid;
-  grid-template-columns: 62px 156px 118px 96px 108px 126px 78px 112px 132px;
+  grid-template-columns: 62px 156px 118px 96px 108px 126px 78px 112px 154px;
   gap: 12px;
   align-items: center;
   min-width: 1080px;
@@ -866,7 +865,8 @@ h1 {
 .meta-build-title,
 .meta-build-context,
 .build-heading,
-.build-actions {
+.build-actions,
+.build-empty {
   display: flex;
   align-items: center;
 }
@@ -895,9 +895,9 @@ h1 {
   line-height: 1;
 }
 
-.meta-build-title a,
 .build-actions a,
-.build-actions button {
+.build-actions button,
+.build-empty {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -913,9 +913,11 @@ h1 {
   text-decoration: none;
 }
 
-.meta-build-title a svg {
-  width: 14px;
-  height: 14px;
+.build-empty {
+  width: 100%;
+  border-color: rgba(255, 255, 255, 0.09);
+  color: var(--soft);
+  background: rgba(255, 255, 255, 0.035);
 }
 
 .meta-build-context {
@@ -946,8 +948,43 @@ h1 {
 
 .meta-build-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(230px, 0.85fr) minmax(180px, 0.65fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
+}
+
+.build-section {
+  min-width: 0;
+}
+
+.meta-build-grid .build-section {
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.meta-build-grid .build-section.highlighted {
+  border-color: rgba(242, 184, 75, 0.42);
+  background: rgba(242, 184, 75, 0.065);
+}
+
+.meta-build-grid .build-section.wide {
+  grid-column: 1 / -1;
+}
+
+.source-label {
+  color: var(--soft);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.compact-playbook {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+  color: #d9e3da;
 }
 
 .build-actions {
@@ -1048,6 +1085,12 @@ h1 {
 .loadout-buttons strong {
   color: #f8fff9;
   font-size: 15px;
+}
+
+.loadout-buttons em {
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
 }
 
 .loadout-summary {
@@ -1277,10 +1320,6 @@ h1 {
   .meta-build-title {
     align-items: flex-start;
     flex-direction: column;
-  }
-
-  .meta-build-title a {
-    width: 100%;
   }
 
   .role-card,
