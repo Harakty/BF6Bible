@@ -229,13 +229,6 @@ async function main() {
 
   const dataset = {
     schemaVersion: 1,
-    source: {
-      label: 'Public BF6 weapon data',
-      sheetId: SHEET_ID,
-      gid: SHEET_GID,
-      sourceHash,
-      rowCount: rows.length,
-    },
     model: {
       ranges: RANGES,
       standardHp: STANDARD_HP,
