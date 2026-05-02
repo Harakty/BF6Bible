@@ -8,6 +8,7 @@
     "ingest:weapons": "node scripts/ingestWeapons.mjs",
     "ingest:attachments": "node scripts/ingestAttachments.mjs",
     "generate:builds": "node scripts/generateBuilds.mjs",
+    "refresh:data": "npm run ingest:weapons && npm run ingest:attachments && npm run generate:builds",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
