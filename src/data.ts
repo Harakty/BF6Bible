@@ -408,7 +408,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
       {
         id: 'engineer-av',
         callSign: { it: 'Anti-Vehicle', en: 'Anti-Vehicle' },
-        className: { it: 'Genio', en: 'Engineer' },
+        className: { it: 'Geniere', en: 'Engineer' },
         mission: {
           it: 'Negare tank, trasporti e terze parti veicolari senza perdere il duello infantry.',
           en: 'Deny tanks, transports, and vehicle third parties without losing infantry duels.',
@@ -576,7 +576,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
       {
         id: 'engineer-duo',
         callSign: { it: 'Flex AV', en: 'Flex AV' },
-        className: { it: 'Genio', en: 'Engineer' },
+        className: { it: 'Geniere', en: 'Engineer' },
         mission: {
           it: 'Default consigliato: proteggere il duo da veicoli e vincere duelli mid range.',
           en: 'Recommended default: protect the duo from vehicles and win mid-range duels.',
