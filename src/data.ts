@@ -1353,7 +1353,6 @@ export const copy = {
   roleFit: { it: 'Fit ruolo', en: 'Role fit' },
   dataQuality: { it: 'Qualità dati', en: 'Data quality' },
   formulaWeights: { it: 'Formula scenario', en: 'Scenario formula' },
-  scoreRationale: { it: 'Perché', en: 'Why' },
   metaTier: { it: 'Meta Lab armi', en: 'Weapon Meta Lab' },
   metaTierSubtitle: {
     it: 'Ranking REDSEC calcolato: ogni scenario cambia i pesi tra TTK, armor value, range, sustain, mobilità, fit ruolo e qualità dati.',

@@ -42,7 +42,6 @@ export type RankedWeapon = {
   dataQuality: number
   dataQualityLabel: Localized
   components: ScoreComponent[]
-  rationale: Localized
 }
 
 export type MetaScenario = {
@@ -199,7 +198,6 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
 
   const weighted = components.reduce((sum, component) => sum + component.score * component.weight, 0)
   const score = Math.round(weighted)
-  const top = [...components].sort((a, b) => b.score * b.weight - a.score * a.weight).slice(0, 3)
 
   return {
     metric,
@@ -210,10 +208,6 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
     dataQuality: scores.dataQuality,
     dataQualityLabel: dataQualityLabel(scores.dataQuality),
     components,
-    rationale: {
-      it: `Calcolato da ${top.map((item) => item.label.it.toLowerCase()).join(', ')}; i valori mancanti restano penalizzati nella qualità dati.`,
-      en: `Calculated from ${top.map((item) => item.label.en.toLowerCase()).join(', ')}; missing values are still penalized through data quality.`,
-    },
   }
 }
 

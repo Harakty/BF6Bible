@@ -112,12 +112,6 @@ function roleIcon(roleId: string) {
   return <Zap aria-hidden="true" />
 }
 
-function confidenceLabel(score: number, lang: Lang) {
-  if (score >= 0.8) return lang === 'it' ? 'Alta' : 'High'
-  if (score >= 0.7) return lang === 'it' ? 'Media-alta' : 'Medium-high'
-  return lang === 'it' ? 'Media' : 'Medium'
-}
-
 function Term({ value, lang }: { value: { name: Localized }; lang: Lang }) {
   const alt = t(value.name, otherLang(lang))
   const main = t(value.name, lang)
@@ -320,10 +314,6 @@ function WeaponPanel({
           <span>{t(copy.mag, lang)}</span>
           <strong>{metric.magSize ?? 'TBD'}</strong>
         </div>
-        <div>
-          <span>{t(copy.sourceConfidence, lang)}</span>
-          <strong>{confidenceLabel(metric.confidence, lang)}</strong>
-        </div>
       </div>
       <dl className="weapon-notes">
         <div>
@@ -479,11 +469,6 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
 
-  const averageConfidence = useMemo(() => {
-    const values = plan.roles.flatMap((role) => role.loadouts.map((loadout) => loadout.confidence))
-    return values.reduce((sum, value) => sum + value, 0) / values.length
-  }, [plan])
-
   return (
     <section className="summary-band">
       <div className="summary-main">
@@ -493,10 +478,6 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
         </div>
         <h2>{t(plan.squadLogic, lang)}</h2>
         <div className="summary-stats">
-          <div>
-            <span>{t(copy.sourceConfidence, lang)}</span>
-            <strong>{Math.round(averageConfidence * 100)}%</strong>
-          </div>
           <div>
             <span>REDSEC armor</span>
             <strong>80 HP</strong>
@@ -584,7 +565,6 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.ttk, lang)}</span>
           <span>{t(copy.roleFit, lang)}</span>
           <span>{t(copy.dataQuality, lang)}</span>
-          <span>{t(copy.scoreRationale, lang)}</span>
         </div>
         {rankedWeapons.map((ranked) => (
           <div
@@ -602,7 +582,6 @@ function MetaTierSection({ lang }: { lang: Lang }) {
               {ranked.dataQuality}
               <small>{t(ranked.dataQualityLabel, lang)}</small>
             </span>
-            <p>{t(ranked.rationale, lang)}</p>
           </div>
         ))}
       </div>
