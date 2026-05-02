@@ -148,6 +148,39 @@ export const sources: Source[] = [
       en: 'Public comparator updated May 1, 2026; useful but should be validated against Sym/sheets.',
     },
   },
+  {
+    id: 'ea-redsec-br101',
+    label: 'EA REDSEC Battle Royale 101',
+    url: 'https://www.ea.com/games/battlefield/redsec/news/battlefield-redsec-battle-royale-101',
+    kind: 'official',
+    weight: 1,
+    note: {
+      it: 'Fonte ufficiale per Custom Weapon Drops, Unique Weapons, rarity e Weapon Upgrade Kits.',
+      en: 'Official source for Custom Weapon Drops, Unique Weapons, rarity, and Weapon Upgrade Kits.',
+    },
+  },
+  {
+    id: 'pcgamer-custom-loadouts',
+    label: 'PC Gamer REDSEC Custom Loadouts',
+    url: 'https://www.pcgamer.com/games/fps/battlefield-redsec-custom-weapon-loadouts-battle-royale/',
+    kind: 'analysis',
+    weight: 0.65,
+    note: {
+      it: 'Spiega il loop pratico: un custom gun per drop, idealmente due drop per avere due armi custom.',
+      en: 'Explains the practical loop: one custom gun per drop, ideally two drops for two custom weapons.',
+    },
+  },
+  {
+    id: 'battlefield6gg-catalog',
+    label: 'Battlefield6.gg REDSEC Weapon Catalog',
+    url: 'https://www.battlefield6.gg/redsec/battlefield-redsec-weapons-list/',
+    kind: 'analysis',
+    weight: 0.55,
+    note: {
+      it: 'Catalogo pubblico delle 47 armi REDSEC, incluse sidearm separate.',
+      en: 'Public catalog of 47 REDSEC weapons, including separate sidearms.',
+    },
+  },
 ]
 
 const term = (it: string, en: string): LocalizedTerm => ({ name: { it, en } })
@@ -511,7 +544,7 @@ export const weapons = {
     undefined,
     undefined,
     undefined,
-    'Secondaria default per finire target rotti senza cambiare piano.',
+    'Sidearm forte, ma non è la seconda arma meta REDSEC: è backup da emergenza.',
     'Default sidearm for finishing broken targets without changing the plan.',
     'Pulizia affidabile dopo primary mag dump.',
     'Reliable cleanup after a primary mag dump.',
@@ -533,7 +566,7 @@ export const weapons = {
     undefined,
     undefined,
     undefined,
-    'Secondaria più permissiva quando vuoi colpi e controllo.',
+    'Sidearm permissiva; utile come backup, non come vera secondary weapon REDSEC.',
     'More forgiving sidearm when you want ammo and control.',
     'Backup per Geniere/Support in fight disordinati.',
     'Backup for Engineer/Support in messy fights.',
@@ -590,6 +623,72 @@ export const weapons = {
   ),
 }
 
+const catalogWeapon = (
+  name: string,
+  classIt: string,
+  classEn: string,
+  tier: Tier,
+  score: number,
+  reasonIt: string,
+  reasonEn: string,
+) =>
+  weapon(
+    name,
+    classIt,
+    classEn,
+    classIt === 'Pistola' || classIt === 'Revolver' ? 'secondary' : 'primary',
+    tier,
+    score,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    reasonIt,
+    reasonEn,
+    'Catalogata per REDSEC; servono ingest e test TTK per ranking definitivo.',
+    'Catalogued for REDSEC; data ingest and TTK tests are needed for final ranking.',
+    'Presente nel pool armi REDSEC e candidata per build specifiche.',
+    'Present in the REDSEC weapon pool and candidate for specific builds.',
+    'Tier provvisorio finché mancano hard-stat complete e patch diff.',
+    'Provisional tier until complete hard stats and patch diffs are available.',
+    ['ea-redsec-armor', 'battlefieldmeta'],
+    0.42,
+  )
+
+export const weaponCatalog = {
+  b36a4: catalogWeapon('B36A4', "Fucile d'assalto", 'Assault Rifle', 'B', 70, 'AR versatile, da validare rispetto a KORD/M433.', 'Versatile AR, needs validation against KORD/M433.'),
+  sor556: catalogWeapon('SOR-556 Mk2', "Fucile d'assalto", 'Assault Rifle', 'A', 77, 'AR accurata da mid-long, potenzialmente forte in REDSEC aperto.', 'Accurate mid-long AR, potentially strong in open REDSEC.'),
+  ak4d: catalogWeapon('AK4D', "Fucile d'assalto", 'Assault Rifle', 'B', 69, 'Battle rifle più lento: utile se il danno compensa il ritmo.', 'Slower battle rifle: useful if damage offsets tempo.'),
+  tr7: catalogWeapon('TR-7', "Fucile d'assalto", 'Assault Rifle', 'A', 76, 'Close AR interessante, da confrontare con VCR-2/SMG.', 'Interesting close AR, needs comparison with VCR-2/SMGs.'),
+  nvo228e: catalogWeapon('NVO-228E', "Fucile d'assalto", 'Assault Rifle', 'B', 70, 'Mid-range affidabile sulla carta, non ancora validata.', 'Paper-reliable mid-range pick, not validated yet.'),
+  l85a3: catalogWeapon('L85A3', "Fucile d'assalto", 'Assault Rifle', 'A', 75, 'Stabilità mid-long potenzialmente buona per REDSEC.', 'Potentially good mid-long stability for REDSEC.'),
+  m277: catalogWeapon('M277', 'Carabina', 'Carbine', 'B', 70, 'Overmatch a range, ma capacity e handling vanno testati.', 'Range overmatch, but capacity and handling need testing.'),
+  m417a2: catalogWeapon('M417 A2', 'Carabina', 'Carbine', 'B', 69, 'Danno alto ma ritmo incerto nel fight armor.', 'High damage but uncertain tempo in armor fights.'),
+  grtbc: catalogWeapon('GRT-BC', 'Carabina', 'Carbine', 'B', 70, 'Carabina compatta candidata a flex close-mid.', 'Compact carbine candidate for close-mid flex.'),
+  qbz192: catalogWeapon('QBZ-192', 'Carabina', 'Carbine', 'A', 76, 'Carabina da mid range spesso competitiva come flex.', 'Mid-range carbine often competitive as flex.'),
+  sor300c: catalogWeapon('SOR-300C', 'Carabina', 'Carbine', 'B', 72, 'Season weapon da testare per suppressed/close-mid.', 'Season weapon to test for suppressed close-mid play.'),
+  pw5a3: catalogWeapon('PW5A3', 'SMG', 'SMG', 'B', 71, 'SMG classica: buona secondary close se range è controllato.', 'Classic SMG: good close secondary if range is controlled.'),
+  umg40: catalogWeapon('UMG-40', 'SMG', 'SMG', 'B', 68, 'SMG più lenta, valore dipende da danno e controllo.', 'Slower SMG, value depends on damage and control.'),
+  usg90: catalogWeapon('USG-90', 'SMG', 'SMG', 'B', 69, 'SMG da capacity/handling, serve TTK test.', 'Capacity/handling SMG, needs TTK testing.'),
+  kv9: catalogWeapon('KV9', 'SMG', 'SMG', 'A', 80, 'SMG candidata top per vera secondaria close REDSEC.', 'Top candidate SMG for true close REDSEC secondary.'),
+  sl9: catalogWeapon('SL9', 'SMG', 'SMG', 'B', 67, 'SMG da validare: tier prudente finché mancano dati.', 'SMG to validate: conservative tier until data lands.'),
+  m60: catalogWeapon('M/60', 'LMG', 'LMG', 'B', 70, 'LMG pesante, forte solo se il team copre mobilità.', 'Heavy LMG, strong only if team covers mobility.'),
+  rpkm: catalogWeapon('RPKM', 'LMG', 'LMG', 'B', 72, 'LMG flex da testare contro DRS/L110.', 'Flex LMG to test against DRS/L110.'),
+  m123k: catalogWeapon('M123K', 'LMG', 'LMG', 'A', 76, 'Volume di fuoco molto interessante per squad wipe.', 'Very interesting fire volume for squad wipes.'),
+  kts100: catalogWeapon('KTS100 MK8', 'LMG', 'LMG', 'A', 78, 'LMG citata spesso nel meta REDSEC; serve validazione numerica.', 'Often mentioned in REDSEC meta; needs numeric validation.'),
+  m240l: catalogWeapon('M240L', 'LMG', 'LMG', 'B', 69, 'LMG di pressione, ma peso e ADS possono punire.', 'Pressure LMG, but weight and ADS may punish.'),
+  lmr27: catalogWeapon('LMR 27', 'DMR', 'DMR', 'B', 70, 'DMR da info/range, non ancora separata da M39.', 'Info/range DMR, not yet separated from M39.'),
+  svk86: catalogWeapon('SVK-8.6', 'DMR', 'DMR', 'B', 71, 'DMR danno alto, da valutare su armor break.', 'High-damage DMR, needs armor-break evaluation.'),
+  svdm: catalogWeapon('SVDM', 'DMR', 'DMR', 'A', 75, 'DMR candidato per Recon range e third-party.', 'DMR candidate for Recon range and third parties.'),
+  sv98: catalogWeapon('SV-98', 'Cecchino', 'Sniper', 'B', 67, 'Sniper classico, valore dipende da conversione team.', 'Classic sniper, value depends on team conversion.'),
+  psr: catalogWeapon('PSR', 'Cecchino', 'Sniper', 'B', 69, 'Sniper accessibile e utile su finali aperti.', 'Accessible sniper useful in open endings.'),
+  miniFix: catalogWeapon('Mini Fix', 'Cecchino', 'Sniper', 'B', 68, 'Season sniper da testare per handling e follow-up.', 'Season sniper to test for handling and follow-up.'),
+  m87a1: catalogWeapon('M87A1', 'Shotgun', 'Shotgun', 'C', 60, 'Shotgun da edificio: troppo situazionale per default REDSEC.', 'Building shotgun: too situational for REDSEC default.'),
+  m1014: catalogWeapon('M1014', 'Shotgun', 'Shotgun', 'B', 66, 'Shotgun semi-auto migliore come secondaria indoor estrema.', 'Semi-auto shotgun better as extreme indoor secondary.'),
+  ks185: catalogWeapon('18.5KS-K', 'Shotgun', 'Shotgun', 'C', 59, 'Shotgun situazionale, richiede final circle chiuso.', 'Situational shotgun requiring closed final circles.'),
+  ggh22: catalogWeapon('GGH-22', 'Pistola', 'Pistol', 'C', 61, 'Sidearm nuova: catalogata, non vera secondaria REDSEC.', 'New sidearm: catalogued, not a true REDSEC secondary.'),
+}
+
 const primaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
   metric,
   attachments,
@@ -599,24 +698,6 @@ const secondaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): Weapo
   metric,
   attachments,
 })
-
-const commonSidearm = {
-  m45: secondaryKit(weapons.m45a1, [
-    term('Ottica ROX 1,50x', 'ROX 1.50x'),
-    term('Caricatore esteso', 'Extended Magazine'),
-    term('Compensatore leggero', 'Light Compensator'),
-  ]),
-  es57: secondaryKit(weapons.es57, [
-    term('Ottica ROX 1,50x', 'ROX 1.50x'),
-    term('Caricatore esteso', 'Extended Magazine'),
-    term('Laser tattico', 'Tactical Laser'),
-  ]),
-  m44: secondaryKit(weapons.m44, [
-    term('Ottica pulita', 'Clean Sight'),
-    term('Munizioni pesanti', 'Heavy Ammunition'),
-    term('Grip controllo rinculo', 'Recoil Control Grip'),
-  ]),
-}
 
 const loadoutRegistry = new Map<string, Loadout>()
 
@@ -697,6 +778,27 @@ const kits = {
     term('Caricatore rapido', 'Fast Magazine'),
     term('Ottica ROX 1,50x', 'ROX 1.50x'),
   ]),
+  scwSecondary: secondaryKit(weapons.scw, [
+    term('Compensatore tattico', 'Tactical Compensator'),
+    term('Canna corta', 'Short Barrel'),
+    term('Laser tattico', 'Tactical Laser'),
+    term('Caricatore rapido', 'Fast Magazine'),
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+  ]),
+  sgxSecondary: secondaryKit(weapons.sgx, [
+    term('Compensatore tattico', 'Tactical Compensator'),
+    term('Canna corta', 'Short Barrel'),
+    term('Laser tattico', 'Tactical Laser'),
+    term('Caricatore rapido', 'Fast Magazine'),
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+  ]),
+  kv9Secondary: secondaryKit(weaponCatalog.kv9, [
+    term('Compensatore tattico', 'Tactical Compensator'),
+    term('Canna corta', 'Short Barrel'),
+    term('Laser tattico', 'Tactical Laser'),
+    term('Caricatore esteso se disponibile', 'Extended Magazine when available'),
+    term('Ottica ROX 1,50x', 'ROX 1.50x'),
+  ]),
   m39Info: primaryKit(weapons.m39, [
     term('Ottica 3VZR 1,75x o 2,50x', '3VZR 1.75x or 2.50x Scope'),
     term('Silenziatore lungo', 'Long Suppressor'),
@@ -710,6 +812,27 @@ const kits = {
     term('Impugnatura verticale classica', 'Classic Vertical Grip'),
     term('Caricatore 36 colpi', '36rnd Magazine'),
     term('Ottica 3VZR 1,75x', '3VZR 1.75x'),
+  ]),
+  sg553Secondary: secondaryKit(weapons.sg553, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Canna controllo rinculo', 'Recoil Control Barrel'),
+    term('Impugnatura verticale classica', 'Classic Vertical Grip'),
+    term('Caricatore 36 colpi', '36rnd Magazine'),
+    term('Ottica 3VZR 1,75x', '3VZR 1.75x'),
+  ]),
+  ak205Secondary: secondaryKit(weapons.ak205, [
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Munizioni Synthetic Tip', 'Synthetic Tip Ammunition'),
+    term('Ottica 3VZR 1,75x', '3VZR 1.75x'),
+    term('Caricatore 40 colpi', '40rnd Magazine'),
+    term('Freno compensato', 'Compensated Brake'),
+  ]),
+  m2010Range: primaryKit(weapons.m2010, [
+    term('Ottica 6x o 8x', '6x or 8x Scope'),
+    term('Silenziatore lungo', 'Long Suppressor'),
+    term('Munizioni precisione', 'Precision Ammunition'),
+    term('Bipod o grip stabilità', 'Bipod or Stability Grip'),
+    term('Bolt rapido se disponibile', 'Fast Bolt when available'),
   ]),
 }
 
@@ -761,13 +884,13 @@ export const modePlans: Record<ModeId, ModePlan> = {
     },
     squadLogic: {
       it: 'Un solo entry, un solo anchor, un solo anti-vehicle e un solo info player. Ogni ruolo ha una primaria, una secondaria e una coppia alternativa completa.',
-      en: 'One entry, one anchor, one anti-vehicle, and one information player. Every role has one primary, one sidearm, and one complete alternative pair.',
+      en: 'One entry, one anchor, one anti-vehicle, and one information player. Every role has one primary, one true secondary weapon, and one complete alternative pair.',
     },
     season3Note: {
       it: 'Season 3 introduce Ranked Battle Royale Quads il 12 maggio 2026. La struttura è pronta per ranking, ma i valori delle armi vanno ricontrollati dopo le note complete.',
       en: 'Season 3 introduces Ranked Battle Royale Quads on May 12, 2026. This structure is ranked-ready, but weapon values need revalidation after full notes.',
     },
-    sourceIds: ['ea-redsec-armor', 'ea-season3', 'ea-classes', 'sym-bf6', 'sheetonmyface'],
+    sourceIds: ['ea-redsec-armor', 'ea-redsec-br101', 'pcgamer-custom-loadouts', 'ea-season3', 'ea-classes', 'sym-bf6', 'sheetonmyface'],
     pressureRules: [
       {
         it: 'Se il fight è aperto, non chaseare armor crack: Recon marca, Support tiene crossfire, Geniere controlla veicoli.',
@@ -800,10 +923,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'assault-kord',
             'Meta controllo',
             'Control meta',
-            'Primaria KORD + M45A1: build da ranked REDSEC per entry che non vuole morire fuori range.',
-            'KORD primary + M45A1: ranked REDSEC entry build that does not collapse outside close range.',
+            'KORD + SCW-10: primaria mid-range e vera secondaria SMG per chiudere fight sotto i 20 m.',
+            'KORD + SCW-10: mid-range primary and true SMG secondary for fights under 20 m.',
             kits.kordControl,
-            commonSidearm.m45,
+            kits.scwSecondary,
             term('Frontliner / Prima linea', 'Frontliner'),
             skills.frontliner,
             [
@@ -833,10 +956,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'assault-vcr',
             'Alternativa close',
             'Close alternative',
-            'VCR-2 + ES 5.7: coppia aggressiva per edifici, tunnel e final circle chiusi.',
-            'VCR-2 + ES 5.7: aggressive pair for buildings, tunnels, and tight final circles.',
+            'VCR-2 + SG-553R: entry close con secondaria carbine per non morire appena il fight si apre.',
+            'VCR-2 + SG-553R: close entry with carbine secondary so you do not collapse when the fight opens.',
             kits.vcrEntry,
-            commonSidearm.es57,
+            kits.sg553Secondary,
             term('Breacher / Sfondamento', 'Breacher'),
             skills.breacher,
             [
@@ -855,8 +978,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
                 en: 'If the fight opens up, retake cover and let Support/Recon work.',
               },
               {
-                it: 'La secondaria serve per finish dopo mag dump, non per riaprire il fight.',
-                en: 'The sidearm is for cleanup after a mag dump, not for reopening the fight.',
+                it: 'La SG-553R è la tua uscita di sicurezza quando il fight passa da indoor a mid range.',
+                en: 'The SG-553R is your safety valve when the fight moves from indoor to mid-range.',
               },
             ],
             ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
@@ -881,10 +1004,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'support-drs',
             'Medic anchor',
             'Medic anchor',
-            'DRS-IAR + M45A1: loadout da revive economy, crossfire e fight lunghi.',
-            'DRS-IAR + M45A1: revive economy, crossfire, and long-fight loadout.',
+            'DRS-IAR + SCW-10: anchor da revive economy con SMG vera per difendere push ravvicinati.',
+            'DRS-IAR + SCW-10: revive economy anchor with true SMG secondary for close push defense.',
             kits.drsAnchor,
-            commonSidearm.m45,
+            kits.scwSecondary,
             term('Combat Medic / Medico da combattimento', 'Combat Medic'),
             skills.medic,
             [
@@ -914,10 +1037,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'support-l110',
             'Alternativa mobile',
             'Mobile alternative',
-            'L110 + ES 5.7: più leggera per squad che ruotano aggressivamente.',
-            'L110 + ES 5.7: lighter pair for squads that rotate aggressively.',
+            'L110 + SGX: più leggera per squad che ruotano aggressivamente e vogliono close DPS.',
+            'L110 + SGX: lighter pair for aggressive rotations and close DPS.',
             kits.l110Mobile,
-            commonSidearm.es57,
+            kits.sgxSecondary,
             term('Fire Support / Fuoco di supporto', 'Fire Support'),
             skills.fireSupport,
             [
@@ -962,10 +1085,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'engineer-ak',
             'Flex AV',
             'Flex AV',
-            'AK-205 + ES 5.7: anti-vehicle senza perdere consistenza infantry.',
-            'AK-205 + ES 5.7: anti-vehicle without losing infantry consistency.',
+            'AK-205 + KV9: anti-vehicle con SMG secondary per non perdere i duel close.',
+            'AK-205 + KV9: anti-vehicle with SMG secondary so close duels are not sacrificed.',
             kits.ak205Flex,
-            commonSidearm.es57,
+            kits.kv9Secondary,
             term('Anti-Armour / Anti-corazza', 'Anti-Armour'),
             skills.antiArmor,
             [
@@ -995,10 +1118,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'engineer-scw',
             'Alternativa bunker',
             'Bunker alternative',
-            'SCW-10 + M45A1: difesa close e push da strutture quando i veicoli contano meno.',
-            'SCW-10 + M45A1: close defense and structure pushes when vehicles matter less.',
+            'SCW-10 + AK-205: secondaria mid-range per quando esci dal bunker o devi ruotare.',
+            'SCW-10 + AK-205: mid-range secondary for leaving bunkers or rotating.',
             kits.scwClose,
-            commonSidearm.m45,
+            kits.ak205Secondary,
             term('Combat Engineer / Geniere da combattimento', 'Combat Engineer'),
             skills.combatEngineer,
             [
@@ -1043,10 +1166,10 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'recon-m39',
             'Info DMR',
             'Info DMR',
-            'M39 EMR + M44: pressione a distanza e finish su armor crack.',
-            'M39 EMR + M44: range pressure and armor-crack finish.',
+            'M39 EMR + SG-553R: info/range con seconda arma vera per trade e wipe in movimento.',
+            'M39 EMR + SG-553R: info/range with a true second weapon for moving trades and wipes.',
             kits.m39Info,
-            commonSidearm.m44,
+            kits.sg553Secondary,
             term('Spec Ops / Forze speciali', 'Spec Ops'),
             skills.specOps,
             [
@@ -1073,13 +1196,13 @@ export const modePlans: Record<ModeId, ModePlan> = {
             0.68,
           ),
           loadout(
-            'recon-sg553',
-            'Alternativa mobile',
-            'Mobile alternative',
-            'SG-553R + M45A1: Recon che resta nel fight quando la zona si chiude.',
-            'SG-553R + M45A1: Recon that stays in the fight when zone closes.',
-            kits.sg553Mobile,
-            commonSidearm.m45,
+            'recon-sniper-smg',
+            'Sniper + SMG',
+            'Sniper + SMG',
+            'M2010 ESR + SCW-10: sniper solo se hai una SMG reale per sopravvivere al push.',
+            'M2010 ESR + SCW-10: sniper only if you carry a real SMG to survive the push.',
+            kits.m2010Range,
+            kits.scwSecondary,
             term('Spec Ops / Forze speciali', 'Spec Ops'),
             skills.specOps,
             [
@@ -1087,15 +1210,15 @@ export const modePlans: Record<ModeId, ModePlan> = {
               term('Recon Drone', 'Recon Drone'),
               term('Granata smoke', 'Smoke Grenade'),
             ],
-            { it: '20-65 m, info e trade in movimento', en: '20-65 m, information and moving trades' },
+            { it: '0-25 m con SMG, 70+ m con sniper', en: '0-25 m with SMG, 70+ m with sniper' },
             [
               {
                 it: 'Usa motion info per entrare secondo, mai per ego-push ciechi.',
                 en: 'Use motion info to enter second, never for blind ego-pushes.',
               },
               {
-                it: 'La carabina ti rende più utile nel wipe, ma non sostituisce il lavoro di info.',
-                en: 'The carbine makes you more useful in wipes, but does not replace information work.',
+                it: 'La SCW-10 è obbligatoria: senza SMG sei morto appena qualcuno ti pusha.',
+                en: 'The SCW-10 is mandatory: without an SMG you die as soon as someone pushes you.',
               },
               {
                 it: 'Se perdi visione, rallenta: senza info sei solo un secondo Assault.',
@@ -1171,7 +1294,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
         },
         loadouts: [
           modePlansPlaceholder('engineer-ak'),
-          modePlansPlaceholder('recon-sg553'),
+          modePlansPlaceholder('recon-m39'),
         ],
       },
     ],
@@ -1186,7 +1309,7 @@ function modePlansPlaceholder(loadoutId: string): Loadout {
   return found
 }
 
-export const metaWeapons = Object.values(weapons).sort((a, b) => {
+export const metaWeapons = [...Object.values(weapons), ...Object.values(weaponCatalog)].sort((a, b) => {
   const tierRank: Record<Tier, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D: 5 }
   return tierRank[a.tier] - tierRank[b.tier] || b.redsecScore - a.redsecScore
 })
@@ -1200,11 +1323,11 @@ export const copy = {
   squadComp: { it: 'Composizione', en: 'Composition' },
   sourceConfidence: { it: 'Confidenza fonte', en: 'Source confidence' },
   primary: { it: 'Primaria', en: 'Primary' },
-  secondary: { it: 'Secondaria', en: 'Secondary' },
+  secondary: { it: 'Secondaria arma', en: 'Secondary weapon' },
   alternativeLoadout: { it: 'Loadout alternativo', en: 'Alternative loadout' },
   chooseLoadout: { it: 'Scegli loadout', en: 'Choose loadout' },
   buildPrimary: { it: 'Build primaria', en: 'Primary build' },
-  buildSecondary: { it: 'Build secondaria', en: 'Secondary build' },
+  buildSecondary: { it: 'Build seconda arma', en: 'Secondary weapon build' },
   build: { it: 'Build', en: 'Build' },
   gadgets: { it: 'Gadget', en: 'Gadgets' },
   fieldSpec: { it: 'Field Spec', en: 'Field Spec' },
