@@ -1,19 +1,19 @@
-import { generatedAlgorithmicBuilds } from './generated/algorithmicBuilds'
+import { generatedTemplateBuilds } from './generated/templateBuilds'
 import { normalizeWeaponName } from './weaponStats'
 
-export type AlgorithmicBuild = (typeof generatedAlgorithmicBuilds.builds)[number]
-export type AlgorithmicAttachment = AlgorithmicBuild['attachments'][number]
+export type TemplateBuild = (typeof generatedTemplateBuilds.builds)[number]
+export type TemplateAttachment = TemplateBuild['attachments'][number]
 
-export const algorithmicBuilds = generatedAlgorithmicBuilds.builds
+export const templateBuilds = generatedTemplateBuilds.builds
 
 const buildByWeapon = new Map(
-  generatedAlgorithmicBuilds.builds.map((build) => [normalizeWeaponName(build.weaponName), build]),
+  generatedTemplateBuilds.builds.map((build) => [normalizeWeaponName(build.weaponName), build]),
 )
 
-export function algorithmicBuildForWeapon(weaponName: string) {
+export function templateBuildForWeapon(weaponName: string) {
   return buildByWeapon.get(normalizeWeaponName(weaponName))
 }
 
-export function algorithmicBuildPointLabel(build: AlgorithmicBuild) {
-  return `${build.totalPoints}/${generatedAlgorithmicBuilds.model.maxPoints}`
+export function templateBuildPointLabel(build: TemplateBuild) {
+  return `${build.totalPoints}/${generatedTemplateBuilds.model.maxPoints}`
 }

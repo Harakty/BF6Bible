@@ -247,8 +247,8 @@ function killSpeedScore(metric: WeaponMetric, classKey: WeaponClassKey, stat?: G
   if (stat) {
     if (stat.categoryKey === 'sniper') return headshotPickScore(stat)
 
-    const ttk20 = statRangeValue(stat.clickTtk100ByRange, [20, 10, 0, 35])
-    if (ttk20) return inverseScore(ttk20, 190, 680)
+    const bodyScore = bodyKillSpeedScore(stat)
+    if (bodyScore !== undefined) return bodyScore
   }
 
   if (metric.baselineTtkMs) return inverseScore(metric.baselineTtkMs, 190, 680)
@@ -447,7 +447,7 @@ function dataQualityScore(metric: WeaponMetric, stat?: GeneratedWeaponStat) {
 
   const known = [metric.baselineTtkMs, metric.baselineStk, metric.magSize].filter((value) => value !== undefined).length
   const completeness = known / 3
-  return Math.round(metric.confidence * 55 + completeness * 45)
+  return Math.min(99, Math.round(metric.confidence * 55 + completeness * 45))
 }
 
 function dataQualityLabel(score: number): Localized {
@@ -465,6 +465,11 @@ function headshotPickScore(stat: GeneratedWeaponStat) {
   const range = statRangeValue(stat.headDamageByRange, [70, 80]) ? 70 : 50
   const ttk = (stk - 1) * (60000 / stat.rpm) + (stat.velocity ? (range / stat.velocity) * 1000 : 0)
   return inverseScore(Math.round(ttk), 60, 950)
+}
+
+function bodyKillSpeedScore(stat: GeneratedWeaponStat) {
+  const ttk20 = statRangeValue(stat.clickTtk100ByRange, [20, 10, 0, 35])
+  return ttk20 ? inverseScore(ttk20, 190, 680) : undefined
 }
 
 function statRangeValue(map: RangeNumberMap, preferredRanges: number[]) {
@@ -490,4 +495,11 @@ function scoreToTier(score: number): Tier {
 
 function clamp(value: number, min: number, max: number) {
   return Math.min(max, Math.max(min, value))
+}
+
+export const metaEngineTestHooks = {
+  bodyKillSpeedScore,
+  dataQualityScore,
+  headshotPickScore,
+  scoreToTier,
 }
