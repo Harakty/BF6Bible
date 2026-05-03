@@ -4,6 +4,18 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '13 */6 * * *'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/bf6-data-refresh.yml'
+      - 'index.html'
+      - 'package-lock.json'
+      - 'package.json'
+      - 'scripts/**'
+      - 'src/**'
+      - 'tsconfig.json'
+      - 'vite.config.ts'
   push:
     branches:
       - main
@@ -19,6 +31,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: bf6-data-refresh
@@ -44,12 +57,51 @@ jobs:
         run: npm ci
 
       - name: Refresh generated data
+        if: github.event_name != 'pull_request'
         run: npm run refresh:data
 
-      - name: Build site
-        run: npm run build
+      - name: Update ranking snapshots after data refresh
+        if: github.event_name != 'pull_request'
+        run: npm run test:update
+
+      - name: Check tests
+        run: npm run test
+
+      - name: Detect ranking snapshot shifts
+        if: github.event_name != 'pull_request'
+        id: snapshot-shifts
+        shell: bash
+        run: |
+          if git diff --quiet -- src/__tests__/__snapshots__; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            node scripts/reportRankingShifts.mjs > ranking-shifts.md
+          fi
+
+      - name: Open ranking shift PR
+        if: github.event_name != 'pull_request' && steps.snapshot-shifts.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          branch="automated/data-refresh-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add src/generated src/__tests__/__snapshots__
+          git commit -m "Refresh BF6 data with ranking shifts"
+          git push origin "$branch"
+          gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
+            --base main \
+            --head "$branch" \
+            --title "Data refresh $(date -u +%F): ranking shifts detected" \
+            --body-file ranking-shifts.md
+          echo "Ranking snapshots changed; opened review PR instead of deploying."
 
       - name: Commit refreshed datasets
+        if: github.event_name != 'pull_request' && steps.snapshot-shifts.outputs.changed == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -62,7 +114,12 @@ jobs:
             git push origin HEAD:main
           fi
 
+      - name: Build site
+        if: github.event_name == 'pull_request' || steps.snapshot-shifts.outputs.changed == 'false'
+        run: npm run build
+
       - name: Deploy to gh-pages
+        if: github.event_name != 'pull_request' && steps.snapshot-shifts.outputs.changed == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

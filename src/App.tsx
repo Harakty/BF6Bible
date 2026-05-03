@@ -18,11 +18,11 @@ import {
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import {
-  algorithmicBuildForWeapon,
-  algorithmicBuildPointLabel,
-  algorithmicBuilds,
-  type AlgorithmicAttachment,
-  type AlgorithmicBuild,
+  templateBuildForWeapon,
+  templateBuildPointLabel,
+  templateBuilds,
+  type TemplateAttachment,
+  type TemplateBuild,
 } from './buildEngine'
 import {
   copy,
@@ -213,7 +213,7 @@ function AttachmentBlock({
   )
 }
 
-function AlgorithmicAttachmentTerm({ value, lang }: { value: AlgorithmicAttachment; lang: Lang }) {
+function TemplateAttachmentTerm({ value, lang }: { value: TemplateAttachment; lang: Lang }) {
   return <Term lang={lang} value={{ name: value.name, points: value.points }} />
 }
 
@@ -673,13 +673,13 @@ type MetaBuildLink = {
   kit: WeaponKit
 }
 
-type AlgorithmicBuildLink = {
+type TemplateBuildLink = {
   key: string
-  kind: 'algorithmic'
-  build: AlgorithmicBuild
+  kind: 'template'
+  build: TemplateBuild
 }
 
-type ActiveMetaBuild = MetaBuildLink | AlgorithmicBuildLink
+type ActiveMetaBuild = MetaBuildLink | TemplateBuildLink
 
 function collectMetaBuildLinks(): MetaBuildLink[] {
   return (Object.values(modePlans) as Array<(typeof modePlans)[ModeId]>).flatMap((plan) =>
@@ -781,23 +781,23 @@ function CuratedMetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: La
   )
 }
 
-function AlgorithmicMetaBuildPanel({ build, lang }: { build: AlgorithmicBuild; lang: Lang }) {
+function TemplateMetaBuildPanel({ build, lang }: { build: TemplateBuild; lang: Lang }) {
   const buildSources = ['sheetonmyface', 'attachment-sheet']
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
 
   return (
-    <aside className="meta-build-panel algorithmic" id={`build-algo-${build.weaponId}`}>
+    <aside className="meta-build-panel template" id={`build-template-${build.weaponId}`}>
       <div className="meta-build-title">
         <div>
-          <span>{t(copy.algorithmicBuild, lang)}</span>
+          <span>{t(copy.templateBuild, lang)}</span>
           <h3>{build.weaponName}</h3>
         </div>
       </div>
       <div className="meta-build-context">
         <span>{t(build.className, lang)}</span>
         <span>{t(build.archetype.label, lang)}</span>
-        <strong>{algorithmicBuildPointLabel(build)}</strong>
+        <strong>{templateBuildPointLabel(build)}</strong>
         <strong>
           {t(copy.buildScore, lang)} {build.score}
         </strong>
@@ -807,13 +807,13 @@ function AlgorithmicMetaBuildPanel({ build, lang }: { build: AlgorithmicBuild; l
         <section className="build-section highlighted wide">
           <h3 className="build-heading">
             <span>
-              {t(copy.algorithmicBuild, lang)} · {build.weaponName}
+              {t(copy.templateBuild, lang)} · {build.weaponName}
             </span>
-            <small>{algorithmicBuildPointLabel(build)}</small>
+            <small>{templateBuildPointLabel(build)}</small>
           </h3>
           <div className="chips">
             {build.attachments.map((item) => (
-              <AlgorithmicAttachmentTerm key={item.id} lang={lang} value={item} />
+              <TemplateAttachmentTerm key={item.id} lang={lang} value={item} />
             ))}
           </div>
         </section>
@@ -840,7 +840,7 @@ function MetaBuildPanel({ build, lang }: { build: ActiveMetaBuild; lang: Lang })
   return build.kind === 'curated' ? (
     <CuratedMetaBuildPanel build={build} lang={lang} />
   ) : (
-    <AlgorithmicMetaBuildPanel build={build.build} lang={lang} />
+    <TemplateMetaBuildPanel build={build.build} lang={lang} />
   )
 }
 
@@ -871,17 +871,17 @@ function MetaTierSection({ lang }: { lang: Lang }) {
   }, [buildLinks])
   const selectedBuild =
     buildLinks.find((link) => link.key === selectedBuildKey) ??
-    (selectedBuildKey.startsWith('algo-')
-      ? algorithmicBuilds
-          .map((build) => ({ key: `algo-${build.weaponId}`, kind: 'algorithmic' as const, build }))
+    (selectedBuildKey.startsWith('template-')
+      ? templateBuilds
+          .map((build) => ({ key: `template-${build.weaponId}`, kind: 'template' as const, build }))
           .find((link) => link.key === selectedBuildKey)
       : undefined)
   const fallbackBuild = filteredRankedWeapons
     .map((ranked): ActiveMetaBuild | undefined => {
       const curated = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))?.[0]
       if (curated) return curated
-      const algorithmic = algorithmicBuildForWeapon(ranked.metric.weapon.name.en)
-      return algorithmic ? { key: `algo-${algorithmic.weaponId}`, kind: 'algorithmic', build: algorithmic } : undefined
+      const template = templateBuildForWeapon(ranked.metric.weapon.name.en)
+      return template ? { key: `template-${template.weaponId}`, kind: 'template', build: template } : undefined
     })
     .find((link): link is ActiveMetaBuild => Boolean(link))
   const activeBuild = selectedBuild ?? fallbackBuild
@@ -985,7 +985,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         {filteredRankedWeapons.map((ranked) => {
           const weaponBuilds = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en)) ?? []
           const bestBuild = weaponBuilds[0]
-          const algorithmicBuild = algorithmicBuildForWeapon(ranked.metric.weapon.name.en)
+          const templateBuild = templateBuildForWeapon(ranked.metric.weapon.name.en)
 
           return (
             <div
@@ -1009,9 +1009,9 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   <button type="button" onClick={() => selectBuild(bestBuild.key)}>
                     {t(copy.openBuild, lang)}
                   </button>
-                ) : algorithmicBuild ? (
-                  <button type="button" onClick={() => selectBuild(`algo-${algorithmicBuild.weaponId}`)}>
-                    {t(copy.openAlgorithmicBuild, lang)}
+                ) : templateBuild ? (
+                  <button type="button" onClick={() => selectBuild(`template-${templateBuild.weaponId}`)}>
+                    {t(copy.openTemplateBuild, lang)}
                   </button>
                 ) : (
                   <span className="build-empty">{t(copy.buildPending, lang)}</span>
