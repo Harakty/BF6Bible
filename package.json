@@ -10,6 +10,7 @@
     "generate:builds": "node scripts/generateBuilds.mjs",
     "generate:solved-builds": "tsx scripts/generateSolvedBuilds.mjs",
     "diff:builds": "node scripts/diffTemplateVsSolved.mjs",
+    "report:gaps": "tsx scripts/reportCalibrationGaps.mjs",
     "refresh:data": "npm run ingest:weapons && npm run ingest:attachments && npm run generate:builds && npm run generate:solved-builds",
     "build": "tsc && vite build",
     "preview": "vite preview",
