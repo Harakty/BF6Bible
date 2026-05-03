@@ -60,7 +60,12 @@ describe('build solver', () => {
   it('maximizes recoilControl for a recoil-only archetype within budget', () => {
     const solved = solveBuild({ ...weapon, control: 30 }, recoilOnly, attachments)
 
-    expect(solved.attachments.map((attachment) => attachment.id).sort()).toEqual(['MUZZLE_LOW', 'UNDERBARREL'])
+    // Sprint 6 always-spend: solver picks the recoilControl-optimal set, then
+    // fills any remaining affordable slot to spend more. recoilControl total
+    // stays at 7 (LASER adds hipfire, not recoil), but attachments include LASER.
+    const ids = solved.attachments.map((attachment) => attachment.id).sort()
+    expect(ids).toContain('MUZZLE_LOW')
+    expect(ids).toContain('UNDERBARREL')
     expect(solved.effectTotals.recoilControl).toBe(7)
   })
 
