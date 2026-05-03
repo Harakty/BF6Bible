@@ -71,6 +71,27 @@ describe('build solver', () => {
     expect(solved.totalPoints).toBe(0)
     expect(solved.objectiveScore).toBe(0)
   })
+
+  it('explains empty slots when budget is exhausted by stronger picks', () => {
+    const solved = solveBuild(
+      weapon,
+      {
+        id: 'balanced',
+        label: { it: 'Budget', en: 'Budget' },
+        weights: { recoilControl: 1, hipfire: 1 },
+        rationale: { it: 'Budget', en: 'Budget' },
+      },
+      [
+        { id: 'CONTROL', name: 'Control', slot: 'muzzle', pointCost: 50, effects: { recoilControl: 11 } },
+        { id: 'LASER', name: 'Laser', slot: 'laser', pointCost: 10, effects: { hipfire: 10 } },
+      ],
+      50,
+    )
+    const laserReason = solved.rationaleData.chosenJustification.find((item) => item.attachmentId === 'NO_LASER')?.reason
+
+    expect(solved.attachments.map((attachment) => attachment.id)).toEqual(['CONTROL'])
+    expect(laserReason).toContain('budget exhausted')
+  })
 })
 
 describe('scarcity multiplier', () => {

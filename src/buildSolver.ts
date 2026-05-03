@@ -329,7 +329,6 @@ function groupOptionsBySlot(attachments: SolverAttachment[]) {
   }
 
   for (const slot of attachmentSlots) {
-    groups[slot].sort((a, b) => Number(Boolean(a.empty)) - Number(Boolean(b.empty)) || a.name.localeCompare(b.name) || a.id.localeCompare(b.id))
     groups[slot].sort((a, b) => Number(Boolean(b.empty)) - Number(Boolean(a.empty)) || a.name.localeCompare(b.name) || a.id.localeCompare(b.id))
   }
 
@@ -445,7 +444,7 @@ function explainSlotChoice(
       .filter((option) => option.slot !== slot)
       .reduce((sum, option) => sum + option.pointCost, 0)
     const affordableRealOptions = slotOptions.filter((option) => !option.empty && fixedCost + option.pointCost <= budgetCap)
-    const bestSameSlot = candidates
+    const bestSameSlot = [...candidates]
       .filter((candidate) => candidate.options.every((option) => option.slot === slot || winner.options.some((pickedOption) => pickedOption.slot === option.slot && pickedOption.id === option.id)))
       .sort(compareCandidates)[0]
     const reason =
