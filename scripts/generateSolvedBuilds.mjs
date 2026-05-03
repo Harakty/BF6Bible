@@ -1,6 +1,8 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { archetypeForCategory, inferAttachmentSlot, solveBuild } from '../src/buildSolver.ts'
+import { consensusBuilds } from '../src/generated/consensusBuilds.ts'
+import { consensusSlotMapping, isLayerASlot, isLayerBSlot, layerASlots } from '../src/slotAuthority.ts'
 
 const WEAPON_DATA_PATH = resolve('src/generated/weaponStats.ts')
 const ATTACHMENT_DATA_PATH = resolve('src/generated/attachmentData.ts')
@@ -59,8 +61,17 @@ function stableStringify(value) {
   return JSON.stringify(value, null, 2)
 }
 
+function normalizeWeaponName(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, '')
+}
+
+function normalizeUrlSlug(sourceUrl) {
+  const slug = sourceUrl?.split('/').filter(Boolean).at(-1)
+  return slug ? normalizeWeaponName(slug) : undefined
+}
+
 function solverAttachmentFromGenerated(attachment) {
-  const slot = inferAttachmentSlot(attachment.name)
+  const slot = attachment.slot ?? inferAttachmentSlot(attachment.name)
   if (!slot) throw new Error(`Cannot infer attachment slot for ${attachment.name}`)
 
   return {
@@ -68,7 +79,10 @@ function solverAttachmentFromGenerated(attachment) {
     name: attachment.name,
     slot,
     pointCost: attachment.pointCost,
-    effects: attachment.effects,
+    effects: attachment.effects ?? {},
+    layer: attachment.layer ?? 'A',
+    source: attachment.source,
+    sourceUrl: attachment.sourceUrl,
   }
 }
 
@@ -81,22 +95,154 @@ function localizedAttachment(attachment) {
       en: attachment.name,
     },
     points: attachment.pointCost,
-    effects: attachment.effects,
+    pointCost: attachment.pointCost,
+    effects: attachment.effects ?? {},
+    layer: attachment.layer ?? 'A',
+    source: attachment.source ?? 'public-csv',
+    sourceUrl: attachment.sourceUrl,
   }
 }
 
 function allowedSlotsForWeapon(weapon) {
-  if (weapon.categoryKey === 'sidearm') return new Set(['muzzle', 'barrel', 'laser', 'optic', 'magazine', 'ammo'])
-  return undefined
+  if (weapon.categoryKey === 'sidearm') return new Set(['muzzle', 'barrel'])
+  return new Set(layerASlots)
 }
 
 function attachmentsForWeapon(weapon, solverAttachments) {
   const allowedSlots = allowedSlotsForWeapon(weapon)
-  if (!allowedSlots) return solverAttachments
 
   // The public attachment sheet does not expose a per-weapon compatibility matrix yet.
   // Keep obvious category constraints local to generation so the pure solver stays generic.
-  return solverAttachments.filter((attachment) => allowedSlots.has(attachment.slot))
+  return solverAttachments.filter((attachment) => attachment.layer === 'A' && isLayerASlot(attachment.slot) && allowedSlots.has(attachment.slot))
+}
+
+function canonicalConsensusSlot(attachment) {
+  const slot = consensusSlotMapping[attachment.slotType]
+  if (!slot) throw new Error(`Cannot map consensus slot "${attachment.slotType}" for ${attachment.name}`)
+  return slot
+}
+
+function localizedConsensusAttachment(attachment) {
+  const slot = canonicalConsensusSlot(attachment)
+  return {
+    id: `${slot.toUpperCase()}_${attachment.name.replace(/[^A-Za-z0-9]+/g, '').toUpperCase()}`,
+    slot,
+    name: {
+      it: attachment.name,
+      en: attachment.name,
+    },
+    points: attachment.pointCost,
+    pointCost: attachment.pointCost,
+    effects: {},
+    layer: 'B',
+    source: 'battlefieldmeta.gg',
+    sourceUrl: attachment.sourceUrl,
+    fetchTimestamp: attachment.fetchTimestamp,
+    unlockLevel: attachment.unlockLevel,
+  }
+}
+
+function layerBAttachmentsFromConsensus(consensus) {
+  return consensus.attachments.filter((attachment) => isLayerBSlot(canonicalConsensusSlot(attachment)))
+}
+
+function sumPoints(attachments) {
+  return attachments.reduce((sum, attachment) => sum + attachment.pointCost, 0)
+}
+
+function sumEffectTotals(attachments) {
+  const totals = {}
+  for (const attachment of attachments) {
+    for (const [key, value] of Object.entries(attachment.effects ?? {})) {
+      totals[key] = (totals[key] ?? 0) + value
+    }
+  }
+  return totals
+}
+
+function weightedUtility(attachments, archetype) {
+  const totals = sumEffectTotals(attachments)
+  return Object.entries(totals).reduce((sum, [key, value]) => sum + value * (archetype.weights[key] ?? 0), 0)
+}
+
+function enumerateLayerACombos(attachments, allowedSlots) {
+  const slots = [...allowedSlots]
+  const optionsBySlot = new Map(slots.map((slot) => [slot, [undefined, ...attachments.filter((attachment) => attachment.slot === slot)]]))
+  const selected = []
+  const combos = []
+
+  function visit(slotIndex) {
+    if (slotIndex === slots.length) {
+      combos.push(selected.filter(Boolean))
+      return
+    }
+
+    const slot = slots[slotIndex]
+    for (const option of optionsBySlot.get(slot) ?? [undefined]) {
+      selected.push(option)
+      visit(slotIndex + 1)
+      selected.pop()
+    }
+  }
+
+  visit(0)
+  return combos
+}
+
+function exactLayerACombo(weapon, archetype, attachments, solved, budgetCap) {
+  const allowedSlots = allowedSlotsForWeapon(weapon)
+  const solvedIds = new Set(solved.attachments.map((attachment) => attachment.id))
+  const candidates = enumerateLayerACombos(attachments, allowedSlots)
+    .filter((combo) => sumPoints(combo) === budgetCap)
+    .map((combo) => ({
+      attachments: combo,
+      overlap: combo.filter((attachment) => solvedIds.has(attachment.id)).length,
+      utility: weightedUtility(combo, archetype),
+      attachmentCount: combo.length,
+      sortKey: combo.map((attachment) => attachment.id).join('|'),
+    }))
+
+  candidates.sort(
+    (a, b) =>
+      b.attachmentCount - a.attachmentCount ||
+      b.overlap - a.overlap ||
+      b.utility - a.utility ||
+      a.sortKey.localeCompare(b.sortKey),
+  )
+
+  return candidates[0]?.attachments
+}
+
+function solveLayerAExactly(weapon, archetype, attachments, budgetCap) {
+  if (budgetCap < 0) throw new Error(`${weapon.name}: negative Layer A budget ${budgetCap}`)
+
+  const weaponInput = {
+    weaponId: weapon.id,
+    categoryKey: weapon.categoryKey,
+    hipfire: weapon.hipfire,
+    control: weapon.control,
+    precision: weapon.precision,
+    mobility: weapon.mobility,
+    velocity: weapon.velocity,
+    adsMs: weapon.adsMs,
+    rpm: weapon.rpm,
+    magSize: weapon.magSize,
+  }
+
+  const solved = solveBuild(weaponInput, archetype, attachments, budgetCap)
+  const exactCombo = exactLayerACombo(weapon, archetype, attachments, solved, budgetCap)
+  if (solved.totalPoints === budgetCap && (!exactCombo || exactCombo.length <= solved.attachments.length)) return solved
+
+  if (!exactCombo) {
+    throw new Error(`${weapon.name}: no exact Layer A attachment combination for ${budgetCap} points; solver best was ${solved.totalPoints}`)
+  }
+
+  const exactSolved = solveBuild(weaponInput, archetype, exactCombo, budgetCap)
+  if (exactSolved.totalPoints !== budgetCap) {
+    throw new Error(`${weapon.name}: exact Layer A fallback produced ${exactSolved.totalPoints}/${budgetCap}`)
+  }
+
+  return exactSolved
 }
 
 async function main() {
@@ -107,25 +253,33 @@ async function main() {
   const weaponData = extractGeneratedObject(weaponText, 'generatedWeaponStats')
   const attachmentData = extractGeneratedObject(attachmentText, 'generatedAttachmentData')
   const solverAttachments = attachmentData.attachments.map(solverAttachmentFromGenerated)
+  const consensusByNormalizedWeapon = new Map()
+  for (const [weaponName, build] of Object.entries(consensusBuilds.builds)) {
+    consensusByNormalizedWeapon.set(normalizeWeaponName(weaponName), { weaponName, build })
+    const sourceSlug = normalizeUrlSlug(build.sourceUrl)
+    if (sourceSlug) consensusByNormalizedWeapon.set(sourceSlug, { weaponName, build })
+  }
 
   const builds = weaponData.weapons.map((weapon) => {
+    const consensusMatch =
+      (consensusBuilds.builds[weapon.name] && { weaponName: weapon.name, build: consensusBuilds.builds[weapon.name] }) ??
+      consensusByNormalizedWeapon.get(normalizeWeaponName(weapon.name))
+    const consensus = consensusMatch?.build
+    if (!consensus) throw new Error(`${weapon.name}: missing battlefieldmeta consensus build`)
+
     const archetype = archetypeForCategory(weapon.categoryKey)
-    const solved = solveBuild(
-      {
-        weaponId: weapon.id,
-        categoryKey: weapon.categoryKey,
-        hipfire: weapon.hipfire,
-        control: weapon.control,
-        precision: weapon.precision,
-        mobility: weapon.mobility,
-        velocity: weapon.velocity,
-        adsMs: weapon.adsMs,
-        rpm: weapon.rpm,
-        magSize: weapon.magSize,
-      },
-      archetype,
-      attachmentsForWeapon(weapon, solverAttachments),
-    )
+    const weaponMaxBudget = consensus.weaponMaxBudget
+    const layerBAttachments = layerBAttachmentsFromConsensus(consensus)
+    const layerBTotal = sumPoints(layerBAttachments)
+    const layerABudget = weaponMaxBudget - layerBTotal
+    const solved = solveLayerAExactly(weapon, archetype, attachmentsForWeapon(weapon, solverAttachments), layerABudget)
+    const layerAAttachments = solved.attachments.map(localizedAttachment)
+    const layerBFinalAttachments = layerBAttachments.map(localizedConsensusAttachment)
+    const finalAttachments = [...layerAAttachments, ...layerBFinalAttachments]
+    const finalTotal = finalAttachments.reduce((sum, attachment) => sum + attachment.points, 0)
+    if (finalTotal !== weaponMaxBudget) {
+      throw new Error(`${weapon.name}: build totals ${finalTotal}/${weaponMaxBudget}, must match weapon cap exactly`)
+    }
 
     return {
       weaponId: weapon.id,
@@ -138,25 +292,40 @@ async function main() {
         id: archetype.id,
         label: archetype.label,
       },
-      totalPoints: solved.totalPoints,
+      totalPoints: finalTotal,
+      weaponMaxBudget,
+      consensusWeaponName: consensusMatch.weaponName,
+      consensusSpent: consensus.consensusSpent,
+      layerATotal: solved.totalPoints,
+      layerBTotal,
       objectiveScore: solved.objectiveScore,
       effectTotals: solved.effectTotals,
-      attachments: solved.attachments.map(localizedAttachment),
+      attachments: finalAttachments,
       rationale: archetype.rationale,
       rationaleData: solved.rationaleData,
       sourceHashes: {
         weapons: weaponData.sourceHash,
         attachments: attachmentData.sourceHash,
+        consensus: consensusBuilds.fetchedAt,
       },
     }
   })
 
+  for (const build of builds) {
+    if (build.totalPoints !== build.weaponMaxBudget) {
+      throw new Error(`${build.weaponName}: build has ${build.totalPoints}/${build.weaponMaxBudget} points, must match cap exactly`)
+    }
+  }
+
   const dataset = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     model: {
       maxPoints: 100,
+      budgetMode: 'weapon-specific-consensus-cap',
       status: 'solved',
-      ruleSet: 'bf6-bible-redsec-solver-v1',
+      ruleSet: 'bf6-bible-hybrid-consensus-v1',
+      layerA: [...layerASlots],
+      layerB: 'battlefieldmeta.gg literal consensus slots',
     },
     builds,
   }
