@@ -30,7 +30,6 @@ import {
   modePlans,
   sources,
   type Lang,
-  type Loadout,
   type Localized,
   type LocalizedTerm,
   type ModeId,
@@ -39,7 +38,7 @@ import {
   type WeaponMetric,
 } from './data'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
-import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type GeneratedWeaponStat } from './weaponStats'
+import { generatedStatForName, generatedWeaponStats, type GeneratedWeaponStat } from './weaponStats'
 
 type ViewId = 'planner' | 'meta'
 type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
@@ -660,125 +659,10 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
   )
 }
 
-type MetaBuildLink = {
-  key: string
-  kind: 'curated'
-  modeId: ModeId
-  modeTitle: Localized
-  roleId: string
-  roleClassName: Localized
-  roleCallSign: Localized
-  loadout: Loadout
-  slot: 'primary' | 'secondary'
-  kit: WeaponKit
-}
-
 type TemplateBuildLink = {
   key: string
   kind: 'template'
   build: TemplateBuild
-}
-
-type ActiveMetaBuild = MetaBuildLink | TemplateBuildLink
-
-function collectMetaBuildLinks(): MetaBuildLink[] {
-  return (Object.values(modePlans) as Array<(typeof modePlans)[ModeId]>).flatMap((plan) =>
-    plan.roles.flatMap((role) =>
-      role.loadouts.flatMap((loadout) =>
-        (['primary', 'secondary'] as const).map((slot) => ({
-          key: `${loadout.id}-${slot}`,
-          kind: 'curated' as const,
-          modeId: plan.id,
-          modeTitle: plan.title,
-          roleId: role.id,
-          roleClassName: role.className,
-          roleCallSign: role.callSign,
-          loadout,
-          slot,
-          kit: loadout[slot],
-        })),
-      ),
-    ),
-  )
-}
-
-function CuratedMetaBuildPanel({ build, lang }: { build: MetaBuildLink; lang: Lang }) {
-  const buildSources = Array.from(
-    new Set([
-      ...build.loadout.sourceIds,
-      ...build.loadout.primary.metric.sourceIds,
-      ...build.loadout.secondary.metric.sourceIds,
-      'battlefieldmeta',
-    ]),
-  )
-    .map((id) => sourceMap.get(id))
-    .filter((source): source is Source => Boolean(source))
-  const openedSlotLabel = build.slot === 'primary' ? copy.primary : copy.secondary
-  const primaryPoints = formatAttachmentPoints(build.loadout.primary.attachments)
-  const secondaryPoints = formatAttachmentPoints(build.loadout.secondary.attachments)
-
-  return (
-    <aside className="meta-build-panel" id={`build-${build.key}`}>
-      <div className="meta-build-title">
-        <div>
-          <span>{t(copy.curatedBuild, lang)}</span>
-          <h3>
-            {t(build.loadout.primary.metric.weapon.name, lang)} + {t(build.loadout.secondary.metric.weapon.name, lang)}
-          </h3>
-        </div>
-      </div>
-      <div className="meta-build-context">
-        <span>{t(build.modeTitle, lang)}</span>
-        <span>{t(build.roleClassName, lang)}</span>
-        <span>{t(build.roleCallSign, lang)}</span>
-        <span>
-          {t(copy.openedFrom, lang)}: {t(openedSlotLabel, lang)}
-        </span>
-        <strong>
-          {primaryPoints ?? t(copy.buildPending, lang)} + {secondaryPoints ?? t(copy.buildPending, lang)}
-        </strong>
-      </div>
-      <p>{t(build.loadout.summary, lang)}</p>
-      <div className="meta-build-grid">
-        <AttachmentBlock kit={build.loadout.primary} lang={lang} title={copy.buildPrimary} highlighted={build.slot === 'primary'} />
-        <AttachmentBlock kit={build.loadout.secondary} lang={lang} title={copy.buildSecondary} highlighted={build.slot === 'secondary'} />
-        <section className="build-section">
-          <h3>{t(copy.recommendedSkills, lang)}</h3>
-          <div className="chips">
-            {build.loadout.skills.map((item) => (
-              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
-            ))}
-          </div>
-        </section>
-        <section className="build-section">
-          <h3>{t(copy.gadgets, lang)}</h3>
-          <div className="chips">
-            {build.loadout.gadgets.map((item) => (
-              <Term key={`${item.name.it}-${item.name.en}`} lang={lang} value={item} />
-            ))}
-          </div>
-        </section>
-        <section className="build-section">
-          <h3>{t(copy.engagement, lang)}</h3>
-          <p>{t(build.loadout.engagement, lang)}</p>
-        </section>
-        <section className="build-section wide">
-          <h3>{t(copy.playbook, lang)}</h3>
-          <ol className="compact-playbook">
-            {build.loadout.playbook.map((line) => (
-              <li key={line.en}>{t(line, lang)}</li>
-            ))}
-          </ol>
-        </section>
-      </div>
-      <span className="source-label">{t(copy.dataSources, lang)}</span>
-      <div className="source-row">
-        {buildSources.slice(0, 4).map((source) => (
-          <SourcePill key={source.id} source={source} lang={lang} />
-        ))}
-      </div>
-    </aside>
-  )
 }
 
 function TemplateMetaBuildPanel({ build, lang }: { build: TemplateBuild; lang: Lang }) {
@@ -836,14 +720,6 @@ function TemplateMetaBuildPanel({ build, lang }: { build: TemplateBuild; lang: L
   )
 }
 
-function MetaBuildPanel({ build, lang }: { build: ActiveMetaBuild; lang: Lang }) {
-  return build.kind === 'curated' ? (
-    <CuratedMetaBuildPanel build={build} lang={lang} />
-  ) : (
-    <TemplateMetaBuildPanel build={build.build} lang={lang} />
-  )
-}
-
 function MetaTierSection({ lang }: { lang: Lang }) {
   const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
   const [weaponTypeId, setWeaponTypeId] = useState<WeaponTypeFilterId>('all')
@@ -860,30 +736,17 @@ function MetaTierSection({ lang }: { lang: Lang }) {
     [rankedWeapons, weaponTypeId],
   )
   const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
-  const buildLinks = useMemo(() => collectMetaBuildLinks(), [])
-  const buildLinksByWeapon = useMemo(() => {
-    const map = new Map<string, MetaBuildLink[]>()
-    for (const link of buildLinks) {
-      const key = normalizeWeaponName(link.kit.metric.weapon.name.en)
-      map.set(key, [...(map.get(key) ?? []), link])
-    }
-    return map
-  }, [buildLinks])
-  const selectedBuild =
-    buildLinks.find((link) => link.key === selectedBuildKey) ??
-    (selectedBuildKey.startsWith('template-')
-      ? templateBuilds
-          .map((build) => ({ key: `template-${build.weaponId}`, kind: 'template' as const, build }))
-          .find((link) => link.key === selectedBuildKey)
-      : undefined)
+  const selectedBuild = selectedBuildKey.startsWith('template-')
+    ? templateBuilds
+        .map((build) => ({ key: `template-${build.weaponId}`, kind: 'template' as const, build }))
+        .find((link) => link.key === selectedBuildKey)
+    : undefined
   const fallbackBuild = filteredRankedWeapons
-    .map((ranked): ActiveMetaBuild | undefined => {
-      const curated = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))?.[0]
-      if (curated) return curated
+    .map((ranked): TemplateBuildLink | undefined => {
       const template = templateBuildForWeapon(ranked.metric.weapon.name.en)
       return template ? { key: `template-${template.weaponId}`, kind: 'template', build: template } : undefined
     })
-    .find((link): link is ActiveMetaBuild => Boolean(link))
+    .find((link): link is TemplateBuildLink => Boolean(link))
   const activeBuild = selectedBuild ?? fallbackBuild
   const resetSelectedBuild = () => {
     setSelectedBuildKey('')
@@ -969,7 +832,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           {filteredRankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
       </div>
-      {activeBuild ? <MetaBuildPanel build={activeBuild} lang={lang} /> : null}
+      {activeBuild ? <TemplateMetaBuildPanel build={activeBuild.build} lang={lang} /> : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
         <div className="tier-row tier-row-head" role="row">
           <span>Tier</span>
@@ -983,8 +846,6 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.bestBuild, lang)}</span>
         </div>
         {filteredRankedWeapons.map((ranked) => {
-          const weaponBuilds = buildLinksByWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en)) ?? []
-          const bestBuild = weaponBuilds[0]
           const templateBuild = templateBuildForWeapon(ranked.metric.weapon.name.en)
 
           return (
@@ -1005,11 +866,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                 <small>{t(ranked.dataQualityLabel, lang)}</small>
               </span>
               <span className="build-actions">
-                {bestBuild ? (
-                  <button type="button" onClick={() => selectBuild(bestBuild.key)}>
-                    {t(copy.openBuild, lang)}
-                  </button>
-                ) : templateBuild ? (
+                {templateBuild ? (
                   <button type="button" onClick={() => selectBuild(`template-${templateBuild.weaponId}`)}>
                     {t(copy.openTemplateBuild, lang)}
                   </button>
