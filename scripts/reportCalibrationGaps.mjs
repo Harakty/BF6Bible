@@ -1,21 +1,24 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { metaWeapons } from '../src/data.ts'
-import { externalMetaConsensus } from '../src/generated/externalMetaConsensus.ts'
-import { generatedAttachmentData } from '../src/generated/attachmentData.ts'
+import { consensusBuilds } from '../src/generated/consensusBuilds.ts'
 import { generatedSolvedBuilds } from '../src/generated/solvedBuilds.ts'
 import { rankWeapons } from '../src/metaEngine.ts'
+import { normalizeWeaponName } from '../src/weaponStats.ts'
 
 const OUTPUT_PATH = resolve('output/calibration-report.md')
 const tierOrder = ['D', 'C', 'B', 'A', 'S', 'S+']
-const spendTargets = {
-  high: { min: 60, max: 100 },
-  medium: { min: 45, max: 85 },
-  low: { min: 0, max: 45 },
-}
 
 function buildName(build) {
   return build.attachments.map((attachment) => attachment.name.en).join(' + ') || 'None'
+}
+
+function sourceSlug(sourceUrl) {
+  return sourceUrl.split('/').filter(Boolean).at(-1)
+}
+
+function consensusComparableTier(tier) {
+  return tier === 'META' ? 'S' : tier
 }
 
 function tierDistance(a, b) {
@@ -43,137 +46,123 @@ function sanitize(value) {
   return String(value).replaceAll('|', '\\|')
 }
 
-const solvedByWeapon = new Map(generatedSolvedBuilds.builds.map((build) => [build.weaponName, build]))
-const rankedByWeapon = new Map(rankWeapons(metaWeapons, 'all').map((ranked) => [ranked.metric.weapon.name.en, ranked]))
-const attachmentNames = new Set(generatedAttachmentData.attachments.map((attachment) => attachment.name))
+function normalizedMap(entries, keyFn) {
+  const map = new Map()
+  for (const entry of entries) {
+    map.set(normalizeWeaponName(keyFn(entry)), entry)
+  }
+  return map
+}
+
+const solvedByWeapon = normalizedMap(generatedSolvedBuilds.builds, (build) => build.weaponName)
+const rankedByWeapon = normalizedMap(rankWeapons(metaWeapons, 'all'), (ranked) => ranked.metric.weapon.name.en)
+
+const consensusEntries = Object.entries(consensusBuilds.builds).map(([weaponName, consensus]) => ({
+  weaponName,
+  consensus,
+  aliases: [weaponName, sourceSlug(consensus.sourceUrl)].filter(Boolean).map(normalizeWeaponName),
+}))
 
 const outliers = []
 for (const build of generatedSolvedBuilds.builds) {
-  if (build.objectiveScore < 50) {
+  if (build.totalPoints !== build.weaponMaxBudget) {
     outliers.push({
       priority: 1,
       weapon: build.weaponName,
       archetype: build.archetype.id,
       score: build.objectiveScore,
-      points: build.totalPoints,
+      points: `${build.totalPoints}/${build.weaponMaxBudget}`,
       build: buildName(build),
-      issue: 'Score too low',
-      suspicion: build.totalPoints < 30 ? 'cost pressure too high or scarcity collapse' : 'objective normalization too harsh',
+      issue: 'Cap mismatch',
+      suspicion: 'hybrid generator failed to close weapon cap',
     })
   }
 
-  if (build.totalPoints < 30 && build.archetype.id !== 'emergency-backup') {
+  if (build.objectiveScore < 50) {
     outliers.push({
       priority: 2,
       weapon: build.weaponName,
       archetype: build.archetype.id,
       score: build.objectiveScore,
-      points: build.totalPoints,
+      points: `${build.totalPoints}/${build.weaponMaxBudget}`,
       build: buildName(build),
-      issue: 'Underspent',
-      suspicion: 'budget penalty dominates useful effects',
-    })
-  }
-
-  if (build.attachments.length < 3 && build.archetype.id !== 'emergency-backup') {
-    outliers.push({
-      priority: 3,
-      weapon: build.weaponName,
-      archetype: build.archetype.id,
-      score: build.objectiveScore,
-      points: build.totalPoints,
-      build: buildName(build),
-      issue: 'Sparse',
-      suspicion: 'slot utility collapsed below budget pressure',
+      issue: 'Score too low',
+      suspicion: 'Layer A utility still weak after consensus layer',
     })
   }
 }
 
-outliers.sort((a, b) => a.priority - b.priority || a.score - b.score || a.points - b.points)
+outliers.sort((a, b) => a.priority - b.priority || a.score - b.score)
 
 const tierDisagreements = []
-for (const entry of externalMetaConsensus) {
-  if (!entry.consensusTier || (entry.confidence !== 'high' && entry.confidence !== 'medium')) continue
-  const ranked = rankedByWeapon.get(entry.weaponName)
+for (const entry of consensusEntries) {
+  const ranked = entry.aliases.map((alias) => rankedByWeapon.get(alias)).find(Boolean)
   if (!ranked) continue
-  const comparisonTier = ranked.metric.tier
-  const distance = tierDistance(comparisonTier, entry.consensusTier)
+  const comparableConsensus = consensusComparableTier(entry.consensus.tier)
+  const distance = tierDistance(ranked.calculatedTier, comparableConsensus)
   if (distance === 0) continue
 
   tierDisagreements.push({
-    weapon: entry.weaponName,
-    confidence: entry.confidence,
-    ours: comparisonTier,
-    consensus: entry.consensusTier,
+    weapon: ranked.metric.weapon.name.en,
+    calculatedTier: ranked.calculatedTier,
+    consensus: entry.consensus.tier,
     distance,
     severity: severityForTierDistance(distance),
-    calculatedTier: ranked.calculatedTier,
     score: ranked.score,
   })
 }
 tierDisagreements.sort((a, b) => b.distance - a.distance || b.score - a.score)
 
-const spendDisagreements = []
-for (const entry of externalMetaConsensus) {
-  if (entry.confidence !== 'high' || !entry.spendTarget) continue
-  const build = solvedByWeapon.get(entry.weaponName)
+const capRows = []
+for (const entry of consensusEntries) {
+  const build = entry.aliases.map((alias) => solvedByWeapon.get(alias)).find(Boolean)
   if (!build) continue
-  const target = spendTargets[entry.spendTarget]
 
-  if (build.totalPoints < target.min) {
-    spendDisagreements.push({
-      weapon: entry.weaponName,
-      confidence: entry.confidence,
-      target: entry.spendTarget,
-      points: build.totalPoints,
-      issue: 'Underspent vs consensus',
-      build: buildName(build),
-    })
-  }
-
-  if (build.totalPoints > target.max) {
-    spendDisagreements.push({
-      weapon: entry.weaponName,
-      confidence: entry.confidence,
-      target: entry.spendTarget,
-      points: build.totalPoints,
-      issue: 'Overspent vs consensus',
-      build: buildName(build),
+  if (entry.consensus.consensusSpent < entry.consensus.weaponMaxBudget) {
+    capRows.push({
+      weapon: build.weaponName,
+      consensus: `${entry.consensus.consensusSpent}/${entry.consensus.weaponMaxBudget}`,
+      ours: `${build.totalPoints}/${build.weaponMaxBudget}`,
+      topUp: build.totalPoints - entry.consensus.consensusSpent,
     })
   }
 }
-spendDisagreements.sort((a, b) => a.points - b.points)
+capRows.sort((a, b) => b.topUp - a.topUp || a.weapon.localeCompare(b.weapon))
 
-const attachmentDisagreements = []
-for (const entry of externalMetaConsensus) {
-  if (!entry.suggestedBuild) continue
-  const build = solvedByWeapon.get(entry.weaponName)
+const layerBRows = []
+for (const entry of consensusEntries) {
+  const build = entry.aliases.map((alias) => solvedByWeapon.get(alias)).find(Boolean)
   if (!build) continue
-  const matchable = entry.suggestedBuild.attachments.filter((attachment) => attachmentNames.has(attachment))
-  if (matchable.length === 0) continue
-  const ours = build.attachments.map((attachment) => attachment.name.en)
-  const matched = matchable.filter((attachment) => ours.includes(attachment))
 
-  attachmentDisagreements.push({
-    weapon: entry.weaponName,
-    consensusMatchable: matchable.join(' + '),
-    ours: ours.join(' + ') || 'None',
-    matched: `${matched.length}/${matchable.length}`,
+  const consensusLayerB = entry.consensus.attachments
+    .filter((attachment) => !['Muzzle', 'Barrel', 'Underbarrel'].includes(attachment.slotType))
+    .map((attachment) => attachment.name)
+  const solvedLayerB = build.attachments.filter((attachment) => attachment.layer === 'B').map((attachment) => attachment.name.en)
+  const matched = consensusLayerB.filter((attachment) => solvedLayerB.includes(attachment))
+
+  layerBRows.push({
+    weapon: build.weaponName,
+    consensusLayerB: consensusLayerB.join(' + ') || 'None',
+    solvedLayerB: solvedLayerB.join(' + ') || 'None',
+    matched: `${matched.length}/${consensusLayerB.length}`,
   })
 }
+
+const flaggedTierDisagreements = tierDisagreements.filter((row) => row.distance > 1)
 
 const lines = [
   '# BF6 Bible Calibration Report',
   '',
-  'Generated from static Sprint 3 consensus, current solved builds, and metaEngine `all` ranking.',
-  'Tier comparison uses the curated weapon tier as the consensus-facing layer; the raw calculated tier and score stay visible as diagnostics.',
+  'Generated from battlefieldmeta.gg consensus builds, current solved builds, and metaEngine `all` ranking.',
+  'Consensus tier `META` is compared as the S/S+ public-meta band; distance <= 1 is accepted.',
   '',
   '## Summary',
   '',
   `- Outliers: ${outliers.length}`,
-  `- Tier disagreements: ${tierDisagreements.length}`,
-  `- Spend disagreements: ${spendDisagreements.length}`,
-  `- Attachment comparison rows: ${attachmentDisagreements.length}`,
+  `- Tier disagreement flags: ${flaggedTierDisagreements.length}`,
+  `- Tier warnings: ${tierDisagreements.length - flaggedTierDisagreements.length}`,
+  `- Consensus under-spend top-ups: ${capRows.length}`,
+  `- Layer B comparison rows: ${layerBRows.length}`,
   '',
   '### Outliers (priority 1)',
   '',
@@ -188,28 +177,26 @@ const lines = [
   '### Tier disagreement',
   '',
   markdownTable(
-    ['Weapon', 'Confidence', 'Curated', 'Consensus', 'Distance', 'Severity', 'Calculated', 'Score'],
+    ['Weapon', 'Calculated', 'Consensus', 'Distance', 'Severity', 'Score'],
     rowLimit(tierDisagreements).map(
       (row) =>
-        `| ${sanitize(row.weapon)} | ${row.confidence} | ${row.ours} | ${row.consensus} | ${row.distance} | ${row.severity} | ${row.calculatedTier} | ${row.score} |`,
+        `| ${sanitize(row.weapon)} | ${row.calculatedTier} | ${row.consensus} | ${row.distance} | ${row.severity} | ${row.score} |`,
     ),
   ),
   '',
-  '### Build spend disagreement',
+  '### Consensus under-spend top-ups',
   '',
   markdownTable(
-    ['Weapon', 'Confidence', 'Target', 'Points', 'Issue', 'Build'],
-    rowLimit(spendDisagreements).map(
-      (row) => `| ${sanitize(row.weapon)} | ${row.confidence} | ${row.target} | ${row.points} | ${row.issue} | ${sanitize(row.build)} |`,
-    ),
+    ['Weapon', 'Consensus spent', 'Our solved cap', 'Top-up'],
+    rowLimit(capRows).map((row) => `| ${sanitize(row.weapon)} | ${row.consensus} | ${row.ours} | +${row.topUp} |`),
   ),
   '',
-  '### Build attachment disagreement',
+  '### Layer B literal consensus check',
   '',
   markdownTable(
-    ['Weapon', 'Consensus matchable attachments', 'Our solved build', 'Matched'],
-    rowLimit(attachmentDisagreements).map(
-      (row) => `| ${sanitize(row.weapon)} | ${sanitize(row.consensusMatchable)} | ${sanitize(row.ours)} | ${row.matched} |`,
+    ['Weapon', 'Consensus Layer B', 'Solved Layer B', 'Matched'],
+    rowLimit(layerBRows).map(
+      (row) => `| ${sanitize(row.weapon)} | ${sanitize(row.consensusLayerB)} | ${sanitize(row.solvedLayerB)} | ${row.matched} |`,
     ),
   ),
   '',

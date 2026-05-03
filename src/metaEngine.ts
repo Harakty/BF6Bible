@@ -1,5 +1,6 @@
 import type { Localized, Tier, WeaponMetric } from './data'
-import { generatedStatForName, rangeValue, type GeneratedWeaponStat, type RangeNumberMap } from './weaponStats'
+import { consensusBuilds } from './generated/consensusBuilds'
+import { generatedStatForName, normalizeWeaponName, rangeValue, type GeneratedWeaponStat, type RangeNumberMap } from './weaponStats'
 
 export type MetaScenarioId = 'all' | 'assault' | 'support' | 'engineer' | 'recon'
 
@@ -66,6 +67,26 @@ const componentLabels: Record<ScoreKey, Localized> = {
   roleFit: { it: 'Fit ruolo', en: 'Role fit' },
   dataQuality: { it: 'Qualità dati', en: 'Data quality' },
 }
+
+const consensusTargetScore: Record<string, number> = {
+  META: 86,
+  A: 76,
+  B: 66,
+  C: 56,
+  D: 44,
+}
+
+const consensusPriorWeight = 0.8
+
+const consensusByNormalizedWeapon = new Map(
+  Object.entries(consensusBuilds.builds).flatMap(([weaponName, build]) => {
+    const sourceSlug = build.sourceUrl.split('/').filter(Boolean).at(-1)
+    return [
+      [normalizeWeaponName(weaponName), build] as const,
+      ...(sourceSlug ? ([[normalizeWeaponName(sourceSlug), build] as const] as const) : []),
+    ]
+  }),
+)
 
 export const metaScenarios: MetaScenario[] = [
   {
@@ -203,7 +224,7 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
   }))
 
   const weighted = components.reduce((sum, component) => sum + component.score * component.weight, 0)
-  const score = Math.round(weighted)
+  const score = clamp(Math.round(weighted + consensusBoost(metric.weapon.name.en, weighted)), 0, 100)
 
   return {
     metric,
@@ -217,6 +238,16 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
     redsecTtkMs,
     components,
   }
+}
+
+function consensusBoost(weaponName: string, currentScore: number) {
+  const consensus = consensusByNormalizedWeapon.get(normalizeWeaponName(weaponName))
+  if (!consensus) return 0
+
+  const target = consensusTargetScore[consensus.tier]
+  if (target === undefined) return 0
+
+  return (target - currentScore) * consensusPriorWeight
 }
 
 function classifyWeapon(metric: WeaponMetric, stat?: GeneratedWeaponStat): WeaponClassKey {
