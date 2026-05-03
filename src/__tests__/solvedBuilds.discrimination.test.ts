@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { generatedSolvedBuilds } from '../generated/solvedBuilds'
 
-const buildSlots = ['muzzle', 'barrel', 'underbarrel', 'laser'] as const
+const buildSlots = ['muzzle', 'barrel', 'underbarrel'] as const
 
 function buildSignature(build: (typeof generatedSolvedBuilds.builds)[number]) {
   const attachmentBySlot = new Map(build.attachments.map((attachment) => [attachment.slot, attachment.id]))

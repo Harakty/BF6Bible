@@ -2,8 +2,9 @@ import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { metaWeapons } from '../data'
+import { consensusBuilds } from '../generated/consensusBuilds'
 import { metaEngineTestHooks, metaScenarios, rankWeapons, type RankedWeapon } from '../metaEngine'
-import { generatedWeaponStats } from '../weaponStats'
+import { generatedWeaponStats, normalizeWeaponName } from '../weaponStats'
 import { generatedStatForName } from '../weaponStats'
 
 const tierOrder = {
@@ -15,6 +16,10 @@ const tierOrder = {
   'S+': 5,
 } as const
 
+function tierDistance(a: string, b: string) {
+  return Math.abs(tierOrder[a as keyof typeof tierOrder] - tierOrder[b as keyof typeof tierOrder])
+}
+
 function compactRanking(ranking: RankedWeapon[]) {
   return ranking.map((ranked) => ({
     weapon: ranked.metric.weapon.name.en,
@@ -23,6 +28,14 @@ function compactRanking(ranking: RankedWeapon[]) {
     roleFit: ranked.roleFit,
     dataQuality: ranked.dataQuality,
   }))
+}
+
+function consensusComparableTier(tier: string) {
+  return tier === 'META' ? 'S' : tier
+}
+
+function sourceSlug(sourceUrl: string) {
+  return sourceUrl.split('/').filter(Boolean).at(-1)
 }
 
 describe('metaEngine invariants', () => {
@@ -95,6 +108,24 @@ describe('metaEngine invariants', () => {
       const stat = generatedStatForName(metric.weapon.name.en)
       const score = metaEngineTestHooks.dataQualityScore(metric, stat)
       expect(score === 100).toBe(Boolean(stat))
+    }
+  })
+
+  it('keeps calculated tiers within 1 step of battlefieldmeta consensus in the all scenario', () => {
+    const ranking = rankWeapons(metaWeapons, 'all')
+    const rankedByWeapon = new Map(ranking.map((ranked) => [normalizeWeaponName(ranked.metric.weapon.name.en), ranked]))
+
+    for (const [weaponName, consensus] of Object.entries(consensusBuilds.builds)) {
+      const slug = sourceSlug(consensus.sourceUrl)
+      const ranked = rankedByWeapon.get(normalizeWeaponName(weaponName)) ?? (slug ? rankedByWeapon.get(normalizeWeaponName(slug)) : undefined)
+
+      expect(ranked, `${weaponName} missing from all ranking`).toBeDefined()
+      if (!ranked) continue
+
+      expect(
+        tierDistance(ranked.calculatedTier, consensusComparableTier(consensus.tier)),
+        `${weaponName}: calculatedTier ${ranked.calculatedTier} vs consensus ${consensus.tier}`,
+      ).toBeLessThanOrEqual(1)
     }
   })
 })

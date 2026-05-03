@@ -30,5 +30,5 @@ export function templateBuildPointLabel(build: TemplateBuild) {
 }
 
 export function solvedBuildPointLabel(build: SolvedBuild) {
-  return `${build.totalPoints}/${generatedSolvedBuilds.model.maxPoints}`
+  return `${build.totalPoints}/${build.weaponMaxBudget}`
 }
