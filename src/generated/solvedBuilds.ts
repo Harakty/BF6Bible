@@ -24,11 +24,12 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 75,
-      "objectiveScore": 81,
+      "totalPoints": 85,
+      "objectiveScore": 82,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "recoilRecovery": 2,
         "accuracyOverTime": 2,
         "drawSpeed": 1,
         "projectileVelocity": 1,
@@ -39,16 +40,17 @@ export const generatedSolvedBuilds = {
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "COMPENSATEDBRAKE",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Freno compensato",
+            "en": "Compensated Brake"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "recoilRecovery": 2
           }
         },
         {
@@ -102,8 +104,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "COMPENSATEDBRAKE",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -123,8 +125,8 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "EXTENDEDBARREL",
-          "slot": "barrel",
+          "attachmentId": "FLASHCOMPENSATOR",
+          "slot": "muzzle",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -150,44 +152,28 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 75,
-      "objectiveScore": 81,
+      "objectiveScore": 80,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
-        "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
-          }
-        },
-        {
-          "id": "HEAVYEXTENDEDBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
-          },
-          "points": 10,
-          "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
@@ -227,14 +213,14 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
-            "reason": "primary projectileVelocity driver (+1 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
             "attachmentId": "CLASSICVERTICAL",
@@ -248,9 +234,9 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "EXTENDEDBARREL",
-          "slot": "barrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "COMPENSATEDBRAKE",
+          "slot": "muzzle",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -274,16 +260,13 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 90,
+      "totalPoints": 70,
       "objectiveScore": 80,
       "effectTotals": {
         "recoilRecovery": 2,
         "weaponSway": 1,
-        "hipfire": 6,
-        "hidingVisibility": 8,
-        "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
+        "hipfire": 2,
+        "hidingVisibility": 6,
         "recoilControl": 5,
         "recoilPrecision": 5,
         "adsMovingAccuracy": 4,
@@ -306,20 +289,6 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "HEAVYEXTENDEDBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
-          },
-          "points": 10,
-          "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
-          }
-        },
-        {
           "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
@@ -335,17 +304,15 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "BLUELASER50MW",
+          "id": "VIOLETLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (50 mW)",
-            "en": "Blue Laser (50 mW)"
+            "it": "Laser viola (50 mW)",
+            "en": "Violet Laser (50 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 4,
-            "hidingVisibility": 2
+            "adsMovingAccuracy": 2
           }
         }
       ],
@@ -361,9 +328,9 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
-            "reason": "primary projectileVelocity driver (+1 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
             "attachmentId": "CLASSICVERTICAL",
@@ -371,15 +338,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER50MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
+            "attachmentId": "VIOLETLASER50MW",
+            "reason": "primary adsMovingAccuracy driver (+2 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "LIGHTSUPPRESSOR",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -403,31 +370,32 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 75,
-      "objectiveScore": 81,
+      "totalPoints": 85,
+      "objectiveScore": 80,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "accuracyOverTime": 2,
         "drawSpeed": 1,
         "projectileVelocity": 1,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
@@ -481,8 +449,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -504,7 +472,7 @@ export const generatedSolvedBuilds = {
         "rejectedTopRunnerUp": {
           "attachmentId": "EXTENDEDBARREL",
           "slot": "barrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -528,31 +496,32 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 75,
+      "totalPoints": 85,
       "objectiveScore": 81,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "accuracyOverTime": 2,
         "drawSpeed": 1,
         "projectileVelocity": 1,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
@@ -606,8 +575,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -629,7 +598,7 @@ export const generatedSolvedBuilds = {
         "rejectedTopRunnerUp": {
           "attachmentId": "EXTENDEDBARREL",
           "slot": "barrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -653,16 +622,13 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 90,
-      "objectiveScore": 80,
+      "totalPoints": 70,
+      "objectiveScore": 76,
       "effectTotals": {
         "recoilRecovery": 2,
         "weaponSway": 1,
-        "hipfire": 6,
-        "hidingVisibility": 8,
-        "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
+        "hipfire": 2,
+        "hidingVisibility": 6,
         "recoilControl": 5,
         "recoilPrecision": 5,
         "adsMovingAccuracy": 4,
@@ -685,20 +651,6 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "HEAVYEXTENDEDBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
-          },
-          "points": 10,
-          "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
-          }
-        },
-        {
           "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
@@ -714,17 +666,15 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "BLUELASER50MW",
+          "id": "VIOLETLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (50 mW)",
-            "en": "Blue Laser (50 mW)"
+            "it": "Laser viola (50 mW)",
+            "en": "Violet Laser (50 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 4,
-            "hidingVisibility": 2
+            "adsMovingAccuracy": 2
           }
         }
       ],
@@ -740,25 +690,25 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
-            "reason": "primary projectileVelocity driver (+1 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
             "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilControl driver (+5 pts)",
+            "reason": "primary recoilPrecision driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER50MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
+            "attachmentId": "VIOLETLASER50MW",
+            "reason": "primary adsMovingAccuracy driver (+2 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LIGHTSUPPRESSOR",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -782,31 +732,32 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 75,
-      "objectiveScore": 81,
+      "totalPoints": 85,
+      "objectiveScore": 83,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "accuracyOverTime": 2,
         "drawSpeed": 1,
         "projectileVelocity": 1,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
@@ -860,8 +811,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -883,7 +834,7 @@ export const generatedSolvedBuilds = {
         "rejectedTopRunnerUp": {
           "attachmentId": "EXTENDEDBARREL",
           "slot": "barrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -908,44 +859,28 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 75,
-      "objectiveScore": 81,
+      "objectiveScore": 79,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
-        "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
-          }
-        },
-        {
-          "id": "HEAVYEXTENDEDBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
-          },
-          "points": 10,
-          "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
@@ -985,14 +920,14 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
-            "reason": "primary projectileVelocity driver (+1 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
             "attachmentId": "CLASSICVERTICAL",
@@ -1006,9 +941,9 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "EXTENDEDBARREL",
-          "slot": "barrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "COMPENSATEDBRAKE",
+          "slot": "muzzle",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1032,11 +967,12 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC mid control"
         }
       },
-      "totalPoints": 75,
-      "objectiveScore": 81,
+      "totalPoints": 85,
+      "objectiveScore": 83,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "recoilRecovery": 2,
         "accuracyOverTime": 2,
         "drawSpeed": 1,
         "projectileVelocity": 1,
@@ -1047,16 +983,17 @@ export const generatedSolvedBuilds = {
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "COMPENSATEDBRAKE",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Freno compensato",
+            "en": "Compensated Brake"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "recoilRecovery": 2
           }
         },
         {
@@ -1110,8 +1047,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "COMPENSATEDBRAKE",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -1131,9 +1068,9 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "EXTENDEDBARREL",
-          "slot": "barrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "FLASHCOMPENSATOR",
+          "slot": "muzzle",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1157,18 +1094,17 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 65,
+      "objectiveScore": 78,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 2,
         "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1,
-        "hidingVisibility": 2
+        "adsMovementSpeed": 1
       },
       "attachments": [
         {
@@ -1200,33 +1136,30 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "VIOLETLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser viola (50 mW)",
+            "en": "Violet Laser (50 mW)"
           },
-          "points": 30,
+          "points": 10,
           "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 6,
-            "hidingVisibility": 2
+            "adsMovingAccuracy": 2
           }
         }
       ],
@@ -1247,20 +1180,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "VIOLETLASER50MW",
+            "reason": "primary adsMovingAccuracy driver (+2 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "DOUBLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1284,15 +1217,15 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 83,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
         "hidingVisibility": 2
@@ -1327,32 +1260,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -1370,24 +1302,24 @@ export const generatedSolvedBuilds = {
           },
           {
             "attachmentId": "SHORTBARREL",
-            "reason": "primary adsTimeTier driver (+2 pts)",
+            "reason": "primary hipfire driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "DOUBLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1411,17 +1343,16 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 88,
+      "totalPoints": 50,
+      "objectiveScore": 70,
       "effectTotals": {
-        "recoilControl": 6,
-        "recoilPrecision": 6,
+        "recoilControl": 3,
+        "recoilPrecision": 3,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1,
         "hidingVisibility": 2
       },
       "attachments": [
@@ -1454,32 +1385,30 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "FOLDINGVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Verticale pieghevole",
+            "en": "Folding Vertical"
           },
-          "points": 45,
+          "points": 10,
           "effects": {
-            "recoilControl": 5,
-            "recoilPrecision": 5,
-            "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "recoilControl": 2,
+            "recoilPrecision": 2,
+            "adsMovingAccuracy": 2
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -1501,20 +1430,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
-            "reason": "primary recoilControl driver (+5 pts)",
+            "attachmentId": "FOLDINGVERTICAL",
+            "reason": "primary recoilControl driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "DOUBLEPORTBRAKE",
+          "attachmentId": "NO_MUZZLE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1538,15 +1467,15 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 80,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
         "hidingVisibility": 2
@@ -1581,32 +1510,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -1628,20 +1556,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "DOUBLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 2 points"
         }
       },
       "sourceHashes": {
@@ -1665,15 +1593,15 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 78,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
         "hidingVisibility": 2
@@ -1708,32 +1636,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -1755,20 +1682,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "DOUBLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1792,15 +1719,15 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 78,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
         "hidingVisibility": 2
@@ -1835,32 +1762,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -1882,20 +1808,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "DOUBLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -1919,15 +1845,15 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 80,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
         "hidingVisibility": 2
@@ -1962,32 +1888,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -2009,20 +1934,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
           "attachmentId": "DOUBLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 2 points"
         }
       },
       "sourceHashes": {
@@ -2046,15 +1971,15 @@ export const generatedSolvedBuilds = {
           "en": "Mobile flex"
         }
       },
-      "totalPoints": 95,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 78,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
         "weaponSway": 1,
-        "adsTimeTier": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "hipfire": 8,
+        "hipfire": 6,
         "adsMovingAccuracy": 4,
         "adsMovementSpeed": 1,
         "hidingVisibility": 2
@@ -2089,32 +2014,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "LOWPROFILESTUBBY",
+          "id": "CLASSICVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Stubby a basso profilo",
-            "en": "Low-Profile Stubby"
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
           },
-          "points": 45,
+          "points": 35,
           "effects": {
             "recoilControl": 5,
             "recoilPrecision": 5,
             "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
             "adsMovementSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "BLUELASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
             "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -2136,20 +2060,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "LOWPROFILESTUBBY",
+            "attachmentId": "CLASSICVERTICAL",
             "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "BLUELASER50MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "DOUBLEPORTBRAKE",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "6H64VERTICAL",
+          "slot": "underbarrel",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -2173,72 +2097,55 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 45,
+      "objectiveScore": 71,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hidingVisibility": 4,
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1,
+        "hipfire": 6
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (50 mW)",
+            "en": "Green Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
-            "adsMovingAccuracy": 2,
             "hipfire": 6,
             "hidingVisibility": 2
           }
@@ -2251,29 +2158,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
+            "attachmentId": "GREENLASER50MW",
             "reason": "primary hipfire driver (+6 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -2298,72 +2205,55 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 45,
+      "objectiveScore": 71,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hidingVisibility": 4,
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1,
+        "hipfire": 6
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (50 mW)",
+            "en": "Green Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
-            "adsMovingAccuracy": 2,
             "hipfire": 6,
             "hidingVisibility": 2
           }
@@ -2376,29 +2266,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
+            "attachmentId": "GREENLASER50MW",
             "reason": "primary hipfire driver (+6 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -2423,72 +2313,55 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 45,
+      "objectiveScore": 71,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hidingVisibility": 4,
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1,
+        "hipfire": 6
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (50 mW)",
+            "en": "Green Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
-            "adsMovingAccuracy": 2,
             "hipfire": 6,
             "hidingVisibility": 2
           }
@@ -2501,29 +2374,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
+            "attachmentId": "GREENLASER50MW",
             "reason": "primary hipfire driver (+6 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -2548,72 +2421,55 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 45,
+      "objectiveScore": 71,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hidingVisibility": 4,
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1,
+        "hipfire": 6
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (50 mW)",
+            "en": "Green Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
-            "adsMovingAccuracy": 2,
             "hipfire": 6,
             "hidingVisibility": 2
           }
@@ -2626,29 +2482,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
+            "attachmentId": "GREENLASER50MW",
             "reason": "primary hipfire driver (+6 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -2673,72 +2529,43 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 35,
+      "objectiveScore": 71,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1,
+        "hipfire": 6,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER50MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (50 mW)",
+            "en": "Green Laser (50 mW)"
           },
-          "points": 30,
+          "points": 20,
           "effects": {
-            "adsMovingAccuracy": 2,
             "hipfire": 6,
             "hidingVisibility": 2
           }
@@ -2751,29 +2578,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
+            "attachmentId": "GREENLASER50MW",
             "reason": "primary hipfire driver (+6 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -2798,17 +2625,16 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 45,
+      "objectiveScore": 76,
       "effectTotals": {
-        "hipfire": 10,
+        "hipfire": 6,
         "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1
       },
       "attachments": [
         {
@@ -2825,46 +2651,31 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 30,
+          "points": 10,
           "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -2881,25 +2692,25 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "BLUELASER50MW",
+          "slot": "laser",
+          "whyNotPicked": "lower objective score by 2 points"
         }
       },
       "sourceHashes": {
@@ -2923,17 +2734,16 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 35,
+      "objectiveScore": 64,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hipfire": 2,
+        "hidingVisibility": 6,
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1
       },
       "attachments": [
         {
@@ -2950,47 +2760,19 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
-          }
-        },
-        {
-          "id": "BLUELASER120MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
-          },
-          "points": 30,
-          "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 6,
-            "hidingVisibility": 2
+            "drawSpeed": 1
           }
         }
       ],
@@ -3006,25 +2788,25 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "GREENLASER5MW",
+          "slot": "laser",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -3048,30 +2830,25 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 35,
+      "objectiveScore": 72,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
+        "hidingVisibility": 4,
+        "adsTimeTier": 2,
         "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hipfire": 6
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
@@ -3089,32 +2866,15 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
-            "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
-            "adsMovementSpeed": 1
-          }
-        },
-        {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 30,
+          "points": 10,
           "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -3126,8 +2886,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -3136,19 +2896,19 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
-            "reason": "primary adsTimeTier driver (+2 pts)",
-            "alternativesConsidered": 13
+            "attachmentId": "NO_UNDERBARREL",
+            "reason": "underbarrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 14
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
+          "attachmentId": "NO_BARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -3173,73 +2933,56 @@ export const generatedSolvedBuilds = {
           "en": "REDSEC close"
         }
       },
-      "totalPoints": 100,
-      "objectiveScore": 93,
+      "totalPoints": 35,
+      "objectiveScore": 71,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 4,
-        "recoilPrecision": 4,
-        "adsMovingAccuracy": 4,
-        "adsMovementSpeed": 1
+        "hidingVisibility": 4,
+        "recoilControl": 1,
+        "recoilPrecision": 1,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "drawSpeed": 1,
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
+          "id": "ADJUSTABLEANGLED",
+          "slot": "underbarrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Angolata regolabile",
+            "en": "Adjustable Angled"
           },
           "points": 15,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "STIPPLEDSTUBBY",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Stubby zigrinata",
-            "en": "Stippled Stubby"
-          },
-          "points": 35,
-          "effects": {
-            "recoilControl": 4,
-            "recoilPrecision": 4,
+            "recoilControl": 1,
+            "recoilPrecision": 1,
             "adsMovingAccuracy": 2,
             "adsTimeTier": 2,
-            "adsMovementSpeed": 1
+            "drawSpeed": 1
           }
         },
         {
-          "id": "BLUELASER120MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser blu (120 mW)",
-            "en": "Blue Laser (120 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 30,
+          "points": 10,
           "effects": {
-            "adsMovingAccuracy": 2,
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -3251,30 +2994,30 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "STIPPLEDSTUBBY",
+            "attachmentId": "ADJUSTABLEANGLED",
             "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "BLUELASER120MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "GREENLASER50MW",
+          "slot": "laser",
+          "whyNotPicked": "lower objective score by 2 points"
         }
       },
       "sourceHashes": {
@@ -3299,7 +3042,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 87,
+      "objectiveScore": 83,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -3406,7 +3149,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 88,
+      "objectiveScore": 85,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -3513,7 +3256,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 87,
+      "objectiveScore": 80,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -3583,7 +3326,7 @@ export const generatedSolvedBuilds = {
           },
           {
             "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilControl driver (+5 pts)",
+            "reason": "primary recoilPrecision driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
@@ -3619,29 +3362,33 @@ export const generatedSolvedBuilds = {
           "en": "Anchor sustain"
         }
       },
-      "totalPoints": 65,
-      "objectiveScore": 88,
+      "totalPoints": 70,
+      "objectiveScore": 81,
       "effectTotals": {
-        "recoilControl": 6,
-        "recoilPrecision": 6,
         "recoilRecovery": 2,
+        "weaponSway": 1,
+        "hipfire": 2,
+        "hidingVisibility": 6,
         "accuracyOverTime": 2,
+        "recoilControl": 5,
+        "recoilPrecision": 5,
         "adsMovingAccuracy": 2,
         "adsMovementSpeed": 1
       },
       "attachments": [
         {
-          "id": "COMPENSATEDBRAKE",
+          "id": "LONGSUPPRESSOR",
           "slot": "muzzle",
           "name": {
-            "it": "Freno compensato",
-            "en": "Compensated Brake"
+            "it": "Silenziatore lungo",
+            "en": "Long Suppressor"
           },
-          "points": 20,
+          "points": 25,
           "effects": {
-            "recoilControl": 1,
-            "recoilPrecision": 1,
-            "recoilRecovery": 2
+            "recoilRecovery": 2,
+            "weaponSway": 1,
+            "hipfire": 2,
+            "hidingVisibility": 6
           }
         },
         {
@@ -3679,7 +3426,7 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "COMPENSATEDBRAKE",
+            "attachmentId": "LONGSUPPRESSOR",
             "reason": "primary recoilRecovery driver (+2 pts)",
             "alternativesConsidered": 9
           },
@@ -3727,7 +3474,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 87,
+      "objectiveScore": 85,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -3834,7 +3581,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 88,
+      "objectiveScore": 85,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -3940,15 +3687,14 @@ export const generatedSolvedBuilds = {
           "en": "Anchor sustain"
         }
       },
-      "totalPoints": 65,
-      "objectiveScore": 87,
+      "totalPoints": 40,
+      "objectiveScore": 63,
       "effectTotals": {
-        "recoilControl": 6,
-        "recoilPrecision": 6,
+        "recoilControl": 3,
+        "recoilPrecision": 3,
         "recoilRecovery": 2,
         "accuracyOverTime": 2,
-        "adsMovingAccuracy": 2,
-        "adsMovementSpeed": 1
+        "adsMovingAccuracy": 2
       },
       "attachments": [
         {
@@ -3978,18 +3724,17 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "CLASSICVERTICAL",
+          "id": "FOLDINGVERTICAL",
           "slot": "underbarrel",
           "name": {
-            "it": "Classica verticale",
-            "en": "Classic Vertical"
+            "it": "Verticale pieghevole",
+            "en": "Folding Vertical"
           },
-          "points": 35,
+          "points": 10,
           "effects": {
-            "recoilControl": 5,
-            "recoilPrecision": 5,
-            "adsMovingAccuracy": 2,
-            "adsMovementSpeed": 1
+            "recoilControl": 2,
+            "recoilPrecision": 2,
+            "adsMovingAccuracy": 2
           }
         }
       ],
@@ -4010,8 +3755,8 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilControl driver (+5 pts)",
+            "attachmentId": "FOLDINGVERTICAL",
+            "reason": "primary recoilControl driver (+2 pts)",
             "alternativesConsidered": 13
           },
           {
@@ -4048,7 +3793,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 88,
+      "objectiveScore": 85,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -4155,7 +3900,7 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 88,
+      "objectiveScore": 85,
       "effectTotals": {
         "recoilControl": 6,
         "recoilPrecision": 6,
@@ -4261,45 +4006,42 @@ export const generatedSolvedBuilds = {
           "en": "Info range"
         }
       },
-      "totalPoints": 65,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 76,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
         "adsMovingAccuracy": 2,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "HEAVYEXTENDEDBARREL",
+          "id": "HEAVYBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
+            "it": "Canna pesante",
+            "en": "Heavy Barrel"
           },
           "points": 10,
           "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
+            "accuracyOverTime": 2
           }
         },
         {
@@ -4338,18 +4080,18 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "attachmentId": "HEAVYBARREL",
             "reason": "primary accuracyOverTime driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
             "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilPrecision driver (+5 pts)",
+            "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
@@ -4359,8 +4101,8 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "BLUELASER50MW",
-          "slot": "laser",
+          "attachmentId": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -4386,44 +4128,40 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 89,
+      "objectiveScore": 80,
       "effectTotals": {
-        "recoilControl": 6,
-        "recoilPrecision": 8,
+        "hipfire": 2,
+        "hidingVisibility": 6,
         "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
+        "recoilControl": 5,
+        "recoilPrecision": 5,
         "adsMovingAccuracy": 2,
-        "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "adsMovementSpeed": 1
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "STANDARDSUPPRESSOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Silenziatore standard",
+            "en": "Standard Suppressor"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
-            "recoilControl": 1,
-            "recoilPrecision": 3
+            "hipfire": 2,
+            "hidingVisibility": 6
           }
         },
         {
-          "id": "HEAVYEXTENDEDBARREL",
+          "id": "HEAVYBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
+            "it": "Canna pesante",
+            "en": "Heavy Barrel"
           },
           "points": 10,
           "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
+            "accuracyOverTime": 2
           }
         },
         {
@@ -4440,19 +4178,6 @@ export const generatedSolvedBuilds = {
             "adsMovingAccuracy": 2,
             "adsMovementSpeed": 1
           }
-        },
-        {
-          "id": "GREENLASER5MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (5 mW)",
-            "en": "Green Laser (5 mW)"
-          },
-          "points": 10,
-          "effects": {
-            "hipfire": 4,
-            "hidingVisibility": 2
-          }
         }
       ],
       "rationale": {
@@ -4462,29 +4187,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "STANDARDSUPPRESSOR",
+            "reason": "primary hidingVisibility driver (+6 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "attachmentId": "HEAVYBARREL",
             "reason": "primary accuracyOverTime driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
             "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilPrecision driver (+5 pts)",
+            "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER5MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "BLUELASER50MW",
-          "slot": "laser",
+          "attachmentId": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -4509,45 +4234,42 @@ export const generatedSolvedBuilds = {
           "en": "Info range"
         }
       },
-      "totalPoints": 65,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 83,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
         "adsMovingAccuracy": 2,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "HEAVYEXTENDEDBARREL",
+          "id": "HEAVYBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
+            "it": "Canna pesante",
+            "en": "Heavy Barrel"
           },
           "points": 10,
           "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
+            "accuracyOverTime": 2
           }
         },
         {
@@ -4586,12 +4308,12 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilPrecision driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "attachmentId": "HEAVYBARREL",
             "reason": "primary accuracyOverTime driver (+2 pts)",
             "alternativesConsidered": 5
           },
@@ -4607,8 +4329,8 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "BLUELASER50MW",
-          "slot": "laser",
+          "attachmentId": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -4634,30 +4356,30 @@ export const generatedSolvedBuilds = {
         }
       },
       "totalPoints": 65,
-      "objectiveScore": 89,
+      "objectiveScore": 83,
       "effectTotals": {
-        "recoilControl": 6,
-        "recoilPrecision": 8,
+        "hipfire": 2,
+        "hidingVisibility": 6,
         "accuracyOverTime": 2,
         "drawSpeed": 1,
         "projectileVelocity": 1,
+        "recoilControl": 5,
+        "recoilPrecision": 5,
         "adsMovingAccuracy": 2,
-        "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "adsMovementSpeed": 1
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "STANDARDSUPPRESSOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Silenziatore standard",
+            "en": "Standard Suppressor"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
-            "recoilControl": 1,
-            "recoilPrecision": 3
+            "hipfire": 2,
+            "hidingVisibility": 6
           }
         },
         {
@@ -4688,19 +4410,6 @@ export const generatedSolvedBuilds = {
             "adsMovingAccuracy": 2,
             "adsMovementSpeed": 1
           }
-        },
-        {
-          "id": "GREENLASER5MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (5 mW)",
-            "en": "Green Laser (5 mW)"
-          },
-          "points": 10,
-          "effects": {
-            "hipfire": 4,
-            "hidingVisibility": 2
-          }
         }
       ],
       "rationale": {
@@ -4710,8 +4419,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "STANDARDSUPPRESSOR",
+            "reason": "primary hidingVisibility driver (+6 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -4721,19 +4430,19 @@ export const generatedSolvedBuilds = {
           },
           {
             "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilPrecision driver (+5 pts)",
+            "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER5MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "BLUELASER50MW",
-          "slot": "laser",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "FLASHCOMPENSATOR",
+          "slot": "muzzle",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -4757,45 +4466,42 @@ export const generatedSolvedBuilds = {
           "en": "Info range"
         }
       },
-      "totalPoints": 65,
-      "objectiveScore": 89,
+      "totalPoints": 75,
+      "objectiveScore": 71,
       "effectTotals": {
         "recoilControl": 6,
-        "recoilPrecision": 8,
+        "recoilPrecision": 6,
+        "hidingVisibility": 4,
         "accuracyOverTime": 2,
-        "drawSpeed": 1,
-        "projectileVelocity": 1,
         "adsMovingAccuracy": 2,
         "adsMovementSpeed": 1,
-        "hipfire": 4,
-        "hidingVisibility": 2
+        "hipfire": 4
       },
       "attachments": [
         {
-          "id": "LINEARCOMPENSATOR",
+          "id": "FLASHCOMPENSATOR",
           "slot": "muzzle",
           "name": {
-            "it": "Compensatore lineare",
-            "en": "Linear Compensator"
+            "it": "Compensatore di vampa",
+            "en": "Flash Compensator"
           },
-          "points": 10,
+          "points": 20,
           "effects": {
             "recoilControl": 1,
-            "recoilPrecision": 3
+            "recoilPrecision": 1,
+            "hidingVisibility": 2
           }
         },
         {
-          "id": "HEAVYEXTENDEDBARREL",
+          "id": "HEAVYBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
+            "it": "Canna pesante",
+            "en": "Heavy Barrel"
           },
           "points": 10,
           "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
+            "accuracyOverTime": 2
           }
         },
         {
@@ -4834,18 +4540,18 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LINEARCOMPENSATOR",
-            "reason": "primary recoilPrecision driver (+3 pts)",
+            "attachmentId": "FLASHCOMPENSATOR",
+            "reason": "primary recoilControl driver (+1 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "attachmentId": "HEAVYBARREL",
             "reason": "primary accuracyOverTime driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
             "attachmentId": "CLASSICVERTICAL",
-            "reason": "primary recoilPrecision driver (+5 pts)",
+            "reason": "primary recoilControl driver (+5 pts)",
             "alternativesConsidered": 13
           },
           {
@@ -4855,8 +4561,8 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "BLUELASER50MW",
-          "slot": "laser",
+          "attachmentId": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -4881,13 +4587,11 @@ export const generatedSolvedBuilds = {
           "en": "Mobile pick"
         }
       },
-      "totalPoints": 60,
-      "objectiveScore": 94,
+      "totalPoints": 45,
+      "objectiveScore": 62,
       "effectTotals": {
-        "recoilRecovery": 2,
-        "weaponSway": 1,
-        "hipfire": 6,
-        "hidingVisibility": 8,
+        "hipfire": 2,
+        "hidingVisibility": 6,
         "accuracyOverTime": 2,
         "drawSpeed": 2,
         "projectileVelocity": 1,
@@ -4898,16 +4602,14 @@ export const generatedSolvedBuilds = {
       },
       "attachments": [
         {
-          "id": "LONGSUPPRESSOR",
+          "id": "STANDARDSUPPRESSOR",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore lungo",
-            "en": "Long Suppressor"
+            "it": "Silenziatore standard",
+            "en": "Standard Suppressor"
           },
-          "points": 25,
+          "points": 20,
           "effects": {
-            "recoilRecovery": 2,
-            "weaponSway": 1,
             "hipfire": 2,
             "hidingVisibility": 6
           }
@@ -4941,19 +4643,6 @@ export const generatedSolvedBuilds = {
             "adsTimeTier": 2,
             "drawSpeed": 1
           }
-        },
-        {
-          "id": "GREENLASER5MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (5 mW)",
-            "en": "Green Laser (5 mW)"
-          },
-          "points": 10,
-          "effects": {
-            "hipfire": 4,
-            "hidingVisibility": 2
-          }
         }
       ],
       "rationale": {
@@ -4963,7 +4652,7 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LONGSUPPRESSOR",
+            "attachmentId": "STANDARDSUPPRESSOR",
             "reason": "primary hidingVisibility driver (+6 pts)",
             "alternativesConsidered": 9
           },
@@ -4978,9 +4667,9 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER5MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
@@ -5010,13 +4699,10 @@ export const generatedSolvedBuilds = {
           "en": "Mobile pick"
         }
       },
-      "totalPoints": 60,
-      "objectiveScore": 94,
+      "totalPoints": 35,
+      "objectiveScore": 47,
       "effectTotals": {
-        "recoilRecovery": 2,
-        "weaponSway": 1,
-        "hipfire": 6,
-        "hidingVisibility": 8,
+        "hidingVisibility": 2,
         "accuracyOverTime": 2,
         "drawSpeed": 2,
         "projectileVelocity": 1,
@@ -5027,18 +4713,15 @@ export const generatedSolvedBuilds = {
       },
       "attachments": [
         {
-          "id": "LONGSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore lungo",
-            "en": "Long Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 25,
+          "points": 10,
           "effects": {
-            "recoilRecovery": 2,
-            "weaponSway": 1,
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
@@ -5070,19 +4753,6 @@ export const generatedSolvedBuilds = {
             "adsTimeTier": 2,
             "drawSpeed": 1
           }
-        },
-        {
-          "id": "GREENLASER5MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (5 mW)",
-            "en": "Green Laser (5 mW)"
-          },
-          "points": 10,
-          "effects": {
-            "hipfire": 4,
-            "hidingVisibility": 2
-          }
         }
       ],
       "rationale": {
@@ -5092,8 +4762,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LONGSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -5107,9 +4777,9 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER5MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
@@ -5139,13 +4809,10 @@ export const generatedSolvedBuilds = {
           "en": "Mobile pick"
         }
       },
-      "totalPoints": 60,
-      "objectiveScore": 92,
+      "totalPoints": 35,
+      "objectiveScore": 64,
       "effectTotals": {
-        "recoilRecovery": 2,
-        "weaponSway": 1,
-        "hipfire": 6,
-        "hidingVisibility": 8,
+        "hidingVisibility": 2,
         "accuracyOverTime": 2,
         "drawSpeed": 2,
         "projectileVelocity": 1,
@@ -5156,18 +4823,15 @@ export const generatedSolvedBuilds = {
       },
       "attachments": [
         {
-          "id": "LONGSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore lungo",
-            "en": "Long Suppressor"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
-          "points": 25,
+          "points": 10,
           "effects": {
-            "recoilRecovery": 2,
-            "weaponSway": 1,
-            "hipfire": 2,
-            "hidingVisibility": 6
+            "hidingVisibility": 2
           }
         },
         {
@@ -5199,19 +4863,6 @@ export const generatedSolvedBuilds = {
             "adsTimeTier": 2,
             "drawSpeed": 1
           }
-        },
-        {
-          "id": "GREENLASER5MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (5 mW)",
-            "en": "Green Laser (5 mW)"
-          },
-          "points": 10,
-          "effects": {
-            "hipfire": 4,
-            "hidingVisibility": 2
-          }
         }
       ],
       "rationale": {
@@ -5221,8 +4872,8 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LONGSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
@@ -5236,9 +4887,9 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER5MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
@@ -5268,77 +4919,21 @@ export const generatedSolvedBuilds = {
           "en": "Mobile pick"
         }
       },
-      "totalPoints": 60,
-      "objectiveScore": 96,
+      "totalPoints": 10,
+      "objectiveScore": 5,
       "effectTotals": {
-        "recoilRecovery": 2,
-        "weaponSway": 1,
-        "hipfire": 6,
-        "hidingVisibility": 8,
-        "accuracyOverTime": 2,
-        "drawSpeed": 2,
-        "projectileVelocity": 1,
-        "recoilControl": 1,
-        "recoilPrecision": 1,
-        "adsTimeTier": 2,
-        "adsMovingAccuracy": 2
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "LONGSUPPRESSOR",
+          "id": "FLASHHIDER",
           "slot": "muzzle",
           "name": {
-            "it": "Silenziatore lungo",
-            "en": "Long Suppressor"
-          },
-          "points": 25,
-          "effects": {
-            "recoilRecovery": 2,
-            "weaponSway": 1,
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "HEAVYEXTENDEDBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna pesante allungata",
-            "en": "Heavy Extended Barrel"
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
           },
           "points": 10,
           "effects": {
-            "accuracyOverTime": 2,
-            "drawSpeed": 1,
-            "projectileVelocity": 1
-          }
-        },
-        {
-          "id": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Angolata regolabile",
-            "en": "Adjustable Angled"
-          },
-          "points": 15,
-          "effects": {
-            "recoilControl": 1,
-            "recoilPrecision": 1,
-            "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
-            "drawSpeed": 1
-          }
-        },
-        {
-          "id": "GREENLASER5MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (5 mW)",
-            "en": "Green Laser (5 mW)"
-          },
-          "points": 10,
-          "effects": {
-            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -5350,29 +4945,29 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "LONGSUPPRESSOR",
-            "reason": "primary hidingVisibility driver (+6 pts)",
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "HEAVYEXTENDEDBARREL",
-            "reason": "primary drawSpeed driver (+1 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "ADJUSTABLEANGLED",
-            "reason": "primary drawSpeed driver (+1 pts)",
-            "alternativesConsidered": 13
+            "attachmentId": "NO_UNDERBARREL",
+            "reason": "underbarrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 14
           },
           {
-            "attachmentId": "GREENLASER5MW",
-            "reason": "primary hidingVisibility driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "SLIMHANDSTOP",
-          "slot": "underbarrel",
+          "attachmentId": "NO_MUZZLE",
+          "slot": "muzzle",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -5397,10 +4992,10 @@ export const generatedSolvedBuilds = {
           "en": "Building clear"
         }
       },
-      "totalPoints": 70,
-      "objectiveScore": 96,
+      "totalPoints": 60,
+      "objectiveScore": 88,
       "effectTotals": {
-        "hipfire": 10,
+        "hipfire": 8,
         "hidingVisibility": 8,
         "adsTimeTier": 4,
         "projectileVelocity": 1,
@@ -5454,15 +5049,15 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -5489,8 +5084,8 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
@@ -5521,13 +5116,12 @@ export const generatedSolvedBuilds = {
           "en": "Building clear"
         }
       },
-      "totalPoints": 70,
-      "objectiveScore": 96,
+      "totalPoints": 55,
+      "objectiveScore": 85,
       "effectTotals": {
-        "hipfire": 10,
+        "hipfire": 6,
         "hidingVisibility": 8,
         "adsTimeTier": 4,
-        "projectileVelocity": 1,
         "recoilControl": 1,
         "recoilPrecision": 1,
         "adsMovingAccuracy": 2,
@@ -5548,17 +5142,15 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "SHORTBARREL",
+          "id": "BASICBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna base",
+            "en": "Basic Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "adsTimeTier": 2
           }
         },
         {
@@ -5578,15 +5170,15 @@ export const generatedSolvedBuilds = {
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -5603,8 +5195,8 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "BASICBARREL",
+            "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -5613,8 +5205,8 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 13
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
@@ -5645,17 +5237,13 @@ export const generatedSolvedBuilds = {
           "en": "Building clear"
         }
       },
-      "totalPoints": 70,
-      "objectiveScore": 96,
+      "totalPoints": 35,
+      "objectiveScore": 76,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 1,
-        "recoilPrecision": 1,
-        "adsMovingAccuracy": 2,
-        "drawSpeed": 1
+        "hipfire": 4,
+        "hidingVisibility": 6,
+        "adsTimeTier": 2,
+        "projectileVelocity": 1
       },
       "attachments": [
         {
@@ -5684,35 +5272,6 @@ export const generatedSolvedBuilds = {
             "projectileVelocity": 1,
             "hipfire": 2
           }
-        },
-        {
-          "id": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Angolata regolabile",
-            "en": "Adjustable Angled"
-          },
-          "points": 15,
-          "effects": {
-            "recoilControl": 1,
-            "recoilPrecision": 1,
-            "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
-            "drawSpeed": 1
-          }
-        },
-        {
-          "id": "GREENLASER50MW",
-          "slot": "laser",
-          "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 6,
-            "hidingVisibility": 2
-          }
         }
       ],
       "rationale": {
@@ -5732,20 +5291,20 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 5
           },
           {
-            "attachmentId": "ADJUSTABLEANGLED",
-            "reason": "primary adsTimeTier driver (+2 pts)",
-            "alternativesConsidered": 13
+            "attachmentId": "NO_UNDERBARREL",
+            "reason": "underbarrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 14
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "SLIMHANDSTOP",
-          "slot": "underbarrel",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "LONGSUPPRESSOR",
+          "slot": "muzzle",
+          "whyNotPicked": "lower objective score by 3 points"
         }
       },
       "sourceHashes": {
@@ -5769,17 +5328,11 @@ export const generatedSolvedBuilds = {
           "en": "Building clear"
         }
       },
-      "totalPoints": 70,
-      "objectiveScore": 96,
+      "totalPoints": 40,
+      "objectiveScore": 87,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 4,
-        "projectileVelocity": 1,
-        "recoilControl": 1,
-        "recoilPrecision": 1,
-        "adsMovingAccuracy": 2,
-        "drawSpeed": 1
+        "hipfire": 8,
+        "hidingVisibility": 8
       },
       "attachments": [
         {
@@ -5793,36 +5346,6 @@ export const generatedSolvedBuilds = {
           "effects": {
             "hipfire": 2,
             "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
-          },
-          "points": 15,
-          "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "ADJUSTABLEANGLED",
-          "slot": "underbarrel",
-          "name": {
-            "it": "Angolata regolabile",
-            "en": "Adjustable Angled"
-          },
-          "points": 15,
-          "effects": {
-            "recoilControl": 1,
-            "recoilPrecision": 1,
-            "adsMovingAccuracy": 2,
-            "adsTimeTier": 2,
-            "drawSpeed": 1
           }
         },
         {
@@ -5851,14 +5374,14 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 9
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
-            "attachmentId": "ADJUSTABLEANGLED",
-            "reason": "primary adsTimeTier driver (+2 pts)",
-            "alternativesConsidered": 13
+            "attachmentId": "NO_UNDERBARREL",
+            "reason": "underbarrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 14
           },
           {
             "attachmentId": "GREENLASER50MW",
@@ -5867,8 +5390,8 @@ export const generatedSolvedBuilds = {
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "SLIMHANDSTOP",
-          "slot": "underbarrel",
+          "attachmentId": "GREENLASER5MW",
+          "slot": "laser",
           "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
         }
       },
@@ -5893,52 +5416,36 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 20,
+      "objectiveScore": 45,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
         "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
+          "id": "BASICBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna base",
+            "en": "Basic Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "adsTimeTier": 2
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -5950,13 +5457,13 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "BASICBARREL",
+            "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -5965,15 +5472,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -5997,52 +5504,23 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 10,
+      "objectiveScore": 49,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
-          "slot": "barrel",
-          "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
-          },
-          "points": 15,
-          "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
-          }
-        },
-        {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -6054,14 +5532,14 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 5
+            "attachmentId": "NO_BARREL",
+            "reason": "barrel slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 6
           },
           {
             "attachmentId": "NO_UNDERBARREL",
@@ -6069,15 +5547,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "REDLASER5MW",
+          "slot": "laser",
+          "whyNotPicked": "lower objective score by 17 points"
         }
       },
       "sourceHashes": {
@@ -6101,52 +5579,40 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 20,
+      "objectiveScore": 51,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "accuracyOverTime": 2,
+        "drawSpeed": 1,
+        "projectileVelocity": 1,
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
+          "id": "HEAVYEXTENDEDBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -6158,13 +5624,13 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "reason": "primary drawSpeed driver (+1 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -6173,15 +5639,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
+          "attachmentId": "SINGLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 6 points"
         }
       },
       "sourceHashes": {
@@ -6205,52 +5671,40 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 20,
+      "objectiveScore": 51,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "accuracyOverTime": 2,
+        "drawSpeed": 1,
+        "projectileVelocity": 1,
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
+          "id": "HEAVYEXTENDEDBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -6262,13 +5716,13 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "reason": "primary drawSpeed driver (+1 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -6277,15 +5731,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "BASICBARREL",
+          "slot": "barrel",
+          "whyNotPicked": "lower objective score by 3 points"
         }
       },
       "sourceHashes": {
@@ -6309,52 +5763,36 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 20,
+      "objectiveScore": 44,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
         "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
+          "id": "BASICBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna base",
+            "en": "Basic Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "adsTimeTier": 2
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -6366,13 +5804,13 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "BASICBARREL",
+            "reason": "primary adsTimeTier driver (+2 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -6381,15 +5819,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "SHORTBARREL",
+          "slot": "barrel",
+          "whyNotPicked": "lower objective score by 1 points"
         }
       },
       "sourceHashes": {
@@ -6413,52 +5851,40 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 20,
+      "objectiveScore": 51,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "accuracyOverTime": 2,
+        "drawSpeed": 1,
+        "projectileVelocity": 1,
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
+          "id": "HEAVYEXTENDEDBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -6470,13 +5896,13 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "reason": "primary drawSpeed driver (+1 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -6485,15 +5911,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
+          "attachmentId": "SINGLEPORTBRAKE",
           "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "whyNotPicked": "lower objective score by 6 points"
         }
       },
       "sourceHashes": {
@@ -6517,52 +5943,40 @@ export const generatedSolvedBuilds = {
           "en": "Emergency backup"
         }
       },
-      "totalPoints": 55,
-      "objectiveScore": 89,
+      "totalPoints": 20,
+      "objectiveScore": 65,
       "effectTotals": {
-        "hipfire": 10,
-        "hidingVisibility": 8,
-        "adsTimeTier": 2,
-        "projectileVelocity": 1
+        "accuracyOverTime": 2,
+        "drawSpeed": 1,
+        "projectileVelocity": 1,
+        "hipfire": 4,
+        "hidingVisibility": 2
       },
       "attachments": [
         {
-          "id": "STANDARDSUPPRESSOR",
-          "slot": "muzzle",
-          "name": {
-            "it": "Silenziatore standard",
-            "en": "Standard Suppressor"
-          },
-          "points": 20,
-          "effects": {
-            "hipfire": 2,
-            "hidingVisibility": 6
-          }
-        },
-        {
-          "id": "SHORTBARREL",
+          "id": "HEAVYEXTENDEDBARREL",
           "slot": "barrel",
           "name": {
-            "it": "Canna corta",
-            "en": "Short Barrel"
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
           },
-          "points": 15,
+          "points": 10,
           "effects": {
-            "adsTimeTier": 2,
-            "projectileVelocity": 1,
-            "hipfire": 2
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
           }
         },
         {
-          "id": "GREENLASER50MW",
+          "id": "GREENLASER5MW",
           "slot": "laser",
           "name": {
-            "it": "Laser verde (50 mW)",
-            "en": "Green Laser (50 mW)"
+            "it": "Laser verde (5 mW)",
+            "en": "Green Laser (5 mW)"
           },
-          "points": 20,
+          "points": 10,
           "effects": {
-            "hipfire": 6,
+            "hipfire": 4,
             "hidingVisibility": 2
           }
         }
@@ -6574,13 +5988,13 @@ export const generatedSolvedBuilds = {
       "rationaleData": {
         "chosenJustification": [
           {
-            "attachmentId": "STANDARDSUPPRESSOR",
-            "reason": "primary hipfire driver (+2 pts)",
-            "alternativesConsidered": 9
+            "attachmentId": "NO_MUZZLE",
+            "reason": "muzzle slot empty: no attachment improved objective within budget",
+            "alternativesConsidered": 10
           },
           {
-            "attachmentId": "SHORTBARREL",
-            "reason": "primary hipfire driver (+2 pts)",
+            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "reason": "primary drawSpeed driver (+1 pts)",
             "alternativesConsidered": 5
           },
           {
@@ -6589,15 +6003,15 @@ export const generatedSolvedBuilds = {
             "alternativesConsidered": 0
           },
           {
-            "attachmentId": "GREENLASER50MW",
-            "reason": "primary hipfire driver (+6 pts)",
+            "attachmentId": "GREENLASER5MW",
+            "reason": "primary hipfire driver (+4 pts)",
             "alternativesConsidered": 5
           }
         ],
         "rejectedTopRunnerUp": {
-          "attachmentId": "LONGSUPPRESSOR",
-          "slot": "muzzle",
-          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+          "attachmentId": "GREENLASER50MW",
+          "slot": "laser",
+          "whyNotPicked": "lower objective score by 3 points"
         }
       },
       "sourceHashes": {

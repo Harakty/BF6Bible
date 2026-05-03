@@ -113,11 +113,15 @@ async function main() {
     const solved = solveBuild(
       {
         weaponId: weapon.id,
+        categoryKey: weapon.categoryKey,
+        hipfire: weapon.hipfire,
         control: weapon.control,
         precision: weapon.precision,
         mobility: weapon.mobility,
         velocity: weapon.velocity,
         adsMs: weapon.adsMs,
+        rpm: weapon.rpm,
+        magSize: weapon.magSize,
       },
       archetype,
       attachmentsForWeapon(weapon, solverAttachments),

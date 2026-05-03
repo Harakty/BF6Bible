@@ -58,7 +58,7 @@ describe('build solver', () => {
   })
 
   it('maximizes recoilControl for a recoil-only archetype within budget', () => {
-    const solved = solveBuild(weapon, recoilOnly, attachments)
+    const solved = solveBuild({ ...weapon, control: 30 }, recoilOnly, attachments)
 
     expect(solved.attachments.map((attachment) => attachment.id).sort()).toEqual(['MUZZLE_LOW', 'UNDERBARREL'])
     expect(solved.effectTotals.recoilControl).toBe(7)
@@ -74,7 +74,7 @@ describe('build solver', () => {
 
   it('explains empty slots when budget is exhausted by stronger picks', () => {
     const solved = solveBuild(
-      weapon,
+      { ...weapon, control: 30, hipfire: 80 },
       {
         id: 'balanced',
         label: { it: 'Budget', en: 'Budget' },
@@ -96,26 +96,36 @@ describe('build solver', () => {
 
 describe('scarcity multiplier', () => {
   it('boosts recoil effects when control is low', () => {
-    expect(scarcityMultiplier({ weaponId: 'LOW', control: 30 }, 'recoilControl')).toBe(1.3)
+    expect(scarcityMultiplier({ weaponId: 'LOW', control: 30 }, 'recoilControl')).toBeCloseTo(1.4)
   })
 
   it('discounts recoil effects when control is high', () => {
-    expect(scarcityMultiplier({ weaponId: 'HIGH', control: 85 }, 'recoilControl')).toBe(0.7)
+    expect(scarcityMultiplier({ weaponId: 'HIGH', control: 90 }, 'recoilControl')).toBeCloseTo(0.6)
   })
 
   it('keeps recoil effects neutral at medium control', () => {
     expect(scarcityMultiplier({ weaponId: 'MID', control: 60 }, 'recoilControl')).toBe(1)
   })
 
+  it('returns intermediate recoil multipliers away from the pivot', () => {
+    expect(scarcityMultiplier({ weaponId: 'LOW_MID', control: 45 }, 'recoilControl')).toBeCloseTo(1.3)
+    expect(scarcityMultiplier({ weaponId: 'HIGH_MID', control: 75 }, 'recoilControl')).toBeCloseTo(0.7)
+  })
+
   it('boosts ADS effects when ADS is slow', () => {
-    expect(scarcityMultiplier({ weaponId: 'SLOW', adsMs: 340 }, 'adsTimeTier')).toBe(1.3)
+    expect(scarcityMultiplier({ weaponId: 'SLOW', adsMs: 350 }, 'adsTimeTier')).toBeCloseTo(1.4)
   })
 
   it('discounts ADS effects when ADS is fast', () => {
-    expect(scarcityMultiplier({ weaponId: 'FAST', adsMs: 240 }, 'adsTimeTier')).toBe(0.7)
+    expect(scarcityMultiplier({ weaponId: 'FAST', adsMs: 230 }, 'adsTimeTier')).toBeCloseTo(0.6)
   })
 
   it('keeps ADS effects neutral at medium ADS speed', () => {
-    expect(scarcityMultiplier({ weaponId: 'MID', adsMs: 280 }, 'adsTimeTier')).toBe(1)
+    expect(scarcityMultiplier({ weaponId: 'MID', adsMs: 290 }, 'adsTimeTier')).toBe(1)
+  })
+
+  it('returns intermediate ADS multipliers away from the pivot', () => {
+    expect(scarcityMultiplier({ weaponId: 'SLOW_MID', adsMs: 335 }, 'adsTimeTier')).toBeCloseTo(1.3)
+    expect(scarcityMultiplier({ weaponId: 'FAST_MID', adsMs: 245 }, 'adsTimeTier')).toBeCloseTo(0.7)
   })
 })
