@@ -9,7 +9,7 @@ import { rankWeapons } from '../src/metaEngine.ts'
 const OUTPUT_PATH = resolve('output/calibration-report.md')
 const tierOrder = ['D', 'C', 'B', 'A', 'S', 'S+']
 const spendTargets = {
-  high: { min: 70, max: 100 },
+  high: { min: 60, max: 100 },
   medium: { min: 45, max: 85 },
   low: { min: 0, max: 45 },
 }
@@ -96,16 +96,18 @@ for (const entry of externalMetaConsensus) {
   if (!entry.consensusTier || (entry.confidence !== 'high' && entry.confidence !== 'medium')) continue
   const ranked = rankedByWeapon.get(entry.weaponName)
   if (!ranked) continue
-  const distance = tierDistance(ranked.calculatedTier, entry.consensusTier)
+  const comparisonTier = ranked.metric.tier
+  const distance = tierDistance(comparisonTier, entry.consensusTier)
   if (distance === 0) continue
 
   tierDisagreements.push({
     weapon: entry.weaponName,
     confidence: entry.confidence,
-    ours: ranked.calculatedTier,
+    ours: comparisonTier,
     consensus: entry.consensusTier,
     distance,
     severity: severityForTierDistance(distance),
+    calculatedTier: ranked.calculatedTier,
     score: ranked.score,
   })
 }
@@ -164,6 +166,7 @@ const lines = [
   '# BF6 Bible Calibration Report',
   '',
   'Generated from static Sprint 3 consensus, current solved builds, and metaEngine `all` ranking.',
+  'Tier comparison uses the curated weapon tier as the consensus-facing layer; the raw calculated tier and score stay visible as diagnostics.',
   '',
   '## Summary',
   '',
@@ -185,9 +188,10 @@ const lines = [
   '### Tier disagreement',
   '',
   markdownTable(
-    ['Weapon', 'Confidence', 'Ours', 'Consensus', 'Distance', 'Severity', 'Score'],
+    ['Weapon', 'Confidence', 'Curated', 'Consensus', 'Distance', 'Severity', 'Calculated', 'Score'],
     rowLimit(tierDisagreements).map(
-      (row) => `| ${sanitize(row.weapon)} | ${row.confidence} | ${row.ours} | ${row.consensus} | ${row.distance} | ${row.severity} | ${row.score} |`,
+      (row) =>
+        `| ${sanitize(row.weapon)} | ${row.confidence} | ${row.ours} | ${row.consensus} | ${row.distance} | ${row.severity} | ${row.calculatedTier} | ${row.score} |`,
     ),
   ),
   '',

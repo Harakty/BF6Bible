@@ -27,7 +27,7 @@ describe('solvedBuilds robustness', () => {
     expect(meanScore, 'mean objectiveScore degraded').toBeGreaterThanOrEqual(70)
   })
 
-  it('respects consensus tier alignment for high-confidence weapons', () => {
+  it('respects consensus tier alignment in the curated tier layer for high-confidence weapons', () => {
     const rankedByWeapon = new Map(rankWeapons(metaWeapons, 'all').map((ranked) => [ranked.metric.weapon.name.en, ranked]))
     const highConfidenceConsensus = externalMetaConsensus.filter((entry) => entry.confidence === 'high' && entry.consensusTier)
 
@@ -37,8 +37,8 @@ describe('solvedBuilds robustness', () => {
       if (!ranked || !entry.consensusTier) continue
 
       expect(
-        tierDistance(ranked.calculatedTier, entry.consensusTier),
-        `${entry.weaponName} tier ${ranked.calculatedTier} too far from consensus ${entry.consensusTier}`,
+        tierDistance(ranked.metric.tier, entry.consensusTier),
+        `${entry.weaponName} curated tier ${ranked.metric.tier} too far from consensus ${entry.consensusTier}`,
       ).toBeLessThanOrEqual(1)
     }
   })

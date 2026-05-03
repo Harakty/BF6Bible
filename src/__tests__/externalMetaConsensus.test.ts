@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { externalMetaConsensus } from '../generated/externalMetaConsensus'
 import { generatedWeaponStats } from '../generated/weaponStats'
 
-const weaponNames = new Set(generatedWeaponStats.weapons.map((weapon) => weapon.name))
+const weaponNames: Set<string> = new Set(generatedWeaponStats.weapons.map((weapon) => weapon.name))
 const rankedConfidence = new Set(['high', 'medium'])
 
 describe('externalMetaConsensus bootstrap', () => {

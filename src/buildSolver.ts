@@ -97,6 +97,17 @@ type CandidateBuild = {
 // Attachment source data exposes positive effect points but not negative handling tradeoffs.
 // A light budget penalty makes extra points compete against real utility instead of always winning on tiny positive deltas.
 const baseBudgetPenaltyPerPoint = 0.035
+const archetypeBudgetPenaltyMultiplier: Record<ArchetypeId, number> = {
+  'mid-control': 0.85,
+  'close-redsec': 0.55,
+  'anchor-sustain': 0.75,
+  'info-range': 0.9,
+  'mobile-pick': 0.15,
+  'building-clear': 0.35,
+  'mobile-flex': 1,
+  'emergency-backup': 0.45,
+  balanced: 1,
+}
 
 // Weights are baseline engineering assumptions derived from the current archetype rationales.
 // Sprint 3 consensus calibration should tune these numbers instead of treating them as ground truth.
@@ -310,8 +321,8 @@ export function scarcityMultiplier(weapon: WeaponInputForSolver, key: EffectKey)
 
   if (key === 'drawSpeed') {
     if (weapon.categoryKey === 'sniper') {
-      const adsNeed = weapon.adsMs === undefined ? 1 : clamp(1 + (weapon.adsMs - 300) / 50, 0, 1.7)
-      const mobilityNeed = lowStatNeedsMore(weapon.mobility, 38, 12, 0, 1.5)
+      const adsNeed = weapon.adsMs === undefined ? 1 : clamp(1 + (weapon.adsMs - 300) / 50, 0.45, 1.7)
+      const mobilityNeed = lowStatNeedsMore(weapon.mobility, 38, 12, 0.3, 1.5)
       return adsNeed * 0.9 + mobilityNeed * 0.1
     }
 
@@ -499,7 +510,7 @@ function budgetPenaltyForWeapon(weapon: WeaponInputForSolver, archetype: Archety
 
   const averageNeed = totalWeight > 0 ? weightedNeed / totalWeight : 1
   const costPressure = clamp(1 - (averageNeed - 1) * 0.75, 0.55, 1.45)
-  return baseBudgetPenaltyPerPoint * costPressure
+  return baseBudgetPenaltyPerPoint * costPressure * archetypeBudgetPenaltyMultiplier[archetype.id]
 }
 
 function objectiveDenominator(weapon: WeaponInputForSolver, archetype: ArchetypeProfile, candidates: CandidateBuild[]) {
@@ -519,7 +530,7 @@ function effectUtility(weapon: WeaponInputForSolver, key: EffectKey, effect: num
 }
 
 function effectCapForScarcity(scarcity: number) {
-  return 2 + ((scarcity - 0.6) / 0.8) * 4
+  return 3 + ((scarcity - 0.6) / 0.8) * 4
 }
 
 function normalizeObjective(raw: number, denominator: number) {
