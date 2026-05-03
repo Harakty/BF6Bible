@@ -40,12 +40,7 @@ export function generateRationale(
     .slice(0, 3)
     .map(([key, value]) => `${effectUiCopy[key]?.[lang] ?? key} (+${value})`)
 
-  const layerANames = build.attachments
-    .filter((attachment) => attachment.layer === 'A')
-    .map((attachment) => attachmentName(attachment, lang))
-    .join(', ')
-  const layerBNames = build.attachments
-    .filter((attachment) => attachment.layer === 'B')
+  const allNames = build.attachments
     .map((attachment) => attachmentName(attachment, lang))
     .join(', ')
   const consensus = consensusByWeapon.get(normalizeWeaponName(weaponName))
@@ -59,9 +54,8 @@ export function generateRationale(
           `RoleFit ${ranking.roleFit}/100`,
           `Build score ${build.objectiveScore}/100, cap ${build.totalPoints}/${build.weaponMaxBudget}`,
           topEffects.length ? `Il solver privilegia ${topEffects.join(', ')}` : '',
-          layerANames ? `Layer A BF6Bible: ${layerANames}` : '',
-          layerBNames ? `Layer B consensus: ${layerBNames}` : '',
-          consensusTier ? `Consensus battlefieldmeta.gg: ${consensusTier}` : '',
+          allNames ? `Setup: ${allNames}` : '',
+          consensusTier ? `Riferimento meta pubblica: ${consensusTier}` : '',
         ]
       : [
           `Tier ${ranking.calculatedTier} in ${scenario} (rank ${positionInScenario}/${totalInScenario})`,
@@ -69,9 +63,8 @@ export function generateRationale(
           `RoleFit ${ranking.roleFit}/100`,
           `Build score ${build.objectiveScore}/100, cap ${build.totalPoints}/${build.weaponMaxBudget}`,
           topEffects.length ? `Solver prioritizes ${topEffects.join(', ')}` : '',
-          layerANames ? `Layer A BF6Bible: ${layerANames}` : '',
-          layerBNames ? `Layer B consensus: ${layerBNames}` : '',
-          consensusTier ? `battlefieldmeta.gg consensus: ${consensusTier}` : '',
+          allNames ? `Setup: ${allNames}` : '',
+          consensusTier ? `Public meta reference: ${consensusTier}` : '',
         ]
 
   return `${parts.filter(Boolean).join('. ')}.`

@@ -243,15 +243,13 @@ function AttachmentBlock({
 function SolvedAttachmentTerm({ value, lang }: { value: SolvedAttachment; lang: Lang }) {
   const main = t(value.name, lang)
   const alt = t(value.name, otherLang(lang))
-  const layerLabel = value.layer === 'A' ? t(copy.layerAProvenance, lang) : t(copy.layerBProvenance, lang)
 
   return (
-    <span className={`term attachment-term layer-${value.layer.toLowerCase()}`} title={value.sourceUrl}>
+    <span className="term attachment-term">
       <span>
         {main} ({value.points})
       </span>
       {alt !== main ? <small>{alt}</small> : null}
-      <small className="layer-badge">{layerLabel}</small>
     </span>
   )
 }
@@ -896,25 +894,18 @@ function SolvedMetaBuildPanel({
           <div className="attachment-rationale-list">
             {build.attachments.map((attachment) => {
               const justification = justifications.find((item) => item.attachmentId === attachment.id)
+              if (!justification) return null
               return (
                 <div key={attachment.id}>
                   <strong>{t(attachment.name, lang)}</strong>
-                  {attachment.layer === 'B' ? (
-                    <p>
-                      <span>{t(copy.attachmentReasonPrefix, lang)}</span> {t(copy.layerBAttachmentReason, lang)}
-                    </p>
-                  ) : justification ? (
-                    <>
-                      <p>
-                        <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
-                      </p>
-                      <small>
-                        {formatCopy(copy.attachmentsConsidered, lang, {
-                          n: justification.alternativesConsidered,
-                        })}
-                      </small>
-                    </>
-                  ) : null}
+                  <p>
+                    <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
+                  </p>
+                  <small>
+                    {formatCopy(copy.attachmentsConsidered, lang, {
+                      n: justification.alternativesConsidered,
+                    })}
+                  </small>
                 </div>
               )
             })}

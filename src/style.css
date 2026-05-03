@@ -1559,30 +1559,6 @@ h1 {
   background: rgba(242, 184, 75, 0.055);
 }
 
-.attachment-term.layer-a {
-  border-color: rgba(120, 208, 138, 0.2);
-}
-
-.attachment-term.layer-b {
-  border-color: rgba(242, 184, 75, 0.24);
-  background: rgba(242, 184, 75, 0.055);
-}
-
-.layer-badge {
-  display: inline-flex;
-  width: fit-content;
-  border-radius: 999px;
-  padding: 2px 6px;
-  color: #101311 !important;
-  background: var(--green);
-  font-size: 10px !important;
-  font-weight: 800;
-}
-
-.attachment-term.layer-b .layer-badge {
-  background: var(--gold);
-}
-
 .playbook {
   margin-top: 20px;
 }
