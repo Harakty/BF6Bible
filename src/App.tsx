@@ -41,8 +41,8 @@ import {
 } from './data'
 import { effectLabel } from './effectCopy'
 import { externalMetaConsensus, type ConsensusEntry } from './generated/externalMetaConsensus'
-import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
-import { weaponRationale } from './weaponBuildRationale'
+import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId, type RankedWeapon } from './metaEngine'
+import { generateRationale } from './rationaleEngine'
 import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type GeneratedWeaponStat } from './weaponStats'
 
 type ViewId = 'planner' | 'meta' | 'methodology'
@@ -241,7 +241,19 @@ function AttachmentBlock({
 }
 
 function SolvedAttachmentTerm({ value, lang }: { value: SolvedAttachment; lang: Lang }) {
-  return <Term lang={lang} value={{ name: value.name, points: value.points }} />
+  const main = t(value.name, lang)
+  const alt = t(value.name, otherLang(lang))
+  const layerLabel = value.layer === 'A' ? t(copy.layerAProvenance, lang) : t(copy.layerBProvenance, lang)
+
+  return (
+    <span className={`term attachment-term layer-${value.layer.toLowerCase()}`} title={value.sourceUrl}>
+      <span>
+        {main} ({value.points})
+      </span>
+      {alt !== main ? <small>{alt}</small> : null}
+      <small className="layer-badge">{layerLabel}</small>
+    </span>
+  )
 }
 
 function SourcePill({ source, lang }: { source: Source; lang: Lang }) {
@@ -719,14 +731,18 @@ function SolvedMetaBuildPanel({
   build,
   lang,
   tierContext,
+  rankedWeapon,
+  totalRankedWeapons,
   onShowMethodology,
 }: {
   build: SolvedBuild
   lang: Lang
   tierContext: TierContext | null
+  rankedWeapon: RankedWeapon | undefined
+  totalRankedWeapons: number
   onShowMethodology: () => void
 }) {
-  const buildSources = ['sheetonmyface', 'attachment-sheet']
+  const buildSources = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
   const uiLabel = archetypeLabel(build.archetype.id, lang)
@@ -749,8 +765,16 @@ function SolvedMetaBuildPanel({
     .filter((item) => item.value > 0)
     .sort((a, b) => b.value - a.value || a.key.localeCompare(b.key))
   const maxEffect = Math.max(...effects.map((item) => item.value), 1)
-  const rationale = weaponRationale(build.weaponName, lang)
-  const weaponRationaleText = rationale.text || uiTagline
+  const weaponRationaleText =
+    generateRationale(
+      build.weaponName,
+      build,
+      rankedWeapon,
+      tierContext?.scenarioLabel ?? '',
+      lang,
+      totalRankedWeapons,
+      tierContext?.globalRank.position,
+    ) || uiTagline
   const justifications = build.rationaleData.chosenJustification
 
   return (
@@ -820,7 +844,10 @@ function SolvedMetaBuildPanel({
           <div className="setup-metrics">
             <div className="setup-metric" title={t(copy.costPointsTooltip, lang)}>
               <span>{t(copy.costPoints, lang)}</span>
-              <strong>{formatCopy(copy.costPointsValue, lang, { points: build.totalPoints })}</strong>
+              <strong>{formatCopy(copy.costPointsValue, lang, { points: build.totalPoints, cap: build.weaponMaxBudget })}</strong>
+              {build.totalPoints === build.weaponMaxBudget ? (
+                <small>{formatCopy(copy.weaponCapReached, lang, { cap: build.weaponMaxBudget })}</small>
+              ) : null}
               <button type="button" onClick={onShowMethodology}>
                 {t(copy.seeMethodology, lang)}
               </button>
@@ -867,13 +894,16 @@ function SolvedMetaBuildPanel({
             </small>
           </summary>
           <div className="attachment-rationale-list">
-            {build.attachments.map((attachment, index) => {
-              const justification =
-                justifications.find((item) => item.attachmentId === attachment.id) ?? justifications[index]
+            {build.attachments.map((attachment) => {
+              const justification = justifications.find((item) => item.attachmentId === attachment.id)
               return (
                 <div key={attachment.id}>
                   <strong>{t(attachment.name, lang)}</strong>
-                  {justification ? (
+                  {attachment.layer === 'B' ? (
+                    <p>
+                      <span>{t(copy.attachmentReasonPrefix, lang)}</span> {t(copy.layerBAttachmentReason, lang)}
+                    </p>
+                  ) : justification ? (
                     <>
                       <p>
                         <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
@@ -900,8 +930,7 @@ function SolvedMetaBuildPanel({
 
         <section className="build-section wide weapon-rationale">
           <h3>{t(copy.whyWeaponTitle, lang)}</h3>
-          {rationale.isPlaceholder ? <small>{t(copy.placeholderRationale, lang)}</small> : null}
-          <p className={rationale.isPlaceholder ? 'placeholder-copy' : ''}>{weaponRationaleText}</p>
+          <p>{weaponRationaleText}</p>
         </section>
 
         <section className="build-section wide baseline-sources">
@@ -979,6 +1008,10 @@ function MetaTierSection({ lang, onShowMethodology }: { lang: Lang; onShowMethod
         total: rankedWeapons.length,
       },
     }
+  }
+  const rankedWeaponForBuild = (weaponName: string) => {
+    const normalized = normalizeWeaponName(weaponName)
+    return rankedWeapons.find((ranked) => normalizeWeaponName(ranked.metric.weapon.name.en) === normalized)
   }
   const selectBuild = (key: string) => {
     setSelectedBuildKey(key)
@@ -1062,7 +1095,9 @@ function MetaTierSection({ lang, onShowMethodology }: { lang: Lang; onShowMethod
           build={activeBuild.build}
           lang={lang}
           onShowMethodology={onShowMethodology}
+          rankedWeapon={rankedWeaponForBuild(activeBuild.build.weaponName)}
           tierContext={buildTierContext(activeBuild.build.weaponName)}
+          totalRankedWeapons={rankedWeapons.length}
         />
       ) : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
@@ -1127,11 +1162,10 @@ function MethodologySection({ lang }: { lang: Lang }) {
           <section>
             <h2>Cos'e BF6 Bible</h2>
             <p>
-              BF6 Bible e un dataset operativo di ranking e build calcolate da noi a partire da statistiche pubbliche
-              Battlefield 6. Non aggreghiamo tier list di BattlefieldMeta o Sym.gg dentro la UI e non copiamo build da terzi:
-              il sito usa un nostro solver per trasformare stats armi, costi attachment e profilo di ruolo in una build
-              coerente. Il progetto resta indipendente e work in progress: quando mancano dati solidi, preferiamo mostrare
-              provenance e limiti invece di mascherarli.
+              BF6 Bible e un dataset operativo di ranking e build calcolate da statistiche pubbliche Battlefield 6. Le build
+              usano un modello ibrido: Layer A ottimizzato dal nostro solver su muzzle, barrel e underbarrel; Layer B copiato
+              letteralmente dal consensus battlefieldmeta.gg per ottiche, munizioni, caricatori e accessori. Ogni attachment
+              mostra la propria provenance.
             </p>
           </section>
           <section>
@@ -1147,11 +1181,11 @@ function MethodologySection({ lang }: { lang: Lang }) {
           <section>
             <h2>Come calcoliamo le build</h2>
             <p>
-              Le build sono prodotte da un solver che enumera combinazioni valide di attachment entro 100 punti. Ogni arma
-              riceve un archetype, per esempio controllo medio, lunga distanza o REDSEC ravvicinato. Il solver valuta gli
-              effetti degli attachment, applica scarcity per dare piu valore a cio che manca all'arma e usa cost pressure
-              per evitare spesa inutile. Costo significa punti attachment spesi. Build score significa quanto la combinazione
-              si avvicina all'ottimo per quell'archetype; non e il tier dell'arma.
+              Le build sono prodotte combinando solver e consensus. Il cap non e sempre 100: viene letto dalla pagina arma
+              battlefieldmeta.gg. Le sidearm hanno cap 60, L110 e M250 hanno cap 95 nel dataset attuale, la maggior parte
+              delle primary ha cap 100. Il Layer B viene copiato dal consensus. Il Layer A usa il budget residuo e deve
+              chiudere esattamente il cap arma. Costo significa punti spesi sul cap reale. Build score misura quanto il
+              Layer A si avvicina all'ottimo dell'archetype; non e il tier dell'arma.
             </p>
           </section>
           <section>
@@ -1187,11 +1221,10 @@ function MethodologySection({ lang }: { lang: Lang }) {
           <section>
             <h2>What BF6 Bible is</h2>
             <p>
-              BF6 Bible is an operational ranking and build dataset calculated from public Battlefield 6 stats. We do not
-              aggregate BattlefieldMeta or Sym.gg tier lists into the UI and we do not copy third-party builds: the site uses
-              our own solver to turn weapon stats, attachment costs, and role profiles into coherent builds. The project is
-              independent and still work in progress, so when the signal is incomplete we expose provenance and limits
-              instead of hiding them.
+              BF6 Bible is an operational ranking and build dataset calculated from public Battlefield 6 stats. Builds use a
+              hybrid model: Layer A is optimized by our solver for muzzle, barrel, and underbarrel; Layer B is copied
+              literally from battlefieldmeta.gg consensus for optics, ammo, magazines, and accessories. Every attachment
+              shows its own provenance.
             </p>
           </section>
           <section>
@@ -1207,11 +1240,11 @@ function MethodologySection({ lang }: { lang: Lang }) {
           <section>
             <h2>How builds are calculated</h2>
             <p>
-              Builds are produced by a solver that enumerates valid attachment combinations inside the 100-point budget. Each
-              weapon gets an archetype such as mid control, long range, or REDSEC close. The solver evaluates attachment
-              effects, applies scarcity to reward what the weapon lacks, and uses cost pressure to avoid pointless spend.
-              Cost means attachment points spent. Build score means how close the setup gets to the archetype optimum; it is
-              not the weapon tier.
+              Builds are produced by combining our solver with consensus. The cap is not always 100: it is read from the
+              battlefieldmeta.gg weapon page. Sidearms have a 60 cap, L110 and M250 have a 95 cap in the current dataset, and
+              most primaries have a 100 cap. Layer B is copied from consensus. Layer A uses the remaining budget and must
+              close exactly to the weapon cap. Cost means points spent against the real cap. Build score measures how close
+              Layer A gets to the archetype optimum; it is not the weapon tier.
             </p>
           </section>
           <section>
