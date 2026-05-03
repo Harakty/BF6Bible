@@ -398,6 +398,7 @@ h1 {
 .tactical-diagram,
 .meta-band,
 .meta-page,
+.methodology-page,
 .role-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -672,7 +673,8 @@ h1 {
 }
 
 .meta-band,
-.meta-page {
+.meta-page,
+.methodology-page {
   margin: 26px clamp(16px, 4vw, 48px) 58px;
   overflow: hidden;
 }
@@ -682,6 +684,33 @@ h1 {
   gap: 14px;
   padding: 22px 24px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.methodology-page {
+  display: grid;
+  gap: 18px;
+  padding: 24px;
+}
+
+.methodology-page h1 {
+  max-width: 980px;
+  color: #f8fff9;
+  font-size: clamp(30px, 4vw, 54px);
+  line-height: 1;
+}
+
+.methodology-page section {
+  max-width: 1000px;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.methodology-page h2 {
+  margin-bottom: 8px;
+  color: #f8fff9;
+  font-size: 19px;
 }
 
 .meta-header h2 {
@@ -1000,6 +1029,282 @@ h1 {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+.meta-build-panel.solved .meta-build-title span {
+  max-width: 980px;
+  color: #cbd6cf;
+  font-size: 13px;
+  line-height: 1.35;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.tier-context-card {
+  display: grid;
+  grid-template-columns: minmax(130px, 0.22fr) 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid rgba(242, 184, 75, 0.48);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(242, 184, 75, 0.15), rgba(120, 208, 138, 0.04)),
+    rgba(255, 255, 255, 0.035);
+}
+
+.tier-context-main {
+  display: grid;
+  gap: 4px;
+  justify-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(16, 19, 17, 0.5);
+}
+
+.tier-context-main span,
+.tier-context-main small,
+.rank-lines span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.tier-context-main strong {
+  color: var(--amber);
+  font-size: 54px;
+  line-height: 0.9;
+}
+
+.rank-lines {
+  display: grid;
+  gap: 8px;
+}
+
+.rank-lines span {
+  padding: 9px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 7px;
+  color: #edf3ef;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.consensus-row,
+.build-provenance,
+.setup-metrics,
+.effect-row > div:first-child,
+.trust-details summary {
+  display: flex;
+  align-items: center;
+}
+
+.consensus-row {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.consensus-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 5px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  color: #f8fff9;
+  background: rgba(255, 255, 255, 0.045);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.consensus-badge small {
+  color: rgba(248, 255, 249, 0.72);
+  font-weight: 600;
+}
+
+.consensus-high {
+  border-color: rgba(120, 208, 138, 0.48);
+  background: rgba(120, 208, 138, 0.13);
+}
+
+.consensus-medium {
+  border-color: rgba(242, 184, 75, 0.48);
+  background: rgba(242, 184, 75, 0.13);
+}
+
+.consensus-absent {
+  color: var(--muted);
+}
+
+.consensus-warning {
+  border-color: rgba(229, 106, 84, 0.55);
+  background: rgba(229, 106, 84, 0.14);
+}
+
+.build-provenance {
+  gap: 8px;
+  color: #d9e3da;
+  font-size: 13px;
+}
+
+.build-provenance svg {
+  color: var(--cyan);
+}
+
+.build-provenance button,
+.setup-metric button {
+  border: 0;
+  padding: 0;
+  color: var(--green);
+  background: transparent;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.trust-build-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.setup-section .chips {
+  margin-bottom: 14px;
+}
+
+.setup-metrics {
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.setup-metric {
+  display: grid;
+  gap: 5px;
+  min-width: min(220px, 100%);
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  background: rgba(16, 19, 17, 0.34);
+}
+
+.setup-metric span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.setup-metric strong {
+  color: #f8fff9;
+  font-size: 20px;
+}
+
+.trust-details {
+  overflow: hidden;
+}
+
+.trust-details summary {
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  color: #f8fff9;
+  font-weight: 800;
+}
+
+.trust-details summary::marker {
+  color: var(--green);
+}
+
+.trust-details summary small {
+  color: var(--green);
+  font-size: 12px;
+}
+
+.trust-details[open] .state-expand,
+.trust-details:not([open]) .state-collapse {
+  display: none;
+}
+
+.effect-list,
+.attachment-rationale-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.effect-row {
+  display: grid;
+  gap: 6px;
+}
+
+.effect-row > div:first-child {
+  justify-content: space-between;
+  gap: 12px;
+  color: #d9e3da;
+  font-size: 13px;
+}
+
+.effect-row strong {
+  color: #f8fff9;
+}
+
+.effect-bar {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.effect-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--green), var(--cyan));
+}
+
+.attachment-rationale-list > div {
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.attachment-rationale-list p,
+.weapon-rationale p,
+.baseline-sources p,
+.methodology-page p {
+  color: #d9e3da;
+}
+
+.attachment-rationale-list p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.attachment-rationale-list p span,
+.runner-up span {
+  color: var(--muted);
+}
+
+.attachment-rationale-list small,
+.weapon-rationale small {
+  color: var(--soft);
+}
+
+.runner-up {
+  padding: 10px;
+  border-left: 3px solid var(--amber);
+  background: rgba(242, 184, 75, 0.075);
+}
+
+.placeholder-copy {
+  font-style: italic;
+}
+
+.baseline-sources {
+  background: rgba(255, 255, 255, 0.018);
+}
+
+.baseline-sources .source-row {
+  margin-top: 12px;
 }
 
 .compact-playbook {
