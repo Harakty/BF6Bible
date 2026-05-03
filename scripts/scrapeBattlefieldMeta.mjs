@@ -177,26 +177,17 @@ function parseAttachmentLine(text, sourceUrl, fetchTimestamp) {
 function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
   const $ = cheerio.load(html)
   const bodyText = $('body').text().replace(/\u00a0/g, ' ').replace(/\s+/g, ' ')
-  const declaredBudgetMatch = bodyText.match(/Recommended\s*(\d+)\s*\/\s*(\d+)/)
-  if (!declaredBudgetMatch) {
-    throw new Error(`${weaponName}: declared Recommended budget parse failed from ${sourceUrl}`)
+  const budgetVariants = parseBudgetVariants($, sourceUrl, fetchTimestamp)
+  if (budgetVariants.length === 0) {
+    throw new Error(`${weaponName}: budget-text parse failed from ${sourceUrl}`)
   }
-  const declaredPoints = Number(declaredBudgetMatch[1])
-  const budgetCap = Number(declaredBudgetMatch[2])
-  const attachmentGroups = $('ul')
-    .toArray()
-    .map((list) =>
-      $(list)
-        .find('li')
-        .toArray()
-        .map((element) => parseAttachmentLine($(element).text(), sourceUrl, fetchTimestamp))
-        .filter(Boolean),
-    )
-    .filter((group) => group.length > 0)
-  const attachments =
-    attachmentGroups.find((group) => group.reduce((sum, attachment) => sum + attachment.pointCost, 0) === declaredPoints) ??
-    attachmentGroups.find((group) => group.reduce((sum, attachment) => sum + attachment.pointCost, 0) === 100) ??
-    []
+
+  const recommendedVariant =
+    budgetVariants.find((variant) => variant.label.toLowerCase() === 'recommended') ?? budgetVariants[0]
+  const attachments = recommendedVariant.attachments
+  const consensusSpent = recommendedVariant.spent
+  const sourceDisplayedMaxBudget = recommendedVariant.displayedMaxBudget
+  const weaponMaxBudget = inferWeaponMaxBudget(budgetVariants)
 
   const tier = bodyText.match(/Ranking of the .*? Tier\s+(META|A|B|C|D)(?:\s+Tier)?\s+Ranking/)?.[1]
   const rankingMatch = bodyText.match(/Ranking of the .*? Tier\s+(?:META|A|B|C|D)(?:\s+Tier)?\s+Ranking\s+#(\d+)\s*([A-Za-z ]+?)\s+Unlock level/)
@@ -211,8 +202,11 @@ function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
   if (!rankingMatch) {
     throw new Error(`${weaponName}: category rank parse failed from ${sourceUrl}`)
   }
-  if (totalPoints !== declaredPoints) {
-    throw new Error(`${weaponName}: parsed ${totalPoints} points but source declares ${declaredPoints}/${budgetCap}`)
+  if (totalPoints !== consensusSpent) {
+    throw new Error(`${weaponName}: parsed ${totalPoints} points but source declares ${consensusSpent}/${sourceDisplayedMaxBudget}`)
+  }
+  if (consensusSpent > weaponMaxBudget) {
+    throw new Error(`${weaponName}: consensusSpent ${consensusSpent} exceeds weaponMaxBudget ${weaponMaxBudget}`)
   }
 
   return {
@@ -224,9 +218,55 @@ function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
       category: rankingMatch[2],
     },
     attachments,
-    totalPoints,
-    budgetCap,
+    consensusSpent,
+    weaponMaxBudget,
+    sourceDisplayedMaxBudget,
+    budgetVariants: budgetVariants.map(({ attachments: _attachments, ...variant }) => variant),
   }
+}
+
+function parseBudgetVariants($, sourceUrl, fetchTimestamp) {
+  return $('.playstyle-card')
+    .toArray()
+    .map((card, index) => {
+      const budgetText = $(card).find('.budget-text').first().text().replace(/\s+/g, '').trim()
+      const budgetMatch = budgetText.match(/^(\d+)\/(\d+)$/)
+      if (!budgetMatch) return undefined
+
+      const cardText = $(card).text().replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
+      const label = cardText.slice(0, cardText.indexOf(budgetText)).trim() || `Build ${index + 1}`
+      const attachments = $(card)
+        .find('li')
+        .toArray()
+        .map((element) => parseAttachmentLine($(element).text(), sourceUrl, fetchTimestamp))
+        .filter(Boolean)
+
+      return {
+        label,
+        spent: Number(budgetMatch[1]),
+        displayedMaxBudget: Number(budgetMatch[2]),
+        attachmentTotal: attachments.reduce((sum, attachment) => sum + attachment.pointCost, 0),
+        attachments,
+      }
+    })
+    .filter(Boolean)
+}
+
+function inferWeaponMaxBudget(variants) {
+  const spentValues = variants.map((variant) => variant.spent)
+  const displayedValues = variants.map((variant) => variant.displayedMaxBudget)
+  const maxDisplayed = Math.max(...displayedValues)
+  const maxSpent = Math.max(...spentValues)
+  const allSpentSame = spentValues.every((value) => value === spentValues[0])
+  const allDisplayedSame = displayedValues.every((value) => value === displayedValues[0])
+
+  // Some pages show a generic 100 display while every published variant reaches only 95.
+  // When all observed variants plateau at the same lower spend, treat that plateau as the real combinatorial cap.
+  if (variants.length > 1 && allSpentSame && allDisplayedSame && maxSpent < maxDisplayed) {
+    return maxSpent
+  }
+
+  return maxDisplayed
 }
 
 function escapeRegExp(value) {
@@ -251,7 +291,9 @@ async function main() {
     try {
       const { html, fetchTimestamp } = await fetchCachedHtml(slug, sourceUrl)
       builds[weaponName] = parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp)
-      console.log(`${weaponName}: ${builds[weaponName].totalPoints}/${builds[weaponName].budgetCap} ${builds[weaponName].tier}`)
+      console.log(
+        `${weaponName}: consensus ${builds[weaponName].consensusSpent}/${builds[weaponName].sourceDisplayedMaxBudget}, cap ${builds[weaponName].weaponMaxBudget} ${builds[weaponName].tier}`,
+      )
     } catch (error) {
       failures.push({ weaponName, sourceUrl, error: error instanceof Error ? error.message : String(error) })
       console.error(`${weaponName}: ${error instanceof Error ? error.message : String(error)}`)
@@ -270,7 +312,7 @@ async function main() {
 
   const fetchTimestamps = Object.values(builds).map((build) => build.fetchTimestamp)
   const dataset = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     source: SOURCE,
     fetchedAt: fetchTimestamps.sort().at(-1),
     cacheTtlDays: 7,

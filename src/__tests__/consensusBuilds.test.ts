@@ -15,9 +15,26 @@ describe('consensus builds dataset', () => {
   it('every consensus build matches the budget declared by battlefieldmeta.gg', () => {
     for (const [name, build] of Object.entries(consensusBuilds.builds)) {
       const sum = build.attachments.reduce((total, attachment) => total + attachment.pointCost, 0)
-      expect(sum, `${name}: attachment sum ${sum} != parsed total ${build.totalPoints}`).toBe(build.totalPoints)
-      expect(build.totalPoints, `${name}: parsed total exceeds source cap`).toBeLessThanOrEqual(build.budgetCap)
-      expect(build.budgetCap, `${name}: source cap exceeds BF6 budget`).toBeLessThanOrEqual(100)
+      expect(sum, `${name}: attachment sum ${sum} != consensusSpent ${build.consensusSpent}`).toBe(build.consensusSpent)
+      expect(build.consensusSpent, `${name}: consensusSpent exceeds weaponMaxBudget`).toBeLessThanOrEqual(build.weaponMaxBudget)
+      expect(build.weaponMaxBudget, `${name}: weaponMaxBudget exceeds BF6 budget`).toBeLessThanOrEqual(100)
+    }
+  })
+
+  it('every consensus build has weaponMaxBudget defined', () => {
+    for (const [name, build] of Object.entries(consensusBuilds.builds)) {
+      expect(build.weaponMaxBudget, `${name} missing weaponMaxBudget`).toBeGreaterThan(0)
+      expect(build.consensusSpent, `${name} missing consensusSpent`).toBeGreaterThan(0)
+      expect(build.consensusSpent, `${name} consensusSpent exceeds cap`).toBeLessThanOrEqual(build.weaponMaxBudget)
+    }
+  })
+
+  it('weaponMaxBudget distribution matches expected sidearm caps', () => {
+    const sidearmWeapons = metaWeapons.filter((weapon) => weapon.slot === 'secondary' || weapon.className.en === 'Pistol')
+
+    for (const sidearm of sidearmWeapons) {
+      const build = consensusByWeapon[sidearm.weapon.name.en]
+      expect(build.weaponMaxBudget, `${sidearm.weapon.name.en} sidearm cap unexpected`).toBeLessThanOrEqual(70)
     }
   })
 
