@@ -16,7 +16,7 @@ export const effectKeys = [
 export type EffectKey = (typeof effectKeys)[number]
 export type EffectVector = Partial<Record<EffectKey, number>>
 
-export const attachmentSlots = ['muzzle', 'barrel', 'underbarrel', 'laser'] as const
+export const attachmentSlots = ['muzzle', 'barrel', 'underbarrel', 'laser', 'optic', 'magazine', 'ammo'] as const
 export type AttachmentSlot = (typeof attachmentSlots)[number]
 
 export type SolverAttachment = {
@@ -278,6 +278,9 @@ export function inferAttachmentSlot(name: string): AttachmentSlot | undefined {
   if (value.includes('barrel')) return 'barrel'
   if (value.includes('vertical') || value.includes('stubby') || value.includes('angled') || value.includes('handstop')) return 'underbarrel'
   if (value.includes('laser')) return 'laser'
+  if (value.includes('scope') || value.includes('optic') || value.includes('sight') || value.includes('reflex') || value.includes('holographic') || /\d+\.\d+x/.test(value)) return 'optic'
+  if (value.includes('magazine') || value.includes('rnd') || value.includes('mag ') || /\d+\s*round/.test(value)) return 'magazine'
+  if (value.includes('case') || value.includes('ammo') || value.includes('round type') || value.includes('match grade') || value.includes('polymer') || value.includes('fmj') || value.includes('hollow point') || value.includes('frangible') || value.includes('tungsten')) return 'ammo'
   return undefined
 }
 

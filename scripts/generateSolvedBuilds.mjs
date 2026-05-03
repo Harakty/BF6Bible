@@ -86,7 +86,7 @@ function localizedAttachment(attachment) {
 }
 
 function allowedSlotsForWeapon(weapon) {
-  if (weapon.categoryKey === 'sidearm') return new Set(['muzzle', 'barrel', 'laser'])
+  if (weapon.categoryKey === 'sidearm') return new Set(['muzzle', 'barrel', 'laser', 'optic', 'magazine', 'ammo'])
   return undefined
 }
 
