@@ -60,6 +60,9 @@ jobs:
         if: github.event_name != 'pull_request'
         run: npm run refresh:data
 
+      # Data refresh can legitimately move ranking snapshots.
+      # Regenerate them first, then run tests for invariants that must still hold.
+      # The later git diff decides whether those ranking shifts need human review.
       - name: Update ranking snapshots after data refresh
         if: github.event_name != 'pull_request'
         run: npm run test:update
