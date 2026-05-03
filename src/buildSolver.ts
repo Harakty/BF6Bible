@@ -16,7 +16,7 @@ export const effectKeys = [
 export type EffectKey = (typeof effectKeys)[number]
 export type EffectVector = Partial<Record<EffectKey, number>>
 
-export const attachmentSlots = ['muzzle', 'barrel', 'underbarrel', 'laser'] as const
+export const attachmentSlots = ['muzzle', 'barrel', 'underbarrel', 'laser', 'optic', 'magazine', 'ammo'] as const
 export type AttachmentSlot = (typeof attachmentSlots)[number]
 
 export type SolverAttachment = {
@@ -94,20 +94,10 @@ type CandidateBuild = {
   sortKey: string
 }
 
-// Attachment source data exposes positive effect points but not negative handling tradeoffs.
-// A light budget penalty makes extra points compete against real utility instead of always winning on tiny positive deltas.
-const baseBudgetPenaltyPerPoint = 0.035
-const archetypeBudgetPenaltyMultiplier: Record<ArchetypeId, number> = {
-  'mid-control': 0.85,
-  'close-redsec': 0.55,
-  'anchor-sustain': 0.75,
-  'info-range': 0.9,
-  'mobile-pick': 0.15,
-  'building-clear': 0.35,
-  'mobile-flex': 1,
-  'emergency-backup': 0.45,
-  balanced: 1,
-}
+// Sprint 6 redesign: solver target is "always spend the maximum possible".
+// Cost pressure (baseBudgetPenaltyPerPoint, archetypeBudgetPenaltyMultiplier,
+// budgetPenaltyForWeapon) has been removed. Objective is pure utility, ties
+// favour higher totalPoints so the solver fills every affordable slot.
 
 // Weights are baseline engineering assumptions derived from the current archetype rationales.
 // Sprint 3 consensus calibration should tune these numbers instead of treating them as ground truth.
@@ -278,6 +268,9 @@ export function inferAttachmentSlot(name: string): AttachmentSlot | undefined {
   if (value.includes('barrel')) return 'barrel'
   if (value.includes('vertical') || value.includes('stubby') || value.includes('angled') || value.includes('handstop')) return 'underbarrel'
   if (value.includes('laser')) return 'laser'
+  if (value.includes('scope') || value.includes('optic') || value.includes('sight') || value.includes('reflex') || value.includes('holographic') || /\d+\.\d+x/.test(value)) return 'optic'
+  if (value.includes('magazine') || value.includes('rnd') || value.includes('mag ') || /\d+\s*round/.test(value)) return 'magazine'
+  if (value.includes('case') || value.includes('ammo') || value.includes('round type') || value.includes('match grade') || value.includes('polymer') || value.includes('fmj') || value.includes('hollow point') || value.includes('frangible') || value.includes('tungsten')) return 'ammo'
   return undefined
 }
 
@@ -446,7 +439,7 @@ function enumerateCandidates(
 
       const attachments = selected.filter((attachment): attachment is SolverAttachment => !attachment.empty)
       const effectTotals = sumEffects(attachments)
-      const objectiveRaw = rawObjective(weapon, archetype, effectTotals, totalPoints)
+      const objectiveRaw = rawObjective(weapon, archetype, effectTotals)
       const sortKey = selected.map((option) => option.id).join('|')
 
       candidates.push({
@@ -487,30 +480,14 @@ function sumEffects(attachments: SolverAttachment[]): EffectVector {
   return totals
 }
 
-function rawObjective(weapon: WeaponInputForSolver, archetype: ArchetypeProfile, effectTotals: EffectVector, totalPoints: number) {
+function rawObjective(weapon: WeaponInputForSolver, archetype: ArchetypeProfile, effectTotals: EffectVector) {
   const utility = effectKeys.reduce((sum, key) => {
     const weight = archetype.weights[key] ?? 0
     const scarcityWeight = archetype.scarcityWeights?.[key] ?? 1
     const effect = effectTotals[key] ?? 0
     return sum + effectUtility(weapon, key, effect) * weight * scarcityWeight
   }, 0)
-  return utility - totalPoints * budgetPenaltyForWeapon(weapon, archetype)
-}
-
-function budgetPenaltyForWeapon(weapon: WeaponInputForSolver, archetype: ArchetypeProfile) {
-  let weightedNeed = 0
-  let totalWeight = 0
-
-  for (const key of effectKeys) {
-    const weight = archetype.weights[key] ?? 0
-    if (weight <= 0) continue
-    weightedNeed += scarcityMultiplier(weapon, key) * weight
-    totalWeight += weight
-  }
-
-  const averageNeed = totalWeight > 0 ? weightedNeed / totalWeight : 1
-  const costPressure = clamp(1 - (averageNeed - 1) * 0.75, 0.55, 1.45)
-  return baseBudgetPenaltyPerPoint * costPressure * archetypeBudgetPenaltyMultiplier[archetype.id]
+  return utility
 }
 
 function objectiveDenominator(weapon: WeaponInputForSolver, archetype: ArchetypeProfile, candidates: CandidateBuild[]) {
@@ -617,10 +594,11 @@ function explainRunnerUp(winner: CandidateBuild, runnerUp: CandidateBuild) {
 }
 
 function compareCandidates(a: CandidateBuild, b: CandidateBuild) {
+  // Sprint 6: tie-break favours HIGHER totalPoints (always-spend).
   return (
     b.objectiveRaw - a.objectiveRaw ||
     b.objectiveScore - a.objectiveScore ||
-    a.totalPoints - b.totalPoints ||
+    b.totalPoints - a.totalPoints ||
     a.sortKey.localeCompare(b.sortKey)
   )
 }

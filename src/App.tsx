@@ -1,11 +1,13 @@
 import {
   Activity,
   BarChart3,
+  BookOpen,
   ClipboardList,
   Crosshair,
   Database,
   ExternalLink,
   Gauge,
+  Info,
   Languages,
   Layers,
   Radar,
@@ -16,14 +18,14 @@ import {
   Wrench,
   Zap,
 } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   solvedBuildForWeapon,
-  solvedBuildPointLabel,
   solvedBuilds,
   type SolvedAttachment,
   type SolvedBuild,
 } from './buildEngine'
+import { archetypeLabel, archetypeTagline } from './archetypeCopy'
 import {
   copy,
   metaWeapons,
@@ -37,10 +39,13 @@ import {
   type WeaponKit,
   type WeaponMetric,
 } from './data'
+import { effectLabel } from './effectCopy'
+import { externalMetaConsensus, type ConsensusEntry } from './generated/externalMetaConsensus'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId } from './metaEngine'
-import { generatedStatForName, generatedWeaponStats, type GeneratedWeaponStat } from './weaponStats'
+import { weaponRationale } from './weaponBuildRationale'
+import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type GeneratedWeaponStat } from './weaponStats'
 
-type ViewId = 'planner' | 'meta'
+type ViewId = 'planner' | 'meta' | 'methodology'
 type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
 
 type WeaponTypeOption = {
@@ -49,6 +54,18 @@ type WeaponTypeOption = {
 }
 
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
+const consensusByWeapon = new Map(externalMetaConsensus.map((entry) => [normalizeWeaponName(entry.weaponName), entry]))
+
+const tierDistanceOrder = ['S+', 'S', 'A', 'B', 'C', 'D']
+
+type TierContext = {
+  tier: string
+  curatedTier: string
+  scenarioId: MetaScenarioId
+  scenarioLabel: string
+  categoryRank: { position: number; total: number; category: string }
+  globalRank: { position: number; total: number }
+}
 
 const weaponTypeLabelByKey = new Map<GeneratedWeaponStat['categoryKey'], Localized>()
 for (const weapon of generatedWeaponStats.weapons) {
@@ -135,6 +152,17 @@ const tacticalPlans = {
 
 function t(value: Localized, lang: Lang) {
   return value[lang]
+}
+
+function formatCopy(value: Localized, lang: Lang, vars: Record<string, string | number>) {
+  return t(value, lang).replace(/\{(\w+)\}/g, (match, key: string) => String(vars[key] ?? match))
+}
+
+function tierDistance(a: string, b: string) {
+  const left = tierDistanceOrder.indexOf(a)
+  const right = tierDistanceOrder.indexOf(b)
+  if (left === -1 || right === -1) return 0
+  return Math.abs(left - right)
 }
 
 function otherLang(lang: Lang): Lang {
@@ -373,6 +401,15 @@ function AppHeader({
         >
           <BarChart3 aria-hidden="true" />
           <span>{t(copy.metaPage, lang)}</span>
+        </button>
+        <button
+          className={view === 'methodology' ? 'active' : ''}
+          type="button"
+          aria-pressed={view === 'methodology'}
+          onClick={() => setView('methodology')}
+        >
+          <BookOpen aria-hidden="true" />
+          <span>{t(copy.methodologyTitle, lang)}</span>
         </button>
       </nav>
       <div className="top-actions">
@@ -665,62 +702,223 @@ type SolvedBuildLink = {
   build: SolvedBuild
 }
 
-function SolvedMetaBuildPanel({ build, lang }: { build: SolvedBuild; lang: Lang }) {
+function consensusEntryForWeapon(weaponName: string) {
+  return consensusByWeapon.get(normalizeWeaponName(weaponName))
+}
+
+function consensusSourceLabel(entry: ConsensusEntry, lang: Lang) {
+  const labels = new Set<string>()
+  for (const source of entry.sources) {
+    if (source.includes('BattlefieldMeta')) labels.add('BattlefieldMeta')
+    if (source.includes('BF6 Bible research')) labels.add(lang === 'it' ? 'research locale' : 'local research')
+  }
+  return Array.from(labels).join(' + ')
+}
+
+function SolvedMetaBuildPanel({
+  build,
+  lang,
+  tierContext,
+  onShowMethodology,
+}: {
+  build: SolvedBuild
+  lang: Lang
+  tierContext: TierContext | null
+  onShowMethodology: () => void
+}) {
   const buildSources = ['sheetonmyface', 'attachment-sheet']
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
+  const uiLabel = archetypeLabel(build.archetype.id, lang)
+  const uiTagline = archetypeTagline(build.archetype.id, lang)
+  const consensus = consensusEntryForWeapon(build.weaponName)
+  const consensusConfidence = consensus?.confidence ?? 'absent'
+  const consensusLabel =
+    consensusConfidence === 'high'
+      ? t(copy.consensusHigh, lang)
+      : consensusConfidence === 'medium'
+        ? t(copy.consensusMedium, lang)
+        : t(copy.consensusAbsent, lang)
+  const consensusSources = consensus ? consensusSourceLabel(consensus, lang) : ''
+  const disagreement =
+    consensus?.consensusTier && tierContext && tierDistance(tierContext.curatedTier, consensus.consensusTier) > 1
+      ? formatCopy(copy.consensusDisagreement, lang, { ours: tierContext.curatedTier, theirs: consensus.consensusTier })
+      : ''
+  const effects = Object.entries(build.effectTotals)
+    .map(([key, value]) => ({ key, value: Number(value) }))
+    .filter((item) => item.value > 0)
+    .sort((a, b) => b.value - a.value || a.key.localeCompare(b.key))
+  const maxEffect = Math.max(...effects.map((item) => item.value), 1)
+  const rationale = weaponRationale(build.weaponName, lang)
+  const weaponRationaleText = rationale.text || uiTagline
+  const justifications = build.rationaleData.chosenJustification
 
   return (
     <aside className="meta-build-panel solved" id={`build-solved-${build.weaponId}`}>
       <div className="meta-build-title">
         <div>
-          <span>{t(copy.solvedBuild, lang)}</span>
+          <span>
+            {uiLabel}
+            {uiTagline ? ` · ${uiTagline}` : ''}
+          </span>
           <h3>{build.weaponName}</h3>
         </div>
       </div>
-      <div className="meta-build-context">
-        <span>{t(build.className, lang)}</span>
-        <span>{t(build.archetype.label, lang)}</span>
-        <strong>{solvedBuildPointLabel(build)}</strong>
-        <strong>
-          {t(copy.buildScore, lang)} {build.objectiveScore}
-        </strong>
-      </div>
-      <p>{t(build.rationale, lang)}</p>
-      <div className="meta-build-grid">
-        <section className="build-section highlighted wide">
-          <h3 className="build-heading">
+
+      <section className="tier-context-card" aria-label={t(copy.tierBadge, lang)}>
+        <div className="tier-context-main">
+          <span>{t(copy.tierBadge, lang)}</span>
+          <strong>{tierContext?.tier ?? '-'}</strong>
+          <small>{tierContext?.scenarioLabel ?? t(build.className, lang)}</small>
+        </div>
+        {tierContext ? (
+          <div className="rank-lines">
             <span>
-              {t(copy.solvedBuild, lang)} · {build.weaponName}
+              {formatCopy(copy.categoryPosition, lang, {
+                position: tierContext.categoryRank.position,
+                total: tierContext.categoryRank.total,
+                category: tierContext.categoryRank.category,
+              })}
             </span>
-            <small>{solvedBuildPointLabel(build)}</small>
+            <span>
+              {formatCopy(copy.globalPositionLabel, lang, {
+                position: tierContext.globalRank.position,
+                total: tierContext.globalRank.total,
+                scenario: tierContext.scenarioLabel,
+              })}
+            </span>
+          </div>
+        ) : null}
+      </section>
+
+      <div className="consensus-row">
+        <span className={`consensus-badge consensus-${consensusConfidence}`}>
+          {consensusLabel}
+          {consensusSources ? <small>({consensusSources})</small> : null}
+        </span>
+        {disagreement ? <span className="consensus-badge consensus-warning">{disagreement}</span> : null}
+      </div>
+
+      <div className="build-provenance">
+        <Info aria-hidden="true" />
+        <span>{t(copy.buildProvenance, lang)}</span>
+        <button type="button" title={t(copy.buildProvenanceTooltip, lang)} onClick={onShowMethodology}>
+          {t(copy.seeMethodology, lang)}
+        </button>
+      </div>
+
+      <div className="meta-build-grid trust-build-grid">
+        <section className="build-section highlighted wide setup-section">
+          <h3 className="build-heading">
+            <span>{t(copy.setupAttachments, lang)}</span>
           </h3>
           <div className="chips">
             {build.attachments.map((item) => (
               <SolvedAttachmentTerm key={item.id} lang={lang} value={item} />
             ))}
           </div>
+          <div className="setup-metrics">
+            <div className="setup-metric" title={t(copy.costPointsTooltip, lang)}>
+              <span>{t(copy.costPoints, lang)}</span>
+              <strong>{formatCopy(copy.costPointsValue, lang, { points: build.totalPoints })}</strong>
+              <button type="button" onClick={onShowMethodology}>
+                {t(copy.seeMethodology, lang)}
+              </button>
+            </div>
+            <div className="setup-metric" title={t(copy.buildScoreTooltip, lang)}>
+              <span>{t(copy.buildScoreLabel, lang)}</span>
+              <strong>{formatCopy(copy.buildScoreValue, lang, { score: build.objectiveScore })}</strong>
+              <button type="button" onClick={onShowMethodology}>
+                {t(copy.seeMethodology, lang)}
+              </button>
+            </div>
+          </div>
         </section>
-        <section className="build-section">
-          <h3>{t(copy.engagement, lang)}</h3>
-          <p>{t(build.archetype.label, lang)}</p>
+
+        <details className="build-section trust-details">
+          <summary>
+            <span>{t(copy.effectsBreakdownTitle, lang)}</span>
+            <small>
+              <span className="state-expand">{t(copy.expandSection, lang)}</span>
+              <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
+            </small>
+          </summary>
+          <div className="effect-list">
+            {effects.map((effect) => (
+              <div className="effect-row" key={effect.key}>
+                <div>
+                  <span>{effectLabel(effect.key, lang)}</span>
+                  <strong>{effect.value}</strong>
+                </div>
+                <div className="effect-bar" aria-hidden="true">
+                  <span style={{ width: `${Math.max(8, (effect.value / maxEffect) * 100)}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </details>
+
+        <details className="build-section trust-details">
+          <summary>
+            <span>{t(copy.whyAttachmentsTitle, lang)}</span>
+            <small>
+              <span className="state-expand">{t(copy.expandSection, lang)}</span>
+              <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
+            </small>
+          </summary>
+          <div className="attachment-rationale-list">
+            {build.attachments.map((attachment, index) => {
+              const justification =
+                justifications.find((item) => item.attachmentId === attachment.id) ?? justifications[index]
+              return (
+                <div key={attachment.id}>
+                  <strong>{t(attachment.name, lang)}</strong>
+                  {justification ? (
+                    <>
+                      <p>
+                        <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
+                      </p>
+                      <small>
+                        {formatCopy(copy.attachmentsConsidered, lang, {
+                          n: justification.alternativesConsidered,
+                        })}
+                      </small>
+                    </>
+                  ) : null}
+                </div>
+              )
+            })}
+            {build.rationaleData.rejectedTopRunnerUp ? (
+              <p className="runner-up">
+                <span>{t(copy.rejectedTopRunnerUpPrefix, lang)}</span>{' '}
+                {build.rationaleData.rejectedTopRunnerUp.attachmentId} (
+                {build.rationaleData.rejectedTopRunnerUp.whyNotPicked})
+              </p>
+            ) : null}
+          </div>
+        </details>
+
+        <section className="build-section wide weapon-rationale">
+          <h3>{t(copy.whyWeaponTitle, lang)}</h3>
+          {rationale.isPlaceholder ? <small>{t(copy.placeholderRationale, lang)}</small> : null}
+          <p className={rationale.isPlaceholder ? 'placeholder-copy' : ''}>{weaponRationaleText}</p>
         </section>
-        <section className="build-section">
-          <h3>{t(copy.tierReason, lang)}</h3>
-          <p>{t(build.rationale, lang)}</p>
+
+        <section className="build-section wide baseline-sources">
+          <h3>{t(copy.baselineSourcesTitle, lang)}</h3>
+          <p>{t(copy.baselineSourcesNote, lang)}</p>
+          <div className="source-row">
+            {buildSources.map((source) => (
+              <SourcePill key={source.id} source={source} lang={lang} />
+            ))}
+          </div>
         </section>
-      </div>
-      <span className="source-label">{t(copy.dataSources, lang)}</span>
-      <div className="source-row">
-        {buildSources.map((source) => (
-          <SourcePill key={source.id} source={source} lang={lang} />
-        ))}
       </div>
     </aside>
   )
 }
 
-function MetaTierSection({ lang }: { lang: Lang }) {
+function MetaTierSection({ lang, onShowMethodology }: { lang: Lang; onShowMethodology: () => void }) {
   const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
   const [weaponTypeId, setWeaponTypeId] = useState<WeaponTypeFilterId>('all')
   const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
@@ -754,6 +952,34 @@ function MetaTierSection({ lang }: { lang: Lang }) {
       window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     }
   }
+  const buildTierContext = (weaponName: string): TierContext | null => {
+    const normalized = normalizeWeaponName(weaponName)
+    const position = rankedWeapons.findIndex((ranked) => normalizeWeaponName(ranked.metric.weapon.name.en) === normalized)
+    if (position === -1) return null
+
+    const ranked = rankedWeapons[position]
+    const sameCategory = rankedWeapons.filter(
+      (item) => item.metric.className.en === ranked.metric.className.en,
+    )
+    const categoryPosition =
+      sameCategory.findIndex((item) => normalizeWeaponName(item.metric.weapon.name.en) === normalized) + 1
+
+    return {
+      tier: ranked.calculatedTier,
+      curatedTier: ranked.metric.tier,
+      scenarioId: activeScenario.id,
+      scenarioLabel: t(activeScenario.shortLabel, lang),
+      categoryRank: {
+        position: categoryPosition,
+        total: sameCategory.length,
+        category: t(ranked.metric.className, lang),
+      },
+      globalRank: {
+        position: position + 1,
+        total: rankedWeapons.length,
+      },
+    }
+  }
   const selectBuild = (key: string) => {
     setSelectedBuildKey(key)
     if (typeof window !== 'undefined') {
@@ -783,7 +1009,6 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   aria-pressed={scenario.id === scenarioId}
                   onClick={() => {
                     setScenarioId(scenario.id)
-                    resetSelectedBuild()
                   }}
                 >
                   {t(scenario.shortLabel, lang)}
@@ -832,7 +1057,14 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           {filteredRankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
       </div>
-      {activeBuild ? <SolvedMetaBuildPanel build={activeBuild.build} lang={lang} /> : null}
+      {activeBuild ? (
+        <SolvedMetaBuildPanel
+          build={activeBuild.build}
+          lang={lang}
+          onShowMethodology={onShowMethodology}
+          tierContext={buildTierContext(activeBuild.build.weaponName)}
+        />
+      ) : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
         <div className="tier-row tier-row-head" role="row">
           <span>Tier</span>
@@ -882,11 +1114,147 @@ function MetaTierSection({ lang }: { lang: Lang }) {
   )
 }
 
+function MethodologySection({ lang }: { lang: Lang }) {
+  return (
+    <section className="methodology-page">
+      <div className="summary-label">
+        <BookOpen aria-hidden="true" />
+        <span>{t(copy.methodologyTitle, lang)}</span>
+      </div>
+      {lang === 'it' ? (
+        <>
+          <h1>Come leggiamo ranking, build e consensus</h1>
+          <section>
+            <h2>Cos'e BF6 Bible</h2>
+            <p>
+              BF6 Bible e un dataset operativo di ranking e build calcolate da noi a partire da statistiche pubbliche
+              Battlefield 6. Non aggreghiamo tier list di BattlefieldMeta o Sym.gg dentro la UI e non copiamo build da terzi:
+              il sito usa un nostro solver per trasformare stats armi, costi attachment e profilo di ruolo in una build
+              coerente. Il progetto resta indipendente e work in progress: quando mancano dati solidi, preferiamo mostrare
+              provenance e limiti invece di mascherarli.
+            </p>
+          </section>
+          <section>
+            <h2>Come rankiamo le armi</h2>
+            <p>
+              Il metaEngine assegna uno score per scenario combinando fit di ruolo, TTK base, proxy REDSEC TTK, range utile,
+              mobilita, controllo, magazine e qualita dati. Gli scenari attivi sono All, Recon, Assault, Engineer e Support.
+              La stessa arma puo cambiare tier tra scenari perche il roleFit pesa di piu nei ranking specializzati: LMR27 e
+              S in Recon perche e una DMR con fit massimo, ma puo scendere in All quando viene confrontata contro AR, SMG e
+              LMG piu versatili.
+            </p>
+          </section>
+          <section>
+            <h2>Come calcoliamo le build</h2>
+            <p>
+              Le build sono prodotte da un solver che enumera combinazioni valide di attachment entro 100 punti. Ogni arma
+              riceve un archetype, per esempio controllo medio, lunga distanza o REDSEC ravvicinato. Il solver valuta gli
+              effetti degli attachment, applica scarcity per dare piu valore a cio che manca all'arma e usa cost pressure
+              per evitare spesa inutile. Costo significa punti attachment spesi. Build score significa quanto la combinazione
+              si avvicina all'ottimo per quell'archetype; non e il tier dell'arma.
+            </p>
+          </section>
+          <section>
+            <h2>Divergenze dal consensus pubblico</h2>
+            <p>
+              Il consensus pubblico e un segnale di controllo, non una verita automatica. Il nostro ranking non e ancora
+              calibrato su quel consensus e alcune divergenze sono note: M2010 ESR e C in All da noi ma S+ top sniper nel
+              consensus; KORD 6P67 e A in All da noi ma S nel consensus; KTS100 MK8 e B in All da noi ma S nel consensus.
+              Queste differenze vengono usate per decidere i prossimi round di calibrazione, non per sovrascrivere lo score.
+            </p>
+          </section>
+          <section>
+            <h2>Confidence di consensus</h2>
+            <p>
+              High significa arma con build verificata nella research locale e riferimento BattlefieldMeta. Oggi sono KORD
+              6P67, KTS100 MK8, DRS-IAR e M2010 ESR. Medium significa arma citata come rilevante ma senza build completa
+              stabile: VCR-2, AK-205, M4A1, L110, M39 EMR e M87A1. Absent significa che non abbiamo consensus pubblico
+              stabile abbastanza utile da usare come controllo.
+            </p>
+          </section>
+          <section>
+            <h2>Disclaimer e feedback</h2>
+            <p>
+              Le stats armi e i costi attachment arrivano da dataset community pubblici. Le build sono nostre, calcolate e
+              verificabili. Feedback su nomi italiani, attachment reali in game e performance pratica in REDSEC e benvenuto:
+              serve a chiudere il gap tra modello e lobby reali.
+            </p>
+          </section>
+        </>
+      ) : (
+        <>
+          <h1>How we read rankings, builds, and consensus</h1>
+          <section>
+            <h2>What BF6 Bible is</h2>
+            <p>
+              BF6 Bible is an operational ranking and build dataset calculated from public Battlefield 6 stats. We do not
+              aggregate BattlefieldMeta or Sym.gg tier lists into the UI and we do not copy third-party builds: the site uses
+              our own solver to turn weapon stats, attachment costs, and role profiles into coherent builds. The project is
+              independent and still work in progress, so when the signal is incomplete we expose provenance and limits
+              instead of hiding them.
+            </p>
+          </section>
+          <section>
+            <h2>How weapon ranking works</h2>
+            <p>
+              The metaEngine scores weapons per scenario using role fit, base TTK, REDSEC TTK proxy, useful range, mobility,
+              control, magazine value, and data quality. Current scenarios are All, Recon, Assault, Engineer, and Support.
+              The same weapon can move between tiers because specialized scenarios weight roleFit more heavily: LMR27 is S
+              in Recon because it is a DMR with maximum role fit, but it can drop in All when compared against more flexible
+              ARs, SMGs, and LMGs.
+            </p>
+          </section>
+          <section>
+            <h2>How builds are calculated</h2>
+            <p>
+              Builds are produced by a solver that enumerates valid attachment combinations inside the 100-point budget. Each
+              weapon gets an archetype such as mid control, long range, or REDSEC close. The solver evaluates attachment
+              effects, applies scarcity to reward what the weapon lacks, and uses cost pressure to avoid pointless spend.
+              Cost means attachment points spent. Build score means how close the setup gets to the archetype optimum; it is
+              not the weapon tier.
+            </p>
+          </section>
+          <section>
+            <h2>Public consensus disagreements</h2>
+            <p>
+              Public consensus is a sanity check, not automatic truth. Our ranking is not fully calibrated against that
+              consensus yet and some differences are known: M2010 ESR is C in All for us but S+ top sniper in consensus; KORD
+              6P67 is A in All for us but S in consensus; KTS100 MK8 is B in All for us but S in consensus. These differences
+              guide future calibration rounds, but they do not overwrite the score directly.
+            </p>
+          </section>
+          <section>
+            <h2>Consensus confidence</h2>
+            <p>
+              High means the weapon has a verified build in local research plus a BattlefieldMeta reference. Today those are
+              KORD 6P67, KTS100 MK8, DRS-IAR, and M2010 ESR. Medium means the weapon is mentioned as relevant but without a
+              stable complete build: VCR-2, AK-205, M4A1, L110, M39 EMR, and M87A1. Absent means we do not have a public
+              consensus signal stable enough to use as a check.
+            </p>
+          </section>
+          <section>
+            <h2>Disclaimer and feedback</h2>
+            <p>
+              Weapon stats and attachment costs come from public community datasets. The builds are ours, calculated and
+              auditable. Feedback on Italian names, real in-game attachment labels, and practical REDSEC performance is useful
+              because it closes the gap between the model and real lobbies.
+            </p>
+          </section>
+        </>
+      )}
+    </section>
+  )
+}
+
 export function App() {
   const [lang, setLang] = useState<Lang>('it')
   const [selectedMode, setSelectedMode] = useState<ModeId>('quads')
   const [view, setView] = useState<ViewId>('planner')
   const plan = modePlans[selectedMode]
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0 })
+  }, [view])
 
   return (
     <main>
@@ -901,9 +1269,9 @@ export function App() {
             ))}
           </section>
         </>
-      ) : (
-        <MetaTierSection lang={lang} />
-      )}
+      ) : null}
+      {view === 'meta' ? <MetaTierSection lang={lang} onShowMethodology={() => setView('methodology')} /> : null}
+      {view === 'methodology' ? <MethodologySection lang={lang} /> : null}
     </main>
   )
 }
