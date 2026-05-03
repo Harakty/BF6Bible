@@ -13,6 +13,15 @@ function readBaselineSnapshot() {
   }
 }
 
+function snapshotsChanged() {
+  try {
+    execFileSync('git', ['diff', '--quiet', '--', SNAPSHOT_PATH], { stdio: 'ignore' })
+    return false
+  } catch {
+    return true
+  }
+}
+
 function parseSnapshot(text) {
   const scenarios = new Map()
   const scenarioRegex =
@@ -44,7 +53,13 @@ function formatMovement(before, after) {
   const rank = before.rank === after.rank ? String(after.rank) : `${before.rank} -> ${after.rank}`
   const tier = before.tier === after.tier ? after.tier : `${before.tier} -> ${after.tier}`
   const score = before.score === after.score ? String(after.score) : `${before.score} -> ${after.score}`
-  return { rank, tier, score }
+  return {
+    rank,
+    tier,
+    score,
+    deltaRank: before.rank - after.rank,
+    deltaScore: after.score - before.score,
+  }
 }
 
 const before = parseSnapshot(readBaselineSnapshot())
@@ -57,19 +72,47 @@ for (const [scenarioId, afterWeapons] of after) {
   for (const [weapon, current] of afterWeapons) {
     const previous = beforeWeapons.get(weapon)
     if (!previous) {
-      rows.push({ scenarioId, weapon, rank: `new -> ${current.rank}`, tier: `new -> ${current.tier}`, score: `new -> ${current.score}` })
+      rows.push({
+        scenarioId,
+        weapon,
+        rank: `new -> ${current.rank}`,
+        tier: `new -> ${current.tier}`,
+        score: `new -> ${current.score}`,
+        deltaRank: 999,
+        deltaScore: current.score,
+      })
       continue
     }
 
     if (previous.rank === current.rank && previous.tier === current.tier && previous.score === current.score) continue
     rows.push({ scenarioId, weapon, ...formatMovement(previous, current) })
   }
+
+  for (const [weapon, previous] of beforeWeapons) {
+    if (afterWeapons.has(weapon)) continue
+    rows.push({
+      scenarioId,
+      weapon,
+      rank: `${previous.rank} -> removed`,
+      tier: `${previous.tier} -> none`,
+      score: `${previous.score} -> none`,
+      deltaRank: -999,
+      deltaScore: -previous.score,
+    })
+  }
 }
 
 if (rows.length === 0) {
+  if (snapshotsChanged()) {
+    console.error('Snapshot format may have changed, parser stale.')
+    process.exit(1)
+  }
+
   console.log('No ranking shifts detected.')
   process.exit(0)
 }
+
+rows.sort((a, b) => Math.abs(b.deltaScore) - Math.abs(a.deltaScore) || Math.abs(b.deltaRank) - Math.abs(a.deltaRank))
 
 console.log('# Ranking shifts detected')
 console.log('')
