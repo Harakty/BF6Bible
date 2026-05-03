@@ -18,11 +18,11 @@ import {
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import {
-  templateBuildForWeapon,
-  templateBuildPointLabel,
-  templateBuilds,
-  type TemplateAttachment,
-  type TemplateBuild,
+  solvedBuildForWeapon,
+  solvedBuildPointLabel,
+  solvedBuilds,
+  type SolvedAttachment,
+  type SolvedBuild,
 } from './buildEngine'
 import {
   copy,
@@ -212,7 +212,7 @@ function AttachmentBlock({
   )
 }
 
-function TemplateAttachmentTerm({ value, lang }: { value: TemplateAttachment; lang: Lang }) {
+function SolvedAttachmentTerm({ value, lang }: { value: SolvedAttachment; lang: Lang }) {
   return <Term lang={lang} value={{ name: value.name, points: value.points }} />
 }
 
@@ -659,31 +659,31 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
   )
 }
 
-type TemplateBuildLink = {
+type SolvedBuildLink = {
   key: string
-  kind: 'template'
-  build: TemplateBuild
+  kind: 'solved'
+  build: SolvedBuild
 }
 
-function TemplateMetaBuildPanel({ build, lang }: { build: TemplateBuild; lang: Lang }) {
+function SolvedMetaBuildPanel({ build, lang }: { build: SolvedBuild; lang: Lang }) {
   const buildSources = ['sheetonmyface', 'attachment-sheet']
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
 
   return (
-    <aside className="meta-build-panel template" id={`build-template-${build.weaponId}`}>
+    <aside className="meta-build-panel solved" id={`build-solved-${build.weaponId}`}>
       <div className="meta-build-title">
         <div>
-          <span>{t(copy.templateBuild, lang)}</span>
+          <span>{t(copy.solvedBuild, lang)}</span>
           <h3>{build.weaponName}</h3>
         </div>
       </div>
       <div className="meta-build-context">
         <span>{t(build.className, lang)}</span>
         <span>{t(build.archetype.label, lang)}</span>
-        <strong>{templateBuildPointLabel(build)}</strong>
+        <strong>{solvedBuildPointLabel(build)}</strong>
         <strong>
-          {t(copy.buildScore, lang)} {build.score}
+          {t(copy.buildScore, lang)} {build.objectiveScore}
         </strong>
       </div>
       <p>{t(build.rationale, lang)}</p>
@@ -691,13 +691,13 @@ function TemplateMetaBuildPanel({ build, lang }: { build: TemplateBuild; lang: L
         <section className="build-section highlighted wide">
           <h3 className="build-heading">
             <span>
-              {t(copy.templateBuild, lang)} · {build.weaponName}
+              {t(copy.solvedBuild, lang)} · {build.weaponName}
             </span>
-            <small>{templateBuildPointLabel(build)}</small>
+            <small>{solvedBuildPointLabel(build)}</small>
           </h3>
           <div className="chips">
             {build.attachments.map((item) => (
-              <TemplateAttachmentTerm key={item.id} lang={lang} value={item} />
+              <SolvedAttachmentTerm key={item.id} lang={lang} value={item} />
             ))}
           </div>
         </section>
@@ -736,17 +736,17 @@ function MetaTierSection({ lang }: { lang: Lang }) {
     [rankedWeapons, weaponTypeId],
   )
   const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
-  const selectedBuild = selectedBuildKey.startsWith('template-')
-    ? templateBuilds
-        .map((build) => ({ key: `template-${build.weaponId}`, kind: 'template' as const, build }))
+  const selectedBuild = selectedBuildKey.startsWith('solved-')
+    ? solvedBuilds
+        .map((build) => ({ key: `solved-${build.weaponId}`, kind: 'solved' as const, build }))
         .find((link) => link.key === selectedBuildKey)
     : undefined
   const fallbackBuild = filteredRankedWeapons
-    .map((ranked): TemplateBuildLink | undefined => {
-      const template = templateBuildForWeapon(ranked.metric.weapon.name.en)
-      return template ? { key: `template-${template.weaponId}`, kind: 'template', build: template } : undefined
+    .map((ranked): SolvedBuildLink | undefined => {
+      const solved = solvedBuildForWeapon(ranked.metric.weapon.name.en)
+      return solved ? { key: `solved-${solved.weaponId}`, kind: 'solved', build: solved } : undefined
     })
-    .find((link): link is TemplateBuildLink => Boolean(link))
+    .find((link): link is SolvedBuildLink => Boolean(link))
   const activeBuild = selectedBuild ?? fallbackBuild
   const resetSelectedBuild = () => {
     setSelectedBuildKey('')
@@ -832,7 +832,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           {filteredRankedWeapons.length} {t(copy.weaponsShown, lang)}
         </p>
       </div>
-      {activeBuild ? <TemplateMetaBuildPanel build={activeBuild.build} lang={lang} /> : null}
+      {activeBuild ? <SolvedMetaBuildPanel build={activeBuild.build} lang={lang} /> : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
         <div className="tier-row tier-row-head" role="row">
           <span>Tier</span>
@@ -846,7 +846,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <span>{t(copy.bestBuild, lang)}</span>
         </div>
         {filteredRankedWeapons.map((ranked) => {
-          const templateBuild = templateBuildForWeapon(ranked.metric.weapon.name.en)
+          const solvedBuild = solvedBuildForWeapon(ranked.metric.weapon.name.en)
 
           return (
             <div
@@ -866,9 +866,9 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                 <small>{t(ranked.dataQualityLabel, lang)}</small>
               </span>
               <span className="build-actions">
-                {templateBuild ? (
-                  <button type="button" onClick={() => selectBuild(`template-${templateBuild.weaponId}`)}>
-                    {t(copy.openTemplateBuild, lang)}
+                {solvedBuild ? (
+                  <button type="button" onClick={() => selectBuild(`solved-${solvedBuild.weaponId}`)}>
+                    {t(copy.openSolvedBuild, lang)}
                   </button>
                 ) : (
                   <span className="build-empty">{t(copy.buildPending, lang)}</span>
