@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "ingest:weapons": "node scripts/ingestWeapons.mjs",
-    "ingest:attachments": "node scripts/ingestAttachments.mjs",
+    "ingest:attachments": "tsx scripts/ingestAttachments.mjs",
     "scrape:consensus": "tsx scripts/scrapeBattlefieldMeta.mjs",
     "generate:builds": "node scripts/generateBuilds.mjs",
     "generate:solved-builds": "tsx scripts/generateSolvedBuilds.mjs",
@@ -14,7 +14,7 @@
     "report:gaps": "tsx scripts/reportCalibrationGaps.mjs",
     "report:attachments": "tsx scripts/reportAttachmentCoverage.mjs",
     "report:consensus": "tsx scripts/reportConsensusCoverage.mjs",
-    "refresh:data": "npm run ingest:weapons && npm run ingest:attachments && npm run generate:builds && npm run generate:solved-builds",
+    "refresh:data": "npm run ingest:weapons && npm run scrape:consensus && npm run ingest:attachments && npm run generate:builds && npm run generate:solved-builds",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest run",

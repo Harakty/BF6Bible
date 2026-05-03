@@ -1,6 +1,9 @@
 import { createHash } from 'node:crypto'
 import { mkdir, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
+import { inferAttachmentSlot } from '../src/buildSolver.ts'
+import { consensusBuilds } from '../src/generated/consensusBuilds.ts'
+import { consensusSlotMapping, isLayerBSlot } from '../src/slotAuthority.ts'
 
 const SOURCE_URL =
   process.env.BF6_ATTACHMENT_SHEET_URL ??
@@ -77,6 +80,10 @@ function normalizeAttachmentId(name) {
   return name.toUpperCase().replace(/[^A-Z0-9]/g, '')
 }
 
+function normalizeConsensusAttachmentId(name, slot) {
+  return `${normalizeAttachmentId(slot)}_${normalizeAttachmentId(name)}`
+}
+
 function readAttachmentRows(rows) {
   return rows
     .map((row) => {
@@ -93,13 +100,45 @@ function readAttachmentRows(rows) {
       return {
         id: normalizeAttachmentId(name),
         name,
+        slot: inferAttachmentSlot(name),
         pointCost,
         totalEffectPoints: numberOrUndefined(row[15]),
         effects,
+        layer: 'A',
+        source: 'public-csv',
+        sourceUrl: SOURCE_URL,
         notes: row[17]?.trim() || undefined,
       }
     })
     .filter(Boolean)
+}
+
+function readConsensusAttachmentRows(existingAttachments) {
+  const byId = new Map(existingAttachments.map((attachment) => [attachment.id, attachment]))
+
+  for (const build of Object.values(consensusBuilds.builds)) {
+    for (const attachment of build.attachments) {
+      const slot = consensusSlotMapping[attachment.slotType]
+      if (!slot || !isLayerBSlot(slot)) continue
+
+      const id = normalizeConsensusAttachmentId(attachment.name, slot)
+      if (byId.has(id)) continue
+
+      byId.set(id, {
+        id,
+        name: attachment.name,
+        slot,
+        pointCost: attachment.pointCost,
+        layer: 'B',
+        source: 'battlefieldmeta.gg',
+        sourceUrl: attachment.sourceUrl,
+        fetchTimestamp: attachment.fetchTimestamp,
+        unlockLevel: attachment.unlockLevel,
+      })
+    }
+  }
+
+  return [...byId.values()]
 }
 
 function stableStringify(value) {
@@ -114,13 +153,19 @@ async function main() {
 
   const csv = await response.text()
   const rows = parseCsv(csv)
-  const attachments = readAttachmentRows(rows)
+  const csvAttachments = readAttachmentRows(rows)
+  const attachments = readConsensusAttachmentRows(csvAttachments)
   const sourceHash = createHash('sha256').update(csv).digest('hex').slice(0, 16)
 
   const dataset = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     sourceUrl: SOURCE_URL,
     sourceHash,
+    consensusSource: {
+      source: consensusBuilds.source,
+      fetchedAt: consensusBuilds.fetchedAt,
+      schemaVersion: consensusBuilds.schemaVersion,
+    },
     attachments,
   }
 
@@ -128,7 +173,9 @@ async function main() {
 
   await mkdir(dirname(OUTPUT_PATH), { recursive: true })
   await writeFile(OUTPUT_PATH, file, 'utf8')
-  console.log(`Generated ${attachments.length} attachments from ${rows.length} rows (${sourceHash}).`)
+  console.log(
+    `Generated ${attachments.length} attachments: ${csvAttachments.length} public CSV + ${attachments.length - csvAttachments.length} consensus layer B (${sourceHash}).`,
+  )
 }
 
 main().catch((error) => {
