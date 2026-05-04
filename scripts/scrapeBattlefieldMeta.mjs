@@ -7,9 +7,11 @@ const SOURCE = 'battlefieldmeta.gg'
 const BASE_URL = 'https://battlefieldmeta.gg'
 const ROBOTS_URL = `${BASE_URL}/robots.txt`
 const CACHE_DIR = resolve('data/cache/battlefieldmeta')
+const WEAPON_IMAGE_DIR = resolve('public/weapons')
 const OUTPUT_PATH = resolve('src/generated/consensusBuilds.ts')
 const CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000
 const REQUEST_INTERVAL_MS = 1000
+const IMAGE_REQUEST_INTERVAL_MS = 500
 const SITEMAP_URLS = [
   `${BASE_URL}/sitemaps/sitemap-p1.xml`,
   `${BASE_URL}/sitemaps/sitemap-p2.xml`,
@@ -84,6 +86,17 @@ async function fetchText(url) {
   })
   if (!response.ok) throw new Error(`${url}: ${response.status} ${response.statusText}`)
   return response.text()
+}
+
+async function fetchBytes(url) {
+  const response = await fetch(url, {
+    headers: {
+      'user-agent': 'BF6Bible consensus scraper (+https://github.com/Harakty/BF6Bible)',
+      accept: 'image/avif,image/webp,image/png,image/*,*/*;q=0.8',
+    },
+  })
+  if (!response.ok) throw new Error(`${url}: ${response.status} ${response.statusText}`)
+  return Buffer.from(await response.arrayBuffer())
 }
 
 async function assertRobotsAllowsLoadouts() {
@@ -225,6 +238,25 @@ function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
   }
 }
 
+function parseWeaponImageUrl(html, slug) {
+  const escapedSlug = escapeRegExp(slug)
+  const displayMatch = html.match(
+    new RegExp(
+      `<img[^>]+src=["'](https://img\\.battlefieldmeta\\.gg/${escapedSlug}(?:_version\\d+)?/gunDisplayLoadouts)["']`,
+      'i',
+    ),
+  )
+  if (displayMatch) return displayMatch[1]
+
+  const fullMatch = html.match(
+    new RegExp(
+      `<img[^>]+src=["'](https://img\\.battlefieldmeta\\.gg/${escapedSlug}(?:_version\\d+)?/gunFullDisplay)["']`,
+      'i',
+    ),
+  )
+  return fullMatch?.[1]?.replace(/\/gunFullDisplay$/, '/gunDisplayLoadouts')
+}
+
 function buildVariants(weaponName, budgetVariants) {
   const variants = {}
 
@@ -324,6 +356,47 @@ function stableStringify(value) {
   return JSON.stringify(value, null, 2)
 }
 
+async function fileExists(path) {
+  try {
+    await stat(path)
+    return true
+  } catch {
+    return false
+  }
+}
+
+function slugFromSourceUrl(sourceUrl) {
+  return sourceUrl.split('/').filter(Boolean).at(-1)
+}
+
+async function persistWeaponImages(builds) {
+  await mkdir(WEAPON_IMAGE_DIR, { recursive: true })
+
+  for (const [weaponName, build] of Object.entries(builds)) {
+    if (!build.imageUrl) continue
+
+    const slug = slugFromSourceUrl(build.sourceUrl) ?? slugForWeapon(weaponName)
+    const relativePath = `/weapons/${slug}.webp`
+    const targetPath = resolve(WEAPON_IMAGE_DIR, `${slug}.webp`)
+
+    if (await fileExists(targetPath)) {
+      build.imagePath = relativePath
+      continue
+    }
+
+    try {
+      const buffer = await fetchBytes(build.imageUrl)
+      await writeFile(targetPath, buffer)
+      build.imagePath = relativePath
+      console.log(`[scraper] saved image for ${weaponName} -> ${relativePath} (${buffer.length} bytes)`)
+      await sleep(IMAGE_REQUEST_INTERVAL_MS)
+    } catch (error) {
+      delete build.imageUrl
+      console.warn(`[scraper] image download failed for ${weaponName}: ${error instanceof Error ? error.message : String(error)}`)
+    }
+  }
+}
+
 async function main() {
   await assertRobotsAllowsLoadouts()
   const knownSlugs = await fetchKnownLoadoutSlugs()
@@ -338,6 +411,8 @@ async function main() {
     try {
       const { html, fetchTimestamp } = await fetchCachedHtml(slug, sourceUrl)
       builds[weaponName] = parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp)
+      const imageUrl = parseWeaponImageUrl(html, slug)
+      if (imageUrl) builds[weaponName].imageUrl = imageUrl
       const recommended = builds[weaponName].variants.Recommended
       console.log(
         `${weaponName}: consensus ${recommended.totalPoints}/${recommended.sourceDisplayedMaxBudget}, cap ${builds[weaponName].weaponMaxBudget} ${builds[weaponName].tier}, variants ${Object.keys(builds[weaponName].variants).length}`,
@@ -357,6 +432,8 @@ async function main() {
     process.exitCode = 1
     return
   }
+
+  await persistWeaponImages(builds)
 
   const fetchTimestamps = Object.values(builds).map((build) => build.fetchTimestamp)
   const dataset = {

@@ -67,4 +67,17 @@ describe('consensus builds dataset', () => {
       expect(hasLaser, `${sniper.weapon.name.en} consensus has a laser`).toBe(false)
     }
   })
+
+  it('every weapon with imageUrl also has imagePath populated', () => {
+    for (const [name, build] of Object.entries(consensusBuilds.builds)) {
+      if ('imageUrl' in build && build.imageUrl) {
+        expect('imagePath' in build ? build.imagePath : undefined, `${name}: has imageUrl but missing imagePath`).toBeDefined()
+      }
+    }
+  })
+
+  it('covers at least 50 weapon images', () => {
+    const withImage = Object.values(consensusBuilds.builds).filter((build) => 'imagePath' in build && build.imagePath).length
+    expect(withImage).toBeGreaterThanOrEqual(50)
+  })
 })
