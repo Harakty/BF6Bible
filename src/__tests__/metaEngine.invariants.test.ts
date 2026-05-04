@@ -24,6 +24,8 @@ function compactRanking(ranking: RankedWeapon[]) {
   return ranking.map((ranked) => ({
     weapon: ranked.metric.weapon.name.en,
     tier: ranked.calculatedTier,
+    categoryTier: ranked.categoryTier,
+    categoryRank: ranked.categoryRank,
     score: ranked.score,
     roleFit: ranked.roleFit,
     dataQuality: ranked.dataQuality,
@@ -127,5 +129,38 @@ describe('metaEngine invariants', () => {
         `${weaponName}: calculatedTier ${ranked.calculatedTier} vs consensus ${consensus.tier}`,
       ).toBeLessThanOrEqual(1)
     }
+  })
+
+  it('assigns category tier and category rank to every weapon', () => {
+    const ranking = rankWeapons(metaWeapons, 'all')
+    for (const ranked of ranking) {
+      expect(ranked.categoryTier, `${ranked.metric.weapon.name.en} missing categoryTier`).toMatch(/^(S|A|B|C|D)$/)
+      expect(ranked.categoryRank.position, `${ranked.metric.weapon.name.en} missing categoryRank position`).toBeGreaterThanOrEqual(1)
+      expect(ranked.categoryRank.total, `${ranked.metric.weapon.name.en} missing categoryRank total`).toBeGreaterThanOrEqual(1)
+    }
+  })
+
+  it('sets the top weapon in each category to S categoryTier', () => {
+    const ranking = rankWeapons(metaWeapons, 'all')
+    const byCategory = new Map<string, RankedWeapon[]>()
+    for (const ranked of ranking) {
+      const category = ranked.metric.className.en
+      if (!byCategory.has(category)) byCategory.set(category, [])
+      byCategory.get(category)!.push(ranked)
+    }
+
+    for (const [category, members] of byCategory) {
+      const top = [...members].sort((a, b) => b.score - a.score)[0]
+      expect(
+        top.categoryTier,
+        `top of ${category} (${top.metric.weapon.name.en}) should be S, got ${top.categoryTier}`,
+      ).toBe('S')
+    }
+  })
+
+  it('sets M39 EMR to S inside the DMR category in the all scenario', () => {
+    const ranking = rankWeapons(metaWeapons, 'all')
+    const m39 = ranking.find((ranked) => ranked.metric.weapon.name.en === 'M39 EMR')
+    expect(m39?.categoryTier).toBe('S')
   })
 })

@@ -35,11 +35,18 @@ export type ScoreComponent = {
   weight: number
 }
 
+export type CategoryTier = Exclude<Tier, 'S+'>
+
 export type RankedWeapon = {
   metric: WeaponMetric
   scenarioId: MetaScenarioId
   score: number
   calculatedTier: Tier
+  categoryTier: CategoryTier
+  categoryRank: {
+    position: number
+    total: number
+  }
   roleFit: number
   dataQuality: number
   dataQualityLabel: Localized
@@ -187,7 +194,7 @@ export function getMetaScenario(id: MetaScenarioId) {
 
 export function rankWeapons(weapons: WeaponMetric[], scenarioId: MetaScenarioId): RankedWeapon[] {
   const scenario = getMetaScenario(scenarioId)
-  return weapons
+  const rankedList = weapons
     .map((metric) => scoreWeapon(metric, scenario))
     .sort(
       (a, b) =>
@@ -196,6 +203,9 @@ export function rankWeapons(weapons: WeaponMetric[], scenarioId: MetaScenarioId)
         b.dataQuality - a.dataQuality ||
         b.metric.redsecScore - a.metric.redsecScore,
     )
+
+  assignCategoryTiers(rankedList)
+  return rankedList
 }
 
 function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon {
@@ -231,6 +241,8 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
     scenarioId: scenario.id,
     score,
     calculatedTier: scoreToTier(score),
+    categoryTier: 'D',
+    categoryRank: { position: 0, total: 0 },
     roleFit: scores.roleFit,
     dataQuality: scores.dataQuality,
     dataQualityLabel: dataQualityLabel(scores.dataQuality),
@@ -238,6 +250,37 @@ function scoreWeapon(metric: WeaponMetric, scenario: MetaScenario): RankedWeapon
     redsecTtkMs,
     components,
   }
+}
+
+function assignCategoryTiers(rankedList: RankedWeapon[]) {
+  const byCategory = new Map<string, RankedWeapon[]>()
+  for (const ranked of rankedList) {
+    const category = ranked.metric.className.en
+    if (!byCategory.has(category)) byCategory.set(category, [])
+    byCategory.get(category)!.push(ranked)
+  }
+
+  for (const members of byCategory.values()) {
+    const sorted = [...members].sort((a, b) => b.score - a.score)
+    const total = sorted.length
+    for (let index = 0; index < total; index += 1) {
+      sorted[index].categoryTier = categoryTierForPosition(index + 1, total)
+      sorted[index].categoryRank = { position: index + 1, total }
+    }
+  }
+}
+
+function categoryTierForPosition(position: number, total: number): CategoryTier {
+  const sLimit = Math.max(1, Math.ceil(total * 0.2))
+  const aLimit = Math.max(sLimit + 1, Math.ceil(total * 0.4))
+  const bLimit = Math.max(aLimit + 1, Math.ceil(total * 0.6))
+  const dStart = Math.max(bLimit + 1, Math.floor(total * 0.8) + 1)
+
+  if (position <= sLimit) return 'S'
+  if (position <= aLimit) return 'A'
+  if (position <= bLimit) return 'B'
+  if (position < dStart) return 'C'
+  return 'D'
 }
 
 function consensusBoost(weaponName: string, currentScore: number) {

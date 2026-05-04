@@ -8,6 +8,8 @@ function serializeRankedWeapon(ranked: RankedWeapon, index: number) {
     weapon: ranked.metric.weapon.name.en,
     className: ranked.metric.className.en,
     tier: ranked.calculatedTier,
+    categoryTier: ranked.categoryTier,
+    categoryRank: ranked.categoryRank,
     score: ranked.score,
     roleFit: ranked.roleFit,
     dataQuality: ranked.dataQuality,
