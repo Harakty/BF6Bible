@@ -3,6 +3,11 @@
 exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`] = `
 [
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 236,
@@ -14,6 +19,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "VCR-2",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -25,6 +35,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "KORD 6P67",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -36,6 +51,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "DRS-IAR",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 308,
@@ -47,6 +67,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "L85A3",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 289,
@@ -58,6 +83,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SG-553R",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -69,6 +99,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "QBZ-192",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 225,
@@ -80,6 +115,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M121 A2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 272,
@@ -91,6 +131,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SCW-10",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 339,
@@ -102,6 +147,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SGX",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 358,
@@ -113,6 +163,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "PW5A3",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1420,
@@ -124,6 +179,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M2010 ESR",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 247,
@@ -135,6 +195,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M433",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 198,
@@ -146,6 +211,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "TR-7",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -157,6 +227,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "B36A4",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -168,6 +243,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "L110",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 280,
@@ -179,6 +259,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "KV9",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 300,
@@ -190,6 +275,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "CZ3A1",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 305,
@@ -201,6 +291,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "NVO-228E",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -212,6 +307,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "AK4D",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 306,
@@ -223,6 +323,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M4A1",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 309,
@@ -234,6 +339,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M417 A2",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 350,
@@ -245,6 +355,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "PW7A2",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 368,
@@ -256,6 +371,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "USG-90",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -267,6 +387,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SOR-556 Mk2",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 8,
+    },
+    "categoryTier": "B",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 336,
@@ -278,6 +403,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SOR-300C",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 369,
@@ -289,6 +419,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "KTS100 MK8",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 349,
@@ -300,6 +435,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "RPKM",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 8,
+    },
+    "categoryTier": "C",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 444,
@@ -311,6 +451,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "AK-205",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 419,
@@ -322,6 +467,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "UMG-40",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 395,
@@ -333,6 +483,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SL9",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 688,
@@ -344,6 +499,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M87A1",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1201,
@@ -355,6 +515,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "MINI SCOUT",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 5,
+    },
+    "categoryTier": "S",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 492,
@@ -366,6 +531,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M39 EMR",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -377,6 +547,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "PSR",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 501,
@@ -388,6 +563,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "VZ. 61",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 282,
@@ -399,6 +579,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M277",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -410,6 +595,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M123K",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
@@ -421,6 +611,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "GRT-BC",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -432,6 +627,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M250",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -443,6 +643,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M/60",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 5,
+    },
+    "categoryTier": "A",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
@@ -454,6 +659,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "LMR 27",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 5,
+    },
+    "categoryTier": "B",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 431,
@@ -465,6 +675,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SVDM",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -476,6 +691,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SV-98",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 5,
+    },
+    "categoryTier": "C",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 422,
@@ -487,6 +707,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "SVK-8.6",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 450,
@@ -498,6 +723,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "18.5KS-K",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 232,
@@ -509,6 +739,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M240L",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
@@ -520,6 +755,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M1014",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 520,
@@ -531,6 +771,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "GRT-CPS",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 1,
+    },
+    "categoryTier": "S",
     "className": "Revolver",
     "dataQuality": 100,
     "mpTtkMs": 414,
@@ -542,6 +787,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M44",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 657,
@@ -553,6 +803,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "P18",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 6,
+    },
+    "categoryTier": "A",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 717,
@@ -564,6 +819,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "GGH-22",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 6,
+    },
+    "categoryTier": "B",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 582,
@@ -575,6 +835,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M357 TRAIT",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
@@ -586,6 +851,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "DB-12",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,
@@ -597,6 +867,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "weapon": "M45A1",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 697,
@@ -613,6 +888,11 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
 exports[`metaEngine ranking snapshots > keeps the complete assault ranking stable 1`] = `
 [
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -624,6 +904,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "KORD 6P67",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 236,
@@ -635,6 +920,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "VCR-2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 272,
@@ -646,6 +936,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SCW-10",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 308,
@@ -657,6 +952,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "L85A3",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 289,
@@ -668,6 +968,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SG-553R",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -679,6 +984,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "QBZ-192",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 339,
@@ -690,6 +1000,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SGX",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 358,
@@ -701,6 +1016,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "PW5A3",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -712,6 +1032,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "DRS-IAR",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 225,
@@ -723,6 +1048,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M121 A2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1420,
@@ -734,6 +1064,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M2010 ESR",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 280,
@@ -745,6 +1080,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "KV9",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 247,
@@ -756,6 +1096,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M433",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 198,
@@ -767,6 +1112,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "TR-7",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -778,6 +1128,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "B36A4",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 300,
@@ -789,6 +1144,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "CZ3A1",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 305,
@@ -800,6 +1160,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "NVO-228E",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -811,6 +1176,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "AK4D",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 306,
@@ -822,6 +1192,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M4A1",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 309,
@@ -833,6 +1208,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M417 A2",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 350,
@@ -844,6 +1224,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "PW7A2",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 368,
@@ -855,6 +1240,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "USG-90",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 395,
@@ -866,6 +1256,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SL9",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 688,
@@ -877,6 +1272,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M87A1",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -888,6 +1288,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SOR-556 Mk2",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 8,
+    },
+    "categoryTier": "B",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 444,
@@ -899,6 +1304,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "AK-205",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 8,
+    },
+    "categoryTier": "C",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 336,
@@ -910,6 +1320,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SOR-300C",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 419,
@@ -921,6 +1336,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "UMG-40",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -932,6 +1352,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "L110",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 369,
@@ -943,6 +1368,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "KTS100 MK8",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 349,
@@ -954,6 +1384,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "RPKM",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1201,
@@ -965,6 +1400,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "MINI SCOUT",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -976,6 +1416,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "PSR",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 501,
@@ -987,6 +1432,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "VZ. 61",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 5,
+    },
+    "categoryTier": "S",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 492,
@@ -998,6 +1448,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M39 EMR",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 282,
@@ -1009,6 +1464,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M277",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
@@ -1020,6 +1480,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "GRT-BC",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -1031,6 +1496,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M123K",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -1042,6 +1512,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M250",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -1053,6 +1528,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M/60",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 450,
@@ -1064,6 +1544,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "18.5KS-K",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 5,
+    },
+    "categoryTier": "A",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
@@ -1075,6 +1560,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "LMR 27",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 5,
+    },
+    "categoryTier": "B",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 431,
@@ -1086,6 +1576,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SVDM",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -1097,6 +1592,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SV-98",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 5,
+    },
+    "categoryTier": "C",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 422,
@@ -1108,6 +1608,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "SVK-8.6",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
@@ -1119,6 +1624,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M1014",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 232,
@@ -1130,6 +1640,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M240L",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 520,
@@ -1141,6 +1656,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "GRT-CPS",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 1,
+    },
+    "categoryTier": "S",
     "className": "Revolver",
     "dataQuality": 100,
     "mpTtkMs": 414,
@@ -1152,6 +1672,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M44",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
@@ -1163,6 +1688,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "DB-12",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 717,
@@ -1174,6 +1704,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "GGH-22",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 6,
+    },
+    "categoryTier": "A",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 657,
@@ -1185,6 +1720,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "P18",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 6,
+    },
+    "categoryTier": "B",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 582,
@@ -1196,6 +1736,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M357 TRAIT",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,
@@ -1207,6 +1752,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "weapon": "M45A1",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 697,
@@ -1223,6 +1773,11 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
 exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stable 1`] = `
 [
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 289,
@@ -1234,6 +1789,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SG-553R",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 272,
@@ -1245,6 +1805,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SCW-10",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 339,
@@ -1256,6 +1821,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SGX",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 358,
@@ -1267,6 +1837,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "PW5A3",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -1278,6 +1853,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "QBZ-192",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -1289,6 +1869,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "KORD 6P67",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 236,
@@ -1300,6 +1885,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "VCR-2",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 308,
@@ -1311,6 +1901,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "L85A3",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -1322,6 +1917,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "DRS-IAR",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 225,
@@ -1333,6 +1933,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M121 A2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1420,
@@ -1344,6 +1949,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M2010 ESR",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 280,
@@ -1355,6 +1965,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "KV9",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 306,
@@ -1366,6 +1981,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M4A1",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 350,
@@ -1377,6 +1997,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "PW7A2",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 368,
@@ -1388,6 +2013,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "USG-90",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 300,
@@ -1399,6 +2029,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "CZ3A1",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 688,
@@ -1410,6 +2045,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M87A1",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 444,
@@ -1421,6 +2061,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "AK-205",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 8,
+    },
+    "categoryTier": "B",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 336,
@@ -1432,6 +2077,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SOR-300C",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 8,
+    },
+    "categoryTier": "C",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 309,
@@ -1443,6 +2093,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M417 A2",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 419,
@@ -1454,6 +2109,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "UMG-40",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 395,
@@ -1465,6 +2125,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SL9",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 247,
@@ -1476,6 +2141,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M433",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 198,
@@ -1487,6 +2157,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "TR-7",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -1498,6 +2173,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "B36A4",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 305,
@@ -1509,6 +2189,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "NVO-228E",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -1520,6 +2205,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "AK4D",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -1531,6 +2221,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SOR-556 Mk2",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -1542,6 +2237,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "L110",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 369,
@@ -1553,6 +2253,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "KTS100 MK8",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 349,
@@ -1564,6 +2269,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "RPKM",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 501,
@@ -1575,6 +2285,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "VZ. 61",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 5,
+    },
+    "categoryTier": "S",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 492,
@@ -1586,6 +2301,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M39 EMR",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1201,
@@ -1597,6 +2317,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "MINI SCOUT",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -1608,6 +2333,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "PSR",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 282,
@@ -1619,6 +2349,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M277",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
@@ -1630,6 +2365,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "GRT-BC",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 5,
+    },
+    "categoryTier": "A",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
@@ -1641,6 +2381,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "LMR 27",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -1652,6 +2397,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M123K",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 450,
@@ -1663,6 +2413,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "18.5KS-K",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 5,
+    },
+    "categoryTier": "B",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 431,
@@ -1674,6 +2429,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SVDM",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -1685,6 +2445,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M250",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -1696,6 +2461,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M/60",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -1707,6 +2477,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SV-98",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
@@ -1718,6 +2493,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M1014",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 5,
+    },
+    "categoryTier": "C",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 422,
@@ -1729,6 +2509,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "SVK-8.6",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 232,
@@ -1740,6 +2525,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M240L",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 520,
@@ -1751,6 +2541,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "GRT-CPS",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
@@ -1762,6 +2557,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "DB-12",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 1,
+    },
+    "categoryTier": "S",
     "className": "Revolver",
     "dataQuality": 100,
     "mpTtkMs": 414,
@@ -1773,6 +2573,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M44",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 657,
@@ -1784,6 +2589,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "P18",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 6,
+    },
+    "categoryTier": "A",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 582,
@@ -1795,6 +2605,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M357 TRAIT",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 6,
+    },
+    "categoryTier": "B",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 717,
@@ -1806,6 +2621,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "GGH-22",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,
@@ -1817,6 +2637,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "weapon": "M45A1",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 697,
@@ -1833,6 +2658,11 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
 exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 1`] = `
 [
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1420,
@@ -1844,6 +2674,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M2010 ESR",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -1855,6 +2690,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "QBZ-192",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -1866,6 +2706,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "KORD 6P67",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 236,
@@ -1877,6 +2722,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "VCR-2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -1888,6 +2738,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "DRS-IAR",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 289,
@@ -1899,6 +2754,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SG-553R",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 308,
@@ -1910,6 +2770,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "L85A3",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 225,
@@ -1921,6 +2786,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M121 A2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 272,
@@ -1932,6 +2802,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SCW-10",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 339,
@@ -1943,6 +2818,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SGX",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 358,
@@ -1954,6 +2834,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "PW5A3",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1201,
@@ -1965,6 +2850,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "MINI SCOUT",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -1976,6 +2866,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "PSR",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 5,
+    },
+    "categoryTier": "S",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 492,
@@ -1987,6 +2882,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M39 EMR",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 688,
@@ -1998,6 +2898,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M87A1",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 444,
@@ -2009,6 +2914,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "AK-205",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 306,
@@ -2020,6 +2930,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M4A1",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 247,
@@ -2031,6 +2946,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M433",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -2042,6 +2962,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "B36A4",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -2053,6 +2978,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "L110",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 369,
@@ -2064,6 +2994,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "KTS100 MK8",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 8,
+    },
+    "categoryTier": "B",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 336,
@@ -2075,6 +3010,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SOR-300C",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 8,
+    },
+    "categoryTier": "C",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 309,
@@ -2086,6 +3026,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M417 A2",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -2097,6 +3042,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SOR-556 Mk2",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 198,
@@ -2108,6 +3058,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "TR-7",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 305,
@@ -2119,6 +3074,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "NVO-228E",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -2130,6 +3090,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "AK4D",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 349,
@@ -2141,6 +3106,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "RPKM",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 350,
@@ -2152,6 +3122,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "PW7A2",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 280,
@@ -2163,6 +3138,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "KV9",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 368,
@@ -2174,6 +3154,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "USG-90",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 300,
@@ -2185,6 +3170,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "CZ3A1",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 395,
@@ -2196,6 +3186,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SL9",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 419,
@@ -2207,6 +3202,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "UMG-40",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 501,
@@ -2218,6 +3218,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "VZ. 61",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 5,
+    },
+    "categoryTier": "A",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
@@ -2229,6 +3234,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "LMR 27",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -2240,6 +3250,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SV-98",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 5,
+    },
+    "categoryTier": "B",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 431,
@@ -2251,6 +3266,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SVDM",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 5,
+    },
+    "categoryTier": "C",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 422,
@@ -2262,6 +3282,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "SVK-8.6",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 282,
@@ -2273,6 +3298,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M277",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
@@ -2284,6 +3314,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "GRT-BC",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -2295,6 +3330,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M250",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -2306,6 +3346,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M123K",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -2317,6 +3362,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M/60",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 520,
@@ -2328,6 +3378,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "GRT-CPS",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 450,
@@ -2339,6 +3394,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "18.5KS-K",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
@@ -2350,6 +3410,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M1014",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 232,
@@ -2361,6 +3426,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M240L",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 717,
@@ -2372,6 +3442,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "GGH-22",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 6,
+    },
+    "categoryTier": "A",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 657,
@@ -2383,6 +3458,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "P18",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
@@ -2394,6 +3474,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "DB-12",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 1,
+    },
+    "categoryTier": "S",
     "className": "Revolver",
     "dataQuality": 100,
     "mpTtkMs": 414,
@@ -2405,6 +3490,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M44",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 6,
+    },
+    "categoryTier": "B",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 582,
@@ -2416,6 +3506,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "M357 TRAIT",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 697,
@@ -2427,6 +3522,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "weapon": "ES 5.7",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,
@@ -2443,6 +3543,11 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
 exports[`metaEngine ranking snapshots > keeps the complete support ranking stable 1`] = `
 [
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -2454,6 +3559,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "KORD 6P67",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 236,
@@ -2465,6 +3575,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "VCR-2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -2476,6 +3591,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "DRS-IAR",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 308,
@@ -2487,6 +3607,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "L85A3",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 225,
@@ -2498,6 +3623,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M121 A2",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 289,
@@ -2509,6 +3639,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SG-553R",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 8,
+    },
+    "categoryTier": "S",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -2520,6 +3655,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "QBZ-192",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 272,
@@ -2531,6 +3671,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SCW-10",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 9,
+    },
+    "categoryTier": "S",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 339,
@@ -2542,6 +3687,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SGX",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 358,
@@ -2553,6 +3703,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "PW5A3",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1420,
@@ -2564,6 +3719,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M2010 ESR",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -2575,6 +3735,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "L110",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 369,
@@ -2586,6 +3751,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "KTS100 MK8",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 247,
@@ -2597,6 +3767,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M433",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 198,
@@ -2608,6 +3783,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "TR-7",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 276,
@@ -2619,6 +3799,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "B36A4",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 305,
@@ -2630,6 +3815,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "NVO-228E",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 306,
@@ -2641,6 +3831,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M4A1",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 9,
+    },
+    "categoryTier": "A",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 368,
@@ -2652,6 +3847,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "USG-90",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 4,
+    },
+    "categoryTier": "S",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 688,
@@ -2663,6 +3863,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M87A1",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 349,
@@ -2674,6 +3879,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "RPKM",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -2685,6 +3895,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SOR-556 Mk2",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -2696,6 +3911,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "AK4D",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 8,
+    },
+    "categoryTier": "A",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 444,
@@ -2707,6 +3927,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "AK-205",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 8,
+    },
+    "categoryTier": "B",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 336,
@@ -2718,6 +3943,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SOR-300C",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 8,
+    },
+    "categoryTier": "C",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 309,
@@ -2729,6 +3959,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M417 A2",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 280,
@@ -2740,6 +3975,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "KV9",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 350,
@@ -2751,6 +3991,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "PW7A2",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 300,
@@ -2762,6 +4007,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "CZ3A1",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 419,
@@ -2773,6 +4023,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "UMG-40",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "SMG",
     "dataQuality": 100,
     "mpTtkMs": 395,
@@ -2784,6 +4039,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SL9",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 5,
+    },
+    "categoryTier": "S",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 492,
@@ -2795,6 +4055,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M39 EMR",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1201,
@@ -2806,6 +4071,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "MINI SCOUT",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 501,
@@ -2817,6 +4087,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "VZ. 61",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -2828,6 +4103,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "PSR",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 9,
+    },
+    "categoryTier": "B",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -2839,6 +4119,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M123K",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 9,
+    },
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 293,
@@ -2850,6 +4135,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M250",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -2861,6 +4151,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M/60",
   },
   {
+    "categoryRank": {
+      "position": 7,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 282,
@@ -2872,6 +4167,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M277",
   },
   {
+    "categoryRank": {
+      "position": 8,
+      "total": 8,
+    },
+    "categoryTier": "D",
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
@@ -2883,6 +4183,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "GRT-BC",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 5,
+    },
+    "categoryTier": "A",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
@@ -2894,6 +4199,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "LMR 27",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 5,
+    },
+    "categoryTier": "B",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 431,
@@ -2905,6 +4215,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SVDM",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 5,
+    },
+    "categoryTier": "C",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 422,
@@ -2916,6 +4231,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SVK-8.6",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -2927,6 +4247,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "SV-98",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 4,
+    },
+    "categoryTier": "A",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 450,
@@ -2938,6 +4263,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "18.5KS-K",
   },
   {
+    "categoryRank": {
+      "position": 9,
+      "total": 9,
+    },
+    "categoryTier": "D",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 232,
@@ -2949,6 +4279,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M240L",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 4,
+    },
+    "categoryTier": "B",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
@@ -2960,6 +4295,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M1014",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 520,
@@ -2971,6 +4311,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "GRT-CPS",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 4,
+    },
+    "categoryTier": "D",
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
@@ -2982,6 +4327,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "DB-12",
   },
   {
+    "categoryRank": {
+      "position": 2,
+      "total": 6,
+    },
+    "categoryTier": "S",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 717,
@@ -2993,6 +4343,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "GGH-22",
   },
   {
+    "categoryRank": {
+      "position": 3,
+      "total": 6,
+    },
+    "categoryTier": "A",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 657,
@@ -3004,6 +4359,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "P18",
   },
   {
+    "categoryRank": {
+      "position": 1,
+      "total": 1,
+    },
+    "categoryTier": "S",
     "className": "Revolver",
     "dataQuality": 100,
     "mpTtkMs": 414,
@@ -3015,6 +4375,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M44",
   },
   {
+    "categoryRank": {
+      "position": 4,
+      "total": 6,
+    },
+    "categoryTier": "B",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 582,
@@ -3026,6 +4391,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "M357 TRAIT",
   },
   {
+    "categoryRank": {
+      "position": 5,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 697,
@@ -3037,6 +4407,11 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "weapon": "ES 5.7",
   },
   {
+    "categoryRank": {
+      "position": 6,
+      "total": 6,
+    },
+    "categoryTier": "D",
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,

@@ -1083,6 +1083,15 @@ h1 {
   background: rgba(255, 255, 255, 0.035);
 }
 
+.rank-lines span small {
+  display: block;
+  margin-top: 3px;
+  color: var(--soft);
+  font-size: 11px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .consensus-row,
 .setup-metrics,
 .effect-row > div:first-child,

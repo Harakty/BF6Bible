@@ -37,6 +37,7 @@ import {
   type WeaponMetric,
 } from './data'
 import { effectLabel } from './effectCopy'
+import { consensusBuilds } from './generated/consensusBuilds'
 import { externalMetaConsensus, type ConsensusEntry } from './generated/externalMetaConsensus'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId, type RankedWeapon } from './metaEngine'
 import { generateRationale } from './rationaleEngine'
@@ -53,16 +54,21 @@ type WeaponTypeOption = {
 
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
 const consensusByWeapon = new Map(externalMetaConsensus.map((entry) => [normalizeWeaponName(entry.weaponName), entry]))
+const battlefieldMetaTierByWeapon = new Map(
+  Object.entries(consensusBuilds.builds).map(([weaponName, build]) => [normalizeWeaponName(weaponName), build.tier]),
+)
 
 const tierDistanceOrder = ['S+', 'S', 'A', 'B', 'C', 'D']
 
 type TierContext = {
   tier: string
+  categoryTier: string
   curatedTier: string
   scenarioId: MetaScenarioId
   scenarioLabel: string
   categoryRank: { position: number; total: number; category: string }
   globalRank: { position: number; total: number }
+  consensusTier?: string
 }
 
 const weaponTypeLabelByKey = new Map<GeneratedWeaponStat['categoryKey'], Localized>()
@@ -796,26 +802,41 @@ function SolvedMetaBuildPanel({
 
       <section className="tier-context-card" aria-label={t(copy.tierBadge, lang)}>
         <div className="tier-context-main">
-          <span>{t(copy.tierBadge, lang)}</span>
-          <strong>{tierContext?.tier ?? '-'}</strong>
-          <small>{tierContext?.scenarioLabel ?? t(build.className, lang)}</small>
+          <span>
+            {tierContext
+              ? lang === 'it'
+                ? `Tier ${tierContext.categoryRank.category}`
+                : `${tierContext.categoryRank.category} Tier`
+              : t(copy.tierBadge, lang)}
+          </span>
+          <strong>{tierContext?.categoryTier ?? '-'}</strong>
+          <small>
+            {tierContext
+              ? formatCopy({ it: '{position}° su {total}', en: '#{position} of {total}' }, lang, {
+                  position: tierContext.categoryRank.position,
+                  total: tierContext.categoryRank.total,
+                })
+              : ''}
+          </small>
         </div>
         {tierContext ? (
           <div className="rank-lines">
             <span>
-              {formatCopy(copy.categoryPosition, lang, {
-                position: tierContext.categoryRank.position,
-                total: tierContext.categoryRank.total,
-                category: tierContext.categoryRank.category,
-              })}
+              {lang === 'it'
+                ? `Tier globale ${tierContext.tier} · rank ${tierContext.globalRank.position}/${tierContext.globalRank.total}`
+                : `Global tier ${tierContext.tier} · rank ${tierContext.globalRank.position}/${tierContext.globalRank.total}`}
+              <small>
+                {lang === 'it'
+                  ? `nello scenario ${tierContext.scenarioLabel}`
+                  : `in ${tierContext.scenarioLabel} scenario`}
+              </small>
             </span>
-            <span>
-              {formatCopy(copy.globalPositionLabel, lang, {
-                position: tierContext.globalRank.position,
-                total: tierContext.globalRank.total,
-                scenario: tierContext.scenarioLabel,
-              })}
-            </span>
+            {tierContext.consensusTier ? (
+              <span>
+                BattlefieldMeta
+                <small>tier {tierContext.consensusTier}</small>
+              </span>
+            ) : null}
           </div>
         ) : null}
       </section>
@@ -1030,18 +1051,20 @@ function MetaTierSection({ lang }: { lang: Lang }) {
 
     return {
       tier: ranked.calculatedTier,
+      categoryTier: ranked.categoryTier,
       curatedTier: ranked.metric.tier,
       scenarioId: activeScenario.id,
       scenarioLabel: t(activeScenario.shortLabel, lang),
       categoryRank: {
-        position: categoryPosition,
-        total: sameCategory.length,
+        position: ranked.categoryRank.position || categoryPosition,
+        total: ranked.categoryRank.total || sameCategory.length,
         category: t(ranked.metric.className, lang),
       },
       globalRank: {
         position: position + 1,
         total: rankedWeapons.length,
       },
+      consensusTier: battlefieldMetaTierByWeapon.get(normalized),
     }
   }
   const rankedWeaponForBuild = (weaponName: string) => {
