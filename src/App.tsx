@@ -947,6 +947,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
   const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
     typeof window === 'undefined' || !window.location.hash.startsWith('#build-') ? '' : window.location.hash.replace('#build-', ''),
   )
+  const [comparedWeapons, setComparedWeapons] = useState<string[]>([])
   const activeScenario = getMetaScenario(scenarioId)
   const rankedWeapons = useMemo(() => rankWeapons(metaWeapons, scenarioId), [scenarioId])
   const filteredRankedWeapons = useMemo(
@@ -956,6 +957,13 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         : rankedWeapons.filter((ranked) => weaponTypeKeyForMetric(ranked.metric) === weaponTypeId),
     [rankedWeapons, weaponTypeId],
   )
+  const compareEntries = comparedWeapons
+    .map((weaponName) => {
+      const ranked = rankedWeapons.find((item) => item.metric.weapon.name.en === weaponName)
+      const build = solvedBuildForWeapon(weaponName)
+      return ranked ? { weaponName, ranked, build } : undefined
+    })
+    .filter((entry): entry is { weaponName: string; ranked: RankedWeapon; build: SolvedBuild | undefined } => Boolean(entry))
   const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
   const selectedBuild = selectedBuildKey.startsWith('solved-')
     ? solvedBuilds
@@ -974,6 +982,14 @@ function MetaTierSection({ lang }: { lang: Lang }) {
     if (typeof window !== 'undefined' && window.location.hash.startsWith('#build-')) {
       window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     }
+  }
+  const resetCompare = () => setComparedWeapons([])
+  const toggleCompare = (weaponName: string) => {
+    setComparedWeapons((previous) => {
+      if (previous.includes(weaponName)) return previous.filter((name) => name !== weaponName)
+      if (previous.length >= 3) return previous
+      return [...previous, weaponName]
+    })
   }
   const buildTierContext = (weaponName: string): TierContext | null => {
     const normalized = normalizeWeaponName(weaponName)
@@ -1036,6 +1052,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   aria-pressed={scenario.id === scenarioId}
                   onClick={() => {
                     setScenarioId(scenario.id)
+                    resetCompare()
                   }}
                 >
                   {t(scenario.shortLabel, lang)}
@@ -1055,6 +1072,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   onClick={() => {
                     setWeaponTypeId(option.id)
                     resetSelectedBuild()
+                    resetCompare()
                   }}
                 >
                   {t(option.label, lang)}
@@ -1107,6 +1125,8 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         </div>
         {filteredRankedWeapons.map((ranked) => {
           const solvedBuild = solvedBuildForWeapon(ranked.metric.weapon.name.en)
+          const weaponName = ranked.metric.weapon.name.en
+          const isCompared = comparedWeapons.includes(weaponName)
 
           return (
             <div
@@ -1133,11 +1153,64 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                 ) : (
                   <span className="build-empty">{t(copy.buildPending, lang)}</span>
                 )}
+                <button
+                  type="button"
+                  className={isCompared ? 'compare-btn active' : 'compare-btn'}
+                  onClick={() => toggleCompare(weaponName)}
+                  disabled={!isCompared && comparedWeapons.length >= 3}
+                >
+                  {isCompared ? t({ it: 'Rimuovi', en: 'Remove' }, lang) : t({ it: 'Compara', en: 'Compare' }, lang)}
+                </button>
               </span>
             </div>
           )
         })}
       </div>
+      {compareEntries.length >= 2 ? (
+        <aside className="compare-panel" aria-label={t({ it: 'Confronto armi', en: 'Weapon comparison' }, lang)}>
+          <header>
+            <h3>{t({ it: 'Confronto', en: 'Compare' }, lang)}</h3>
+            <button type="button" onClick={resetCompare}>
+              {t({ it: 'Chiudi', en: 'Close' }, lang)}
+            </button>
+          </header>
+          <div className="compare-grid" style={{ gridTemplateColumns: `repeat(${compareEntries.length}, minmax(0, 1fr))` }}>
+            {compareEntries.map(({ weaponName, ranked, build }) => (
+              <div className="compare-column" key={weaponName}>
+                <strong>{t(ranked.metric.weapon.name, lang)}</strong>
+                <small>{t(ranked.metric.className, lang)}</small>
+                <div className="compare-metric">
+                  <span>Tier</span>
+                  <strong>{ranked.calculatedTier}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>TTK</span>
+                  <strong>{formatMs(ranked.mpTtkMs)}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>REDSEC TTK</span>
+                  <strong>{formatMs(ranked.redsecTtkMs)}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>RoleFit</span>
+                  <strong>{formatNumber(ranked.roleFit)}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>{t(copy.costPoints, lang)}</span>
+                  <strong>{build ? `${build.totalPoints}/${build.weaponMaxBudget}` : '—'}</strong>
+                </div>
+                <div className="compare-attachments">
+                  {build?.attachments.map((attachment) => (
+                    <small key={attachment.id}>
+                      {t(attachment.name, lang)} ({attachment.pointCost})
+                    </small>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </aside>
+      ) : null}
     </section>
   )
 }
