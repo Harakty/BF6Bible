@@ -142,8 +142,25 @@ function localizedConsensusAttachment(attachment) {
   }
 }
 
-function layerBAttachmentsFromConsensus(consensus) {
-  return consensus.attachments.filter((attachment) => isLayerBSlot(canonicalConsensusSlot(attachment)))
+function recommendedVariantForConsensus(weaponName, consensus) {
+  const recommended = consensus.variants?.Recommended
+  if (!recommended) throw new Error(`${weaponName}: missing Recommended consensus variant`)
+  return recommended
+}
+
+function layerBAttachmentsFromVariant(variant) {
+  return variant.attachments.filter((attachment) => isLayerBSlot(canonicalConsensusSlot(attachment)))
+}
+
+function alternativeVariantsFromConsensus(consensus) {
+  return Object.entries(consensus.variants)
+    .filter(([variantName]) => variantName !== 'Recommended')
+    .map(([, variant]) => ({
+      variantId: variant.variantId,
+      variantLabel: variant.variantLabel,
+      attachments: variant.attachments.map(localizedConsensusAttachment),
+      totalPoints: variant.totalPoints,
+    }))
 }
 
 function sumPoints(attachments) {
@@ -268,14 +285,16 @@ async function main() {
     if (!consensus) throw new Error(`${weapon.name}: missing battlefieldmeta consensus build`)
 
     const archetype = archetypeForCategory(weapon.categoryKey)
+    const recommendedVariant = recommendedVariantForConsensus(weapon.name, consensus)
     const weaponMaxBudget = consensus.weaponMaxBudget
-    const layerBAttachments = layerBAttachmentsFromConsensus(consensus)
+    const layerBAttachments = layerBAttachmentsFromVariant(recommendedVariant)
     const layerBTotal = sumPoints(layerBAttachments)
     const layerABudget = weaponMaxBudget - layerBTotal
     const solved = solveLayerAExactly(weapon, archetype, attachmentsForWeapon(weapon, solverAttachments), layerABudget)
     const layerAAttachments = solved.attachments.map(localizedAttachment)
     const layerBFinalAttachments = layerBAttachments.map(localizedConsensusAttachment)
     const finalAttachments = [...layerAAttachments, ...layerBFinalAttachments]
+    const alternativeVariants = alternativeVariantsFromConsensus(consensus)
     const finalTotal = finalAttachments.reduce((sum, attachment) => sum + attachment.points, 0)
     if (finalTotal !== weaponMaxBudget) {
       throw new Error(`${weapon.name}: build totals ${finalTotal}/${weaponMaxBudget}, must match weapon cap exactly`)
@@ -295,12 +314,12 @@ async function main() {
       totalPoints: finalTotal,
       weaponMaxBudget,
       consensusWeaponName: consensusMatch.weaponName,
-      consensusSpent: consensus.consensusSpent,
       layerATotal: solved.totalPoints,
       layerBTotal,
       objectiveScore: solved.objectiveScore,
       effectTotals: solved.effectTotals,
       attachments: finalAttachments,
+      alternativeVariants,
       rationale: archetype.rationale,
       rationaleData: solved.rationaleData,
       sourceHashes: {
@@ -318,12 +337,12 @@ async function main() {
   }
 
   const dataset = {
-    schemaVersion: 2,
+    schemaVersion: 3,
     model: {
       maxPoints: 100,
       budgetMode: 'weapon-specific-consensus-cap',
       status: 'solved',
-      ruleSet: 'bf6-bible-hybrid-consensus-v1',
+      ruleSet: 'bf6-bible-hybrid-consensus-v2-variants',
       layerA: [...layerASlots],
       layerB: 'battlefieldmeta.gg literal consensus slots',
     },

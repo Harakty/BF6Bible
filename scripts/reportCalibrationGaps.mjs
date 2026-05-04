@@ -118,12 +118,13 @@ for (const entry of consensusEntries) {
   const build = entry.aliases.map((alias) => solvedByWeapon.get(alias)).find(Boolean)
   if (!build) continue
 
-  if (entry.consensus.consensusSpent < entry.consensus.weaponMaxBudget) {
+  const recommended = entry.consensus.variants.Recommended
+  if (recommended.totalPoints < entry.consensus.weaponMaxBudget) {
     capRows.push({
       weapon: build.weaponName,
-      consensus: `${entry.consensus.consensusSpent}/${entry.consensus.weaponMaxBudget}`,
+      consensus: `${recommended.totalPoints}/${entry.consensus.weaponMaxBudget}`,
       ours: `${build.totalPoints}/${build.weaponMaxBudget}`,
-      topUp: build.totalPoints - entry.consensus.consensusSpent,
+      topUp: build.totalPoints - recommended.totalPoints,
     })
   }
 }
@@ -134,7 +135,8 @@ for (const entry of consensusEntries) {
   const build = entry.aliases.map((alias) => solvedByWeapon.get(alias)).find(Boolean)
   if (!build) continue
 
-  const consensusLayerB = entry.consensus.attachments
+  const recommended = entry.consensus.variants.Recommended
+  const consensusLayerB = recommended.attachments
     .filter((attachment) => !['Muzzle', 'Barrel', 'Underbarrel'].includes(attachment.slotType))
     .map((attachment) => attachment.name)
   const solvedLayerB = build.attachments.filter((attachment) => attachment.layer === 'B').map((attachment) => attachment.name.en)

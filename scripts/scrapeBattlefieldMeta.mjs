@@ -30,6 +30,13 @@ const slotTypes = [
   'Scope',
 ]
 
+const variantUiLabels = {
+  Recommended: { variantId: 'recommended', variantLabel: { it: 'Consigliata', en: 'Recommended' } },
+  'Lowest Recoil': { variantId: 'lowest-recoil', variantLabel: { it: 'Rinculo minimo', en: 'Lowest Recoil' } },
+  'Fastest ADS': { variantId: 'fastest-ads', variantLabel: { it: 'ADS rapido', en: 'Fastest ADS' } },
+  'Hip Fire': { variantId: 'hip-fire', variantLabel: { it: 'Hip fire', en: 'Hip Fire' } },
+}
+
 function slugForWeapon(name) {
   return name
     .toLowerCase()
@@ -182,18 +189,17 @@ function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
     throw new Error(`${weaponName}: budget-text parse failed from ${sourceUrl}`)
   }
 
-  const recommendedVariant =
-    budgetVariants.find((variant) => variant.label.toLowerCase() === 'recommended') ?? budgetVariants[0]
-  const attachments = recommendedVariant.attachments
-  const consensusSpent = recommendedVariant.spent
-  const sourceDisplayedMaxBudget = recommendedVariant.displayedMaxBudget
+  const variants = buildVariants(weaponName, budgetVariants)
+  const recommendedVariant = variants.Recommended
+  if (!recommendedVariant) {
+    throw new Error(`${weaponName}: Recommended variant missing from ${sourceUrl}`)
+  }
   const weaponMaxBudget = inferWeaponMaxBudget(budgetVariants)
 
   const tier = bodyText.match(/Ranking of the .*? Tier\s+(META|A|B|C|D)(?:\s+Tier)?\s+Ranking/)?.[1]
   const rankingMatch = bodyText.match(/Ranking of the .*? Tier\s+(?:META|A|B|C|D)(?:\s+Tier)?\s+Ranking\s+#(\d+)\s*([A-Za-z ]+?)\s+Unlock level/)
-  const totalPoints = attachments.reduce((sum, attachment) => sum + attachment.pointCost, 0)
 
-  if (attachments.length === 0) {
+  if (recommendedVariant.attachments.length === 0) {
     throw new Error(`${weaponName}: no recommended attachments parsed from ${sourceUrl}`)
   }
   if (!tier || !['META', 'A', 'B', 'C', 'D'].includes(tier)) {
@@ -202,11 +208,8 @@ function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
   if (!rankingMatch) {
     throw new Error(`${weaponName}: category rank parse failed from ${sourceUrl}`)
   }
-  if (totalPoints !== consensusSpent) {
-    throw new Error(`${weaponName}: parsed ${totalPoints} points but source declares ${consensusSpent}/${sourceDisplayedMaxBudget}`)
-  }
-  if (consensusSpent > weaponMaxBudget) {
-    throw new Error(`${weaponName}: consensusSpent ${consensusSpent} exceeds weaponMaxBudget ${weaponMaxBudget}`)
+  if (recommendedVariant.totalPoints > weaponMaxBudget) {
+    throw new Error(`${weaponName}: Recommended total ${recommendedVariant.totalPoints} exceeds weaponMaxBudget ${weaponMaxBudget}`)
   }
 
   return {
@@ -217,12 +220,56 @@ function parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp) {
       position: Number(rankingMatch[1]),
       category: rankingMatch[2],
     },
-    attachments,
-    consensusSpent,
     weaponMaxBudget,
-    sourceDisplayedMaxBudget,
-    budgetVariants: budgetVariants.map(({ attachments: _attachments, ...variant }) => variant),
+    variants,
   }
+}
+
+function buildVariants(weaponName, budgetVariants) {
+  const variants = {}
+
+  for (const budgetVariant of budgetVariants) {
+    const label = normalizeVariantLabel(budgetVariant.label)
+    if (variants[label]) {
+      throw new Error(`${weaponName}: duplicate variant label "${label}"`)
+    }
+    if (budgetVariant.attachments.length === 0) {
+      throw new Error(`${weaponName} ${label}: no attachments parsed`)
+    }
+    if (budgetVariant.attachmentTotal !== budgetVariant.spent) {
+      throw new Error(
+        `${weaponName} ${label}: parsed ${budgetVariant.attachmentTotal} points but source declares ${budgetVariant.spent}/${budgetVariant.displayedMaxBudget}`,
+      )
+    }
+
+    const ui = variantUiLabels[label] ?? {
+      variantId: variantIdForLabel(label),
+      variantLabel: { it: label, en: label },
+    }
+
+    variants[label] = {
+      variantId: ui.variantId,
+      variantLabel: ui.variantLabel,
+      attachments: budgetVariant.attachments,
+      totalPoints: budgetVariant.spent,
+      sourceDisplayedMaxBudget: budgetVariant.displayedMaxBudget,
+    }
+  }
+
+  return variants
+}
+
+function normalizeVariantLabel(label) {
+  const normalized = label.replace(/\s+/g, ' ').trim()
+  const known = Object.keys(variantUiLabels).find((variantLabel) => variantLabel.toLowerCase() === normalized.toLowerCase())
+  return known ?? normalized
+}
+
+function variantIdForLabel(label) {
+  return label
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
 }
 
 function parseBudgetVariants($, sourceUrl, fetchTimestamp) {
@@ -291,8 +338,9 @@ async function main() {
     try {
       const { html, fetchTimestamp } = await fetchCachedHtml(slug, sourceUrl)
       builds[weaponName] = parseConsensusHtml(html, weaponName, sourceUrl, fetchTimestamp)
+      const recommended = builds[weaponName].variants.Recommended
       console.log(
-        `${weaponName}: consensus ${builds[weaponName].consensusSpent}/${builds[weaponName].sourceDisplayedMaxBudget}, cap ${builds[weaponName].weaponMaxBudget} ${builds[weaponName].tier}`,
+        `${weaponName}: consensus ${recommended.totalPoints}/${recommended.sourceDisplayedMaxBudget}, cap ${builds[weaponName].weaponMaxBudget} ${builds[weaponName].tier}, variants ${Object.keys(builds[weaponName].variants).length}`,
       )
     } catch (error) {
       failures.push({ weaponName, sourceUrl, error: error instanceof Error ? error.message : String(error) })
@@ -312,7 +360,7 @@ async function main() {
 
   const fetchTimestamps = Object.values(builds).map((build) => build.fetchTimestamp)
   const dataset = {
-    schemaVersion: 2,
+    schemaVersion: 3,
     source: SOURCE,
     fetchedAt: fetchTimestamps.sort().at(-1),
     cacheTtlDays: 7,

@@ -117,24 +117,26 @@ function readConsensusAttachmentRows(existingAttachments) {
   const byId = new Map(existingAttachments.map((attachment) => [attachment.id, attachment]))
 
   for (const build of Object.values(consensusBuilds.builds)) {
-    for (const attachment of build.attachments) {
-      const slot = consensusSlotMapping[attachment.slotType]
-      if (!slot || !isLayerBSlot(slot)) continue
+    for (const variant of Object.values(build.variants)) {
+      for (const attachment of variant.attachments) {
+        const slot = consensusSlotMapping[attachment.slotType]
+        if (!slot || !isLayerBSlot(slot)) continue
 
-      const id = normalizeConsensusAttachmentId(attachment.name, slot)
-      if (byId.has(id)) continue
+        const id = normalizeConsensusAttachmentId(attachment.name, slot)
+        if (byId.has(id)) continue
 
-      byId.set(id, {
-        id,
-        name: attachment.name,
-        slot,
-        pointCost: attachment.pointCost,
-        layer: 'B',
-        source: 'battlefieldmeta.gg',
-        sourceUrl: attachment.sourceUrl,
-        fetchTimestamp: attachment.fetchTimestamp,
-        unlockLevel: attachment.unlockLevel,
-      })
+        byId.set(id, {
+          id,
+          name: attachment.name,
+          slot,
+          pointCost: attachment.pointCost,
+          layer: 'B',
+          source: 'battlefieldmeta.gg',
+          sourceUrl: attachment.sourceUrl,
+          fetchTimestamp: attachment.fetchTimestamp,
+          unlockLevel: attachment.unlockLevel,
+        })
+      }
     }
   }
 
