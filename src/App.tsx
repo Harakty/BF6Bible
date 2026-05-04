@@ -20,7 +20,6 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   solvedBuildForWeapon,
   solvedBuilds,
-  type SolvedAttachment,
   type SolvedBuild,
 } from './buildEngine'
 import { archetypeLabel, archetypeTagline } from './archetypeCopy'
@@ -45,6 +44,7 @@ import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type G
 
 type ViewId = 'planner' | 'meta'
 type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
+type DisplaySolvedAttachment = SolvedBuild['attachments'][number] | SolvedBuild['alternativeVariants'][number]['attachments'][number]
 
 type WeaponTypeOption = {
   id: WeaponTypeFilterId
@@ -238,7 +238,7 @@ function AttachmentBlock({
   )
 }
 
-function SolvedAttachmentTerm({ value, lang }: { value: SolvedAttachment; lang: Lang }) {
+function SolvedAttachmentTerm({ value, lang }: { value: DisplaySolvedAttachment; lang: Lang }) {
   const main = t(value.name, lang)
   const alt = t(value.name, otherLang(lang))
 
@@ -720,18 +720,30 @@ function SolvedMetaBuildPanel({
   tierContext,
   rankedWeapon,
   totalRankedWeapons,
+  isSelected,
+  onClose,
 }: {
   build: SolvedBuild
   lang: Lang
   tierContext: TierContext | null
   rankedWeapon: RankedWeapon | undefined
   totalRankedWeapons: number
+  isSelected: boolean
+  onClose: () => void
 }) {
+  const [selectedVariantId, setSelectedVariantId] = useState('recommended')
   const buildSources = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
+  useEffect(() => {
+    setSelectedVariantId('recommended')
+  }, [build.weaponId])
   const uiLabel = archetypeLabel(build.archetype.id, lang)
   const uiTagline = archetypeTagline(build.archetype.id, lang)
+  const selectedAlternative = build.alternativeVariants.find((variant) => variant.variantId === selectedVariantId)
+  const isRecommendedVariant = selectedVariantId === 'recommended' || !selectedAlternative
+  const activeAttachments = isRecommendedVariant ? build.attachments : selectedAlternative.attachments
+  const activeTotalPoints = isRecommendedVariant ? build.totalPoints : selectedAlternative.totalPoints
   const consensus = consensusEntryForWeapon(build.weaponName)
   const consensusConfidence = consensus?.confidence ?? 'absent'
   const consensusLabel =
@@ -763,7 +775,15 @@ function SolvedMetaBuildPanel({
   const justifications = build.rationaleData.chosenJustification
 
   return (
-    <aside className="meta-build-panel solved" id={`build-solved-${build.weaponId}`}>
+    <aside
+      className={`meta-build-panel solved ${isSelected ? 'is-selected' : 'is-fallback'}`}
+      id={`build-solved-${build.weaponId}`}
+    >
+      {isSelected ? (
+        <button className="mobile-panel-close" type="button" onClick={onClose}>
+          {t({ it: 'Indietro', en: 'Back' }, lang)}
+        </button>
+      ) : null}
       <div className="meta-build-title">
         <div>
           <span>
@@ -810,80 +830,109 @@ function SolvedMetaBuildPanel({
 
       <div className="meta-build-grid trust-build-grid">
         <section className="build-section highlighted wide setup-section">
+          {build.alternativeVariants.length > 0 ? (
+            <div className="variant-switcher" role="tablist" aria-label={t(copy.solvedBuild, lang)}>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={isRecommendedVariant}
+                className={isRecommendedVariant ? 'active' : ''}
+                onClick={() => setSelectedVariantId('recommended')}
+              >
+                {t({ it: 'Consigliata', en: 'Recommended' }, lang)}
+              </button>
+              {build.alternativeVariants.map((variant) => (
+                <button
+                  key={variant.variantId}
+                  type="button"
+                  role="tab"
+                  aria-selected={selectedVariantId === variant.variantId}
+                  className={selectedVariantId === variant.variantId ? 'active' : ''}
+                  onClick={() => setSelectedVariantId(variant.variantId)}
+                >
+                  {t(variant.variantLabel, lang)}
+                </button>
+              ))}
+            </div>
+          ) : null}
           <h3 className="build-heading">
             <span>{t(copy.setupAttachments, lang)}</span>
           </h3>
           <div className="chips">
-            {build.attachments.map((item) => (
+            {activeAttachments.map((item) => (
               <SolvedAttachmentTerm key={item.id} lang={lang} value={item} />
             ))}
           </div>
           <div className="setup-metrics">
             <div className="setup-metric">
               <span>{t(copy.costPoints, lang)}</span>
-              <strong>{build.totalPoints}/{build.weaponMaxBudget}</strong>
+              <strong>{activeTotalPoints}/{build.weaponMaxBudget}</strong>
             </div>
           </div>
         </section>
 
-        <details className="build-section trust-details">
-          <summary>
-            <span>{t(copy.effectsBreakdownTitle, lang)}</span>
-            <small>
-              <span className="state-expand">{t(copy.expandSection, lang)}</span>
-              <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
-            </small>
-          </summary>
-          <div className="effect-list">
-            {effects.map((effect) => (
-              <div className="effect-row" key={effect.key}>
-                <div>
-                  <span>{effectLabel(effect.key, lang)}</span>
-                  <strong>{effect.value}</strong>
+        {isRecommendedVariant ? (
+          <details className="build-section trust-details">
+            <summary>
+              <span>{t(copy.effectsBreakdownTitle, lang)}</span>
+              <small>
+                <span className="state-expand">{t(copy.expandSection, lang)}</span>
+                <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
+              </small>
+            </summary>
+            <div className="effect-list">
+              {effects.map((effect) => (
+                <div className="effect-row" key={effect.key}>
+                  <div>
+                    <span>{effectLabel(effect.key, lang)}</span>
+                    <strong>{effect.value}</strong>
+                  </div>
+                  <div className="effect-bar" aria-hidden="true">
+                    <span style={{ width: `${Math.max(8, (effect.value / maxEffect) * 100)}%` }} />
+                  </div>
                 </div>
-                <div className="effect-bar" aria-hidden="true">
-                  <span style={{ width: `${Math.max(8, (effect.value / maxEffect) * 100)}%` }} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </details>
+              ))}
+            </div>
+          </details>
+        ) : null}
 
-        <details className="build-section trust-details">
-          <summary>
-            <span>{t(copy.whyAttachmentsTitle, lang)}</span>
-            <small>
-              <span className="state-expand">{t(copy.expandSection, lang)}</span>
-              <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
-            </small>
-          </summary>
-          <div className="attachment-rationale-list">
-            {build.attachments.map((attachment) => {
-              const justification = justifications.find((item) => item.attachmentId === attachment.id)
-              if (!justification) return null
-              return (
-                <div key={attachment.id}>
-                  <strong>{t(attachment.name, lang)}</strong>
-                  <p>
-                    <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
-                  </p>
-                  <small>
-                    {formatCopy(copy.attachmentsConsidered, lang, {
-                      n: justification.alternativesConsidered,
-                    })}
-                  </small>
-                </div>
-              )
-            })}
-            {build.rationaleData.rejectedTopRunnerUp ? (
-              <p className="runner-up">
-                <span>{t(copy.rejectedTopRunnerUpPrefix, lang)}</span>{' '}
-                {build.rationaleData.rejectedTopRunnerUp.attachmentId} (
-                {build.rationaleData.rejectedTopRunnerUp.whyNotPicked})
-              </p>
-            ) : null}
-          </div>
-        </details>
+        {isRecommendedVariant ? (
+          <details className="build-section trust-details">
+            <summary>
+              <span>{t(copy.whyAttachmentsTitle, lang)}</span>
+              <small>
+                <span className="state-expand">{t(copy.expandSection, lang)}</span>
+                <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
+              </small>
+            </summary>
+            <div className="attachment-rationale-list">
+              {build.attachments.map((attachment) => {
+                const justification = justifications.find((item) => item.attachmentId === attachment.id)
+                if (!justification) return null
+                return (
+                  <div key={attachment.id}>
+                    <strong>{t(attachment.name, lang)}</strong>
+                    <p>
+                      <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
+                    </p>
+                    <small>
+                      {formatCopy(copy.attachmentsConsidered, lang, {
+                        n: justification.alternativesConsidered,
+                      })}
+                    </small>
+                  </div>
+                )
+              })}
+              {build.rationaleData.rejectedTopRunnerUp ? (
+                <p className="runner-up">
+                  <span>{t(copy.rejectedTopRunnerUpPrefix, lang)}</span>{' '}
+                  {build.rationaleData.rejectedTopRunnerUp.attachmentId} (
+                  {build.rationaleData.rejectedTopRunnerUp.whyNotPicked})
+                </p>
+              ) : null}
+            </div>
+          </details>
+        ) : null}
 
         <section className="build-section wide weapon-rationale">
           <h3>{t(copy.whyWeaponTitle, lang)}</h3>
@@ -910,6 +959,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
   const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
     typeof window === 'undefined' || !window.location.hash.startsWith('#build-') ? '' : window.location.hash.replace('#build-', ''),
   )
+  const [comparedWeapons, setComparedWeapons] = useState<string[]>([])
   const activeScenario = getMetaScenario(scenarioId)
   const rankedWeapons = useMemo(() => rankWeapons(metaWeapons, scenarioId), [scenarioId])
   const filteredRankedWeapons = useMemo(
@@ -919,6 +969,13 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         : rankedWeapons.filter((ranked) => weaponTypeKeyForMetric(ranked.metric) === weaponTypeId),
     [rankedWeapons, weaponTypeId],
   )
+  const compareEntries = comparedWeapons
+    .map((weaponName) => {
+      const ranked = rankedWeapons.find((item) => item.metric.weapon.name.en === weaponName)
+      const build = solvedBuildForWeapon(weaponName)
+      return ranked ? { weaponName, ranked, build } : undefined
+    })
+    .filter((entry): entry is { weaponName: string; ranked: RankedWeapon; build: SolvedBuild | undefined } => Boolean(entry))
   const activeWeights = Object.entries(activeScenario.weights).filter(([, weight]) => Boolean(weight))
   const selectedBuild = selectedBuildKey.startsWith('solved-')
     ? solvedBuilds
@@ -931,12 +988,33 @@ function MetaTierSection({ lang }: { lang: Lang }) {
       return solved ? { key: `solved-${solved.weaponId}`, kind: 'solved', build: solved } : undefined
     })
     .find((link): link is SolvedBuildLink => Boolean(link))
-  const activeBuild = selectedBuild ?? fallbackBuild
+  const activeBuild = selectedBuild ?? (selectedBuildKey === 'closed' ? undefined : fallbackBuild)
+  const activeBuildIsSelected = Boolean(selectedBuild)
   const resetSelectedBuild = () => {
     setSelectedBuildKey('')
     if (typeof window !== 'undefined' && window.location.hash.startsWith('#build-')) {
       window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
     }
+  }
+  const closeBuildPanel = () => {
+    setSelectedBuildKey('closed')
+    if (typeof window !== 'undefined') {
+      if (window.location.hash.startsWith('#build-')) {
+        window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+      }
+      window.setTimeout(
+        () => document.querySelector('.tier-table')?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+        0,
+      )
+    }
+  }
+  const resetCompare = () => setComparedWeapons([])
+  const toggleCompare = (weaponName: string) => {
+    setComparedWeapons((previous) => {
+      if (previous.includes(weaponName)) return previous.filter((name) => name !== weaponName)
+      if (previous.length >= 3) return previous
+      return [...previous, weaponName]
+    })
   }
   const buildTierContext = (weaponName: string): TierContext | null => {
     const normalized = normalizeWeaponName(weaponName)
@@ -999,6 +1077,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   aria-pressed={scenario.id === scenarioId}
                   onClick={() => {
                     setScenarioId(scenario.id)
+                    resetCompare()
                   }}
                 >
                   {t(scenario.shortLabel, lang)}
@@ -1018,6 +1097,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                   onClick={() => {
                     setWeaponTypeId(option.id)
                     resetSelectedBuild()
+                    resetCompare()
                   }}
                 >
                   {t(option.label, lang)}
@@ -1054,6 +1134,8 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           rankedWeapon={rankedWeaponForBuild(activeBuild.build.weaponName)}
           tierContext={buildTierContext(activeBuild.build.weaponName)}
           totalRankedWeapons={rankedWeapons.length}
+          isSelected={activeBuildIsSelected}
+          onClose={closeBuildPanel}
         />
       ) : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
@@ -1070,6 +1152,8 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         </div>
         {filteredRankedWeapons.map((ranked) => {
           const solvedBuild = solvedBuildForWeapon(ranked.metric.weapon.name.en)
+          const weaponName = ranked.metric.weapon.name.en
+          const isCompared = comparedWeapons.includes(weaponName)
 
           return (
             <div
@@ -1096,11 +1180,64 @@ function MetaTierSection({ lang }: { lang: Lang }) {
                 ) : (
                   <span className="build-empty">{t(copy.buildPending, lang)}</span>
                 )}
+                <button
+                  type="button"
+                  className={isCompared ? 'compare-btn active' : 'compare-btn'}
+                  onClick={() => toggleCompare(weaponName)}
+                  disabled={!isCompared && comparedWeapons.length >= 3}
+                >
+                  {isCompared ? t({ it: 'Rimuovi', en: 'Remove' }, lang) : t({ it: 'Compara', en: 'Compare' }, lang)}
+                </button>
               </span>
             </div>
           )
         })}
       </div>
+      {compareEntries.length >= 2 ? (
+        <aside className="compare-panel" aria-label={t({ it: 'Confronto armi', en: 'Weapon comparison' }, lang)}>
+          <header>
+            <h3>{t({ it: 'Confronto', en: 'Compare' }, lang)}</h3>
+            <button type="button" onClick={resetCompare}>
+              {t({ it: 'Chiudi', en: 'Close' }, lang)}
+            </button>
+          </header>
+          <div className="compare-grid" style={{ gridTemplateColumns: `repeat(${compareEntries.length}, minmax(0, 1fr))` }}>
+            {compareEntries.map(({ weaponName, ranked, build }) => (
+              <div className="compare-column" key={weaponName}>
+                <strong>{t(ranked.metric.weapon.name, lang)}</strong>
+                <small>{t(ranked.metric.className, lang)}</small>
+                <div className="compare-metric">
+                  <span>Tier</span>
+                  <strong>{ranked.calculatedTier}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>TTK</span>
+                  <strong>{formatMs(ranked.mpTtkMs)}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>REDSEC TTK</span>
+                  <strong>{formatMs(ranked.redsecTtkMs)}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>RoleFit</span>
+                  <strong>{formatNumber(ranked.roleFit)}</strong>
+                </div>
+                <div className="compare-metric">
+                  <span>{t(copy.costPoints, lang)}</span>
+                  <strong>{build ? `${build.totalPoints}/${build.weaponMaxBudget}` : '—'}</strong>
+                </div>
+                <div className="compare-attachments">
+                  {build?.attachments.map((attachment) => (
+                    <small key={attachment.id}>
+                      {t(attachment.name, lang)} ({attachment.pointCost})
+                    </small>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </aside>
+      ) : null}
     </section>
   )
 }
