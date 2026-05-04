@@ -1170,6 +1170,30 @@ h1 {
   margin-bottom: 14px;
 }
 
+.variant-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.variant-switcher button {
+  min-height: 34px;
+  padding: 0 11px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.045);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.variant-switcher button.active {
+  border-color: rgba(242, 184, 75, 0.55);
+  color: #f8fff9;
+  background: rgba(242, 184, 75, 0.16);
+}
+
 .setup-metrics {
   gap: 12px;
   flex-wrap: wrap;

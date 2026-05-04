@@ -20,7 +20,6 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   solvedBuildForWeapon,
   solvedBuilds,
-  type SolvedAttachment,
   type SolvedBuild,
 } from './buildEngine'
 import { archetypeLabel, archetypeTagline } from './archetypeCopy'
@@ -45,6 +44,7 @@ import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type G
 
 type ViewId = 'planner' | 'meta'
 type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
+type DisplaySolvedAttachment = SolvedBuild['attachments'][number] | SolvedBuild['alternativeVariants'][number]['attachments'][number]
 
 type WeaponTypeOption = {
   id: WeaponTypeFilterId
@@ -238,7 +238,7 @@ function AttachmentBlock({
   )
 }
 
-function SolvedAttachmentTerm({ value, lang }: { value: SolvedAttachment; lang: Lang }) {
+function SolvedAttachmentTerm({ value, lang }: { value: DisplaySolvedAttachment; lang: Lang }) {
   const main = t(value.name, lang)
   const alt = t(value.name, otherLang(lang))
 
@@ -727,11 +727,19 @@ function SolvedMetaBuildPanel({
   rankedWeapon: RankedWeapon | undefined
   totalRankedWeapons: number
 }) {
+  const [selectedVariantId, setSelectedVariantId] = useState('recommended')
   const buildSources = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
+  useEffect(() => {
+    setSelectedVariantId('recommended')
+  }, [build.weaponId])
   const uiLabel = archetypeLabel(build.archetype.id, lang)
   const uiTagline = archetypeTagline(build.archetype.id, lang)
+  const selectedAlternative = build.alternativeVariants.find((variant) => variant.variantId === selectedVariantId)
+  const isRecommendedVariant = selectedVariantId === 'recommended' || !selectedAlternative
+  const activeAttachments = isRecommendedVariant ? build.attachments : selectedAlternative.attachments
+  const activeTotalPoints = isRecommendedVariant ? build.totalPoints : selectedAlternative.totalPoints
   const consensus = consensusEntryForWeapon(build.weaponName)
   const consensusConfidence = consensus?.confidence ?? 'absent'
   const consensusLabel =
@@ -808,82 +816,111 @@ function SolvedMetaBuildPanel({
         {disagreement ? <span className="consensus-badge consensus-warning">{disagreement}</span> : null}
       </div>
 
-      <div className="meta-build-grid trust-build-grid">
+          <div className="meta-build-grid trust-build-grid">
         <section className="build-section highlighted wide setup-section">
+          {build.alternativeVariants.length > 0 ? (
+            <div className="variant-switcher" role="tablist" aria-label={t(copy.solvedBuild, lang)}>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={isRecommendedVariant}
+                className={isRecommendedVariant ? 'active' : ''}
+                onClick={() => setSelectedVariantId('recommended')}
+              >
+                {t({ it: 'Consigliata', en: 'Recommended' }, lang)}
+              </button>
+              {build.alternativeVariants.map((variant) => (
+                <button
+                  key={variant.variantId}
+                  type="button"
+                  role="tab"
+                  aria-selected={selectedVariantId === variant.variantId}
+                  className={selectedVariantId === variant.variantId ? 'active' : ''}
+                  onClick={() => setSelectedVariantId(variant.variantId)}
+                >
+                  {t(variant.variantLabel, lang)}
+                </button>
+              ))}
+            </div>
+          ) : null}
           <h3 className="build-heading">
             <span>{t(copy.setupAttachments, lang)}</span>
           </h3>
           <div className="chips">
-            {build.attachments.map((item) => (
+            {activeAttachments.map((item) => (
               <SolvedAttachmentTerm key={item.id} lang={lang} value={item} />
             ))}
           </div>
           <div className="setup-metrics">
             <div className="setup-metric">
               <span>{t(copy.costPoints, lang)}</span>
-              <strong>{build.totalPoints}/{build.weaponMaxBudget}</strong>
+              <strong>{activeTotalPoints}/{build.weaponMaxBudget}</strong>
             </div>
           </div>
         </section>
 
-        <details className="build-section trust-details">
-          <summary>
-            <span>{t(copy.effectsBreakdownTitle, lang)}</span>
-            <small>
-              <span className="state-expand">{t(copy.expandSection, lang)}</span>
-              <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
-            </small>
-          </summary>
-          <div className="effect-list">
-            {effects.map((effect) => (
-              <div className="effect-row" key={effect.key}>
-                <div>
-                  <span>{effectLabel(effect.key, lang)}</span>
-                  <strong>{effect.value}</strong>
+        {isRecommendedVariant ? (
+          <details className="build-section trust-details">
+            <summary>
+              <span>{t(copy.effectsBreakdownTitle, lang)}</span>
+              <small>
+                <span className="state-expand">{t(copy.expandSection, lang)}</span>
+                <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
+              </small>
+            </summary>
+            <div className="effect-list">
+              {effects.map((effect) => (
+                <div className="effect-row" key={effect.key}>
+                  <div>
+                    <span>{effectLabel(effect.key, lang)}</span>
+                    <strong>{effect.value}</strong>
+                  </div>
+                  <div className="effect-bar" aria-hidden="true">
+                    <span style={{ width: `${Math.max(8, (effect.value / maxEffect) * 100)}%` }} />
+                  </div>
                 </div>
-                <div className="effect-bar" aria-hidden="true">
-                  <span style={{ width: `${Math.max(8, (effect.value / maxEffect) * 100)}%` }} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </details>
+              ))}
+            </div>
+          </details>
+        ) : null}
 
-        <details className="build-section trust-details">
-          <summary>
-            <span>{t(copy.whyAttachmentsTitle, lang)}</span>
-            <small>
-              <span className="state-expand">{t(copy.expandSection, lang)}</span>
-              <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
-            </small>
-          </summary>
-          <div className="attachment-rationale-list">
-            {build.attachments.map((attachment) => {
-              const justification = justifications.find((item) => item.attachmentId === attachment.id)
-              if (!justification) return null
-              return (
-                <div key={attachment.id}>
-                  <strong>{t(attachment.name, lang)}</strong>
-                  <p>
-                    <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
-                  </p>
-                  <small>
-                    {formatCopy(copy.attachmentsConsidered, lang, {
-                      n: justification.alternativesConsidered,
-                    })}
-                  </small>
-                </div>
-              )
-            })}
-            {build.rationaleData.rejectedTopRunnerUp ? (
-              <p className="runner-up">
-                <span>{t(copy.rejectedTopRunnerUpPrefix, lang)}</span>{' '}
-                {build.rationaleData.rejectedTopRunnerUp.attachmentId} (
-                {build.rationaleData.rejectedTopRunnerUp.whyNotPicked})
-              </p>
-            ) : null}
-          </div>
-        </details>
+        {isRecommendedVariant ? (
+          <details className="build-section trust-details">
+            <summary>
+              <span>{t(copy.whyAttachmentsTitle, lang)}</span>
+              <small>
+                <span className="state-expand">{t(copy.expandSection, lang)}</span>
+                <span className="state-collapse">{t(copy.collapseSection, lang)}</span>
+              </small>
+            </summary>
+            <div className="attachment-rationale-list">
+              {build.attachments.map((attachment) => {
+                const justification = justifications.find((item) => item.attachmentId === attachment.id)
+                if (!justification) return null
+                return (
+                  <div key={attachment.id}>
+                    <strong>{t(attachment.name, lang)}</strong>
+                    <p>
+                      <span>{t(copy.attachmentReasonPrefix, lang)}</span> {justification.reason}
+                    </p>
+                    <small>
+                      {formatCopy(copy.attachmentsConsidered, lang, {
+                        n: justification.alternativesConsidered,
+                      })}
+                    </small>
+                  </div>
+                )
+              })}
+              {build.rationaleData.rejectedTopRunnerUp ? (
+                <p className="runner-up">
+                  <span>{t(copy.rejectedTopRunnerUpPrefix, lang)}</span>{' '}
+                  {build.rationaleData.rejectedTopRunnerUp.attachmentId} (
+                  {build.rationaleData.rejectedTopRunnerUp.whyNotPicked})
+                </p>
+              ) : null}
+            </div>
+          </details>
+        ) : null}
 
         <section className="build-section wide weapon-rationale">
           <h3>{t(copy.whyWeaponTitle, lang)}</h3>
