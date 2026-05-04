@@ -720,12 +720,16 @@ function SolvedMetaBuildPanel({
   tierContext,
   rankedWeapon,
   totalRankedWeapons,
+  isSelected,
+  onClose,
 }: {
   build: SolvedBuild
   lang: Lang
   tierContext: TierContext | null
   rankedWeapon: RankedWeapon | undefined
   totalRankedWeapons: number
+  isSelected: boolean
+  onClose: () => void
 }) {
   const [selectedVariantId, setSelectedVariantId] = useState('recommended')
   const buildSources = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
@@ -771,7 +775,15 @@ function SolvedMetaBuildPanel({
   const justifications = build.rationaleData.chosenJustification
 
   return (
-    <aside className="meta-build-panel solved" id={`build-solved-${build.weaponId}`}>
+    <aside
+      className={`meta-build-panel solved ${isSelected ? 'is-selected' : 'is-fallback'}`}
+      id={`build-solved-${build.weaponId}`}
+    >
+      {isSelected ? (
+        <button className="mobile-panel-close" type="button" onClick={onClose}>
+          {t({ it: 'Indietro', en: 'Back' }, lang)}
+        </button>
+      ) : null}
       <div className="meta-build-title">
         <div>
           <span>
@@ -816,7 +828,7 @@ function SolvedMetaBuildPanel({
         {disagreement ? <span className="consensus-badge consensus-warning">{disagreement}</span> : null}
       </div>
 
-          <div className="meta-build-grid trust-build-grid">
+      <div className="meta-build-grid trust-build-grid">
         <section className="build-section highlighted wide setup-section">
           {build.alternativeVariants.length > 0 ? (
             <div className="variant-switcher" role="tablist" aria-label={t(copy.solvedBuild, lang)}>
@@ -976,11 +988,24 @@ function MetaTierSection({ lang }: { lang: Lang }) {
       return solved ? { key: `solved-${solved.weaponId}`, kind: 'solved', build: solved } : undefined
     })
     .find((link): link is SolvedBuildLink => Boolean(link))
-  const activeBuild = selectedBuild ?? fallbackBuild
+  const activeBuild = selectedBuild ?? (selectedBuildKey === 'closed' ? undefined : fallbackBuild)
+  const activeBuildIsSelected = Boolean(selectedBuild)
   const resetSelectedBuild = () => {
     setSelectedBuildKey('')
     if (typeof window !== 'undefined' && window.location.hash.startsWith('#build-')) {
       window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+    }
+  }
+  const closeBuildPanel = () => {
+    setSelectedBuildKey('closed')
+    if (typeof window !== 'undefined') {
+      if (window.location.hash.startsWith('#build-')) {
+        window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`)
+      }
+      window.setTimeout(
+        () => document.querySelector('.tier-table')?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+        0,
+      )
     }
   }
   const resetCompare = () => setComparedWeapons([])
@@ -1109,6 +1134,8 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           rankedWeapon={rankedWeaponForBuild(activeBuild.build.weaponName)}
           tierContext={buildTierContext(activeBuild.build.weaponName)}
           totalRankedWeapons={rankedWeapons.length}
+          isSelected={activeBuildIsSelected}
+          onClose={closeBuildPanel}
         />
       ) : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
