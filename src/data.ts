@@ -1417,7 +1417,6 @@ export const copy = {
   solvedBuild: { it: 'Build', en: 'Build' },
   templateStatus: { it: 'Build', en: 'Build' },
   solvedStatus: { it: 'Build', en: 'Build' },
-  buildScore: { it: 'Build score', en: 'Build score' },
   tierBadge: { it: 'Tier', en: 'Tier' },
   tierInScenario: { it: 'in', en: 'in' },
   categoryPosition: {
@@ -1435,28 +1434,8 @@ export const copy = {
     it: 'Disagreement con consensus: noi tier {ours}, consensus tier {theirs}.',
     en: 'Consensus disagreement: us tier {ours}, consensus tier {theirs}.',
   },
-  seeMethodology: { it: 'Vedi metodologia', en: 'See methodology' },
-  buildProvenance: {
-    it: 'Build ibrida: solver BF6Bible + consensus battlefieldmeta.gg',
-    en: 'Hybrid build: BF6Bible solver + battlefieldmeta.gg consensus',
-  },
-  buildProvenanceTooltip: {
-    it: 'Layer A ottimizzato da BF6Bible; Layer B copiato dal consensus pubblico. Il budget usa il cap reale arma.',
-    en: 'Layer A optimized by BF6Bible; Layer B copied from public consensus. Budget uses the real weapon cap.',
-  },
   costPoints: { it: 'Costo', en: 'Cost' },
   costPointsValue: { it: '{points}/{cap} punti', en: '{points}/{cap} points' },
-  weaponCapReached: { it: '100% del cap arma ({cap})', en: '100% of weapon cap ({cap})' },
-  costPointsTooltip: {
-    it: 'Punti spesi sul cap reale dell arma letto dal consensus battlefieldmeta.gg: sidearm 60, eccezioni 95, primary standard 100.',
-    en: 'Points spent against the real weapon cap read from battlefieldmeta.gg consensus: sidearms 60, 95-point exceptions, standard primaries 100.',
-  },
-  buildScoreLabel: { it: 'Build score', en: 'Build score' },
-  buildScoreValue: { it: '{score}/100', en: '{score}/100' },
-  buildScoreTooltip: {
-    it: "Quanto la build si avvicina all'ottimo per l'archetype scelto. Non e il tier dell'arma.",
-    en: 'How close the build gets to the archetype optimum. It is not the weapon tier.',
-  },
   setupAttachments: { it: 'Setup attachment', en: 'Attachment setup' },
   effectsBreakdownTitle: { it: 'Effetti totali della build', en: 'Total build effects' },
   whyAttachmentsTitle: { it: 'Perche questi attachment', en: 'Why these attachments' },
@@ -1466,7 +1445,6 @@ export const copy = {
     it: 'Build calcolata combinando il nostro motore di ottimizzazione per recoil, handling e precisione con la build consenso pubblica da battlefieldmeta.gg per ottica, munizioni, caricatore e accessori. Il budget di ogni arma usa il cap reale BF6: sidearm 60, alcune armi 95, la maggior parte 100.',
     en: 'Build calculated by combining our recoil, handling, and precision optimizer with the public battlefieldmeta.gg consensus build for optic, ammo, magazine, and accessories. Each weapon budget uses the real BF6 cap: sidearms 60, some weapons 95, most weapons 100.',
   },
-  methodologyTitle: { it: 'Metodologia', en: 'Methodology' },
   attachmentsConsidered: {
     it: '{n} alternative valutate',
     en: '{n} alternatives evaluated',
@@ -1478,12 +1456,6 @@ export const copy = {
   },
   expandSection: { it: 'Espandi', en: 'Expand' },
   collapseSection: { it: 'Comprimi', en: 'Collapse' },
-  layerAProvenance: { it: 'Calc. BF6Bible', en: 'BF6Bible calc.' },
-  layerBProvenance: { it: 'Meta consensus', en: 'Meta consensus' },
-  layerBAttachmentReason: {
-    it: 'Slot copiato letteralmente dalla build consensus battlefieldmeta.gg.',
-    en: 'Slot copied literally from the battlefieldmeta.gg consensus build.',
-  },
   dataSources: { it: 'Fonti dati', en: 'Data sources' },
   buildPending: { it: 'Da verificare', en: 'Needs validation' },
   gadgets: { it: 'Gadget', en: 'Gadgets' },

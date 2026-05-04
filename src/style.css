@@ -398,7 +398,6 @@ h1 {
 .tactical-diagram,
 .meta-band,
 .meta-page,
-.methodology-page,
 .role-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -673,8 +672,7 @@ h1 {
 }
 
 .meta-band,
-.meta-page,
-.methodology-page {
+.meta-page {
   margin: 26px clamp(16px, 4vw, 48px) 58px;
   overflow: hidden;
 }
@@ -684,33 +682,6 @@ h1 {
   gap: 14px;
   padding: 22px 24px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.methodology-page {
-  display: grid;
-  gap: 18px;
-  padding: 24px;
-}
-
-.methodology-page h1 {
-  max-width: 980px;
-  color: #f8fff9;
-  font-size: clamp(30px, 4vw, 54px);
-  line-height: 1;
-}
-
-.methodology-page section {
-  max-width: 1000px;
-  padding: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.025);
-}
-
-.methodology-page h2 {
-  margin-bottom: 8px;
-  color: #f8fff9;
-  font-size: 19px;
 }
 
 .meta-header h2 {
@@ -1113,7 +1084,6 @@ h1 {
 }
 
 .consensus-row,
-.build-provenance,
 .setup-metrics,
 .effect-row > div:first-child,
 .trust-details summary {
@@ -1162,28 +1132,6 @@ h1 {
 .consensus-warning {
   border-color: rgba(229, 106, 84, 0.55);
   background: rgba(229, 106, 84, 0.14);
-}
-
-.build-provenance {
-  gap: 8px;
-  color: #d9e3da;
-  font-size: 13px;
-}
-
-.build-provenance svg {
-  color: var(--cyan);
-}
-
-.build-provenance button,
-.setup-metric button {
-  border: 0;
-  padding: 0;
-  color: var(--green);
-  background: transparent;
-  font-size: 12px;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 3px;
 }
 
 .trust-build-grid {
@@ -1324,8 +1272,7 @@ h1 {
 
 .attachment-rationale-list p,
 .weapon-rationale p,
-.baseline-sources p,
-.methodology-page p {
+.baseline-sources p {
   color: #d9e3da;
 }
 
