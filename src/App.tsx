@@ -54,6 +54,9 @@ type WeaponTypeOption = {
 
 const sourceMap = new Map(sources.map((source) => [source.id, source]))
 const consensusByWeapon = new Map(externalMetaConsensus.map((entry) => [normalizeWeaponName(entry.weaponName), entry]))
+const battlefieldMetaBuildByWeapon = new Map(
+  Object.entries(consensusBuilds.builds).map(([weaponName, build]) => [normalizeWeaponName(weaponName), build]),
+)
 const battlefieldMetaTierByWeapon = new Map(
   Object.entries(consensusBuilds.builds).map(([weaponName, build]) => [normalizeWeaponName(weaponName), build.tier]),
 )
@@ -732,6 +735,24 @@ function consensusSourceLabel(entry: ConsensusEntry, lang: Lang) {
   return Array.from(labels).join(' + ')
 }
 
+function WeaponIcon({ weaponName, size = 'sm' }: { weaponName: string; size?: 'sm' | 'lg' }) {
+  const consensus = battlefieldMetaBuildByWeapon.get(normalizeWeaponName(weaponName))
+  const imagePath = consensus && 'imagePath' in consensus && typeof consensus.imagePath === 'string' ? consensus.imagePath : ''
+
+  if (!imagePath) {
+    return <span className={`weapon-icon weapon-icon-${size} weapon-icon-empty`} aria-hidden="true" />
+  }
+
+  return (
+    <img
+      className={`weapon-icon weapon-icon-${size}`}
+      src={import.meta.env.BASE_URL + imagePath.replace(/^\//, '')}
+      alt=""
+      loading="lazy"
+    />
+  )
+}
+
 function SolvedMetaBuildPanel({
   build,
   lang,
@@ -803,6 +824,7 @@ function SolvedMetaBuildPanel({
         </button>
       ) : null}
       <div className="meta-build-title">
+        <WeaponIcon weaponName={build.weaponName} size="lg" />
         <div>
           <span>
             {uiLabel}
@@ -1120,6 +1142,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         role="row"
       >
         <span className="tier-badge">{ranked.categoryTier}</span>
+        <WeaponIcon weaponName={weaponName} size="sm" />
         <strong>{t(ranked.metric.weapon.name, lang)}</strong>
         <span>{t(ranked.metric.className, lang)}</span>
         <span className="score-cell">{ranked.score}</span>
@@ -1237,6 +1260,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         {!groupedRanking ? (
           <div className="tier-row tier-row-head" role="row">
             <span>Tier</span>
+            <span aria-hidden="true" />
             <span>Weapon</span>
             <span>{t(copy.weaponTypeFilter, lang)}</span>
             <span>{t(copy.calculatedScore, lang)}</span>
@@ -1272,6 +1296,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
           <div className="compare-grid" style={{ gridTemplateColumns: `repeat(${compareEntries.length}, minmax(0, 1fr))` }}>
             {compareEntries.map(({ weaponName, ranked, build }) => (
               <div className="compare-column" key={weaponName}>
+                <WeaponIcon weaponName={weaponName} size="lg" />
                 <strong>{t(ranked.metric.weapon.name, lang)}</strong>
                 <small>{t(ranked.metric.className, lang)}</small>
                 <div className="compare-metric">

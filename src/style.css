@@ -800,10 +800,10 @@ h1 {
 
 .tier-row {
   display: grid;
-  grid-template-columns: 62px 156px 118px 96px 108px 126px 78px 112px 238px;
+  grid-template-columns: 62px 40px 156px 118px 96px 108px 126px 78px 112px 238px;
   gap: 12px;
   align-items: center;
-  min-width: 1190px;
+  min-width: 1242px;
   padding: 12px 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
@@ -872,6 +872,31 @@ h1 {
   background: var(--red);
 }
 
+.weapon-icon {
+  display: inline-block;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.weapon-icon-sm {
+  width: 32px;
+  height: 32px;
+  padding: 2px;
+}
+
+.weapon-icon-lg {
+  width: 64px;
+  height: 64px;
+  padding: 4px;
+}
+
+.weapon-icon-empty {
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+}
+
 .tier-group {
   display: contents;
 }
@@ -935,7 +960,7 @@ h1 {
 }
 
 .meta-build-title {
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 14px;
 }
 
@@ -1409,6 +1434,10 @@ h1 {
   background: rgba(255, 255, 255, 0.035);
 }
 
+.compare-column .weapon-icon-lg {
+  justify-self: start;
+}
+
 .compare-column > strong {
   color: #f8fff9;
   font-size: 16px;
@@ -1816,7 +1845,7 @@ h1 {
   }
 
   .tier-row {
-    grid-template-columns: 46px minmax(0, 1fr);
+    grid-template-columns: 46px 36px minmax(0, 1fr);
     gap: 8px 10px;
     min-width: 0;
     padding: 12px;
@@ -1833,10 +1862,15 @@ h1 {
   }
 
   .tier-row > strong {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
     min-width: 0;
     overflow-wrap: anywhere;
+  }
+
+  .tier-row .weapon-icon {
+    grid-column: 2;
+    grid-row: 1;
   }
 
   .tier-row > span:nth-child(3),
@@ -1844,7 +1878,8 @@ h1 {
   .tier-row > span:nth-child(5),
   .tier-row > span:nth-child(6),
   .tier-row > span:nth-child(7),
-  .tier-row > span:nth-child(8) {
+  .tier-row > span:nth-child(8),
+  .tier-row > span:nth-child(9) {
     grid-column: 1 / -1;
     display: inline-flex;
     align-items: center;
@@ -1855,7 +1890,7 @@ h1 {
     font-size: 12px;
   }
 
-  .tier-row > span:nth-child(8) {
+  .tier-row > span:nth-child(9) {
     align-items: baseline;
   }
 
@@ -1985,7 +2020,7 @@ h1 {
 
   .meta-build-title {
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .role-card,
