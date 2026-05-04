@@ -872,6 +872,42 @@ h1 {
   background: var(--red);
 }
 
+.tier-group {
+  display: contents;
+}
+
+.tier-group-header {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 16px 18px 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.tier-group-header:first-child,
+.tier-group:first-child .tier-group-header {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.tier-group-header h3 {
+  margin: 0;
+  color: #f8fff9;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tier-group-header span {
+  color: var(--soft);
+  font-size: 12px;
+}
+
 .meta-build-panel {
   display: grid;
   gap: 16px;
@@ -1772,6 +1808,11 @@ h1 {
 
   .tier-row-head {
     display: none;
+  }
+
+  .tier-group-header {
+    padding: 14px 12px 8px;
+    margin-top: 8px;
   }
 
   .tier-row {
