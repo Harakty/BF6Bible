@@ -1,13 +1,11 @@
 import {
   Activity,
   BarChart3,
-  BookOpen,
   ClipboardList,
   Crosshair,
   Database,
   ExternalLink,
   Gauge,
-  Info,
   Languages,
   Layers,
   Radar,
@@ -45,7 +43,7 @@ import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId, type 
 import { generateRationale } from './rationaleEngine'
 import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type GeneratedWeaponStat } from './weaponStats'
 
-type ViewId = 'planner' | 'meta' | 'methodology'
+type ViewId = 'planner' | 'meta'
 type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
 
 type WeaponTypeOption = {
@@ -412,15 +410,6 @@ function AppHeader({
           <BarChart3 aria-hidden="true" />
           <span>{t(copy.metaPage, lang)}</span>
         </button>
-        <button
-          className={view === 'methodology' ? 'active' : ''}
-          type="button"
-          aria-pressed={view === 'methodology'}
-          onClick={() => setView('methodology')}
-        >
-          <BookOpen aria-hidden="true" />
-          <span>{t(copy.methodologyTitle, lang)}</span>
-        </button>
       </nav>
       <div className="top-actions">
         <button
@@ -731,14 +720,12 @@ function SolvedMetaBuildPanel({
   tierContext,
   rankedWeapon,
   totalRankedWeapons,
-  onShowMethodology,
 }: {
   build: SolvedBuild
   lang: Lang
   tierContext: TierContext | null
   rankedWeapon: RankedWeapon | undefined
   totalRankedWeapons: number
-  onShowMethodology: () => void
 }) {
   const buildSources = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
     .map((id) => sourceMap.get(id))
@@ -821,14 +808,6 @@ function SolvedMetaBuildPanel({
         {disagreement ? <span className="consensus-badge consensus-warning">{disagreement}</span> : null}
       </div>
 
-      <div className="build-provenance">
-        <Info aria-hidden="true" />
-        <span>{t(copy.buildProvenance, lang)}</span>
-        <button type="button" title={t(copy.buildProvenanceTooltip, lang)} onClick={onShowMethodology}>
-          {t(copy.seeMethodology, lang)}
-        </button>
-      </div>
-
       <div className="meta-build-grid trust-build-grid">
         <section className="build-section highlighted wide setup-section">
           <h3 className="build-heading">
@@ -840,22 +819,9 @@ function SolvedMetaBuildPanel({
             ))}
           </div>
           <div className="setup-metrics">
-            <div className="setup-metric" title={t(copy.costPointsTooltip, lang)}>
+            <div className="setup-metric">
               <span>{t(copy.costPoints, lang)}</span>
-              <strong>{formatCopy(copy.costPointsValue, lang, { points: build.totalPoints, cap: build.weaponMaxBudget })}</strong>
-              {build.totalPoints === build.weaponMaxBudget ? (
-                <small>{formatCopy(copy.weaponCapReached, lang, { cap: build.weaponMaxBudget })}</small>
-              ) : null}
-              <button type="button" onClick={onShowMethodology}>
-                {t(copy.seeMethodology, lang)}
-              </button>
-            </div>
-            <div className="setup-metric" title={t(copy.buildScoreTooltip, lang)}>
-              <span>{t(copy.buildScoreLabel, lang)}</span>
-              <strong>{formatCopy(copy.buildScoreValue, lang, { score: build.objectiveScore })}</strong>
-              <button type="button" onClick={onShowMethodology}>
-                {t(copy.seeMethodology, lang)}
-              </button>
+              <strong>{build.totalPoints}/{build.weaponMaxBudget}</strong>
             </div>
           </div>
         </section>
@@ -938,7 +904,7 @@ function SolvedMetaBuildPanel({
   )
 }
 
-function MetaTierSection({ lang, onShowMethodology }: { lang: Lang; onShowMethodology: () => void }) {
+function MetaTierSection({ lang }: { lang: Lang }) {
   const [scenarioId, setScenarioId] = useState<MetaScenarioId>('all')
   const [weaponTypeId, setWeaponTypeId] = useState<WeaponTypeFilterId>('all')
   const [selectedBuildKey, setSelectedBuildKey] = useState(() =>
@@ -1085,7 +1051,6 @@ function MetaTierSection({ lang, onShowMethodology }: { lang: Lang; onShowMethod
         <SolvedMetaBuildPanel
           build={activeBuild.build}
           lang={lang}
-          onShowMethodology={onShowMethodology}
           rankedWeapon={rankedWeaponForBuild(activeBuild.build.weaponName)}
           tierContext={buildTierContext(activeBuild.build.weaponName)}
           totalRankedWeapons={rankedWeapons.length}
@@ -1140,136 +1105,6 @@ function MetaTierSection({ lang, onShowMethodology }: { lang: Lang; onShowMethod
   )
 }
 
-function MethodologySection({ lang }: { lang: Lang }) {
-  return (
-    <section className="methodology-page">
-      <div className="summary-label">
-        <BookOpen aria-hidden="true" />
-        <span>{t(copy.methodologyTitle, lang)}</span>
-      </div>
-      {lang === 'it' ? (
-        <>
-          <h1>Come leggiamo ranking, build e consensus</h1>
-          <section>
-            <h2>Cos'e BF6 Bible</h2>
-            <p>
-              BF6 Bible e un dataset operativo di ranking e build calcolate da statistiche pubbliche Battlefield 6. Le build
-              usano un modello ibrido: Layer A ottimizzato dal nostro solver su muzzle, barrel e underbarrel; Layer B copiato
-              letteralmente dal consensus battlefieldmeta.gg per ottiche, munizioni, caricatori e accessori. Ogni attachment
-              mostra la propria provenance.
-            </p>
-          </section>
-          <section>
-            <h2>Come rankiamo le armi</h2>
-            <p>
-              Il metaEngine assegna uno score per scenario combinando fit di ruolo, TTK base, proxy REDSEC TTK, range utile,
-              mobilita, controllo, magazine e qualita dati. Gli scenari attivi sono All, Recon, Assault, Engineer e Support.
-              La stessa arma puo cambiare tier tra scenari perche il roleFit pesa di piu nei ranking specializzati: LMR27 e
-              S in Recon perche e una DMR con fit massimo, ma puo scendere in All quando viene confrontata contro AR, SMG e
-              LMG piu versatili.
-            </p>
-          </section>
-          <section>
-            <h2>Come calcoliamo le build</h2>
-            <p>
-              Le build sono prodotte combinando solver e consensus. Il cap non e sempre 100: viene letto dalla pagina arma
-              battlefieldmeta.gg. Le sidearm hanno cap 60, L110 e M250 hanno cap 95 nel dataset attuale, la maggior parte
-              delle primary ha cap 100. Il Layer B viene copiato dal consensus. Il Layer A usa il budget residuo e deve
-              chiudere esattamente il cap arma. Costo significa punti spesi sul cap reale. Build score misura quanto il
-              Layer A si avvicina all'ottimo dell'archetype; non e il tier dell'arma.
-            </p>
-          </section>
-          <section>
-            <h2>Divergenze dal consensus pubblico</h2>
-            <p>
-              Il consensus pubblico e un segnale di controllo, non una verita automatica. Il nostro ranking non e ancora
-              calibrato su quel consensus e alcune divergenze sono note: M2010 ESR e C in All da noi ma S+ top sniper nel
-              consensus; KORD 6P67 e A in All da noi ma S nel consensus; KTS100 MK8 e B in All da noi ma S nel consensus.
-              Queste differenze vengono usate per decidere i prossimi round di calibrazione, non per sovrascrivere lo score.
-            </p>
-          </section>
-          <section>
-            <h2>Confidence di consensus</h2>
-            <p>
-              High significa arma con build verificata nella research locale e riferimento BattlefieldMeta. Oggi sono KORD
-              6P67, KTS100 MK8, DRS-IAR e M2010 ESR. Medium significa arma citata come rilevante ma senza build completa
-              stabile: VCR-2, AK-205, M4A1, L110, M39 EMR e M87A1. Absent significa che non abbiamo consensus pubblico
-              stabile abbastanza utile da usare come controllo.
-            </p>
-          </section>
-          <section>
-            <h2>Disclaimer e feedback</h2>
-            <p>
-              Le stats armi e i costi attachment arrivano da dataset community pubblici. Le build sono nostre, calcolate e
-              verificabili. Feedback su nomi italiani, attachment reali in game e performance pratica in REDSEC e benvenuto:
-              serve a chiudere il gap tra modello e lobby reali.
-            </p>
-          </section>
-        </>
-      ) : (
-        <>
-          <h1>How we read rankings, builds, and consensus</h1>
-          <section>
-            <h2>What BF6 Bible is</h2>
-            <p>
-              BF6 Bible is an operational ranking and build dataset calculated from public Battlefield 6 stats. Builds use a
-              hybrid model: Layer A is optimized by our solver for muzzle, barrel, and underbarrel; Layer B is copied
-              literally from battlefieldmeta.gg consensus for optics, ammo, magazines, and accessories. Every attachment
-              shows its own provenance.
-            </p>
-          </section>
-          <section>
-            <h2>How weapon ranking works</h2>
-            <p>
-              The metaEngine scores weapons per scenario using role fit, base TTK, REDSEC TTK proxy, useful range, mobility,
-              control, magazine value, and data quality. Current scenarios are All, Recon, Assault, Engineer, and Support.
-              The same weapon can move between tiers because specialized scenarios weight roleFit more heavily: LMR27 is S
-              in Recon because it is a DMR with maximum role fit, but it can drop in All when compared against more flexible
-              ARs, SMGs, and LMGs.
-            </p>
-          </section>
-          <section>
-            <h2>How builds are calculated</h2>
-            <p>
-              Builds are produced by combining our solver with consensus. The cap is not always 100: it is read from the
-              battlefieldmeta.gg weapon page. Sidearms have a 60 cap, L110 and M250 have a 95 cap in the current dataset, and
-              most primaries have a 100 cap. Layer B is copied from consensus. Layer A uses the remaining budget and must
-              close exactly to the weapon cap. Cost means points spent against the real cap. Build score measures how close
-              Layer A gets to the archetype optimum; it is not the weapon tier.
-            </p>
-          </section>
-          <section>
-            <h2>Public consensus disagreements</h2>
-            <p>
-              Public consensus is a sanity check, not automatic truth. Our ranking is not fully calibrated against that
-              consensus yet and some differences are known: M2010 ESR is C in All for us but S+ top sniper in consensus; KORD
-              6P67 is A in All for us but S in consensus; KTS100 MK8 is B in All for us but S in consensus. These differences
-              guide future calibration rounds, but they do not overwrite the score directly.
-            </p>
-          </section>
-          <section>
-            <h2>Consensus confidence</h2>
-            <p>
-              High means the weapon has a verified build in local research plus a BattlefieldMeta reference. Today those are
-              KORD 6P67, KTS100 MK8, DRS-IAR, and M2010 ESR. Medium means the weapon is mentioned as relevant but without a
-              stable complete build: VCR-2, AK-205, M4A1, L110, M39 EMR, and M87A1. Absent means we do not have a public
-              consensus signal stable enough to use as a check.
-            </p>
-          </section>
-          <section>
-            <h2>Disclaimer and feedback</h2>
-            <p>
-              Weapon stats and attachment costs come from public community datasets. The builds are ours, calculated and
-              auditable. Feedback on Italian names, real in-game attachment labels, and practical REDSEC performance is useful
-              because it closes the gap between the model and real lobbies.
-            </p>
-          </section>
-        </>
-      )}
-    </section>
-  )
-}
-
 export function App() {
   const [lang, setLang] = useState<Lang>('it')
   const [selectedMode, setSelectedMode] = useState<ModeId>('quads')
@@ -1294,8 +1129,7 @@ export function App() {
           </section>
         </>
       ) : null}
-      {view === 'meta' ? <MetaTierSection lang={lang} onShowMethodology={() => setView('methodology')} /> : null}
-      {view === 'methodology' ? <MethodologySection lang={lang} /> : null}
+      {view === 'meta' ? <MetaTierSection lang={lang} /> : null}
     </main>
   )
 }
