@@ -83,6 +83,18 @@ const weaponTypeOptions: WeaponTypeOption[] = [
   ...Array.from(weaponTypeLabelByKey.entries()).map(([id, label]) => ({ id, label })),
 ]
 
+const categoryDisplayOrder = [
+  'Assault Rifle',
+  'Carbine',
+  'SMG',
+  'LMG',
+  'DMR',
+  'Sniper',
+  'Shotgun',
+  'Pistol',
+  'Revolver',
+] as const
+
 function weaponTypeKeyForMetric(metric: WeaponMetric) {
   const stat = generatedStatForName(metric.weapon.name.en)
   if (stat) return stat.categoryKey
@@ -990,6 +1002,24 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         : rankedWeapons.filter((ranked) => weaponTypeKeyForMetric(ranked.metric) === weaponTypeId),
     [rankedWeapons, weaponTypeId],
   )
+  const groupedRanking = useMemo(() => {
+    if (weaponTypeId !== 'all') return null
+
+    const groups = new Map<string, RankedWeapon[]>()
+    for (const ranked of filteredRankedWeapons) {
+      const category = ranked.metric.className.en
+      if (!groups.has(category)) groups.set(category, [])
+      groups.get(category)!.push(ranked)
+    }
+
+    return categoryDisplayOrder
+      .filter((category) => groups.has(category))
+      .map((category) => ({
+        categoryEn: category,
+        categoryLabel: groups.get(category)![0].metric.className,
+        weapons: groups.get(category)!,
+      }))
+  }, [filteredRankedWeapons, weaponTypeId])
   const compareEntries = comparedWeapons
     .map((weaponName) => {
       const ranked = rankedWeapons.find((item) => item.metric.weapon.name.en === weaponName)
@@ -1078,6 +1108,48 @@ function MetaTierSection({ lang }: { lang: Lang }) {
       window.setTimeout(() => document.getElementById(`build-${key}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0)
     }
   }
+  const renderTierRow = (ranked: RankedWeapon) => {
+    const solvedBuild = solvedBuildForWeapon(ranked.metric.weapon.name.en)
+    const weaponName = ranked.metric.weapon.name.en
+    const isCompared = comparedWeapons.includes(weaponName)
+
+    return (
+      <div
+        className={`tier-row tier-${ranked.categoryTier.replace('+', 'plus')}`}
+        key={`${ranked.scenarioId}-${weaponName}`}
+        role="row"
+      >
+        <span className="tier-badge">{ranked.categoryTier}</span>
+        <strong>{t(ranked.metric.weapon.name, lang)}</strong>
+        <span>{t(ranked.metric.className, lang)}</span>
+        <span className="score-cell">{ranked.score}</span>
+        <span>{formatMs(ranked.mpTtkMs)}</span>
+        <span>{formatMs(ranked.redsecTtkMs)}</span>
+        <span>{ranked.roleFit}</span>
+        <span>
+          {ranked.dataQuality}
+          <small>{t(ranked.dataQualityLabel, lang)}</small>
+        </span>
+        <span className="build-actions">
+          {solvedBuild ? (
+            <button type="button" onClick={() => selectBuild(`solved-${solvedBuild.weaponId}`)}>
+              {t(copy.openSolvedBuild, lang)}
+            </button>
+          ) : (
+            <span className="build-empty">{t(copy.buildPending, lang)}</span>
+          )}
+          <button
+            type="button"
+            className={isCompared ? 'compare-btn active' : 'compare-btn'}
+            onClick={() => toggleCompare(weaponName)}
+            disabled={!isCompared && comparedWeapons.length >= 3}
+          >
+            {isCompared ? t({ it: 'Rimuovi', en: 'Remove' }, lang) : t({ it: 'Compara', en: 'Compare' }, lang)}
+          </button>
+        </span>
+      </div>
+    )
+  }
 
   return (
     <section className="meta-page">
@@ -1162,59 +1234,32 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         />
       ) : null}
       <div className="tier-table" role="table" aria-label={t(copy.metaTier, lang)}>
-        <div className="tier-row tier-row-head" role="row">
-          <span>Tier</span>
-          <span>Weapon</span>
-          <span>{t(copy.weaponTypeFilter, lang)}</span>
-          <span>{t(copy.calculatedScore, lang)}</span>
-          <span>{t(copy.ttk20, lang)}</span>
-          <span>{t(copy.ttkRedsecProxy, lang)}</span>
-          <span>{t(copy.roleFit, lang)}</span>
-          <span>{t(copy.dataQuality, lang)}</span>
-          <span>{t(copy.bestBuild, lang)}</span>
-        </div>
-        {filteredRankedWeapons.map((ranked) => {
-          const solvedBuild = solvedBuildForWeapon(ranked.metric.weapon.name.en)
-          const weaponName = ranked.metric.weapon.name.en
-          const isCompared = comparedWeapons.includes(weaponName)
-
-          return (
-            <div
-              className={`tier-row tier-${ranked.calculatedTier.replace('+', 'plus')}`}
-              key={`${ranked.scenarioId}-${t(ranked.metric.weapon.name, lang)}`}
-              role="row"
-            >
-              <span className="tier-badge">{ranked.calculatedTier}</span>
-              <strong>{t(ranked.metric.weapon.name, lang)}</strong>
-              <span>{t(ranked.metric.className, lang)}</span>
-              <span className="score-cell">{ranked.score}</span>
-              <span>{formatMs(ranked.mpTtkMs)}</span>
-              <span>{formatMs(ranked.redsecTtkMs)}</span>
-              <span>{ranked.roleFit}</span>
-              <span>
-                {ranked.dataQuality}
-                <small>{t(ranked.dataQualityLabel, lang)}</small>
-              </span>
-              <span className="build-actions">
-                {solvedBuild ? (
-                  <button type="button" onClick={() => selectBuild(`solved-${solvedBuild.weaponId}`)}>
-                    {t(copy.openSolvedBuild, lang)}
-                  </button>
-                ) : (
-                  <span className="build-empty">{t(copy.buildPending, lang)}</span>
-                )}
-                <button
-                  type="button"
-                  className={isCompared ? 'compare-btn active' : 'compare-btn'}
-                  onClick={() => toggleCompare(weaponName)}
-                  disabled={!isCompared && comparedWeapons.length >= 3}
-                >
-                  {isCompared ? t({ it: 'Rimuovi', en: 'Remove' }, lang) : t({ it: 'Compara', en: 'Compare' }, lang)}
-                </button>
-              </span>
-            </div>
-          )
-        })}
+        {!groupedRanking ? (
+          <div className="tier-row tier-row-head" role="row">
+            <span>Tier</span>
+            <span>Weapon</span>
+            <span>{t(copy.weaponTypeFilter, lang)}</span>
+            <span>{t(copy.calculatedScore, lang)}</span>
+            <span>{t(copy.ttk20, lang)}</span>
+            <span>{t(copy.ttkRedsecProxy, lang)}</span>
+            <span>{t(copy.roleFit, lang)}</span>
+            <span>{t(copy.dataQuality, lang)}</span>
+            <span>{t(copy.bestBuild, lang)}</span>
+          </div>
+        ) : null}
+        {groupedRanking
+          ? groupedRanking.map((group) => (
+              <div className="tier-group" key={group.categoryEn}>
+                <div className="tier-group-header">
+                  <h3>{t(group.categoryLabel, lang)}</h3>
+                  <span>
+                    {group.weapons.length} {t({ it: 'armi', en: 'weapons' }, lang)}
+                  </span>
+                </div>
+                {group.weapons.map(renderTierRow)}
+              </div>
+            ))
+          : filteredRankedWeapons.map(renderTierRow)}
       </div>
       {compareEntries.length >= 2 ? (
         <aside className="compare-panel" aria-label={t({ it: 'Confronto armi', en: 'Weapon comparison' }, lang)}>
