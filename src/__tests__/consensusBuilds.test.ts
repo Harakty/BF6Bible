@@ -80,4 +80,28 @@ describe('consensus builds dataset', () => {
     const withImage = Object.values(consensusBuilds.builds).filter((build) => 'imagePath' in build && build.imagePath).length
     expect(withImage).toBeGreaterThanOrEqual(50)
   })
+
+  it('uses category ranking pages as the authoritative public tier source', () => {
+    for (const [name, build] of Object.entries(consensusBuilds.builds)) {
+      expect('rankingSourceUrl' in build ? build.rankingSourceUrl : undefined, `${name} missing ranking source URL`).toMatch(
+        /^https:\/\/battlefieldmeta\.gg\/best-guns\//,
+      )
+      expect('loadoutTier' in build ? build.loadoutTier : undefined, `${name} missing loadout tier audit field`).toBeDefined()
+      expect('loadoutCategoryRank' in build ? build.loadoutCategoryRank : undefined, `${name} missing loadout rank audit field`).toBeDefined()
+      expect('rankingConsensus' in build ? build.rankingConsensus.categoryRank.position : 0, `${name} missing ranking category position`).toBeGreaterThan(0)
+    }
+  })
+
+  it('keeps the SCW-10 stale loadout ranking from overriding the category ranking', () => {
+    const scw = consensusByWeapon['SCW-10']
+
+    expect(scw.tier).toBe('A')
+    expect(scw.categoryRank).toEqual({ position: 8, category: 'Close Range' })
+    expect('loadoutTier' in scw ? scw.loadoutTier : undefined).toBe('META')
+    expect('rankingSourceUrl' in scw ? scw.rankingSourceUrl : '').toContain('/best-guns/best-smg-in-battlefield')
+    expect('rankingConsensus' in scw ? scw.rankingConsensus.weaponTypeRank : undefined).toEqual({
+      position: 8,
+      category: 'SMG',
+    })
+  })
 })

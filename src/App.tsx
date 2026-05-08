@@ -57,9 +57,6 @@ const consensusByWeapon = new Map(externalMetaConsensus.map((entry) => [normaliz
 const battlefieldMetaBuildByWeapon = new Map(
   Object.entries(consensusBuilds.builds).map(([weaponName, build]) => [normalizeWeaponName(weaponName), build]),
 )
-const battlefieldMetaTierByWeapon = new Map(
-  Object.entries(consensusBuilds.builds).map(([weaponName, build]) => [normalizeWeaponName(weaponName), build.tier]),
-)
 
 const tierDistanceOrder = ['S+', 'S', 'A', 'B', 'C', 'D']
 
@@ -72,6 +69,7 @@ type TierContext = {
   categoryRank: { position: number; total: number; category: string }
   globalRank: { position: number; total: number }
   consensusTier?: string
+  consensusRank?: { position: number; category: string }
 }
 
 const weaponTypeLabelByKey = new Map<GeneratedWeaponStat['categoryKey'], Localized>()
@@ -868,7 +866,12 @@ function SolvedMetaBuildPanel({
             {tierContext.consensusTier ? (
               <span>
                 BattlefieldMeta
-                <small>tier {tierContext.consensusTier}</small>
+                <small>
+                  tier {tierContext.consensusTier}
+                  {tierContext.consensusRank
+                    ? ` · #${tierContext.consensusRank.position} ${tierContext.consensusRank.category}`
+                    : ''}
+                </small>
               </span>
             ) : null}
           </div>
@@ -1095,6 +1098,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
     if (position === -1) return null
 
     const ranked = rankedWeapons[position]
+    const battlefieldMeta = battlefieldMetaBuildByWeapon.get(normalized)
     const sameCategory = rankedWeapons.filter(
       (item) => item.metric.className.en === ranked.metric.className.en,
     )
@@ -1116,7 +1120,8 @@ function MetaTierSection({ lang }: { lang: Lang }) {
         position: position + 1,
         total: rankedWeapons.length,
       },
-      consensusTier: battlefieldMetaTierByWeapon.get(normalized),
+      consensusTier: battlefieldMeta?.tier,
+      consensusRank: battlefieldMeta?.categoryRank,
     }
   }
   const rankedWeaponForBuild = (weaponName: string) => {

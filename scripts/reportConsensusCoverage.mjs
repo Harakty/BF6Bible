@@ -9,6 +9,7 @@ const capByCategory = new Map()
 const variantDistributionByCategory = new Map()
 const underSpent = []
 const nonUniformDisplayedCaps = []
+const rankingOverrides = []
 let atWeaponCap = 0
 let matchingRecommendedTotal = 0
 
@@ -34,6 +35,22 @@ for (const weapon of metaWeapons) {
   const displayedCaps = [...new Set(variants.map((variant) => variant.sourceDisplayedMaxBudget))]
   if (displayedCaps.length > 1) {
     nonUniformDisplayedCaps.push({ name, displayedCaps })
+  }
+
+  const loadoutRank = build.loadoutCategoryRank
+  const rankingChanged =
+    build.loadoutTier !== build.tier ||
+    loadoutRank?.position !== build.categoryRank.position ||
+    loadoutRank?.category !== build.categoryRank.category
+  if (rankingChanged) {
+    rankingOverrides.push({
+      name,
+      loadoutTier: build.loadoutTier,
+      loadoutRank,
+      rankingTier: build.tier,
+      rankingRank: build.categoryRank,
+      source: build.rankingSourceUrl,
+    })
   }
 
   const category = weapon.className.en
@@ -100,8 +117,19 @@ if (nonUniformDisplayedCaps.length === 0) {
   }
 }
 console.log('')
-console.log('| Weapon | Recommended spent | Weapon cap | Displayed source caps | Variants | Tier | Category rank | Source |')
-console.log('| --- | ---: | ---: | --- | ---: | --- | --- | --- |')
+console.log('Ranking overrides from category pages:')
+if (rankingOverrides.length === 0) {
+  console.log('- none')
+} else {
+  for (const item of rankingOverrides.sort((a, b) => a.name.localeCompare(b.name))) {
+    console.log(
+      `- ${item.name}: loadout ${item.loadoutTier} #${item.loadoutRank?.position} ${item.loadoutRank?.category} -> category page ${item.rankingTier} #${item.rankingRank.position} ${item.rankingRank.category}`,
+    )
+  }
+}
+console.log('')
+console.log('| Weapon | Recommended spent | Weapon cap | Displayed source caps | Variants | Category-page tier | Category-page rank | Loadout page audit | Ranking source | Loadout source |')
+console.log('| --- | ---: | ---: | --- | ---: | --- | --- | --- | --- | --- |')
 for (const name of weaponNames) {
   const build = consensusBuilds.builds[name]
   if (!build) continue
@@ -109,7 +137,7 @@ for (const name of weaponNames) {
   const total = recommended.attachments.reduce((sum, attachment) => sum + attachment.pointCost, 0)
   const displayedCaps = [...new Set(Object.values(build.variants).map((variant) => variant.sourceDisplayedMaxBudget))].join(', ')
   console.log(
-    `| ${name} | ${total} | ${build.weaponMaxBudget} | ${displayedCaps} | ${Object.keys(build.variants).length} | ${build.tier} | #${build.categoryRank.position} ${build.categoryRank.category} | ${build.sourceUrl} |`,
+    `| ${name} | ${total} | ${build.weaponMaxBudget} | ${displayedCaps} | ${Object.keys(build.variants).length} | ${build.tier} | #${build.categoryRank.position} ${build.categoryRank.category} | ${build.loadoutTier} #${build.loadoutCategoryRank.position} ${build.loadoutCategoryRank.category} | ${build.rankingSourceUrl} | ${build.sourceUrl} |`,
   )
 }
 console.log('')
