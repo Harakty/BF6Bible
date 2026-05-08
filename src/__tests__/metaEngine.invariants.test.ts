@@ -163,4 +163,24 @@ describe('metaEngine invariants', () => {
     const m39 = ranking.find((ranked) => ranked.metric.weapon.name.en === 'M39 EMR')
     expect(m39?.categoryTier).toBe('S')
   })
+
+  it('does not promote SCW-10 above the public META SMGs', () => {
+    const ranking = rankWeapons(metaWeapons, 'all')
+    const smgs = ranking.filter((ranked) => ranked.metric.className.en === 'SMG')
+    const scw = smgs.find((ranked) => ranked.metric.weapon.name.en === 'SCW-10')
+    const publicMetaSmgs = ['SGX', 'USG-90', 'PW5A3']
+
+    expect(scw, 'SCW-10 missing from SMG ranking').toBeDefined()
+    expect(scw?.calculatedTier).toBe('A')
+    expect(scw?.categoryRank.position, 'SCW-10 should not rank as a top-3 SMG after category-page consensus sync').toBeGreaterThan(3)
+
+    for (const weaponName of publicMetaSmgs) {
+      const publicMeta = smgs.find((ranked) => ranked.metric.weapon.name.en === weaponName)
+      expect(publicMeta, `${weaponName} missing from SMG ranking`).toBeDefined()
+      expect(
+        publicMeta?.categoryRank.position ?? Number.POSITIVE_INFINITY,
+        `${weaponName} should stay above SCW-10`,
+      ).toBeLessThan(scw?.categoryRank.position ?? 0)
+    }
+  })
 })

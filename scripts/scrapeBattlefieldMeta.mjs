@@ -17,6 +17,16 @@ const SITEMAP_URLS = [
   `${BASE_URL}/sitemaps/sitemap-p2.xml`,
   `${BASE_URL}/sitemaps/sitemap-p3.xml`,
 ]
+const CATEGORY_RANKING_PAGES = [
+  { slug: 'best-assault-rifles-in-battlefield', url: `${BASE_URL}/best-guns/best-assault-rifles-in-battlefield` },
+  { slug: 'best-carbines-in-battlefield', url: `${BASE_URL}/best-guns/best-carbines-in-battlefield` },
+  { slug: 'best-smg-in-battlefield', url: `${BASE_URL}/best-guns/best-smg-in-battlefield` },
+  { slug: 'best-lmg-in-battlefield', url: `${BASE_URL}/best-guns/best-lmg-in-battlefield` },
+  { slug: 'best-dmr-in-battlefield', url: `${BASE_URL}/best-guns/best-dmr-in-battlefield` },
+  { slug: 'best-sniper-rifles-in-battlefield', url: `${BASE_URL}/best-guns/best-sniper-rifles-in-battlefield` },
+  { slug: 'best-shotguns-in-battlefield', url: `${BASE_URL}/best-guns/best-shotguns-in-battlefield` },
+  { slug: 'best-secondaries-in-battlefield', url: `${BASE_URL}/best-guns/best-secondaries-in-battlefield` },
+]
 
 const slotTypes = [
   'Optic Accessory',
@@ -108,8 +118,9 @@ async function assertRobotsAllowsLoadouts() {
     .map((line) => line.slice(line.indexOf(':') + 1).trim())
     .filter(Boolean)
 
-  if (disallowed.some((path) => '/best-loadouts/'.startsWith(path))) {
-    throw new Error(`${ROBOTS_URL} disallows /best-loadouts/`)
+  const requiredPaths = ['/best-loadouts/', '/best-guns/']
+  if (disallowed.some((path) => requiredPaths.some((requiredPath) => requiredPath.startsWith(path)))) {
+    throw new Error(`${ROBOTS_URL} disallows ${requiredPaths.join(' or ')}`)
   }
 }
 
@@ -257,6 +268,51 @@ function parseWeaponImageUrl(html, slug) {
   return fullMatch?.[1]?.replace(/\/gunFullDisplay$/, '/gunDisplayLoadouts')
 }
 
+function parseCategoryRankingHtml(html, sourceUrl, fetchTimestamp) {
+  const $ = cheerio.load(html)
+  const stateText = $('#ng-state').text()
+  if (!stateText) throw new Error(`${sourceUrl}: missing ng-state ranking data`)
+
+  const state = JSON.parse(stateText)
+  const entries = []
+  for (const value of Object.values(state)) {
+    const data = value?.b?.data ?? value?.b?.success?.data ?? value?.data
+    const tierList = data?.tierList
+    const rankingsByTier = data?.rankings ?? tierList?.rankings
+    if (!tierList || !rankingsByTier) continue
+
+    for (const [tierName, tierEntries] of Object.entries(rankingsByTier)) {
+      for (const entry of tierEntries ?? []) {
+        const weapon = entry?.weapon
+        if (!weapon?.id || !weapon?.name) continue
+        const rankings = weapon.rankings ?? {}
+        const tier = rankings.tier ?? tierName
+        const weaponGroupRank = rankings.weaponGroup?.position
+          ? { position: Number(rankings.weaponGroup.position), category: weapon.weaponGroup?.name ?? 'Weapon Group' }
+          : undefined
+        const weaponTypeRank = rankings.weaponType?.position
+          ? { position: Number(rankings.weaponType.position), category: weapon.weaponType?.name ?? 'Weapon Type' }
+          : undefined
+
+        entries.push({
+          weaponId: weapon.id,
+          weaponName: weapon.name,
+          tier,
+          categoryRank: weaponGroupRank ?? weaponTypeRank,
+          weaponGroupRank,
+          weaponTypeRank,
+          sourceUrl,
+          fetchTimestamp,
+        })
+      }
+    }
+  }
+
+  if (entries.length === 0) throw new Error(`${sourceUrl}: no category rankings parsed`)
+
+  return entries
+}
+
 function buildVariants(weaponName, budgetVariants) {
   const variants = {}
 
@@ -369,6 +425,10 @@ function slugFromSourceUrl(sourceUrl) {
   return sourceUrl.split('/').filter(Boolean).at(-1)
 }
 
+function normalizeWeaponName(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, '')
+}
+
 async function persistWeaponImages(builds) {
   await mkdir(WEAPON_IMAGE_DIR, { recursive: true })
 
@@ -394,6 +454,71 @@ async function persistWeaponImages(builds) {
       delete build.imageUrl
       console.warn(`[scraper] image download failed for ${weaponName}: ${error instanceof Error ? error.message : String(error)}`)
     }
+  }
+}
+
+async function fetchCategoryRankings() {
+  const rankings = new Map()
+  const failures = []
+
+  for (const page of CATEGORY_RANKING_PAGES) {
+    const cacheSlug = `ranking-${page.slug}`
+    try {
+      const { html, fetchTimestamp } = await fetchCachedHtml(cacheSlug, page.url)
+      const pageRankings = parseCategoryRankingHtml(html, page.url, fetchTimestamp)
+      for (const ranking of pageRankings) {
+        rankings.set(normalizeWeaponName(ranking.weaponId), ranking)
+        rankings.set(normalizeWeaponName(ranking.weaponName), ranking)
+      }
+      console.log(`[scraper] ${page.slug}: ${pageRankings.length} category rankings`)
+    } catch (error) {
+      failures.push({ sourceUrl: page.url, error: error instanceof Error ? error.message : String(error) })
+      console.error(`${page.url}: ${error instanceof Error ? error.message : String(error)}`)
+    }
+  }
+
+  if (failures.length > 0) {
+    const details = failures.map((failure) => `- ${failure.sourceUrl}: ${failure.error}`).join('\n')
+    throw new Error(`Category ranking scrape failed:\n${details}`)
+  }
+
+  return rankings
+}
+
+function applyCategoryRankings(builds, categoryRankings) {
+  const unmatched = []
+
+  for (const [weaponName, build] of Object.entries(builds)) {
+    const sourceSlug = slugFromSourceUrl(build.sourceUrl)
+    const ranking =
+      categoryRankings.get(normalizeWeaponName(weaponName)) ??
+      (sourceSlug ? categoryRankings.get(normalizeWeaponName(sourceSlug)) : undefined)
+
+    if (!ranking?.categoryRank) {
+      unmatched.push(weaponName)
+      continue
+    }
+
+    build.loadoutTier = build.tier
+    build.loadoutCategoryRank = build.categoryRank
+    build.tier = ranking.tier
+    build.categoryRank = ranking.categoryRank
+    build.rankingSourceUrl = ranking.sourceUrl
+    build.rankingFetchTimestamp = ranking.fetchTimestamp
+    build.rankingConsensus = {
+      weaponId: ranking.weaponId,
+      weaponName: ranking.weaponName,
+      tier: ranking.tier,
+      categoryRank: ranking.categoryRank,
+      weaponGroupRank: ranking.weaponGroupRank,
+      weaponTypeRank: ranking.weaponTypeRank,
+      sourceUrl: ranking.sourceUrl,
+      fetchTimestamp: ranking.fetchTimestamp,
+    }
+  }
+
+  if (unmatched.length > 0) {
+    throw new Error(`Missing category ranking consensus for ${unmatched.length} weapons: ${unmatched.join(', ')}`)
   }
 }
 
@@ -433,6 +558,8 @@ async function main() {
     return
   }
 
+  const categoryRankings = await fetchCategoryRankings()
+  applyCategoryRankings(builds, categoryRankings)
   await persistWeaponImages(builds)
 
   const fetchTimestamps = Object.values(builds).map((build) => build.fetchTimestamp)
