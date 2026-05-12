@@ -83,12 +83,30 @@ describe('consensus builds dataset', () => {
 
   it('uses category ranking pages as the authoritative public tier source', () => {
     for (const [name, build] of Object.entries(consensusBuilds.builds)) {
-      expect('rankingSourceUrl' in build ? build.rankingSourceUrl : undefined, `${name} missing ranking source URL`).toMatch(
-        /^https:\/\/battlefieldmeta\.gg\/best-guns\//,
-      )
+      const rankingSourceUrl = 'rankingSourceUrl' in build ? build.rankingSourceUrl : undefined
+      const usesRankingFallback = 'rankingFallback' in build && build.rankingFallback
+      if (usesRankingFallback) {
+        expect(rankingSourceUrl, `${name} fallback ranking should come from loadout page`).toMatch(
+          /^https:\/\/battlefieldmeta\.gg\/best-loadouts\//,
+        )
+      } else {
+        expect(rankingSourceUrl, `${name} missing ranking source URL`).toMatch(/^https:\/\/battlefieldmeta\.gg\/best-guns\//)
+      }
       expect('loadoutTier' in build ? build.loadoutTier : undefined, `${name} missing loadout tier audit field`).toBeDefined()
       expect('loadoutCategoryRank' in build ? build.loadoutCategoryRank : undefined, `${name} missing loadout rank audit field`).toBeDefined()
       expect('rankingConsensus' in build ? build.rankingConsensus.categoryRank.position : 0, `${name} missing ranking category position`).toBeGreaterThan(0)
+    }
+  })
+
+  it('marks temporary loadout or ranking fallbacks explicitly', () => {
+    for (const [name, build] of Object.entries(consensusBuilds.builds)) {
+      if ('loadoutFallback' in build && build.loadoutFallback) {
+        expect(build.loadoutFallback.reason, `${name} missing loadout fallback reason`).toBeTruthy()
+        expect(build.loadoutFallback.fallbackSource, `${name} missing loadout fallback source`).toBe('previous generated consensusBuilds')
+      }
+      if ('rankingFallback' in build && build.rankingFallback) {
+        expect(build.rankingFallback.reason, `${name} missing ranking fallback reason`).toContain('missing category-page ranking')
+      }
     }
   })
 
@@ -99,7 +117,9 @@ describe('consensus builds dataset', () => {
     expect(scw.categoryRank).toEqual({ position: 8, category: 'Close Range' })
     expect('loadoutTier' in scw ? scw.loadoutTier : undefined).toBe('META')
     expect('rankingSourceUrl' in scw ? scw.rankingSourceUrl : '').toContain('/best-guns/best-smg-in-battlefield')
-    expect('rankingConsensus' in scw ? scw.rankingConsensus.weaponTypeRank : undefined).toEqual({
+    const weaponTypeRank =
+      'rankingConsensus' in scw && 'weaponTypeRank' in scw.rankingConsensus ? scw.rankingConsensus.weaponTypeRank : undefined
+    expect(weaponTypeRank).toEqual({
       position: 8,
       category: 'SMG',
     })

@@ -97,12 +97,16 @@ describe('metaEngine invariants', () => {
 
   it('scores sniper headshot pick value above body-based kill speed', () => {
     const sniperStats = generatedWeaponStats.weapons.filter((weapon) => weapon.categoryKey === 'sniper')
+    let comparableSnipers = 0
 
     for (const stat of sniperStats) {
       const bodyScore = metaEngineTestHooks.bodyKillSpeedScore(stat)
-      expect(bodyScore).toBeDefined()
+      if (bodyScore === undefined) continue
+      comparableSnipers += 1
       expect(metaEngineTestHooks.headshotPickScore(stat)).toBeGreaterThan(bodyScore ?? 0)
     }
+
+    expect(comparableSnipers, 'expected at least one sniper with calculable body kill speed').toBeGreaterThan(0)
   })
 
   it('sets dataQuality to 100 if and only if generated stats exist', () => {

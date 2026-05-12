@@ -853,6 +853,99 @@ export const generatedWeaponStats = {
       }
     },
     {
+      "id": "M16A4",
+      "name": "M16A4",
+      "category": "ASSAULT",
+      "categoryKey": "assaultRifle",
+      "className": {
+        "it": "Fucile d'assalto",
+        "en": "Assault Rifle"
+      },
+      "slot": "primary",
+      "hipfire": 40,
+      "precision": 27,
+      "control": 43,
+      "mobility": 54,
+      "adsMs": 250,
+      "reloadSeconds": 2.2,
+      "velocity": 900,
+      "magSize": 30,
+      "rpm": 771,
+      "closeBodyDps": 321.3,
+      "bodyDamageByRange": {
+        "0": 25,
+        "10": 25,
+        "20": 25,
+        "35": 20,
+        "50": 20,
+        "70": 20,
+        "80": 16.7
+      },
+      "headDamageByRange": {
+        "0": 37.5,
+        "10": 37.5,
+        "20": 37.5,
+        "35": 30,
+        "50": 30,
+        "70": 30,
+        "80": 25.1
+      },
+      "stk100ByRange": {
+        "0": 4,
+        "10": 4,
+        "20": 4,
+        "35": 5,
+        "50": 5,
+        "70": 5,
+        "80": 6
+      },
+      "ttk100ByRange": {
+        "0": 233,
+        "10": 233,
+        "20": 233,
+        "35": 311,
+        "50": 311,
+        "70": 311,
+        "80": 389
+      },
+      "clickTtk100ByRange": {
+        "0": 233,
+        "10": 245,
+        "20": 256,
+        "35": 350,
+        "50": 367,
+        "70": 389,
+        "80": 478
+      },
+      "stk180ByRange": {
+        "0": 8,
+        "10": 8,
+        "20": 8,
+        "35": 9,
+        "50": 9,
+        "70": 9,
+        "80": 11
+      },
+      "ttk180ByRange": {
+        "0": 545,
+        "10": 545,
+        "20": 545,
+        "35": 623,
+        "50": 623,
+        "70": 623,
+        "80": 778
+      },
+      "clickTtk180ByRange": {
+        "0": 545,
+        "10": 556,
+        "20": 567,
+        "35": 661,
+        "50": 678,
+        "70": 700,
+        "80": 867
+      }
+    },
+    {
       "id": "M4A1",
       "name": "M4A1",
       "category": "CARBINES",
@@ -3264,6 +3357,75 @@ export const generatedWeaponStats = {
       }
     },
     {
+      "id": "RPK74M",
+      "name": "RPK-74M",
+      "category": "LMGS",
+      "categoryKey": "lmg",
+      "className": {
+        "it": "LMG",
+        "en": "LMG"
+      },
+      "slot": "primary",
+      "hipfire": 34,
+      "precision": 59,
+      "control": 60,
+      "mobility": 38,
+      "adsMs": 367,
+      "reloadSeconds": 2.784,
+      "velocity": 1050,
+      "magSize": 45,
+      "rpm": 685,
+      "closeBodyDps": 228.3,
+      "bodyDamageByRange": {
+        "0": 20,
+        "10": 20,
+        "20": 20,
+        "80": 14.3
+      },
+      "headDamageByRange": {
+        "0": 35,
+        "10": 35,
+        "20": 35,
+        "80": 25
+      },
+      "stk100ByRange": {
+        "0": 5,
+        "10": 5,
+        "20": 5,
+        "80": 7
+      },
+      "ttk100ByRange": {
+        "0": 350,
+        "10": 350,
+        "20": 350,
+        "80": 526
+      },
+      "clickTtk100ByRange": {
+        "0": 350,
+        "10": 360,
+        "20": 369,
+        "80": 602
+      },
+      "stk180ByRange": {
+        "0": 9,
+        "10": 9,
+        "20": 9,
+        "80": 13
+      },
+      "ttk180ByRange": {
+        "0": 701,
+        "10": 701,
+        "20": 701,
+        "80": 1051
+      },
+      "clickTtk180ByRange": {
+        "0": 701,
+        "10": 710,
+        "20": 720,
+        "80": 1127
+      }
+    },
+    {
       "id": "M39EMR",
       "name": "M39 EMR",
       "category": "DMR",
@@ -4067,6 +4229,34 @@ export const generatedWeaponStats = {
         "70": 3617,
         "80": 3629
       }
+    },
+    {
+      "id": "L115",
+      "name": "L115",
+      "category": "SNIPER",
+      "categoryKey": "sniper",
+      "className": {
+        "it": "Cecchino",
+        "en": "Sniper"
+      },
+      "slot": "primary",
+      "hipfire": 34,
+      "precision": 100,
+      "control": 19,
+      "mobility": 50,
+      "adsMs": 367,
+      "reloadSeconds": 2.75,
+      "velocity": 703,
+      "magSize": 5,
+      "rpm": 46,
+      "bodyDamageByRange": {},
+      "headDamageByRange": {},
+      "stk100ByRange": {},
+      "ttk100ByRange": {},
+      "clickTtk100ByRange": {},
+      "stk180ByRange": {},
+      "ttk180ByRange": {},
+      "clickTtk180ByRange": {}
     },
     {
       "id": "M87A1",

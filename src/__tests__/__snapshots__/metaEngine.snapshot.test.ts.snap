@@ -5,7 +5,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -21,7 +21,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -37,7 +37,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -53,7 +53,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -69,7 +69,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -117,7 +117,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -165,7 +165,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 1,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "S",
     "className": "Sniper",
@@ -181,7 +181,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -197,7 +197,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -245,7 +245,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -261,7 +261,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -277,7 +277,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "Assault Rifle",
@@ -357,7 +357,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -373,7 +373,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -421,9 +421,9 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -453,7 +453,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "LMG",
@@ -501,7 +501,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 2,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "A",
     "className": "Sniper",
@@ -517,7 +517,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 3,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "B",
     "className": "Sniper",
@@ -549,9 +549,9 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 4,
-      "total": 4,
+      "total": 5,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -597,9 +597,9 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -629,7 +629,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "LMG",
@@ -725,7 +725,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "Assault Rifle",
@@ -788,6 +788,22 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
   },
   {
     "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "Assault Rifle",
+    "dataQuality": 100,
+    "mpTtkMs": 256,
+    "rank": 50,
+    "redsecTtkMs": 661,
+    "roleFit": 88,
+    "score": 51,
+    "tier": "C",
+    "weapon": "M16A4",
+  },
+  {
+    "categoryRank": {
       "position": 5,
       "total": 6,
     },
@@ -795,7 +811,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 697,
-    "rank": 50,
+    "rank": 51,
     "redsecTtkMs": 1521,
     "roleFit": 34,
     "score": 51,
@@ -811,7 +827,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
-    "rank": 51,
+    "rank": 52,
     "redsecTtkMs": 1588,
     "roleFit": 62,
     "score": 50,
@@ -827,7 +843,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,
-    "rank": 52,
+    "rank": 53,
     "redsecTtkMs": 1572,
     "roleFit": 34,
     "score": 50,
@@ -843,12 +859,28 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
-    "rank": 53,
+    "rank": 54,
     "redsecTtkMs": 781,
     "roleFit": 86,
     "score": 49,
     "tier": "D",
     "weapon": "GRT-BC",
+  },
+  {
+    "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "LMG",
+    "dataQuality": 100,
+    "mpTtkMs": 369,
+    "rank": 55,
+    "redsecTtkMs": 720,
+    "roleFit": 84,
+    "score": 49,
+    "tier": "D",
+    "weapon": "RPK-74M",
   },
   {
     "categoryRank": {
@@ -859,7 +891,7 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
-    "rank": 54,
+    "rank": 56,
     "redsecTtkMs": 2888,
     "roleFit": 62,
     "score": 49,
@@ -872,10 +904,26 @@ exports[`metaEngine ranking snapshots > keeps the complete all ranking stable 1`
       "total": 5,
     },
     "categoryTier": "D",
+    "className": "Sniper",
+    "dataQuality": 100,
+    "mpTtkMs": null,
+    "rank": 57,
+    "redsecTtkMs": null,
+    "roleFit": 72,
+    "score": 48,
+    "tier": "D",
+    "weapon": "L115",
+  },
+  {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
-    "rank": 55,
+    "rank": 58,
     "redsecTtkMs": 840,
     "roleFit": 80,
     "score": 47,
@@ -890,7 +938,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -906,7 +954,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -986,7 +1034,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -1002,7 +1050,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -1018,7 +1066,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -1034,7 +1082,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -1050,7 +1098,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 1,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "S",
     "className": "Sniper",
@@ -1082,7 +1130,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -1098,7 +1146,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -1146,7 +1194,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -1162,7 +1210,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -1178,7 +1226,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "Assault Rifle",
@@ -1290,9 +1338,9 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -1338,7 +1386,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -1354,7 +1402,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -1370,7 +1418,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "LMG",
@@ -1386,7 +1434,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 2,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "A",
     "className": "Sniper",
@@ -1402,7 +1450,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 3,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "B",
     "className": "Sniper",
@@ -1418,9 +1466,9 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 4,
-      "total": 4,
+      "total": 5,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -1530,9 +1578,9 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -1546,7 +1594,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "LMG",
@@ -1626,7 +1674,7 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "Assault Rifle",
@@ -1737,6 +1785,22 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
   },
   {
     "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "Assault Rifle",
+    "dataQuality": 100,
+    "mpTtkMs": 256,
+    "rank": 54,
+    "redsecTtkMs": 661,
+    "roleFit": 96,
+    "score": 51,
+    "tier": "C",
+    "weapon": "M16A4",
+  },
+  {
+    "categoryRank": {
       "position": 8,
       "total": 8,
     },
@@ -1744,12 +1808,28 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
-    "rank": 54,
+    "rank": 55,
     "redsecTtkMs": 781,
     "roleFit": 88,
     "score": 50,
     "tier": "C",
     "weapon": "GRT-BC",
+  },
+  {
+    "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "LMG",
+    "dataQuality": 100,
+    "mpTtkMs": 369,
+    "rank": 56,
+    "redsecTtkMs": 720,
+    "roleFit": 58,
+    "score": 47,
+    "tier": "D",
+    "weapon": "RPK-74M",
   },
   {
     "categoryRank": {
@@ -1760,12 +1840,28 @@ exports[`metaEngine ranking snapshots > keeps the complete assault ranking stabl
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
-    "rank": 55,
+    "rank": 57,
     "redsecTtkMs": 840,
     "roleFit": 56,
     "score": 47,
     "tier": "D",
     "weapon": "LMR 27",
+  },
+  {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
+    "className": "Sniper",
+    "dataQuality": 100,
+    "mpTtkMs": null,
+    "rank": 58,
+    "redsecTtkMs": null,
+    "roleFit": 42,
+    "score": 46,
+    "tier": "D",
+    "weapon": "L115",
   },
 ]
 `;
@@ -1839,7 +1935,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -1855,7 +1951,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -1871,7 +1967,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -1887,7 +1983,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -1903,7 +1999,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -1919,7 +2015,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -1935,7 +2031,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 1,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "S",
     "className": "Sniper",
@@ -2127,7 +2223,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -2143,7 +2239,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -2159,7 +2255,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -2175,7 +2271,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -2191,7 +2287,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "Assault Rifle",
@@ -2207,9 +2303,9 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 342,
@@ -2223,7 +2319,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -2239,7 +2335,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -2255,7 +2351,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "LMG",
@@ -2303,7 +2399,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 2,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "A",
     "className": "Sniper",
@@ -2319,7 +2415,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 3,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "B",
     "className": "Sniper",
@@ -2335,9 +2431,9 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 4,
-      "total": 4,
+      "total": 5,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -2415,9 +2511,9 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -2431,7 +2527,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "LMG",
@@ -2527,7 +2623,7 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "Assault Rifle",
@@ -2638,6 +2734,22 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
   },
   {
     "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "Assault Rifle",
+    "dataQuality": 100,
+    "mpTtkMs": 256,
+    "rank": 55,
+    "redsecTtkMs": 661,
+    "roleFit": 76,
+    "score": 50,
+    "tier": "C",
+    "weapon": "M16A4",
+  },
+  {
+    "categoryRank": {
       "position": 5,
       "total": 5,
     },
@@ -2645,12 +2757,44 @@ exports[`metaEngine ranking snapshots > keeps the complete engineer ranking stab
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
-    "rank": 55,
+    "rank": 56,
     "redsecTtkMs": 840,
     "roleFit": 66,
     "score": 47,
     "tier": "D",
     "weapon": "LMR 27",
+  },
+  {
+    "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "LMG",
+    "dataQuality": 100,
+    "mpTtkMs": 369,
+    "rank": 57,
+    "redsecTtkMs": 720,
+    "roleFit": 60,
+    "score": 47,
+    "tier": "D",
+    "weapon": "RPK-74M",
+  },
+  {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
+    "className": "Sniper",
+    "dataQuality": 100,
+    "mpTtkMs": null,
+    "rank": 58,
+    "redsecTtkMs": null,
+    "roleFit": 46,
+    "score": 46,
+    "tier": "D",
+    "weapon": "L115",
   },
 ]
 `;
@@ -2660,7 +2804,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 1,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "S",
     "className": "Sniper",
@@ -2692,7 +2836,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -2708,7 +2852,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -2724,7 +2868,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -2740,7 +2884,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -2756,7 +2900,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -2772,7 +2916,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -2836,7 +2980,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 2,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "A",
     "className": "Sniper",
@@ -2852,7 +2996,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 3,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "B",
     "className": "Sniper",
@@ -2868,9 +3012,9 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 4,
-      "total": 4,
+      "total": 5,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -2932,7 +3076,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -2948,7 +3092,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -3012,7 +3156,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -3028,7 +3172,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -3044,7 +3188,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "Assault Rifle",
@@ -3060,9 +3204,9 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -3076,7 +3220,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -3092,7 +3236,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -3108,7 +3252,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "LMG",
@@ -3348,9 +3492,9 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -3364,7 +3508,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "LMG",
@@ -3428,7 +3572,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "Assault Rifle",
@@ -3475,6 +3619,22 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
   },
   {
     "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
+    "className": "Sniper",
+    "dataQuality": 100,
+    "mpTtkMs": null,
+    "rank": 52,
+    "redsecTtkMs": null,
+    "roleFit": 98,
+    "score": 51,
+    "tier": "C",
+    "weapon": "L115",
+  },
+  {
+    "categoryRank": {
       "position": 3,
       "total": 4,
     },
@@ -3482,7 +3642,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 650,
-    "rank": 52,
+    "rank": 53,
     "redsecTtkMs": 1588,
     "roleFit": 46,
     "score": 51,
@@ -3498,7 +3658,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "className": "Shotgun",
     "dataQuality": 100,
     "mpTtkMs": 850,
-    "rank": 53,
+    "rank": 54,
     "redsecTtkMs": 2888,
     "roleFit": 46,
     "score": 51,
@@ -3514,7 +3674,7 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "className": "Pistol",
     "dataQuality": 100,
     "mpTtkMs": 610,
-    "rank": 54,
+    "rank": 55,
     "redsecTtkMs": 1572,
     "roleFit": 34,
     "score": 51,
@@ -3530,12 +3690,44 @@ exports[`metaEngine ranking snapshots > keeps the complete recon ranking stable 
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
-    "rank": 55,
+    "rank": 56,
     "redsecTtkMs": 781,
     "roleFit": 55,
     "score": 48,
     "tier": "D",
     "weapon": "GRT-BC",
+  },
+  {
+    "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "Assault Rifle",
+    "dataQuality": 100,
+    "mpTtkMs": 256,
+    "rank": 57,
+    "redsecTtkMs": 661,
+    "roleFit": 45,
+    "score": 48,
+    "tier": "D",
+    "weapon": "M16A4",
+  },
+  {
+    "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "LMG",
+    "dataQuality": 100,
+    "mpTtkMs": 369,
+    "rank": 58,
+    "redsecTtkMs": 720,
+    "roleFit": 44,
+    "score": 47,
+    "tier": "D",
+    "weapon": "RPK-74M",
   },
 ]
 `;
@@ -3545,7 +3737,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -3561,7 +3753,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 1,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -3577,7 +3769,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "Assault Rifle",
@@ -3593,7 +3785,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 2,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "S",
     "className": "LMG",
@@ -3609,7 +3801,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -3625,7 +3817,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "LMG",
@@ -3705,7 +3897,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 1,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "S",
     "className": "Sniper",
@@ -3721,7 +3913,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -3737,7 +3929,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 3,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -3753,7 +3945,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 4,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "A",
     "className": "Assault Rifle",
@@ -3769,7 +3961,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 5,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -3785,7 +3977,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "Assault Rifle",
@@ -3817,7 +4009,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 6,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "B",
     "className": "LMG",
@@ -3833,7 +4025,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "LMG",
@@ -3849,7 +4041,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 7,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "C",
     "className": "Assault Rifle",
@@ -3865,9 +4057,9 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Assault Rifle",
     "dataQuality": 100,
     "mpTtkMs": 261,
@@ -4057,7 +4249,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 2,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "A",
     "className": "Sniper",
@@ -4073,7 +4265,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 3,
-      "total": 4,
+      "total": 5,
     },
     "categoryTier": "B",
     "className": "Sniper",
@@ -4105,9 +4297,9 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 4,
-      "total": 4,
+      "total": 5,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "Sniper",
     "dataQuality": 100,
     "mpTtkMs": 1607,
@@ -4121,9 +4313,9 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 8,
-      "total": 9,
+      "total": 10,
     },
-    "categoryTier": "D",
+    "categoryTier": "C",
     "className": "LMG",
     "dataQuality": 100,
     "mpTtkMs": 254,
@@ -4137,7 +4329,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "LMG",
@@ -4281,7 +4473,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   {
     "categoryRank": {
       "position": 9,
-      "total": 9,
+      "total": 10,
     },
     "categoryTier": "D",
     "className": "Assault Rifle",
@@ -4392,6 +4584,38 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
   },
   {
     "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "Assault Rifle",
+    "dataQuality": 100,
+    "mpTtkMs": 256,
+    "rank": 54,
+    "redsecTtkMs": 661,
+    "roleFit": 84,
+    "score": 51,
+    "tier": "C",
+    "weapon": "M16A4",
+  },
+  {
+    "categoryRank": {
+      "position": 10,
+      "total": 10,
+    },
+    "categoryTier": "D",
+    "className": "LMG",
+    "dataQuality": 100,
+    "mpTtkMs": 369,
+    "rank": 55,
+    "redsecTtkMs": 720,
+    "roleFit": 97,
+    "score": 50,
+    "tier": "C",
+    "weapon": "RPK-74M",
+  },
+  {
+    "categoryRank": {
       "position": 8,
       "total": 8,
     },
@@ -4399,7 +4623,7 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "className": "Carbine",
     "dataQuality": 100,
     "mpTtkMs": 323,
-    "rank": 54,
+    "rank": 56,
     "redsecTtkMs": 781,
     "roleFit": 78,
     "score": 50,
@@ -4415,12 +4639,28 @@ exports[`metaEngine ranking snapshots > keeps the complete support ranking stabl
     "className": "DMR",
     "dataQuality": 100,
     "mpTtkMs": 423,
-    "rank": 55,
+    "rank": 57,
     "redsecTtkMs": 840,
     "roleFit": 72,
     "score": 48,
     "tier": "D",
     "weapon": "LMR 27",
+  },
+  {
+    "categoryRank": {
+      "position": 5,
+      "total": 5,
+    },
+    "categoryTier": "D",
+    "className": "Sniper",
+    "dataQuality": 100,
+    "mpTtkMs": null,
+    "rank": 58,
+    "redsecTtkMs": null,
+    "roleFit": 42,
+    "score": 46,
+    "tier": "D",
+    "weapon": "L115",
   },
 ]
 `;
