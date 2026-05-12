@@ -100,12 +100,16 @@ describe('consensus builds dataset', () => {
 
   it('marks temporary loadout or ranking fallbacks explicitly', () => {
     for (const [name, build] of Object.entries(consensusBuilds.builds)) {
-      if ('loadoutFallback' in build && build.loadoutFallback) {
-        expect(build.loadoutFallback.reason, `${name} missing loadout fallback reason`).toBeTruthy()
-        expect(build.loadoutFallback.fallbackSource, `${name} missing loadout fallback source`).toBe('previous generated consensusBuilds')
+      const loadoutFallback =
+        'loadoutFallback' in build && build.loadoutFallback ? (build.loadoutFallback as Record<string, unknown>) : undefined
+      if (loadoutFallback) {
+        expect(loadoutFallback.reason, `${name} missing loadout fallback reason`).toBeTruthy()
+        expect(loadoutFallback.fallbackSource, `${name} missing loadout fallback source`).toBe('previous generated consensusBuilds')
       }
-      if ('rankingFallback' in build && build.rankingFallback) {
-        expect(build.rankingFallback.reason, `${name} missing ranking fallback reason`).toContain('missing category-page ranking')
+      const rankingFallback =
+        'rankingFallback' in build && build.rankingFallback ? (build.rankingFallback as Record<string, unknown>) : undefined
+      if (rankingFallback) {
+        expect(rankingFallback.reason, `${name} missing ranking fallback reason`).toContain('missing category-page ranking')
       }
     }
   })
