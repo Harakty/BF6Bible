@@ -773,6 +773,91 @@ export const generatedTemplateBuilds = {
       }
     },
     {
+      "weaponId": "M16A4",
+      "weaponName": "M16A4",
+      "categoryKey": "assaultRifle",
+      "className": {
+        "it": "Fucile d'assalto",
+        "en": "Assault Rifle"
+      },
+      "slot": "primary",
+      "status": "template",
+      "archetype": {
+        "id": "mid-control",
+        "label": {
+          "it": "Mid control REDSEC",
+          "en": "REDSEC mid control"
+        }
+      },
+      "totalPoints": 100,
+      "score": 57,
+      "attachments": [
+        {
+          "id": "LIGHTSUPPRESSOR",
+          "slot": "muzzle",
+          "name": {
+            "it": "Silenziatore alleggerito",
+            "en": "Light Suppressor"
+          },
+          "points": 30,
+          "effects": {
+            "recoilRecovery": 2,
+            "hipfire": 2,
+            "hidingVisibility": 6
+          }
+        },
+        {
+          "id": "6H64VERTICAL",
+          "slot": "underbarrel",
+          "name": {
+            "it": "6H64 verticale",
+            "en": "6h64 Vertical"
+          },
+          "points": 25,
+          "effects": {
+            "recoilControl": 4,
+            "recoilPrecision": 4,
+            "adsMovingAccuracy": 2,
+            "adsMovementSpeed": 1
+          }
+        },
+        {
+          "id": "EXTENDEDBARREL",
+          "slot": "barrel",
+          "name": {
+            "it": "Canna allungata",
+            "en": "Extended Barrel"
+          },
+          "points": 15,
+          "effects": {
+            "adsTimeTier": 2,
+            "projectileVelocity": 1
+          }
+        },
+        {
+          "id": "BLUELASER120MW",
+          "slot": "laser",
+          "name": {
+            "it": "Laser blu (120 mW)",
+            "en": "Blue Laser (120 mW)"
+          },
+          "points": 30,
+          "effects": {
+            "adsMovingAccuracy": 2,
+            "hipfire": 6,
+            "hidingVisibility": 2
+          }
+        }
+      ],
+      "rationale": {
+        "it": "Priorità a controllo, velocity e firma silenziata: build da teamfire 20-60 m.",
+        "en": "Prioritizes control, velocity, and suppressed signature: 20-60 m teamfire build."
+      },
+      "sourceHashes": {
+        "attachments": "e9348813750af51f"
+      }
+    },
+    {
       "weaponId": "M4A1",
       "weaponName": "M4A1",
       "categoryKey": "carbine",
@@ -2983,6 +3068,90 @@ export const generatedTemplateBuilds = {
       }
     },
     {
+      "weaponId": "RPK74M",
+      "weaponName": "RPK-74M",
+      "categoryKey": "lmg",
+      "className": {
+        "it": "LMG",
+        "en": "LMG"
+      },
+      "slot": "primary",
+      "status": "template",
+      "archetype": {
+        "id": "anchor-sustain",
+        "label": {
+          "it": "Anchor sustain",
+          "en": "Anchor sustain"
+        }
+      },
+      "totalPoints": 95,
+      "score": 66,
+      "attachments": [
+        {
+          "id": "LIGHTSUPPRESSOR",
+          "slot": "muzzle",
+          "name": {
+            "it": "Silenziatore alleggerito",
+            "en": "Light Suppressor"
+          },
+          "points": 30,
+          "effects": {
+            "recoilRecovery": 2,
+            "hipfire": 2,
+            "hidingVisibility": 6
+          }
+        },
+        {
+          "id": "CLASSICVERTICAL",
+          "slot": "underbarrel",
+          "name": {
+            "it": "Classica verticale",
+            "en": "Classic Vertical"
+          },
+          "points": 35,
+          "effects": {
+            "recoilControl": 5,
+            "recoilPrecision": 5,
+            "adsMovingAccuracy": 2,
+            "adsMovementSpeed": 1
+          }
+        },
+        {
+          "id": "HEAVYBARREL",
+          "slot": "barrel",
+          "name": {
+            "it": "Canna pesante",
+            "en": "Heavy Barrel"
+          },
+          "points": 10,
+          "effects": {
+            "accuracyOverTime": 2
+          }
+        },
+        {
+          "id": "BLUELASER50MW",
+          "slot": "laser",
+          "name": {
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
+          },
+          "points": 20,
+          "effects": {
+            "adsMovingAccuracy": 2,
+            "hipfire": 4,
+            "hidingVisibility": 2
+          }
+        }
+      ],
+      "rationale": {
+        "it": "Stabilità e pressione lane per revive cover e fight lunghi contro armor.",
+        "en": "Stability and lane pressure for revive cover and long armor fights."
+      },
+      "sourceHashes": {
+        "attachments": "e9348813750af51f"
+      }
+    },
+    {
       "weaponId": "M39EMR",
       "weaponName": "M39 EMR",
       "categoryKey": "dmr",
@@ -3689,6 +3858,92 @@ export const generatedTemplateBuilds = {
       },
       "totalPoints": 95,
       "score": 68,
+      "attachments": [
+        {
+          "id": "STANDARDSUPPRESSOR",
+          "slot": "muzzle",
+          "name": {
+            "it": "Silenziatore standard",
+            "en": "Standard Suppressor"
+          },
+          "points": 20,
+          "effects": {
+            "hipfire": 2,
+            "hidingVisibility": 6
+          }
+        },
+        {
+          "id": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
+          "name": {
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
+          },
+          "points": 10,
+          "effects": {
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
+          }
+        },
+        {
+          "id": "LOWPROFILESTUBBY",
+          "slot": "underbarrel",
+          "name": {
+            "it": "Stubby a basso profilo",
+            "en": "Low-Profile Stubby"
+          },
+          "points": 45,
+          "effects": {
+            "recoilControl": 5,
+            "recoilPrecision": 5,
+            "adsMovingAccuracy": 2,
+            "adsTimeTier": 2,
+            "adsMovementSpeed": 1
+          }
+        },
+        {
+          "id": "BLUELASER50MW",
+          "slot": "laser",
+          "name": {
+            "it": "Laser blu (50 mW)",
+            "en": "Blue Laser (50 mW)"
+          },
+          "points": 20,
+          "effects": {
+            "adsMovingAccuracy": 2,
+            "hipfire": 4,
+            "hidingVisibility": 2
+          }
+        }
+      ],
+      "rationale": {
+        "it": "Sniper più giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
+        "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
+      },
+      "sourceHashes": {
+        "attachments": "e9348813750af51f"
+      }
+    },
+    {
+      "weaponId": "L115",
+      "weaponName": "L115",
+      "categoryKey": "sniper",
+      "className": {
+        "it": "Cecchino",
+        "en": "Sniper"
+      },
+      "slot": "primary",
+      "status": "template",
+      "archetype": {
+        "id": "mobile-pick",
+        "label": {
+          "it": "Pick mobile",
+          "en": "Mobile pick"
+        }
+      },
+      "totalPoints": 95,
+      "score": 65,
       "attachments": [
         {
           "id": "STANDARDSUPPRESSOR",

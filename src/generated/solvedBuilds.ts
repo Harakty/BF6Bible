@@ -113,7 +113,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-          "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+          "fetchTimestamp": "2026-05-12T14:28:21.977Z",
           "unlockLevel": 0
         },
         {
@@ -129,7 +129,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-          "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+          "fetchTimestamp": "2026-05-12T14:28:21.977Z",
           "unlockLevel": 31
         },
         {
@@ -145,7 +145,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-          "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+          "fetchTimestamp": "2026-05-12T14:28:21.977Z",
           "unlockLevel": 21
         }
       ],
@@ -170,7 +170,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 5
             },
             {
@@ -186,7 +186,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 1
             },
             {
@@ -202,7 +202,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 0
             },
             {
@@ -218,7 +218,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 3
             },
             {
@@ -234,7 +234,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 31
             },
             {
@@ -250,7 +250,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 21
             }
           ],
@@ -276,7 +276,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 5
             },
             {
@@ -292,7 +292,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 30
             },
             {
@@ -308,7 +308,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 0
             },
             {
@@ -324,7 +324,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 6
             },
             {
@@ -340,7 +340,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 31
             },
             {
@@ -356,7 +356,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 21
             }
           ],
@@ -382,7 +382,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 5
             },
             {
@@ -398,7 +398,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 28
             },
             {
@@ -414,7 +414,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 39
             },
             {
@@ -430,7 +430,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 31
             },
             {
@@ -446,7 +446,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 5
             },
             {
@@ -462,7 +462,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 17
             },
             {
@@ -478,7 +478,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T04:02:42.233Z",
+              "fetchTimestamp": "2026-05-12T14:28:21.977Z",
               "unlockLevel": 21
             }
           ],
@@ -535,7 +535,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -635,7 +635,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-          "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+          "fetchTimestamp": "2026-05-12T14:28:41.388Z",
           "unlockLevel": 37
         },
         {
@@ -651,7 +651,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-          "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+          "fetchTimestamp": "2026-05-12T14:28:41.388Z",
           "unlockLevel": 18
         },
         {
@@ -667,7 +667,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-          "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+          "fetchTimestamp": "2026-05-12T14:28:41.388Z",
           "unlockLevel": 16
         }
       ],
@@ -692,7 +692,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 26
             },
             {
@@ -708,7 +708,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 13
             },
             {
@@ -724,7 +724,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 37
             },
             {
@@ -740,7 +740,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 3
             },
             {
@@ -756,7 +756,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 18
             },
             {
@@ -772,7 +772,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 16
             }
           ],
@@ -798,7 +798,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 5
             },
             {
@@ -814,7 +814,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 24
             },
             {
@@ -830,7 +830,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 0
             },
             {
@@ -846,7 +846,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 4
             },
             {
@@ -862,7 +862,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 18
             },
             {
@@ -878,7 +878,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 16
             }
           ],
@@ -904,7 +904,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 36
             },
             {
@@ -920,7 +920,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 4
             },
             {
@@ -936,7 +936,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 37
             },
             {
@@ -952,7 +952,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 18
             },
             {
@@ -968,7 +968,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 22
             },
             {
@@ -984,7 +984,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 3
             },
             {
@@ -1000,7 +1000,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T04:03:04.202Z",
+              "fetchTimestamp": "2026-05-12T14:28:41.388Z",
               "unlockLevel": 16
             }
           ],
@@ -1057,7 +1057,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -1157,7 +1157,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-          "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+          "fetchTimestamp": "2026-05-12T14:28:23.176Z",
           "unlockLevel": 30
         },
         {
@@ -1173,7 +1173,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-          "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+          "fetchTimestamp": "2026-05-12T14:28:23.176Z",
           "unlockLevel": 12
         },
         {
@@ -1189,7 +1189,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-          "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+          "fetchTimestamp": "2026-05-12T14:28:23.176Z",
           "unlockLevel": 15
         }
       ],
@@ -1214,7 +1214,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 28
             },
             {
@@ -1230,7 +1230,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 33
             },
             {
@@ -1246,7 +1246,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 30
             },
             {
@@ -1262,7 +1262,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 3
             },
             {
@@ -1278,7 +1278,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 12
             },
             {
@@ -1294,7 +1294,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 15
             }
           ],
@@ -1320,7 +1320,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 9
             },
             {
@@ -1336,7 +1336,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 37
             },
             {
@@ -1352,7 +1352,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 0
             },
             {
@@ -1368,7 +1368,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 6
             },
             {
@@ -1384,7 +1384,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 12
             },
             {
@@ -1400,7 +1400,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 15
             }
           ],
@@ -1426,7 +1426,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 0
             },
             {
@@ -1442,7 +1442,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 4
             },
             {
@@ -1458,7 +1458,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 30
             },
             {
@@ -1474,7 +1474,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 12
             },
             {
@@ -1490,7 +1490,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 32
             },
             {
@@ -1506,7 +1506,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 2
             },
             {
@@ -1522,7 +1522,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 2
             },
             {
@@ -1538,7 +1538,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T04:02:43.570Z",
+              "fetchTimestamp": "2026-05-12T14:28:23.176Z",
               "unlockLevel": 15
             }
           ],
@@ -1595,7 +1595,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -1702,7 +1702,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-          "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+          "fetchTimestamp": "2026-05-12T14:28:48.822Z",
           "unlockLevel": 0
         },
         {
@@ -1718,7 +1718,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-          "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+          "fetchTimestamp": "2026-05-12T14:28:48.822Z",
           "unlockLevel": 15
         },
         {
@@ -1734,7 +1734,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-          "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+          "fetchTimestamp": "2026-05-12T14:28:48.822Z",
           "unlockLevel": 18
         }
       ],
@@ -1759,7 +1759,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 40
             },
             {
@@ -1775,7 +1775,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 7
             },
             {
@@ -1791,7 +1791,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 25
             },
             {
@@ -1807,7 +1807,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 3
             },
             {
@@ -1823,7 +1823,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 0
             },
             {
@@ -1839,7 +1839,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 18
             }
           ],
@@ -1865,7 +1865,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 9
             },
             {
@@ -1881,7 +1881,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 21
             },
             {
@@ -1897,7 +1897,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 0
             },
             {
@@ -1913,7 +1913,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 3
             },
             {
@@ -1929,7 +1929,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 0
             },
             {
@@ -1945,7 +1945,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 18
             }
           ],
@@ -1971,7 +1971,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 15
             },
             {
@@ -1987,7 +1987,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 4
             },
             {
@@ -2003,7 +2003,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 34
             },
             {
@@ -2019,7 +2019,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 12
             },
             {
@@ -2035,7 +2035,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 17
             },
             {
@@ -2051,7 +2051,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 31
             },
             {
@@ -2067,7 +2067,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 0
             },
             {
@@ -2083,7 +2083,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T04:03:12.873Z",
+              "fetchTimestamp": "2026-05-12T14:28:48.822Z",
               "unlockLevel": 18
             }
           ],
@@ -2140,7 +2140,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -2245,7 +2245,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-          "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+          "fetchTimestamp": "2026-05-12T14:28:26.752Z",
           "unlockLevel": 0
         },
         {
@@ -2261,7 +2261,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-          "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+          "fetchTimestamp": "2026-05-12T14:28:26.752Z",
           "unlockLevel": 26
         },
         {
@@ -2277,7 +2277,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-          "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+          "fetchTimestamp": "2026-05-12T14:28:26.752Z",
           "unlockLevel": 2
         }
       ],
@@ -2302,7 +2302,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 0
             },
             {
@@ -2318,7 +2318,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 19
             },
             {
@@ -2334,7 +2334,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 0
             },
             {
@@ -2350,7 +2350,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 3
             },
             {
@@ -2366,7 +2366,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 26
             },
             {
@@ -2382,7 +2382,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 2
             }
           ],
@@ -2408,7 +2408,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 0
             },
             {
@@ -2424,7 +2424,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 24
             },
             {
@@ -2440,7 +2440,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 0
             },
             {
@@ -2456,7 +2456,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 19
             },
             {
@@ -2472,7 +2472,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 26
             },
             {
@@ -2488,7 +2488,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 2
             }
           ],
@@ -2514,7 +2514,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 40
             },
             {
@@ -2530,7 +2530,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 32
             },
             {
@@ -2546,7 +2546,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 35
             },
             {
@@ -2562,7 +2562,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 23
             },
             {
@@ -2578,7 +2578,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 18
             },
             {
@@ -2594,7 +2594,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 2
             },
             {
@@ -2610,7 +2610,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T04:02:47.520Z",
+              "fetchTimestamp": "2026-05-12T14:28:26.752Z",
               "unlockLevel": 2
             }
           ],
@@ -2667,7 +2667,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -2767,7 +2767,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-          "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+          "fetchTimestamp": "2026-05-12T14:28:02.484Z",
           "unlockLevel": 38
         },
         {
@@ -2783,7 +2783,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-          "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+          "fetchTimestamp": "2026-05-12T14:28:02.484Z",
           "unlockLevel": 13
         },
         {
@@ -2799,7 +2799,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-          "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+          "fetchTimestamp": "2026-05-12T14:28:02.484Z",
           "unlockLevel": 8
         }
       ],
@@ -2824,7 +2824,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 7
             },
             {
@@ -2840,7 +2840,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 16
             },
             {
@@ -2856,7 +2856,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 38
             },
             {
@@ -2872,7 +2872,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 3
             },
             {
@@ -2888,7 +2888,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 13
             },
             {
@@ -2904,7 +2904,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 8
             }
           ],
@@ -2930,7 +2930,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 29
             },
             {
@@ -2946,7 +2946,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 39
             },
             {
@@ -2962,7 +2962,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 0
             },
             {
@@ -2978,7 +2978,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 0
             },
             {
@@ -2994,7 +2994,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 13
             },
             {
@@ -3010,7 +3010,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 8
             }
           ],
@@ -3036,7 +3036,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 29
             },
             {
@@ -3052,7 +3052,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 4
             },
             {
@@ -3068,7 +3068,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 38
             },
             {
@@ -3084,7 +3084,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 15
             },
             {
@@ -3100,7 +3100,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 13
             },
             {
@@ -3116,7 +3116,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 28
             },
             {
@@ -3132,7 +3132,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T04:02:23.414Z",
+              "fetchTimestamp": "2026-05-12T14:28:02.484Z",
               "unlockLevel": 8
             }
           ],
@@ -3189,7 +3189,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -3291,7 +3291,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-          "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+          "fetchTimestamp": "2026-05-12T14:28:42.618Z",
           "unlockLevel": 0
         },
         {
@@ -3307,7 +3307,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-          "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+          "fetchTimestamp": "2026-05-12T14:28:42.618Z",
           "unlockLevel": 25
         },
         {
@@ -3323,7 +3323,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-          "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+          "fetchTimestamp": "2026-05-12T14:28:42.618Z",
           "unlockLevel": 27
         }
       ],
@@ -3348,7 +3348,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 10
             },
             {
@@ -3364,7 +3364,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 21
             },
             {
@@ -3380,7 +3380,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 0
             },
             {
@@ -3396,7 +3396,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 3
             },
             {
@@ -3412,7 +3412,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 25
             },
             {
@@ -3428,7 +3428,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 27
             }
           ],
@@ -3454,7 +3454,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 30
             },
             {
@@ -3470,7 +3470,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 34
             },
             {
@@ -3486,7 +3486,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 0
             },
             {
@@ -3502,7 +3502,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 4
             },
             {
@@ -3518,7 +3518,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 25
             },
             {
@@ -3534,7 +3534,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 27
             }
           ],
@@ -3560,7 +3560,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 20
             },
             {
@@ -3576,7 +3576,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 4
             },
             {
@@ -3592,7 +3592,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 20
             },
             {
@@ -3608,7 +3608,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 25
             },
             {
@@ -3624,7 +3624,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 5
             },
             {
@@ -3640,7 +3640,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 22
             },
             {
@@ -3656,7 +3656,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T04:03:05.547Z",
+              "fetchTimestamp": "2026-05-12T14:28:42.618Z",
               "unlockLevel": 27
             }
           ],
@@ -3713,7 +3713,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -3813,7 +3813,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-          "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+          "fetchTimestamp": "2026-05-12T14:28:30.347Z",
           "unlockLevel": 25
         },
         {
@@ -3829,7 +3829,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-          "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+          "fetchTimestamp": "2026-05-12T14:28:30.347Z",
           "unlockLevel": 12
         },
         {
@@ -3845,7 +3845,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-          "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+          "fetchTimestamp": "2026-05-12T14:28:30.347Z",
           "unlockLevel": 18
         }
       ],
@@ -3870,7 +3870,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 30
             },
             {
@@ -3886,7 +3886,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 17
             },
             {
@@ -3902,7 +3902,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 25
             },
             {
@@ -3918,7 +3918,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 3
             },
             {
@@ -3934,7 +3934,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 12
             },
             {
@@ -3950,7 +3950,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 18
             }
           ],
@@ -3976,7 +3976,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 39
             },
             {
@@ -3992,7 +3992,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 26
             },
             {
@@ -4008,7 +4008,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 0
             },
             {
@@ -4024,7 +4024,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 7
             },
             {
@@ -4040,7 +4040,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 12
             },
             {
@@ -4056,7 +4056,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 18
             }
           ],
@@ -4082,7 +4082,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 17
             },
             {
@@ -4098,7 +4098,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 4
             },
             {
@@ -4114,7 +4114,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 25
             },
             {
@@ -4130,7 +4130,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 12
             },
             {
@@ -4146,7 +4146,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 33
             },
             {
@@ -4162,7 +4162,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 4
             },
             {
@@ -4178,7 +4178,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T04:02:51.454Z",
+              "fetchTimestamp": "2026-05-12T14:28:30.347Z",
               "unlockLevel": 18
             }
           ],
@@ -4235,7 +4235,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -4338,7 +4338,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-          "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+          "fetchTimestamp": "2026-05-12T14:28:11.236Z",
           "unlockLevel": 0
         },
         {
@@ -4354,7 +4354,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-          "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+          "fetchTimestamp": "2026-05-12T14:28:11.236Z",
           "unlockLevel": 40
         },
         {
@@ -4370,7 +4370,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-          "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+          "fetchTimestamp": "2026-05-12T14:28:11.236Z",
           "unlockLevel": 1
         }
       ],
@@ -4395,7 +4395,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 15
             },
             {
@@ -4411,7 +4411,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 34
             },
             {
@@ -4427,7 +4427,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 0
             },
             {
@@ -4443,7 +4443,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 3
             },
             {
@@ -4459,7 +4459,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 35
             },
             {
@@ -4475,7 +4475,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 1
             }
           ],
@@ -4501,7 +4501,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 2
             },
             {
@@ -4517,7 +4517,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 37
             },
             {
@@ -4533,7 +4533,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 0
             },
             {
@@ -4549,7 +4549,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 11
             },
             {
@@ -4565,7 +4565,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 35
             },
             {
@@ -4581,7 +4581,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 1
             }
           ],
@@ -4607,7 +4607,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 0
             },
             {
@@ -4623,7 +4623,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 33
             },
             {
@@ -4639,7 +4639,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 40
             },
             {
@@ -4655,7 +4655,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 6
             },
             {
@@ -4671,7 +4671,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 18
             },
             {
@@ -4687,7 +4687,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T04:02:30.390Z",
+              "fetchTimestamp": "2026-05-12T14:28:11.236Z",
               "unlockLevel": 1
             }
           ],
@@ -4744,7 +4744,508 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
+      }
+    },
+    {
+      "weaponId": "M16A4",
+      "weaponName": "M16A4",
+      "categoryKey": "assaultRifle",
+      "className": {
+        "it": "Fucile d'assalto",
+        "en": "Assault Rifle"
+      },
+      "slot": "primary",
+      "status": "solved",
+      "archetype": {
+        "id": "mid-control",
+        "label": {
+          "it": "Mid control REDSEC",
+          "en": "REDSEC mid control"
+        }
+      },
+      "totalPoints": 100,
+      "weaponMaxBudget": 100,
+      "consensusWeaponName": "M16A4",
+      "layerATotal": 80,
+      "layerBTotal": 20,
+      "objectiveScore": 100,
+      "effectTotals": {
+        "recoilRecovery": 2,
+        "weaponSway": 1,
+        "hipfire": 2,
+        "hidingVisibility": 6,
+        "accuracyOverTime": 2,
+        "drawSpeed": 1,
+        "projectileVelocity": 1,
+        "recoilControl": 5,
+        "recoilPrecision": 5,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "adsMovementSpeed": 1
+      },
+      "attachments": [
+        {
+          "id": "LONGSUPPRESSOR",
+          "slot": "muzzle",
+          "name": {
+            "it": "Silenziatore lungo",
+            "en": "Long Suppressor"
+          },
+          "points": 25,
+          "pointCost": 25,
+          "effects": {
+            "recoilRecovery": 2,
+            "weaponSway": 1,
+            "hipfire": 2,
+            "hidingVisibility": 6
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
+          "name": {
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "LOWPROFILESTUBBY",
+          "slot": "underbarrel",
+          "name": {
+            "it": "Stubby a basso profilo",
+            "en": "Low-Profile Stubby"
+          },
+          "points": 45,
+          "pointCost": 45,
+          "effects": {
+            "recoilControl": 5,
+            "recoilPrecision": 5,
+            "adsMovingAccuracy": 2,
+            "adsTimeTier": 2,
+            "adsMovementSpeed": 1
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "AMMO_POLYMERCASE",
+          "slot": "ammo",
+          "name": {
+            "it": "POLYMER CASE",
+            "en": "POLYMER CASE"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+          "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+          "unlockLevel": 0
+        },
+        {
+          "id": "OPTIC_CCO200X",
+          "slot": "optic",
+          "name": {
+            "it": "CCO 2.00X",
+            "en": "CCO 2.00X"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+          "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+          "unlockLevel": 0
+        }
+      ],
+      "alternativeVariants": [
+        {
+          "variantId": "lowest-recoil",
+          "variantLabel": {
+            "it": "Rinculo minimo",
+            "en": "Lowest Recoil"
+          },
+          "attachments": [
+            {
+              "id": "BARREL_HEAVYEXT",
+              "slot": "barrel",
+              "name": {
+                "it": "HEAVY EXT.",
+                "en": "HEAVY EXT."
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "UNDERBARREL_CLASSICVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "CLASSIC VERTICAL",
+                "en": "CLASSIC VERTICAL"
+              },
+              "points": 35,
+              "pointCost": 35,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "AMMO_FMJ",
+              "slot": "ammo",
+              "name": {
+                "it": "FMJ",
+                "en": "FMJ"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "MUZZLE_COMPENSATEDBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "COMPENSATED BRAKE",
+                "en": "COMPENSATED BRAKE"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "TOPACCESSORY_50MWBLUE",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW BLUE",
+                "en": "50 MW BLUE"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "OPTIC_CCO200X",
+              "slot": "optic",
+              "name": {
+                "it": "CCO 2.00X",
+                "en": "CCO 2.00X"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            }
+          ],
+          "totalPoints": 100
+        },
+        {
+          "variantId": "fastest-ads",
+          "variantLabel": {
+            "it": "ADS rapido",
+            "en": "Fastest ADS"
+          },
+          "attachments": [
+            {
+              "id": "BARREL_LIGHT",
+              "slot": "barrel",
+              "name": {
+                "it": "LIGHT",
+                "en": "LIGHT"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "UNDERBARREL_LOWPROFILESTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "LOW-PROFILE STUBBY",
+                "en": "LOW-PROFILE STUBBY"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "AMMO_FMJ",
+              "slot": "ammo",
+              "name": {
+                "it": "FMJ",
+                "en": "FMJ"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "MUZZLE_COMPENSATEDBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "COMPENSATED BRAKE",
+                "en": "COMPENSATED BRAKE"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "OPTIC_CCO200X",
+              "slot": "optic",
+              "name": {
+                "it": "CCO 2.00X",
+                "en": "CCO 2.00X"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            }
+          ],
+          "totalPoints": 100
+        },
+        {
+          "variantId": "hip-fire",
+          "variantLabel": {
+            "it": "Hip fire",
+            "en": "Hip Fire"
+          },
+          "attachments": [
+            {
+              "id": "BARREL_SHORT",
+              "slot": "barrel",
+              "name": {
+                "it": "SHORT",
+                "en": "SHORT"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "AMMO_POLYMERCASE",
+              "slot": "ammo",
+              "name": {
+                "it": "POLYMER CASE",
+                "en": "POLYMER CASE"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "IMPROVED MAG CATCH",
+                "en": "IMPROVED MAG CATCH"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "LEFTACCESSORY_50MWGREEN",
+              "slot": "leftAccessory",
+              "name": {
+                "it": "50 MW GREEN",
+                "en": "50 MW GREEN"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "RIGHTACCESSORY_50MWGREEN",
+              "slot": "rightAccessory",
+              "name": {
+                "it": "50 MW GREEN",
+                "en": "50 MW GREEN"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "TOPACCESSORY_50MWGREEN",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW GREEN",
+                "en": "50 MW GREEN"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "OPTIC_CCO200X",
+              "slot": "optic",
+              "name": {
+                "it": "CCO 2.00X",
+                "en": "CCO 2.00X"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
+              "fetchTimestamp": "2026-05-12T14:28:55.943Z",
+              "unlockLevel": 0
+            }
+          ],
+          "totalPoints": 100
+        }
+      ],
+      "rationale": {
+        "it": "Priorita a controllo, velocity e firma silenziata: build da teamfire 20-60 m.",
+        "en": "Prioritizes control, velocity, and suppressed signature: 20-60 m teamfire build."
+      },
+      "rationaleData": {
+        "chosenJustification": [
+          {
+            "attachmentId": "LONGSUPPRESSOR",
+            "reason": "primary hidingVisibility driver (+6 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "reason": "best legal barrel fit within budget",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "LOWPROFILESTUBBY",
+            "reason": "primary recoilControl driver (+5 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_OPTIC",
+            "reason": "optic slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_MAGAZINE",
+            "reason": "magazine slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_AMMO",
+            "reason": "ammo slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          }
+        ],
+        "rejectedTopRunnerUp": {
+          "attachmentId": "NO_BARREL",
+          "slot": "barrel",
+          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+        }
+      },
+      "sourceHashes": {
+        "attachments": "e9348813750af51f",
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -4848,7 +5349,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-          "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+          "fetchTimestamp": "2026-05-12T14:28:18.415Z",
           "unlockLevel": 0
         },
         {
@@ -4864,7 +5365,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-          "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+          "fetchTimestamp": "2026-05-12T14:28:18.415Z",
           "unlockLevel": 31
         },
         {
@@ -4880,7 +5381,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-          "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+          "fetchTimestamp": "2026-05-12T14:28:18.415Z",
           "unlockLevel": 4
         }
       ],
@@ -4905,7 +5406,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 13
             },
             {
@@ -4921,7 +5422,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 15
             },
             {
@@ -4937,7 +5438,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 0
             },
             {
@@ -4953,7 +5454,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 3
             },
             {
@@ -4969,7 +5470,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 31
             },
             {
@@ -4985,7 +5486,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 4
             }
           ],
@@ -5011,7 +5512,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 25
             },
             {
@@ -5027,7 +5528,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 39
             },
             {
@@ -5043,7 +5544,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 0
             },
             {
@@ -5059,7 +5560,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 2
             },
             {
@@ -5075,7 +5576,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 31
             },
             {
@@ -5091,7 +5592,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 4
             }
           ],
@@ -5117,7 +5618,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 0
             },
             {
@@ -5133,7 +5634,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 4
             },
             {
@@ -5149,7 +5650,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 18
             },
             {
@@ -5165,7 +5666,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 31
             },
             {
@@ -5181,7 +5682,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 8
             },
             {
@@ -5197,7 +5698,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 19
             },
             {
@@ -5213,7 +5714,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 4
             },
             {
@@ -5229,7 +5730,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T04:02:38.300Z",
+              "fetchTimestamp": "2026-05-12T14:28:18.415Z",
               "unlockLevel": 4
             }
           ],
@@ -5286,7 +5787,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -5392,7 +5893,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-          "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+          "fetchTimestamp": "2026-05-12T14:28:43.824Z",
           "unlockLevel": 0
         },
         {
@@ -5408,7 +5909,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-          "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+          "fetchTimestamp": "2026-05-12T14:28:43.824Z",
           "unlockLevel": 25
         },
         {
@@ -5424,7 +5925,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-          "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+          "fetchTimestamp": "2026-05-12T14:28:43.824Z",
           "unlockLevel": 3
         }
       ],
@@ -5449,7 +5950,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 7
             },
             {
@@ -5465,7 +5966,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 35
             },
             {
@@ -5481,7 +5982,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 0
             },
             {
@@ -5497,7 +5998,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 3
             },
             {
@@ -5513,7 +6014,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 25
             },
             {
@@ -5529,7 +6030,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 3
             }
           ],
@@ -5555,7 +6056,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 0
             },
             {
@@ -5571,7 +6072,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 39
             },
             {
@@ -5587,7 +6088,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 0
             },
             {
@@ -5603,7 +6104,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 17
             },
             {
@@ -5619,7 +6120,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 25
             },
             {
@@ -5635,7 +6136,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 3
             }
           ],
@@ -5661,7 +6162,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 35
             },
             {
@@ -5677,7 +6178,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 0
             },
             {
@@ -5693,7 +6194,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 32
             },
             {
@@ -5709,7 +6210,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 8
             },
             {
@@ -5725,7 +6226,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 19
             },
             {
@@ -5741,7 +6242,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 4
             },
             {
@@ -5757,7 +6258,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T04:03:06.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:43.824Z",
               "unlockLevel": 3
             }
           ],
@@ -5814,7 +6315,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -5918,7 +6419,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-          "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+          "fetchTimestamp": "2026-05-12T14:28:06.331Z",
           "unlockLevel": 0
         },
         {
@@ -5934,7 +6435,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-          "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+          "fetchTimestamp": "2026-05-12T14:28:06.331Z",
           "unlockLevel": 25
         },
         {
@@ -5950,7 +6451,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-          "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+          "fetchTimestamp": "2026-05-12T14:28:06.331Z",
           "unlockLevel": 0
         }
       ],
@@ -5975,7 +6476,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 3
             },
             {
@@ -5991,7 +6492,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 7
             },
             {
@@ -6007,7 +6508,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             },
             {
@@ -6023,7 +6524,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 3
             },
             {
@@ -6039,7 +6540,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 25
             },
             {
@@ -6055,7 +6556,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             }
           ],
@@ -6081,7 +6582,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             },
             {
@@ -6097,7 +6598,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 29
             },
             {
@@ -6113,7 +6614,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             },
             {
@@ -6129,7 +6630,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 7
             },
             {
@@ -6145,7 +6646,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 25
             },
             {
@@ -6161,7 +6662,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 6
             },
             {
@@ -6177,7 +6678,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             }
           ],
@@ -6203,7 +6704,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 2
             },
             {
@@ -6219,7 +6720,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             },
             {
@@ -6235,7 +6736,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 25
             },
             {
@@ -6251,7 +6752,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 8
             },
             {
@@ -6267,7 +6768,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 19
             },
             {
@@ -6283,7 +6784,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T04:02:27.729Z",
+              "fetchTimestamp": "2026-05-12T14:28:06.331Z",
               "unlockLevel": 0
             }
           ],
@@ -6340,7 +6841,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -6444,7 +6945,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-          "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+          "fetchTimestamp": "2026-05-12T14:28:49.995Z",
           "unlockLevel": 0
         },
         {
@@ -6460,7 +6961,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-          "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+          "fetchTimestamp": "2026-05-12T14:28:49.995Z",
           "unlockLevel": 29
         },
         {
@@ -6476,7 +6977,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-          "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+          "fetchTimestamp": "2026-05-12T14:28:49.995Z",
           "unlockLevel": 3
         }
       ],
@@ -6501,7 +7002,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 5
             },
             {
@@ -6517,7 +7018,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 14
             },
             {
@@ -6533,7 +7034,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 0
             },
             {
@@ -6549,7 +7050,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 3
             },
             {
@@ -6565,7 +7066,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 29
             },
             {
@@ -6581,7 +7082,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 3
             }
           ],
@@ -6607,7 +7108,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 5
             },
             {
@@ -6623,7 +7124,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 39
             },
             {
@@ -6639,7 +7140,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 0
             },
             {
@@ -6655,7 +7156,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 1
             },
             {
@@ -6671,7 +7172,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 29
             },
             {
@@ -6687,7 +7188,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 3
             }
           ],
@@ -6713,7 +7214,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 13
             },
             {
@@ -6729,7 +7230,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 4
             },
             {
@@ -6745,7 +7246,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 16
             },
             {
@@ -6761,7 +7262,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 29
             },
             {
@@ -6777,7 +7278,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 7
             },
             {
@@ -6793,7 +7294,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 19
             },
             {
@@ -6809,7 +7310,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T04:03:14.220Z",
+              "fetchTimestamp": "2026-05-12T14:28:49.995Z",
               "unlockLevel": 3
             }
           ],
@@ -6866,7 +7367,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -6971,7 +7472,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-          "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+          "fetchTimestamp": "2026-05-12T14:28:45.046Z",
           "unlockLevel": 0
         },
         {
@@ -6987,7 +7488,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-          "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+          "fetchTimestamp": "2026-05-12T14:28:45.046Z",
           "unlockLevel": 15
         },
         {
@@ -7003,7 +7504,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-          "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+          "fetchTimestamp": "2026-05-12T14:28:45.046Z",
           "unlockLevel": 27
         }
       ],
@@ -7028,7 +7529,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 16
             },
             {
@@ -7044,7 +7545,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 29
             },
             {
@@ -7060,7 +7561,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 0
             },
             {
@@ -7076,7 +7577,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 2
             },
             {
@@ -7092,7 +7593,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 15
             },
             {
@@ -7108,7 +7609,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 27
             }
           ],
@@ -7134,7 +7635,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 4
             },
             {
@@ -7150,7 +7651,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 34
             },
             {
@@ -7166,7 +7667,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 0
             },
             {
@@ -7182,7 +7683,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 7
             },
             {
@@ -7198,7 +7699,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 15
             },
             {
@@ -7214,7 +7715,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 27
             }
           ],
@@ -7240,7 +7741,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 0
             },
             {
@@ -7256,7 +7757,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 22
             },
             {
@@ -7272,7 +7773,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 15
             },
             {
@@ -7288,7 +7789,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 6
             },
             {
@@ -7304,7 +7805,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 19
             },
             {
@@ -7320,7 +7821,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T04:03:08.244Z",
+              "fetchTimestamp": "2026-05-12T14:28:45.046Z",
               "unlockLevel": 27
             }
           ],
@@ -7377,7 +7878,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -7481,7 +7982,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-          "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+          "fetchTimestamp": "2026-05-12T14:28:27.983Z",
           "unlockLevel": 0
         },
         {
@@ -7497,7 +7998,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-          "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+          "fetchTimestamp": "2026-05-12T14:28:27.983Z",
           "unlockLevel": 0
         },
         {
@@ -7513,7 +8014,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-          "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+          "fetchTimestamp": "2026-05-12T14:28:27.983Z",
           "unlockLevel": 2
         }
       ],
@@ -7538,7 +8039,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 16
             },
             {
@@ -7554,7 +8055,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 34
             },
             {
@@ -7570,7 +8071,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 0
             },
             {
@@ -7586,7 +8087,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 26
             },
             {
@@ -7602,7 +8103,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 0
             },
             {
@@ -7618,7 +8119,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 2
             }
           ],
@@ -7644,7 +8145,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 16
             },
             {
@@ -7660,7 +8161,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 39
             },
             {
@@ -7676,7 +8177,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 22
             },
             {
@@ -7692,7 +8193,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 0
             },
             {
@@ -7708,7 +8209,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 2
             }
           ],
@@ -7734,7 +8235,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 16
             },
             {
@@ -7750,7 +8251,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 4
             },
             {
@@ -7766,7 +8267,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 14
             },
             {
@@ -7782,7 +8283,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 8
             },
             {
@@ -7798,7 +8299,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 19
             },
             {
@@ -7814,7 +8315,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 2
             },
             {
@@ -7830,7 +8331,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 0
             },
             {
@@ -7846,7 +8347,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T04:02:48.811Z",
+              "fetchTimestamp": "2026-05-12T14:28:27.983Z",
               "unlockLevel": 2
             }
           ],
@@ -7903,7 +8404,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -8007,7 +8508,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-          "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+          "fetchTimestamp": "2026-05-12T14:28:09.969Z",
           "unlockLevel": 0
         },
         {
@@ -8023,7 +8524,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-          "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+          "fetchTimestamp": "2026-05-12T14:28:09.969Z",
           "unlockLevel": 29
         },
         {
@@ -8039,7 +8540,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-          "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+          "fetchTimestamp": "2026-05-12T14:28:09.969Z",
           "unlockLevel": 35
         }
       ],
@@ -8064,7 +8565,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 2
             },
             {
@@ -8080,7 +8581,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 31
             },
             {
@@ -8096,7 +8597,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 0
             },
             {
@@ -8112,7 +8613,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 3
             },
             {
@@ -8128,7 +8629,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 29
             },
             {
@@ -8144,7 +8645,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 35
             }
           ],
@@ -8170,7 +8671,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 24
             },
             {
@@ -8186,7 +8687,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 40
             },
             {
@@ -8202,7 +8703,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 0
             },
             {
@@ -8218,7 +8719,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 19
             },
             {
@@ -8234,7 +8735,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 29
             },
             {
@@ -8250,7 +8751,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 35
             }
           ],
@@ -8276,7 +8777,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 24
             },
             {
@@ -8292,7 +8793,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 13
             },
             {
@@ -8308,7 +8809,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 9
             },
             {
@@ -8324,7 +8825,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 29
             },
             {
@@ -8340,7 +8841,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 8
             },
             {
@@ -8356,7 +8857,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 19
             },
             {
@@ -8372,7 +8873,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 3
             },
             {
@@ -8388,7 +8889,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T04:02:29.032Z",
+              "fetchTimestamp": "2026-05-12T14:28:09.969Z",
               "unlockLevel": 35
             }
           ],
@@ -8445,7 +8946,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -8549,7 +9050,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-          "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+          "fetchTimestamp": "2026-05-12T14:28:35.165Z",
           "unlockLevel": 0
         },
         {
@@ -8565,7 +9066,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-          "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+          "fetchTimestamp": "2026-05-12T14:28:35.165Z",
           "unlockLevel": 28
         },
         {
@@ -8581,7 +9082,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-          "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+          "fetchTimestamp": "2026-05-12T14:28:35.165Z",
           "unlockLevel": 3
         }
       ],
@@ -8606,7 +9107,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 5
             },
             {
@@ -8622,7 +9123,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 33
             },
             {
@@ -8638,7 +9139,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 0
             },
             {
@@ -8654,7 +9155,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 3
             },
             {
@@ -8670,7 +9171,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 28
             },
             {
@@ -8686,7 +9187,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 3
             }
           ],
@@ -8712,7 +9213,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 24
             },
             {
@@ -8728,7 +9229,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 39
             },
             {
@@ -8744,7 +9245,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 0
             },
             {
@@ -8760,7 +9261,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 2
             },
             {
@@ -8776,7 +9277,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 28
             },
             {
@@ -8792,7 +9293,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 3
             }
           ],
@@ -8818,7 +9319,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 13
             },
             {
@@ -8834,7 +9335,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 4
             },
             {
@@ -8850,7 +9351,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 23
             },
             {
@@ -8866,7 +9367,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 28
             },
             {
@@ -8882,7 +9383,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 15
             },
             {
@@ -8898,7 +9399,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 2
             },
             {
@@ -8914,7 +9415,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 18
             },
             {
@@ -8930,7 +9431,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T04:02:57.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:35.165Z",
               "unlockLevel": 3
             }
           ],
@@ -8987,7 +9488,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -9093,7 +9594,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-          "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+          "fetchTimestamp": "2026-05-12T14:28:12.379Z",
           "unlockLevel": 0
         },
         {
@@ -9109,7 +9610,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-          "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+          "fetchTimestamp": "2026-05-12T14:28:12.379Z",
           "unlockLevel": 32
         },
         {
@@ -9125,7 +9626,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-          "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+          "fetchTimestamp": "2026-05-12T14:28:12.379Z",
           "unlockLevel": 26
         },
         {
@@ -9141,7 +9642,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-          "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+          "fetchTimestamp": "2026-05-12T14:28:12.379Z",
           "unlockLevel": 0
         }
       ],
@@ -9166,7 +9667,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             },
             {
@@ -9182,7 +9683,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 24
             },
             {
@@ -9198,7 +9699,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             },
             {
@@ -9214,7 +9715,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 39
             },
             {
@@ -9230,7 +9731,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 32
             },
             {
@@ -9246,7 +9747,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             }
           ],
@@ -9272,7 +9773,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 16
             },
             {
@@ -9288,7 +9789,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 27
             },
             {
@@ -9304,7 +9805,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             },
             {
@@ -9320,7 +9821,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 5
             },
             {
@@ -9336,7 +9837,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 32
             },
             {
@@ -9352,7 +9853,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             }
           ],
@@ -9378,7 +9879,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 8
             },
             {
@@ -9394,7 +9895,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 35
             },
             {
@@ -9410,7 +9911,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             },
             {
@@ -9426,7 +9927,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 32
             },
             {
@@ -9442,7 +9943,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 5
             },
             {
@@ -9458,7 +9959,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 12
             },
             {
@@ -9474,7 +9975,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T04:02:31.727Z",
+              "fetchTimestamp": "2026-05-12T14:28:12.379Z",
               "unlockLevel": 0
             }
           ],
@@ -9531,7 +10032,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -9637,7 +10138,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-          "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+          "fetchTimestamp": "2026-05-12T14:28:37.551Z",
           "unlockLevel": 0
         },
         {
@@ -9653,7 +10154,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-          "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+          "fetchTimestamp": "2026-05-12T14:28:37.551Z",
           "unlockLevel": 28
         },
         {
@@ -9669,7 +10170,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-          "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+          "fetchTimestamp": "2026-05-12T14:28:37.551Z",
           "unlockLevel": 35
         },
         {
@@ -9685,7 +10186,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-          "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+          "fetchTimestamp": "2026-05-12T14:28:37.551Z",
           "unlockLevel": 0
         }
       ],
@@ -9710,7 +10211,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             },
             {
@@ -9726,7 +10227,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 21
             },
             {
@@ -9742,7 +10243,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             },
             {
@@ -9758,7 +10259,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 3
             },
             {
@@ -9774,7 +10275,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 28
             },
             {
@@ -9790,7 +10291,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             }
           ],
@@ -9816,7 +10317,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             },
             {
@@ -9832,7 +10333,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 31
             },
             {
@@ -9848,7 +10349,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             },
             {
@@ -9864,7 +10365,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 3
             },
             {
@@ -9880,7 +10381,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 28
             },
             {
@@ -9896,7 +10397,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             }
           ],
@@ -9922,7 +10423,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 12
             },
             {
@@ -9938,7 +10439,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 40
             },
             {
@@ -9954,7 +10455,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 28
             },
             {
@@ -9970,7 +10471,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 12
             },
             {
@@ -9986,7 +10487,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 22
             },
             {
@@ -10002,7 +10503,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 2
             },
             {
@@ -10018,7 +10519,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T04:03:00.094Z",
+              "fetchTimestamp": "2026-05-12T14:28:37.551Z",
               "unlockLevel": 0
             }
           ],
@@ -10075,7 +10576,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -10177,7 +10678,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-          "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+          "fetchTimestamp": "2026-05-12T14:28:40.099Z",
           "unlockLevel": 0
         },
         {
@@ -10193,7 +10694,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-          "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+          "fetchTimestamp": "2026-05-12T14:28:40.099Z",
           "unlockLevel": 34
         },
         {
@@ -10209,7 +10710,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-          "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+          "fetchTimestamp": "2026-05-12T14:28:40.099Z",
           "unlockLevel": 22
         },
         {
@@ -10225,7 +10726,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-          "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+          "fetchTimestamp": "2026-05-12T14:28:40.099Z",
           "unlockLevel": 35
         },
         {
@@ -10241,7 +10742,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-          "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+          "fetchTimestamp": "2026-05-12T14:28:40.099Z",
           "unlockLevel": 0
         }
       ],
@@ -10266,7 +10767,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 14
             },
             {
@@ -10282,7 +10783,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 33
             },
             {
@@ -10298,7 +10799,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             },
             {
@@ -10314,7 +10815,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 3
             },
             {
@@ -10330,7 +10831,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 34
             },
             {
@@ -10346,7 +10847,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             }
           ],
@@ -10372,7 +10873,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             },
             {
@@ -10388,7 +10889,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 40
             },
             {
@@ -10404,7 +10905,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             },
             {
@@ -10420,7 +10921,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 2
             },
             {
@@ -10436,7 +10937,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 34
             },
             {
@@ -10452,7 +10953,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 22
             },
             {
@@ -10468,7 +10969,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             }
           ],
@@ -10494,7 +10995,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             },
             {
@@ -10510,7 +11011,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 17
             },
             {
@@ -10526,7 +11027,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             },
             {
@@ -10542,7 +11043,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 34
             },
             {
@@ -10558,7 +11059,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 22
             },
             {
@@ -10574,7 +11075,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 8
             },
             {
@@ -10590,7 +11091,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 19
             },
             {
@@ -10606,7 +11107,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T04:03:02.837Z",
+              "fetchTimestamp": "2026-05-12T14:28:40.099Z",
               "unlockLevel": 0
             }
           ],
@@ -10663,7 +11164,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -10767,7 +11268,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-          "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+          "fetchTimestamp": "2026-05-12T14:28:54.749Z",
           "unlockLevel": 0
         },
         {
@@ -10783,7 +11284,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-          "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+          "fetchTimestamp": "2026-05-12T14:28:54.749Z",
           "unlockLevel": 35
         },
         {
@@ -10799,7 +11300,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-          "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+          "fetchTimestamp": "2026-05-12T14:28:54.749Z",
           "unlockLevel": 38
         },
         {
@@ -10815,7 +11316,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-          "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+          "fetchTimestamp": "2026-05-12T14:28:54.749Z",
           "unlockLevel": 1
         }
       ],
@@ -10840,7 +11341,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 16
             },
             {
@@ -10856,7 +11357,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 33
             },
             {
@@ -10872,7 +11373,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 0
             },
             {
@@ -10888,7 +11389,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 3
             },
             {
@@ -10904,7 +11405,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 35
             },
             {
@@ -10920,7 +11421,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 1
             }
           ],
@@ -10946,7 +11447,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 26
             },
             {
@@ -10962,7 +11463,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 40
             },
             {
@@ -10978,7 +11479,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 0
             },
             {
@@ -10994,7 +11495,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 8
             },
             {
@@ -11010,7 +11511,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 35
             },
             {
@@ -11026,7 +11527,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 1
             }
           ],
@@ -11052,7 +11553,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 34
             },
             {
@@ -11068,7 +11569,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 17
             },
             {
@@ -11084,7 +11585,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 0
             },
             {
@@ -11100,7 +11601,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 35
             },
             {
@@ -11116,7 +11617,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 22
             },
             {
@@ -11132,7 +11633,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 23
             },
             {
@@ -11148,7 +11649,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T04:03:19.565Z",
+              "fetchTimestamp": "2026-05-12T14:28:54.749Z",
               "unlockLevel": 1
             }
           ],
@@ -11205,7 +11706,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -11310,7 +11811,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-          "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+          "fetchTimestamp": "2026-05-12T14:28:51.192Z",
           "unlockLevel": 17
         },
         {
@@ -11326,7 +11827,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-          "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+          "fetchTimestamp": "2026-05-12T14:28:51.192Z",
           "unlockLevel": 13
         },
         {
@@ -11342,7 +11843,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-          "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+          "fetchTimestamp": "2026-05-12T14:28:51.192Z",
           "unlockLevel": 25
         },
         {
@@ -11358,7 +11859,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-          "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+          "fetchTimestamp": "2026-05-12T14:28:51.192Z",
           "unlockLevel": 0
         },
         {
@@ -11374,7 +11875,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-          "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+          "fetchTimestamp": "2026-05-12T14:28:51.192Z",
           "unlockLevel": 19
         }
       ],
@@ -11399,7 +11900,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 34
             },
             {
@@ -11415,7 +11916,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 40
             },
             {
@@ -11431,7 +11932,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 3
             },
             {
@@ -11447,7 +11948,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 13
             },
             {
@@ -11463,7 +11964,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 25
             },
             {
@@ -11479,7 +11980,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 0
             },
             {
@@ -11495,7 +11996,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 19
             }
           ],
@@ -11521,7 +12022,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 34
             },
             {
@@ -11537,7 +12038,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 40
             },
             {
@@ -11553,7 +12054,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 3
             },
             {
@@ -11569,7 +12070,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 13
             },
             {
@@ -11585,7 +12086,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 25
             },
             {
@@ -11601,7 +12102,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 0
             },
             {
@@ -11617,7 +12118,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 19
             }
           ],
@@ -11643,7 +12144,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 34
             },
             {
@@ -11659,7 +12160,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 17
             },
             {
@@ -11675,7 +12176,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 6
             },
             {
@@ -11691,7 +12192,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 23
             },
             {
@@ -11707,7 +12208,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 13
             },
             {
@@ -11723,7 +12224,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 36
             },
             {
@@ -11739,7 +12240,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 0
             },
             {
@@ -11755,7 +12256,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T04:03:15.519Z",
+              "fetchTimestamp": "2026-05-12T14:28:51.192Z",
               "unlockLevel": 19
             }
           ],
@@ -11812,7 +12313,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -11916,7 +12417,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-          "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+          "fetchTimestamp": "2026-05-12T14:28:16.024Z",
           "unlockLevel": 0
         },
         {
@@ -11932,7 +12433,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-          "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+          "fetchTimestamp": "2026-05-12T14:28:16.024Z",
           "unlockLevel": 40
         },
         {
@@ -11948,7 +12449,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-          "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+          "fetchTimestamp": "2026-05-12T14:28:16.024Z",
           "unlockLevel": 18
         }
       ],
@@ -11973,7 +12474,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 0
             },
             {
@@ -11989,7 +12490,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 16
             },
             {
@@ -12005,7 +12506,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 0
             },
             {
@@ -12021,7 +12522,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 8
             },
             {
@@ -12037,7 +12538,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 40
             },
             {
@@ -12053,7 +12554,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 18
             }
           ],
@@ -12079,7 +12580,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 0
             },
             {
@@ -12095,7 +12596,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 38
             },
             {
@@ -12111,7 +12612,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 0
             },
             {
@@ -12127,7 +12628,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 11
             },
             {
@@ -12143,7 +12644,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 40
             },
             {
@@ -12159,7 +12660,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 18
             }
           ],
@@ -12185,7 +12686,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 0
             },
             {
@@ -12201,7 +12702,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 0
             },
             {
@@ -12217,7 +12718,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 40
             },
             {
@@ -12233,7 +12734,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 30
             },
             {
@@ -12249,7 +12750,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 4
             },
             {
@@ -12265,7 +12766,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T04:02:35.696Z",
+              "fetchTimestamp": "2026-05-12T14:28:16.024Z",
               "unlockLevel": 18
             }
           ],
@@ -12322,7 +12823,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -12426,7 +12927,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-          "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+          "fetchTimestamp": "2026-05-12T14:28:14.773Z",
           "unlockLevel": 0
         },
         {
@@ -12442,7 +12943,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-          "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+          "fetchTimestamp": "2026-05-12T14:28:14.773Z",
           "unlockLevel": 27
         },
         {
@@ -12458,7 +12959,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-          "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+          "fetchTimestamp": "2026-05-12T14:28:14.773Z",
           "unlockLevel": 5
         }
       ],
@@ -12483,7 +12984,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 0
             },
             {
@@ -12499,7 +13000,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 11
             },
             {
@@ -12515,7 +13016,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 0
             },
             {
@@ -12531,7 +13032,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 7
             },
             {
@@ -12547,7 +13048,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 27
             },
             {
@@ -12563,7 +13064,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 5
             }
           ],
@@ -12589,7 +13090,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 0
             },
             {
@@ -12605,7 +13106,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 38
             },
             {
@@ -12621,7 +13122,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 0
             },
             {
@@ -12637,7 +13138,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 7
             },
             {
@@ -12653,7 +13154,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 27
             },
             {
@@ -12669,7 +13170,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 5
             }
           ],
@@ -12695,7 +13196,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 0
             },
             {
@@ -12711,7 +13212,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 0
             },
             {
@@ -12727,7 +13228,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 27
             },
             {
@@ -12743,7 +13244,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 12
             },
             {
@@ -12759,7 +13260,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 23
             },
             {
@@ -12775,7 +13276,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T04:02:34.398Z",
+              "fetchTimestamp": "2026-05-12T14:28:14.773Z",
               "unlockLevel": 5
             }
           ],
@@ -12832,7 +13333,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -12934,7 +13435,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-          "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+          "fetchTimestamp": "2026-05-12T14:28:58.306Z",
           "unlockLevel": 0
         },
         {
@@ -12950,7 +13451,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-          "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+          "fetchTimestamp": "2026-05-12T14:28:58.306Z",
           "unlockLevel": 30
         },
         {
@@ -12966,7 +13467,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-          "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+          "fetchTimestamp": "2026-05-12T14:28:58.306Z",
           "unlockLevel": 5
         }
       ],
@@ -12991,7 +13492,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13007,7 +13508,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 2
             },
             {
@@ -13023,7 +13524,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13039,7 +13540,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 3
             },
             {
@@ -13055,7 +13556,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 30
             },
             {
@@ -13071,7 +13572,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 5
             }
           ],
@@ -13097,7 +13598,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13113,7 +13614,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13129,7 +13630,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13145,7 +13646,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 30
             },
             {
@@ -13161,7 +13662,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 5
             }
           ],
@@ -13187,7 +13688,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13203,7 +13704,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 0
             },
             {
@@ -13219,7 +13720,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 30
             },
             {
@@ -13235,7 +13736,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 21
             },
             {
@@ -13251,7 +13752,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T04:03:22.321Z",
+              "fetchTimestamp": "2026-05-12T14:28:58.306Z",
               "unlockLevel": 5
             }
           ],
@@ -13308,7 +13809,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -13413,7 +13914,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-          "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+          "fetchTimestamp": "2026-05-12T14:28:57.121Z",
           "unlockLevel": 0
         },
         {
@@ -13429,7 +13930,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-          "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+          "fetchTimestamp": "2026-05-12T14:28:57.121Z",
           "unlockLevel": 36
         },
         {
@@ -13445,7 +13946,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-          "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+          "fetchTimestamp": "2026-05-12T14:28:57.121Z",
           "unlockLevel": 0
         }
       ],
@@ -13470,7 +13971,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13486,7 +13987,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 32
             },
             {
@@ -13502,7 +14003,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13518,7 +14019,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 34
             },
             {
@@ -13534,7 +14035,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 36
             },
             {
@@ -13550,7 +14051,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 12
             },
             {
@@ -13566,7 +14067,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             }
           ],
@@ -13592,7 +14093,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 4
             },
             {
@@ -13608,7 +14109,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 36
             },
             {
@@ -13624,7 +14125,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13640,7 +14141,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 1
             },
             {
@@ -13656,7 +14157,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 36
             },
             {
@@ -13672,7 +14173,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             }
           ],
@@ -13698,7 +14199,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13714,7 +14215,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13730,7 +14231,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 36
             },
             {
@@ -13746,7 +14247,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 15
             },
             {
@@ -13762,7 +14263,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13778,7 +14279,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             },
             {
@@ -13794,7 +14295,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T04:03:20.976Z",
+              "fetchTimestamp": "2026-05-12T14:28:57.121Z",
               "unlockLevel": 0
             }
           ],
@@ -13851,7 +14352,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -13954,7 +14455,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-          "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+          "fetchTimestamp": "2026-05-12T14:28:13.580Z",
           "unlockLevel": 0
         },
         {
@@ -13970,7 +14471,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-          "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+          "fetchTimestamp": "2026-05-12T14:28:13.580Z",
           "unlockLevel": 0
         },
         {
@@ -13986,7 +14487,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-          "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+          "fetchTimestamp": "2026-05-12T14:28:13.580Z",
           "unlockLevel": 5
         }
       ],
@@ -14011,7 +14512,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 3
             },
             {
@@ -14027,7 +14528,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 32
             },
             {
@@ -14043,7 +14544,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 15
             },
             {
@@ -14059,7 +14560,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 3
             },
             {
@@ -14075,7 +14576,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 0
             },
             {
@@ -14091,7 +14592,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 5
             }
           ],
@@ -14117,7 +14618,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 3
             },
             {
@@ -14133,7 +14634,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 38
             },
             {
@@ -14149,7 +14650,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 0
             },
             {
@@ -14165,7 +14666,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 3
             },
             {
@@ -14181,7 +14682,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 0
             },
             {
@@ -14197,7 +14698,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 5
             }
           ],
@@ -14223,7 +14724,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 37
             },
             {
@@ -14239,7 +14740,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 4
             },
             {
@@ -14255,7 +14756,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 15
             },
             {
@@ -14271,7 +14772,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 8
             },
             {
@@ -14287,7 +14788,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 18
             },
             {
@@ -14303,7 +14804,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 0
             },
             {
@@ -14319,7 +14820,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T04:02:33.053Z",
+              "fetchTimestamp": "2026-05-12T14:28:13.580Z",
               "unlockLevel": 5
             }
           ],
@@ -14376,7 +14877,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -14477,7 +14978,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-          "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+          "fetchTimestamp": "2026-05-12T14:28:05.010Z",
           "unlockLevel": 15
         },
         {
@@ -14493,7 +14994,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-          "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+          "fetchTimestamp": "2026-05-12T14:28:05.010Z",
           "unlockLevel": 12
         },
         {
@@ -14509,7 +15010,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-          "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+          "fetchTimestamp": "2026-05-12T14:28:05.010Z",
           "unlockLevel": 17
         }
       ],
@@ -14534,7 +15035,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 14
             },
             {
@@ -14550,7 +15051,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 33
             },
             {
@@ -14566,7 +15067,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 15
             },
             {
@@ -14582,7 +15083,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 3
             },
             {
@@ -14598,7 +15099,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 12
             },
             {
@@ -14614,7 +15115,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 17
             }
           ],
@@ -14640,7 +15141,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 37
             },
             {
@@ -14656,7 +15157,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 39
             },
             {
@@ -14672,7 +15173,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 0
             },
             {
@@ -14688,7 +15189,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 2
             },
             {
@@ -14704,7 +15205,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 12
             },
             {
@@ -14720,7 +15221,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 17
             }
           ],
@@ -14746,7 +15247,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 28
             },
             {
@@ -14762,7 +15263,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 4
             },
             {
@@ -14778,7 +15279,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 15
             },
             {
@@ -14794,7 +15295,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 12
             },
             {
@@ -14810,7 +15311,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 8
             },
             {
@@ -14826,7 +15327,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 19
             },
             {
@@ -14842,7 +15343,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 2
             },
             {
@@ -14858,7 +15359,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T04:02:26.322Z",
+              "fetchTimestamp": "2026-05-12T14:28:05.010Z",
               "unlockLevel": 17
             }
           ],
@@ -14915,7 +15416,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -15019,7 +15520,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-          "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+          "fetchTimestamp": "2026-05-12T14:28:46.263Z",
           "unlockLevel": 0
         },
         {
@@ -15035,7 +15536,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-          "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+          "fetchTimestamp": "2026-05-12T14:28:46.263Z",
           "unlockLevel": 0
         },
         {
@@ -15051,7 +15552,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-          "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+          "fetchTimestamp": "2026-05-12T14:28:46.263Z",
           "unlockLevel": 0
         }
       ],
@@ -15076,7 +15577,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 4
             },
             {
@@ -15092,7 +15593,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 34
             },
             {
@@ -15108,7 +15609,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 15
             },
             {
@@ -15124,7 +15625,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 3
             },
             {
@@ -15140,7 +15641,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             },
             {
@@ -15156,7 +15657,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             }
           ],
@@ -15182,7 +15683,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 4
             },
             {
@@ -15198,7 +15699,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 39
             },
             {
@@ -15214,7 +15715,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             },
             {
@@ -15230,7 +15731,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 3
             },
             {
@@ -15246,7 +15747,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             },
             {
@@ -15262,7 +15763,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             }
           ],
@@ -15288,7 +15789,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 29
             },
             {
@@ -15304,7 +15805,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 4
             },
             {
@@ -15320,7 +15821,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 15
             },
             {
@@ -15336,7 +15837,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 8
             },
             {
@@ -15352,7 +15853,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 19
             },
             {
@@ -15368,7 +15869,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             },
             {
@@ -15384,7 +15885,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T04:03:10.018Z",
+              "fetchTimestamp": "2026-05-12T14:28:46.263Z",
               "unlockLevel": 0
             }
           ],
@@ -15441,7 +15942,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -15544,7 +16045,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-          "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+          "fetchTimestamp": "2026-05-12T14:28:36.353Z",
           "unlockLevel": 0
         },
         {
@@ -15560,7 +16061,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-          "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+          "fetchTimestamp": "2026-05-12T14:28:36.353Z",
           "unlockLevel": 24
         },
         {
@@ -15576,7 +16077,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-          "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+          "fetchTimestamp": "2026-05-12T14:28:36.353Z",
           "unlockLevel": 0
         }
       ],
@@ -15601,7 +16102,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             },
             {
@@ -15617,7 +16118,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 32
             },
             {
@@ -15633,7 +16134,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 29
             },
             {
@@ -15649,7 +16150,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 3
             },
             {
@@ -15665,7 +16166,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             },
             {
@@ -15681,7 +16182,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             }
           ],
@@ -15707,7 +16208,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 21
             },
             {
@@ -15723,7 +16224,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 38
             },
             {
@@ -15739,7 +16240,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             },
             {
@@ -15755,7 +16256,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 3
             },
             {
@@ -15771,7 +16272,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             },
             {
@@ -15787,7 +16288,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             }
           ],
@@ -15813,7 +16314,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 28
             },
             {
@@ -15829,7 +16330,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 4
             },
             {
@@ -15845,7 +16346,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 25
             },
             {
@@ -15861,7 +16362,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 13
             },
             {
@@ -15877,7 +16378,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 8
             },
             {
@@ -15893,7 +16394,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 19
             },
             {
@@ -15909,7 +16410,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             },
             {
@@ -15925,7 +16426,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T04:02:58.692Z",
+              "fetchTimestamp": "2026-05-12T14:28:36.353Z",
               "unlockLevel": 0
             }
           ],
@@ -15982,7 +16483,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -16086,7 +16587,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-          "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+          "fetchTimestamp": "2026-05-12T14:28:29.172Z",
           "unlockLevel": 0
         },
         {
@@ -16102,7 +16603,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-          "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+          "fetchTimestamp": "2026-05-12T14:28:29.172Z",
           "unlockLevel": 0
         },
         {
@@ -16118,7 +16619,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-          "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+          "fetchTimestamp": "2026-05-12T14:28:29.172Z",
           "unlockLevel": 7
         }
       ],
@@ -16143,7 +16644,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 22
             },
             {
@@ -16159,7 +16660,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 32
             },
             {
@@ -16175,7 +16676,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 25
             },
             {
@@ -16191,7 +16692,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 3
             },
             {
@@ -16207,7 +16708,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 0
             },
             {
@@ -16223,7 +16724,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 7
             }
           ],
@@ -16249,7 +16750,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 38
             },
             {
@@ -16265,7 +16766,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 38
             },
             {
@@ -16281,7 +16782,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 0
             },
             {
@@ -16297,7 +16798,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 3
             },
             {
@@ -16313,7 +16814,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 0
             },
             {
@@ -16329,7 +16830,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 7
             }
           ],
@@ -16355,7 +16856,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 38
             },
             {
@@ -16371,7 +16872,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 4
             },
             {
@@ -16387,7 +16888,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 25
             },
             {
@@ -16403,7 +16904,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 2
             },
             {
@@ -16419,7 +16920,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 8
             },
             {
@@ -16435,7 +16936,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 19
             },
             {
@@ -16451,7 +16952,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 0
             },
             {
@@ -16467,7 +16968,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T04:02:50.116Z",
+              "fetchTimestamp": "2026-05-12T14:28:29.172Z",
               "unlockLevel": 7
             }
           ],
@@ -16524,7 +17025,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -16627,7 +17128,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-          "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+          "fetchTimestamp": "2026-05-12T14:28:24.387Z",
           "unlockLevel": 0
         },
         {
@@ -16643,7 +17144,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-          "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+          "fetchTimestamp": "2026-05-12T14:28:24.387Z",
           "unlockLevel": 0
         },
         {
@@ -16659,7 +17160,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-          "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+          "fetchTimestamp": "2026-05-12T14:28:24.387Z",
           "unlockLevel": 2
         }
       ],
@@ -16684,7 +17185,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 3
             },
             {
@@ -16700,7 +17201,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 37
             },
             {
@@ -16716,7 +17217,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 24
             },
             {
@@ -16732,7 +17233,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 3
             },
             {
@@ -16748,7 +17249,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 0
             },
             {
@@ -16764,7 +17265,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 2
             }
           ],
@@ -16790,7 +17291,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 3
             },
             {
@@ -16806,7 +17307,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 37
             },
             {
@@ -16822,7 +17323,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 24
             },
             {
@@ -16838,7 +17339,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 3
             },
             {
@@ -16854,7 +17355,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 0
             },
             {
@@ -16870,7 +17371,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 2
             }
           ],
@@ -16896,7 +17397,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 0
             },
             {
@@ -16912,7 +17413,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 37
             },
             {
@@ -16928,7 +17429,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 0
             },
             {
@@ -16944,7 +17445,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 0
             },
             {
@@ -16960,7 +17461,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 0
             },
             {
@@ -16976,7 +17477,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 19
             },
             {
@@ -16992,7 +17493,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T04:02:44.876Z",
+              "fetchTimestamp": "2026-05-12T14:28:24.387Z",
               "unlockLevel": 2
             }
           ],
@@ -17049,7 +17550,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -17152,7 +17653,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-          "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+          "fetchTimestamp": "2026-05-12T14:28:20.788Z",
           "unlockLevel": 15
         },
         {
@@ -17168,7 +17669,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-          "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+          "fetchTimestamp": "2026-05-12T14:28:20.788Z",
           "unlockLevel": 2
         },
         {
@@ -17184,7 +17685,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-          "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+          "fetchTimestamp": "2026-05-12T14:28:20.788Z",
           "unlockLevel": 21
         },
         {
@@ -17200,7 +17701,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-          "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+          "fetchTimestamp": "2026-05-12T14:28:20.788Z",
           "unlockLevel": 17
         }
       ],
@@ -17225,7 +17726,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 0
             },
             {
@@ -17241,7 +17742,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 34
             },
             {
@@ -17257,7 +17758,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 38
             },
             {
@@ -17273,7 +17774,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 3
             },
             {
@@ -17289,7 +17790,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 0
             },
             {
@@ -17305,7 +17806,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 17
             }
           ],
@@ -17331,7 +17832,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 24
             },
             {
@@ -17347,7 +17848,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 39
             },
             {
@@ -17363,7 +17864,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 0
             },
             {
@@ -17379,7 +17880,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 3
             },
             {
@@ -17395,7 +17896,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 0
             },
             {
@@ -17411,7 +17912,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 17
             }
           ],
@@ -17437,7 +17938,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 24
             },
             {
@@ -17453,7 +17954,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 21
             },
             {
@@ -17469,7 +17970,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 15
             },
             {
@@ -17485,7 +17986,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 13
             },
             {
@@ -17501,7 +18002,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 19
             },
             {
@@ -17517,7 +18018,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 2
             },
             {
@@ -17533,7 +18034,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 0
             },
             {
@@ -17549,7 +18050,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T04:02:40.900Z",
+              "fetchTimestamp": "2026-05-12T14:28:20.788Z",
               "unlockLevel": 17
             }
           ],
@@ -17606,7 +18107,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -17709,7 +18210,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-          "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+          "fetchTimestamp": "2026-05-12T14:28:52.351Z",
           "unlockLevel": 0
         },
         {
@@ -17725,7 +18226,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-          "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+          "fetchTimestamp": "2026-05-12T14:28:52.351Z",
           "unlockLevel": 17
         },
         {
@@ -17741,7 +18242,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-          "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+          "fetchTimestamp": "2026-05-12T14:28:52.351Z",
           "unlockLevel": 9
         }
       ],
@@ -17766,7 +18267,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 4
             },
             {
@@ -17782,7 +18283,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 38
             },
             {
@@ -17798,7 +18299,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 0
             },
             {
@@ -17814,7 +18315,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 3
             },
             {
@@ -17830,7 +18331,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 17
             },
             {
@@ -17846,7 +18347,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 9
             }
           ],
@@ -17872,7 +18373,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 4
             },
             {
@@ -17888,7 +18389,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 38
             },
             {
@@ -17904,7 +18405,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 0
             },
             {
@@ -17920,7 +18421,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 3
             },
             {
@@ -17936,7 +18437,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 17
             },
             {
@@ -17952,7 +18453,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 9
             }
           ],
@@ -17978,7 +18479,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 23
             },
             {
@@ -17994,7 +18495,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 4
             },
             {
@@ -18010,7 +18511,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 0
             },
             {
@@ -18026,7 +18527,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 17
             },
             {
@@ -18042,7 +18543,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 8
             },
             {
@@ -18058,7 +18559,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 19
             },
             {
@@ -18074,7 +18575,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 2
             },
             {
@@ -18090,7 +18591,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T04:03:16.849Z",
+              "fetchTimestamp": "2026-05-12T14:28:52.351Z",
               "unlockLevel": 9
             }
           ],
@@ -18147,7 +18648,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -18250,7 +18751,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-          "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+          "fetchTimestamp": "2026-05-12T14:29:01.976Z",
           "unlockLevel": 0
         },
         {
@@ -18266,7 +18767,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-          "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+          "fetchTimestamp": "2026-05-12T14:29:01.976Z",
           "unlockLevel": 6
         },
         {
@@ -18282,7 +18783,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-          "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+          "fetchTimestamp": "2026-05-12T14:29:01.976Z",
           "unlockLevel": 10
         }
       ],
@@ -18307,7 +18808,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 21
             },
             {
@@ -18323,7 +18824,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 37
             },
             {
@@ -18339,7 +18840,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 33
             },
             {
@@ -18355,7 +18856,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 23
             },
             {
@@ -18371,7 +18872,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18387,7 +18888,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 10
             }
           ],
@@ -18413,7 +18914,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18429,7 +18930,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 35
             },
             {
@@ -18445,7 +18946,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18461,7 +18962,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 23
             },
             {
@@ -18477,7 +18978,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18493,7 +18994,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 10
             }
           ],
@@ -18519,7 +19020,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18535,7 +19036,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 19
             },
             {
@@ -18551,7 +19052,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18567,7 +19068,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 13
             },
             {
@@ -18583,7 +19084,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 8
             },
             {
@@ -18599,7 +19100,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 23
             },
             {
@@ -18615,7 +19116,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 0
             },
             {
@@ -18631,7 +19132,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T04:03:26.175Z",
+              "fetchTimestamp": "2026-05-12T14:29:01.976Z",
               "unlockLevel": 10
             }
           ],
@@ -18688,7 +19189,502 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
+      }
+    },
+    {
+      "weaponId": "RPK74M",
+      "weaponName": "RPK-74M",
+      "categoryKey": "lmg",
+      "className": {
+        "it": "LMG",
+        "en": "LMG"
+      },
+      "slot": "primary",
+      "status": "solved",
+      "archetype": {
+        "id": "anchor-sustain",
+        "label": {
+          "it": "Anchor sustain",
+          "en": "Anchor sustain"
+        }
+      },
+      "totalPoints": 100,
+      "weaponMaxBudget": 100,
+      "consensusWeaponName": "RPK-74M",
+      "layerATotal": 85,
+      "layerBTotal": 15,
+      "objectiveScore": 100,
+      "effectTotals": {
+        "recoilRecovery": 2,
+        "hipfire": 2,
+        "hidingVisibility": 6,
+        "accuracyOverTime": 2,
+        "recoilControl": 5,
+        "recoilPrecision": 5,
+        "adsTimeTier": 2,
+        "adsMovingAccuracy": 2,
+        "adsMovementSpeed": 1
+      },
+      "attachments": [
+        {
+          "id": "LIGHTSUPPRESSOR",
+          "slot": "muzzle",
+          "name": {
+            "it": "Silenziatore alleggerito",
+            "en": "Light Suppressor"
+          },
+          "points": 30,
+          "pointCost": 30,
+          "effects": {
+            "recoilRecovery": 2,
+            "hipfire": 2,
+            "hidingVisibility": 6
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "HEAVYBARREL",
+          "slot": "barrel",
+          "name": {
+            "it": "Canna pesante",
+            "en": "Heavy Barrel"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {
+            "accuracyOverTime": 2
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "LOWPROFILESTUBBY",
+          "slot": "underbarrel",
+          "name": {
+            "it": "Stubby a basso profilo",
+            "en": "Low-Profile Stubby"
+          },
+          "points": 45,
+          "pointCost": 45,
+          "effects": {
+            "recoilControl": 5,
+            "recoilPrecision": 5,
+            "adsMovingAccuracy": 2,
+            "adsTimeTier": 2,
+            "adsMovementSpeed": 1
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "AMMO_FMJ",
+          "slot": "ammo",
+          "name": {
+            "it": "FMJ",
+            "en": "FMJ"
+          },
+          "points": 5,
+          "pointCost": 5,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+          "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+          "unlockLevel": 0
+        },
+        {
+          "id": "OPTIC_CCO200X",
+          "slot": "optic",
+          "name": {
+            "it": "CCO 2.00X",
+            "en": "CCO 2.00X"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+          "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+          "unlockLevel": 0
+        }
+      ],
+      "alternativeVariants": [
+        {
+          "variantId": "lowest-recoil",
+          "variantLabel": {
+            "it": "Rinculo minimo",
+            "en": "Lowest Recoil"
+          },
+          "attachments": [
+            {
+              "id": "BARREL_HEAVYEXT",
+              "slot": "barrel",
+              "name": {
+                "it": "HEAVY EXT.",
+                "en": "HEAVY EXT."
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "UNDERBARREL_CLASSICVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "CLASSIC VERTICAL",
+                "en": "CLASSIC VERTICAL"
+              },
+              "points": 35,
+              "pointCost": 35,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "AMMO_FMJ",
+              "slot": "ammo",
+              "name": {
+                "it": "FMJ",
+                "en": "FMJ"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "MUZZLE_COMPENSATEDBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "COMPENSATED BRAKE",
+                "en": "COMPENSATED BRAKE"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "TOPACCESSORY_50MWBLUE",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW BLUE",
+                "en": "50 MW BLUE"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "OPTIC_CCO200X",
+              "slot": "optic",
+              "name": {
+                "it": "CCO 2.00X",
+                "en": "CCO 2.00X"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            }
+          ],
+          "totalPoints": 100
+        },
+        {
+          "variantId": "fastest-ads",
+          "variantLabel": {
+            "it": "ADS rapido",
+            "en": "Fastest ADS"
+          },
+          "attachments": [
+            {
+              "id": "BARREL_LIGHT",
+              "slot": "barrel",
+              "name": {
+                "it": "LIGHT",
+                "en": "LIGHT"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "UNDERBARREL_LOWPROFILESTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "LOW-PROFILE STUBBY",
+                "en": "LOW-PROFILE STUBBY"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "AMMO_FMJ",
+              "slot": "ammo",
+              "name": {
+                "it": "FMJ",
+                "en": "FMJ"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "MUZZLE_COMPENSATEDBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "COMPENSATED BRAKE",
+                "en": "COMPENSATED BRAKE"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "OPTIC_CCO200X",
+              "slot": "optic",
+              "name": {
+                "it": "CCO 2.00X",
+                "en": "CCO 2.00X"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            }
+          ],
+          "totalPoints": 100
+        },
+        {
+          "variantId": "hip-fire",
+          "variantLabel": {
+            "it": "Hip fire",
+            "en": "Hip Fire"
+          },
+          "attachments": [
+            {
+              "id": "BARREL_SHORT",
+              "slot": "barrel",
+              "name": {
+                "it": "SHORT",
+                "en": "SHORT"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "AMMO_POLYMERCASE",
+              "slot": "ammo",
+              "name": {
+                "it": "POLYMER CASE",
+                "en": "POLYMER CASE"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "IMPROVED MAG CATCH",
+                "en": "IMPROVED MAG CATCH"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "LEFTACCESSORY_50MWGREEN",
+              "slot": "leftAccessory",
+              "name": {
+                "it": "50 MW GREEN",
+                "en": "50 MW GREEN"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "RIGHTACCESSORY_50MWGREEN",
+              "slot": "rightAccessory",
+              "name": {
+                "it": "50 MW GREEN",
+                "en": "50 MW GREEN"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "TOPACCESSORY_50MWGREEN",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW GREEN",
+                "en": "50 MW GREEN"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            },
+            {
+              "id": "OPTIC_CCO200X",
+              "slot": "optic",
+              "name": {
+                "it": "CCO 2.00X",
+                "en": "CCO 2.00X"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "effects": {},
+              "layer": "B",
+              "source": "battlefieldmeta.gg",
+              "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
+              "fetchTimestamp": "2026-05-12T14:29:03.197Z",
+              "unlockLevel": 0
+            }
+          ],
+          "totalPoints": 100
+        }
+      ],
+      "rationale": {
+        "it": "Stabilita e pressione lane per revive cover e fight lunghi contro armor.",
+        "en": "Stability and lane pressure for revive cover and long armor fights."
+      },
+      "rationaleData": {
+        "chosenJustification": [
+          {
+            "attachmentId": "LIGHTSUPPRESSOR",
+            "reason": "primary recoilRecovery driver (+2 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "HEAVYBARREL",
+            "reason": "primary accuracyOverTime driver (+2 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "LOWPROFILESTUBBY",
+            "reason": "primary recoilControl driver (+5 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_OPTIC",
+            "reason": "optic slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_MAGAZINE",
+            "reason": "magazine slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_AMMO",
+            "reason": "ammo slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          }
+        ],
+        "rejectedTopRunnerUp": {
+          "attachmentId": "NO_BARREL",
+          "slot": "barrel",
+          "whyNotPicked": "lower objective score by 8 points"
+        }
+      },
+      "sourceHashes": {
+        "attachments": "e9348813750af51f",
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -18795,7 +19791,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-          "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+          "fetchTimestamp": "2026-05-12T14:28:17.212Z",
           "unlockLevel": 0
         },
         {
@@ -18811,7 +19807,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-          "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+          "fetchTimestamp": "2026-05-12T14:28:17.212Z",
           "unlockLevel": 0
         },
         {
@@ -18827,7 +19823,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-          "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+          "fetchTimestamp": "2026-05-12T14:28:17.212Z",
           "unlockLevel": 5
         }
       ],
@@ -18852,7 +19848,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -18868,7 +19864,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 32
             },
             {
@@ -18884,7 +19880,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -18900,7 +19896,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 3
             },
             {
@@ -18916,7 +19912,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -18932,7 +19928,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 5
             }
           ],
@@ -18958,7 +19954,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -18974,7 +19970,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 32
             },
             {
@@ -18990,7 +19986,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -19006,7 +20002,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 3
             },
             {
@@ -19022,7 +20018,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -19038,7 +20034,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 5
             }
           ],
@@ -19064,7 +20060,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 20
             },
             {
@@ -19080,7 +20076,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 4
             },
             {
@@ -19096,7 +20092,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 30
             },
             {
@@ -19112,7 +20108,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 24
             },
             {
@@ -19128,7 +20124,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 19
             },
             {
@@ -19144,7 +20140,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 2
             },
             {
@@ -19160,7 +20156,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 18
             },
             {
@@ -19176,7 +20172,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 0
             },
             {
@@ -19192,7 +20188,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T04:02:36.983Z",
+              "fetchTimestamp": "2026-05-12T14:28:17.212Z",
               "unlockLevel": 5
             }
           ],
@@ -19249,7 +20245,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -19354,7 +20350,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-          "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+          "fetchTimestamp": "2026-05-12T14:28:47.525Z",
           "unlockLevel": 0
         },
         {
@@ -19370,7 +20366,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-          "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+          "fetchTimestamp": "2026-05-12T14:28:47.525Z",
           "unlockLevel": 28
         },
         {
@@ -19386,7 +20382,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-          "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+          "fetchTimestamp": "2026-05-12T14:28:47.525Z",
           "unlockLevel": 0
         }
       ],
@@ -19411,7 +20407,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             },
             {
@@ -19427,7 +20423,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 13
             },
             {
@@ -19443,7 +20439,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             },
             {
@@ -19459,7 +20455,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 6
             },
             {
@@ -19475,7 +20471,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 28
             },
             {
@@ -19491,7 +20487,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             }
           ],
@@ -19517,7 +20513,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             },
             {
@@ -19533,7 +20529,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 36
             },
             {
@@ -19549,7 +20545,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             },
             {
@@ -19565,7 +20561,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 6
             },
             {
@@ -19581,7 +20577,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 28
             },
             {
@@ -19597,7 +20593,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             }
           ],
@@ -19623,7 +20619,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             },
             {
@@ -19639,7 +20635,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             },
             {
@@ -19655,7 +20651,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 28
             },
             {
@@ -19671,7 +20667,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 3
             },
             {
@@ -19687,7 +20683,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 16
             },
             {
@@ -19703,7 +20699,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T04:03:11.350Z",
+              "fetchTimestamp": "2026-05-12T14:28:47.525Z",
               "unlockLevel": 0
             }
           ],
@@ -19760,7 +20756,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -19867,7 +20863,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-          "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+          "fetchTimestamp": "2026-05-12T14:28:38.747Z",
           "unlockLevel": 20
         },
         {
@@ -19883,7 +20879,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-          "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+          "fetchTimestamp": "2026-05-12T14:28:38.747Z",
           "unlockLevel": 0
         },
         {
@@ -19899,7 +20895,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-          "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+          "fetchTimestamp": "2026-05-12T14:28:38.747Z",
           "unlockLevel": 22
         }
       ],
@@ -19924,7 +20920,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 0
             },
             {
@@ -19940,7 +20936,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 27
             },
             {
@@ -19956,7 +20952,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 20
             },
             {
@@ -19972,7 +20968,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 20
             },
             {
@@ -19988,7 +20984,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 0
             },
             {
@@ -20004,7 +21000,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 22
             }
           ],
@@ -20030,7 +21026,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 0
             },
             {
@@ -20046,7 +21042,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 27
             },
             {
@@ -20062,7 +21058,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 20
             },
             {
@@ -20078,7 +21074,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 20
             },
             {
@@ -20094,7 +21090,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 0
             },
             {
@@ -20110,7 +21106,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 22
             }
           ],
@@ -20136,7 +21132,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 39
             },
             {
@@ -20152,7 +21148,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 32
             },
             {
@@ -20168,7 +21164,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 20
             },
             {
@@ -20184,7 +21180,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 7
             },
             {
@@ -20200,7 +21196,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 6
             },
             {
@@ -20216,7 +21212,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 26
             },
             {
@@ -20232,7 +21228,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 0
             },
             {
@@ -20248,7 +21244,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T04:03:01.514Z",
+              "fetchTimestamp": "2026-05-12T14:28:38.747Z",
               "unlockLevel": 22
             }
           ],
@@ -20305,7 +21301,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -20410,7 +21406,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-          "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+          "fetchTimestamp": "2026-05-12T14:28:31.597Z",
           "unlockLevel": 0
         },
         {
@@ -20426,7 +21422,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-          "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+          "fetchTimestamp": "2026-05-12T14:28:31.597Z",
           "unlockLevel": 25
         },
         {
@@ -20442,7 +21438,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-          "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+          "fetchTimestamp": "2026-05-12T14:28:31.597Z",
           "unlockLevel": 12
         }
       ],
@@ -20467,7 +21463,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 1
             },
             {
@@ -20483,7 +21479,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 8
             },
             {
@@ -20499,7 +21495,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 0
             },
             {
@@ -20515,7 +21511,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 6
             },
             {
@@ -20531,7 +21527,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 25
             },
             {
@@ -20547,7 +21543,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 12
             }
           ],
@@ -20573,7 +21569,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 1
             },
             {
@@ -20589,7 +21585,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 17
             },
             {
@@ -20605,7 +21601,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 0
             },
             {
@@ -20621,7 +21617,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 6
             },
             {
@@ -20637,7 +21633,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 25
             },
             {
@@ -20653,7 +21649,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 12
             }
           ],
@@ -20679,7 +21675,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 0
             },
             {
@@ -20695,7 +21691,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 0
             },
             {
@@ -20711,7 +21707,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 25
             },
             {
@@ -20727,7 +21723,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 25
             },
             {
@@ -20743,7 +21739,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 15
             },
             {
@@ -20759,7 +21755,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T04:02:52.896Z",
+              "fetchTimestamp": "2026-05-12T14:28:31.597Z",
               "unlockLevel": 12
             }
           ],
@@ -20816,7 +21812,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -20921,7 +21917,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-          "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+          "fetchTimestamp": "2026-05-12T14:29:04.373Z",
           "unlockLevel": 36
         },
         {
@@ -20937,7 +21933,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-          "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+          "fetchTimestamp": "2026-05-12T14:29:04.373Z",
           "unlockLevel": 7
         },
         {
@@ -20953,7 +21949,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-          "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+          "fetchTimestamp": "2026-05-12T14:29:04.373Z",
           "unlockLevel": 0
         }
       ],
@@ -20978,7 +21974,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             },
             {
@@ -20994,7 +21990,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 32
             },
             {
@@ -21010,7 +22006,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 15
             },
             {
@@ -21026,7 +22022,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 3
             },
             {
@@ -21042,7 +22038,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             },
             {
@@ -21058,7 +22054,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             }
           ],
@@ -21084,7 +22080,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             },
             {
@@ -21100,7 +22096,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 32
             },
             {
@@ -21116,7 +22112,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 15
             },
             {
@@ -21132,7 +22128,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 3
             },
             {
@@ -21148,7 +22144,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             },
             {
@@ -21164,7 +22160,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             }
           ],
@@ -21190,7 +22186,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 35
             },
             {
@@ -21206,7 +22202,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 15
             },
             {
@@ -21222,7 +22218,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 36
             },
             {
@@ -21238,7 +22234,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 23
             },
             {
@@ -21254,7 +22250,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 6
             },
             {
@@ -21270,7 +22266,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 21
             },
             {
@@ -21286,7 +22282,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             },
             {
@@ -21302,7 +22298,7 @@ export const generatedSolvedBuilds = {
               "layer": "B",
               "source": "battlefieldmeta.gg",
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T04:03:27.500Z",
+              "fetchTimestamp": "2026-05-12T14:29:04.373Z",
               "unlockLevel": 0
             }
           ],
@@ -21359,7 +22355,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -21469,7 +22465,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-          "fetchTimestamp": "2026-05-12T04:02:24.880Z",
+          "fetchTimestamp": "2026-05-12T14:28:03.735Z",
           "unlockLevel": 3
         },
         {
@@ -21485,7 +22481,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-          "fetchTimestamp": "2026-05-12T04:02:24.880Z",
+          "fetchTimestamp": "2026-05-12T14:28:03.735Z",
           "unlockLevel": 2
         },
         {
@@ -21501,7 +22497,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-          "fetchTimestamp": "2026-05-12T04:02:24.880Z",
+          "fetchTimestamp": "2026-05-12T14:28:03.735Z",
           "unlockLevel": 36
         },
         {
@@ -21517,7 +22513,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-          "fetchTimestamp": "2026-05-12T04:02:24.880Z",
+          "fetchTimestamp": "2026-05-12T14:28:03.735Z",
           "unlockLevel": 0
         },
         {
@@ -21533,7 +22529,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-          "fetchTimestamp": "2026-05-12T04:02:24.880Z",
+          "fetchTimestamp": "2026-05-12T14:28:03.735Z",
           "unlockLevel": 26
         }
       ],
@@ -21588,7 +22584,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -21698,7 +22694,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-          "fetchTimestamp": "2026-05-12T04:03:23.642Z",
+          "fetchTimestamp": "2026-05-12T14:28:59.477Z",
           "unlockLevel": 3
         },
         {
@@ -21714,7 +22710,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-          "fetchTimestamp": "2026-05-12T04:03:23.642Z",
+          "fetchTimestamp": "2026-05-12T14:28:59.477Z",
           "unlockLevel": 36
         },
         {
@@ -21730,7 +22726,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-          "fetchTimestamp": "2026-05-12T04:03:23.642Z",
+          "fetchTimestamp": "2026-05-12T14:28:59.477Z",
           "unlockLevel": 7
         },
         {
@@ -21746,7 +22742,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-          "fetchTimestamp": "2026-05-12T04:03:23.642Z",
+          "fetchTimestamp": "2026-05-12T14:28:59.477Z",
           "unlockLevel": 0
         },
         {
@@ -21762,7 +22758,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-          "fetchTimestamp": "2026-05-12T04:03:23.642Z",
+          "fetchTimestamp": "2026-05-12T14:28:59.477Z",
           "unlockLevel": 22
         }
       ],
@@ -21817,7 +22813,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -21927,7 +22923,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-          "fetchTimestamp": "2026-05-12T04:03:18.166Z",
+          "fetchTimestamp": "2026-05-12T14:28:53.542Z",
           "unlockLevel": 3
         },
         {
@@ -21943,7 +22939,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-          "fetchTimestamp": "2026-05-12T04:03:18.166Z",
+          "fetchTimestamp": "2026-05-12T14:28:53.542Z",
           "unlockLevel": 36
         },
         {
@@ -21959,7 +22955,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-          "fetchTimestamp": "2026-05-12T04:03:18.166Z",
+          "fetchTimestamp": "2026-05-12T14:28:53.542Z",
           "unlockLevel": 7
         },
         {
@@ -21975,7 +22971,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-          "fetchTimestamp": "2026-05-12T04:03:18.166Z",
+          "fetchTimestamp": "2026-05-12T14:28:53.542Z",
           "unlockLevel": 0
         },
         {
@@ -21991,7 +22987,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-          "fetchTimestamp": "2026-05-12T04:03:18.166Z",
+          "fetchTimestamp": "2026-05-12T14:28:53.542Z",
           "unlockLevel": 22
         }
       ],
@@ -22046,7 +23042,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -22151,7 +23147,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-          "fetchTimestamp": "2026-05-12T04:02:54.633Z",
+          "fetchTimestamp": "2026-05-12T14:28:32.827Z",
           "unlockLevel": 0
         },
         {
@@ -22167,7 +23163,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-          "fetchTimestamp": "2026-05-12T04:02:54.633Z",
+          "fetchTimestamp": "2026-05-12T14:28:32.827Z",
           "unlockLevel": 40
         },
         {
@@ -22183,7 +23179,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-          "fetchTimestamp": "2026-05-12T04:02:54.633Z",
+          "fetchTimestamp": "2026-05-12T14:28:32.827Z",
           "unlockLevel": 24
         },
         {
@@ -22199,7 +23195,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-          "fetchTimestamp": "2026-05-12T04:02:54.633Z",
+          "fetchTimestamp": "2026-05-12T14:28:32.827Z",
           "unlockLevel": 0
         },
         {
@@ -22215,7 +23211,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-          "fetchTimestamp": "2026-05-12T04:02:54.633Z",
+          "fetchTimestamp": "2026-05-12T14:28:32.827Z",
           "unlockLevel": 23
         }
       ],
@@ -22270,7 +23266,227 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
+      }
+    },
+    {
+      "weaponId": "L115",
+      "weaponName": "L115",
+      "categoryKey": "sniper",
+      "className": {
+        "it": "Cecchino",
+        "en": "Sniper"
+      },
+      "slot": "primary",
+      "status": "solved",
+      "archetype": {
+        "id": "mobile-pick",
+        "label": {
+          "it": "Pick mobile",
+          "en": "Mobile pick"
+        }
+      },
+      "totalPoints": 100,
+      "weaponMaxBudget": 100,
+      "consensusWeaponName": "L115",
+      "layerATotal": 30,
+      "layerBTotal": 70,
+      "objectiveScore": 100,
+      "effectTotals": {
+        "hidingVisibility": 2,
+        "accuracyOverTime": 2,
+        "drawSpeed": 1,
+        "projectileVelocity": 1,
+        "recoilControl": 2,
+        "recoilPrecision": 2,
+        "adsMovingAccuracy": 2
+      },
+      "attachments": [
+        {
+          "id": "FLASHHIDER",
+          "slot": "muzzle",
+          "name": {
+            "it": "Spegnifiamma",
+            "en": "Flash Hider"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {
+            "hidingVisibility": 2
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "HEAVYEXTENDEDBARREL",
+          "slot": "barrel",
+          "name": {
+            "it": "Canna pesante allungata",
+            "en": "Heavy Extended Barrel"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {
+            "accuracyOverTime": 2,
+            "drawSpeed": 1,
+            "projectileVelocity": 1
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "FOLDINGVERTICAL",
+          "slot": "underbarrel",
+          "name": {
+            "it": "Verticale pieghevole",
+            "en": "Folding Vertical"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {
+            "recoilControl": 2,
+            "recoilPrecision": 2,
+            "adsMovingAccuracy": 2
+          },
+          "layer": "A",
+          "source": "public-csv",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pub?output=csv"
+        },
+        {
+          "id": "AMMO_MATCHGRADE",
+          "slot": "ammo",
+          "name": {
+            "it": "MATCH GRADE",
+            "en": "MATCH GRADE"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
+          "fetchTimestamp": "2026-05-12T14:29:05.436Z",
+          "unlockLevel": 0
+        },
+        {
+          "id": "ERGONOMICS_MAGWELLFLARE",
+          "slot": "ergonomics",
+          "name": {
+            "it": "MAGWELL FLARE",
+            "en": "MAGWELL FLARE"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
+          "fetchTimestamp": "2026-05-12T14:29:05.436Z",
+          "unlockLevel": 0
+        },
+        {
+          "id": "OPTICACCESSORY_ANTIGLARECOATING",
+          "slot": "opticAccessory",
+          "name": {
+            "it": "ANTI-GLARE COATING",
+            "en": "ANTI-GLARE COATING"
+          },
+          "points": 10,
+          "pointCost": 10,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
+          "fetchTimestamp": "2026-05-12T14:29:05.436Z",
+          "unlockLevel": 0
+        },
+        {
+          "id": "TOPACCESSORY_RANGEFINDER",
+          "slot": "topAccessory",
+          "name": {
+            "it": "RANGE FINDER",
+            "en": "RANGE FINDER"
+          },
+          "points": 15,
+          "pointCost": 15,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
+          "fetchTimestamp": "2026-05-12T14:29:05.436Z",
+          "unlockLevel": 0
+        },
+        {
+          "id": "OPTIC_1P88VARIABLE",
+          "slot": "optic",
+          "name": {
+            "it": "1P88 VARIABLE",
+            "en": "1P88 VARIABLE"
+          },
+          "points": 25,
+          "pointCost": 25,
+          "effects": {},
+          "layer": "B",
+          "source": "battlefieldmeta.gg",
+          "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
+          "fetchTimestamp": "2026-05-12T14:29:05.436Z",
+          "unlockLevel": 0
+        }
+      ],
+      "alternativeVariants": [],
+      "rationale": {
+        "it": "Sniper piu giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
+        "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
+      },
+      "rationaleData": {
+        "chosenJustification": [
+          {
+            "attachmentId": "FLASHHIDER",
+            "reason": "primary hidingVisibility driver (+2 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "HEAVYEXTENDEDBARREL",
+            "reason": "primary drawSpeed driver (+1 pts)",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "FOLDINGVERTICAL",
+            "reason": "best legal underbarrel fit within budget",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_LASER",
+            "reason": "laser slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_OPTIC",
+            "reason": "optic slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_MAGAZINE",
+            "reason": "magazine slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          },
+          {
+            "attachmentId": "NO_AMMO",
+            "reason": "ammo slot empty: budget exhausted by stronger picks",
+            "alternativesConsidered": 0
+          }
+        ],
+        "rejectedTopRunnerUp": {
+          "attachmentId": "NO_UNDERBARREL",
+          "slot": "underbarrel",
+          "whyNotPicked": "lost deterministic tie-breaker against lower-cost or earlier stable option"
+        }
+      },
+      "sourceHashes": {
+        "attachments": "e9348813750af51f",
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -22377,7 +23593,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-          "fetchTimestamp": "2026-05-12T04:03:35.941Z",
+          "fetchTimestamp": "2026-05-12T14:29:12.575Z",
           "unlockLevel": 0
         },
         {
@@ -22393,7 +23609,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-          "fetchTimestamp": "2026-05-12T04:03:35.941Z",
+          "fetchTimestamp": "2026-05-12T14:29:12.575Z",
           "unlockLevel": 35
         },
         {
@@ -22409,7 +23625,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-          "fetchTimestamp": "2026-05-12T04:03:35.941Z",
+          "fetchTimestamp": "2026-05-12T14:29:12.575Z",
           "unlockLevel": 0
         },
         {
@@ -22425,7 +23641,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-          "fetchTimestamp": "2026-05-12T04:03:35.941Z",
+          "fetchTimestamp": "2026-05-12T14:29:12.575Z",
           "unlockLevel": 0
         }
       ],
@@ -22480,7 +23696,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -22587,7 +23803,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-          "fetchTimestamp": "2026-05-12T04:03:24.830Z",
+          "fetchTimestamp": "2026-05-12T14:29:00.710Z",
           "unlockLevel": 0
         },
         {
@@ -22603,7 +23819,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-          "fetchTimestamp": "2026-05-12T04:03:24.830Z",
+          "fetchTimestamp": "2026-05-12T14:29:00.710Z",
           "unlockLevel": 34
         },
         {
@@ -22619,7 +23835,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-          "fetchTimestamp": "2026-05-12T04:03:24.830Z",
+          "fetchTimestamp": "2026-05-12T14:29:00.710Z",
           "unlockLevel": 33
         }
       ],
@@ -22674,7 +23890,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -22783,7 +23999,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-          "fetchTimestamp": "2026-05-12T04:03:37.254Z",
+          "fetchTimestamp": "2026-05-12T14:29:13.806Z",
           "unlockLevel": 0
         },
         {
@@ -22799,7 +24015,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-          "fetchTimestamp": "2026-05-12T04:03:37.254Z",
+          "fetchTimestamp": "2026-05-12T14:29:13.806Z",
           "unlockLevel": 22
         },
         {
@@ -22815,7 +24031,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-          "fetchTimestamp": "2026-05-12T04:03:37.254Z",
+          "fetchTimestamp": "2026-05-12T14:29:13.806Z",
           "unlockLevel": 6
         },
         {
@@ -22831,7 +24047,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-          "fetchTimestamp": "2026-05-12T04:03:37.254Z",
+          "fetchTimestamp": "2026-05-12T14:29:13.806Z",
           "unlockLevel": 1
         }
       ],
@@ -22886,7 +24102,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -22990,7 +24206,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-          "fetchTimestamp": "2026-05-12T04:03:28.820Z",
+          "fetchTimestamp": "2026-05-12T14:29:06.623Z",
           "unlockLevel": 0
         },
         {
@@ -23006,7 +24222,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-          "fetchTimestamp": "2026-05-12T04:03:28.820Z",
+          "fetchTimestamp": "2026-05-12T14:29:06.623Z",
           "unlockLevel": 22
         },
         {
@@ -23022,7 +24238,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-          "fetchTimestamp": "2026-05-12T04:03:28.820Z",
+          "fetchTimestamp": "2026-05-12T14:29:06.623Z",
           "unlockLevel": 0
         },
         {
@@ -23038,7 +24254,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-          "fetchTimestamp": "2026-05-12T04:03:28.820Z",
+          "fetchTimestamp": "2026-05-12T14:29:06.623Z",
           "unlockLevel": 3
         }
       ],
@@ -23093,7 +24309,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -23171,7 +24387,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-          "fetchTimestamp": "2026-05-12T04:03:34.149Z",
+          "fetchTimestamp": "2026-05-12T14:29:11.396Z",
           "unlockLevel": 0
         },
         {
@@ -23187,7 +24403,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-          "fetchTimestamp": "2026-05-12T04:03:34.149Z",
+          "fetchTimestamp": "2026-05-12T14:29:11.396Z",
           "unlockLevel": 9
         },
         {
@@ -23203,7 +24419,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-          "fetchTimestamp": "2026-05-12T04:03:34.149Z",
+          "fetchTimestamp": "2026-05-12T14:29:11.396Z",
           "unlockLevel": 1
         },
         {
@@ -23219,7 +24435,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-          "fetchTimestamp": "2026-05-12T04:03:34.149Z",
+          "fetchTimestamp": "2026-05-12T14:29:11.396Z",
           "unlockLevel": 0
         }
       ],
@@ -23274,7 +24490,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -23359,7 +24575,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-          "fetchTimestamp": "2026-05-12T04:02:56.017Z",
+          "fetchTimestamp": "2026-05-12T14:28:34.000Z",
           "unlockLevel": 0
         },
         {
@@ -23375,7 +24591,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-          "fetchTimestamp": "2026-05-12T04:02:56.017Z",
+          "fetchTimestamp": "2026-05-12T14:28:34.000Z",
           "unlockLevel": 12
         },
         {
@@ -23391,7 +24607,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-          "fetchTimestamp": "2026-05-12T04:02:56.017Z",
+          "fetchTimestamp": "2026-05-12T14:28:34.000Z",
           "unlockLevel": 0
         },
         {
@@ -23407,7 +24623,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-          "fetchTimestamp": "2026-05-12T04:02:56.017Z",
+          "fetchTimestamp": "2026-05-12T14:28:34.000Z",
           "unlockLevel": 0
         }
       ],
@@ -23462,7 +24678,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -23631,7 +24847,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -23799,7 +25015,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -23877,7 +25093,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-          "fetchTimestamp": "2026-05-12T04:03:32.779Z",
+          "fetchTimestamp": "2026-05-12T14:29:10.207Z",
           "unlockLevel": 0
         },
         {
@@ -23893,7 +25109,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-          "fetchTimestamp": "2026-05-12T04:03:32.779Z",
+          "fetchTimestamp": "2026-05-12T14:29:10.207Z",
           "unlockLevel": 12
         },
         {
@@ -23909,7 +25125,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-          "fetchTimestamp": "2026-05-12T04:03:32.779Z",
+          "fetchTimestamp": "2026-05-12T14:29:10.207Z",
           "unlockLevel": 0
         }
       ],
@@ -23964,7 +25180,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -24046,7 +25262,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-          "fetchTimestamp": "2026-05-12T04:03:30.140Z",
+          "fetchTimestamp": "2026-05-12T14:29:07.834Z",
           "unlockLevel": 29
         },
         {
@@ -24062,7 +25278,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-          "fetchTimestamp": "2026-05-12T04:03:30.140Z",
+          "fetchTimestamp": "2026-05-12T14:29:07.834Z",
           "unlockLevel": 0
         },
         {
@@ -24078,7 +25294,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-          "fetchTimestamp": "2026-05-12T04:03:30.140Z",
+          "fetchTimestamp": "2026-05-12T14:29:07.834Z",
           "unlockLevel": 6
         }
       ],
@@ -24133,7 +25349,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     },
     {
@@ -24196,7 +25412,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-          "fetchTimestamp": "2026-05-12T04:03:31.475Z",
+          "fetchTimestamp": "2026-05-12T14:29:09.042Z",
           "unlockLevel": 0
         },
         {
@@ -24212,7 +25428,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-          "fetchTimestamp": "2026-05-12T04:03:31.475Z",
+          "fetchTimestamp": "2026-05-12T14:29:09.042Z",
           "unlockLevel": 26
         },
         {
@@ -24228,7 +25444,7 @@ export const generatedSolvedBuilds = {
           "layer": "B",
           "source": "battlefieldmeta.gg",
           "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-          "fetchTimestamp": "2026-05-12T04:03:31.475Z",
+          "fetchTimestamp": "2026-05-12T14:29:09.042Z",
           "unlockLevel": 0
         }
       ],
@@ -24283,7 +25499,7 @@ export const generatedSolvedBuilds = {
       },
       "sourceHashes": {
         "attachments": "e9348813750af51f",
-        "consensus": "2026-05-12T04:03:37.254Z"
+        "consensus": "2026-05-12T14:29:13.806Z"
       }
     }
   ]

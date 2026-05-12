@@ -2,6 +2,7 @@ import { mkdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import * as cheerio from 'cheerio'
 import { metaWeapons } from '../src/data.ts'
+import { consensusBuilds as previousConsensusBuilds } from '../src/generated/consensusBuilds.ts'
 
 const SOURCE = 'battlefieldmeta.gg'
 const BASE_URL = 'https://battlefieldmeta.gg'
@@ -412,6 +413,27 @@ function stableStringify(value) {
   return JSON.stringify(value, null, 2)
 }
 
+function cloneJson(value) {
+  return JSON.parse(JSON.stringify(value))
+}
+
+function previousConsensusFallback(weaponName, sourceUrl, error) {
+  const previous = previousConsensusBuilds.builds[weaponName]
+  if (!previous?.variants?.Recommended) return undefined
+
+  const reason = error instanceof Error ? error.message : String(error)
+  return {
+    ...cloneJson(previous),
+    sourceUrl,
+    loadoutFallback: {
+      reason,
+      sourceUrl,
+      fallbackAt: new Date().toISOString(),
+      fallbackSource: 'previous generated consensusBuilds',
+    },
+  }
+}
+
 async function fileExists(path) {
   try {
     await stat(path)
@@ -495,6 +517,23 @@ function applyCategoryRankings(builds, categoryRankings) {
       (sourceSlug ? categoryRankings.get(normalizeWeaponName(sourceSlug)) : undefined)
 
     if (!ranking?.categoryRank) {
+      build.loadoutTier = build.tier
+      build.loadoutCategoryRank = build.categoryRank
+      build.rankingSourceUrl = build.sourceUrl
+      build.rankingFetchTimestamp = build.fetchTimestamp
+      build.rankingFallback = {
+        reason: 'missing category-page ranking; using loadout-page ranking until battlefieldmeta.gg publishes category placement',
+        sourceUrl: build.sourceUrl,
+        fallbackAt: new Date().toISOString(),
+      }
+      build.rankingConsensus = {
+        weaponId: sourceSlug ?? slugForWeapon(weaponName),
+        weaponName,
+        tier: build.tier,
+        categoryRank: build.categoryRank,
+        sourceUrl: build.sourceUrl,
+        fetchTimestamp: build.fetchTimestamp,
+      }
       unmatched.push(weaponName)
       continue
     }
@@ -518,7 +557,9 @@ function applyCategoryRankings(builds, categoryRankings) {
   }
 
   if (unmatched.length > 0) {
-    throw new Error(`Missing category ranking consensus for ${unmatched.length} weapons: ${unmatched.join(', ')}`)
+    console.warn(
+      `[scraper] ${unmatched.length} weapons are missing category-page rankings and use loadout-page ranking fallback: ${unmatched.join(', ')}`,
+    )
   }
 }
 
@@ -543,6 +584,16 @@ async function main() {
         `${weaponName}: consensus ${recommended.totalPoints}/${recommended.sourceDisplayedMaxBudget}, cap ${builds[weaponName].weaponMaxBudget} ${builds[weaponName].tier}, variants ${Object.keys(builds[weaponName].variants).length}`,
       )
     } catch (error) {
+      const fallback = previousConsensusFallback(weaponName, sourceUrl, error)
+      if (fallback) {
+        builds[weaponName] = fallback
+        const recommended = fallback.variants.Recommended
+        console.warn(
+          `${weaponName}: using previous consensus loadout fallback after parse/fetch failure (${recommended.totalPoints}/${fallback.weaponMaxBudget})`,
+        )
+        continue
+      }
+
       failures.push({ weaponName, sourceUrl, error: error instanceof Error ? error.message : String(error) })
       console.error(`${weaponName}: ${error instanceof Error ? error.message : String(error)}`)
     }

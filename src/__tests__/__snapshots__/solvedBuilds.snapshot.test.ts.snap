@@ -129,6 +129,19 @@ exports[`solvedBuilds generated output > keeps solved builds stable 1`] = `
     "weapon": "VCR-2",
   },
   {
+    "archetype": "mid-control",
+    "attachments": [
+      "Long Suppressor",
+      "Heavy Extended Barrel",
+      "Low-Profile Stubby",
+      "POLYMER CASE",
+      "CCO 2.00X",
+    ],
+    "objectiveScore": 100,
+    "totalPoints": 100,
+    "weapon": "M16A4",
+  },
+  {
     "archetype": "mobile-flex",
     "attachments": [
       "Double-Port Brake",
@@ -501,6 +514,19 @@ exports[`solvedBuilds generated output > keeps solved builds stable 1`] = `
     "weapon": "M121 A2",
   },
   {
+    "archetype": "anchor-sustain",
+    "attachments": [
+      "Light Suppressor",
+      "Heavy Barrel",
+      "Low-Profile Stubby",
+      "FMJ",
+      "CCO 2.00X",
+    ],
+    "objectiveScore": 100,
+    "totalPoints": 100,
+    "weapon": "RPK-74M",
+  },
+  {
     "archetype": "info-range",
     "attachments": [
       "Long Suppressor",
@@ -633,6 +659,22 @@ exports[`solvedBuilds generated output > keeps solved builds stable 1`] = `
     "objectiveScore": 76,
     "totalPoints": 100,
     "weapon": "MINI SCOUT",
+  },
+  {
+    "archetype": "mobile-pick",
+    "attachments": [
+      "Flash Hider",
+      "Heavy Extended Barrel",
+      "Folding Vertical",
+      "MATCH GRADE",
+      "MAGWELL FLARE",
+      "ANTI-GLARE COATING",
+      "RANGE FINDER",
+      "1P88 VARIABLE",
+    ],
+    "objectiveScore": 100,
+    "totalPoints": 100,
+    "weapon": "L115",
   },
   {
     "archetype": "building-clear",
