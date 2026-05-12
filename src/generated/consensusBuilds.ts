@@ -2,12 +2,12 @@
 export const consensusBuilds = {
   "schemaVersion": 3,
   "source": "battlefieldmeta.gg",
-  "fetchedAt": "2026-05-12T14:48:53.567Z",
+  "fetchedAt": "2026-05-12T20:06:56.806Z",
   "cacheTtlDays": 7,
   "builds": {
     "KORD 6P67": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-      "fetchTimestamp": "2026-05-12T14:47:39.638Z",
+      "fetchTimestamp": "2026-05-12T20:05:38.461Z",
       "tier": "META",
       "categoryRank": {
         "position": 1,
@@ -28,7 +28,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -36,7 +36,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "POLYMER CASE",
@@ -44,7 +44,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -52,7 +52,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "36 RND",
@@ -60,7 +60,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -68,7 +68,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             }
           ],
           "totalPoints": 100,
@@ -87,7 +87,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -95,7 +95,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "POLYMER CASE",
@@ -103,7 +103,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "FLASH COMP",
@@ -111,7 +111,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "36 RND",
@@ -119,7 +119,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -127,7 +127,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             }
           ],
           "totalPoints": 100,
@@ -146,7 +146,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -154,7 +154,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "FMJ",
@@ -162,7 +162,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -170,7 +170,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "36 RND",
@@ -178,7 +178,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -186,7 +186,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             }
           ],
           "totalPoints": 100,
@@ -205,7 +205,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -213,7 +213,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "POLYMER CASE",
@@ -221,7 +221,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "DOUBLE-PORT BRAKE",
@@ -229,7 +229,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "36 RND",
@@ -237,7 +237,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "50 MW GREEN",
@@ -245,7 +245,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -253,7 +253,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-              "fetchTimestamp": "2026-05-12T14:47:39.638Z"
+              "fetchTimestamp": "2026-05-12T20:05:38.461Z"
             }
           ],
           "totalPoints": 100,
@@ -267,7 +267,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "kord-6p67",
         "weaponName": "KORD 6P67",
@@ -285,13 +285,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/kord-6p67.webp"
     },
     "M2010 ESR": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-      "fetchTimestamp": "2026-05-12T14:47:40.973Z",
+      "fetchTimestamp": "2026-05-12T20:05:39.913Z",
       "tier": "META",
       "categoryRank": {
         "position": 1,
@@ -312,7 +312,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -320,7 +320,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "MATCH GRADE",
@@ -328,7 +328,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -336,7 +336,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "RANGE FINDER",
@@ -344,7 +344,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "ANTI-GLARE COATING",
@@ -352,7 +352,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "5RND MAGAZINE",
@@ -360,7 +360,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             },
             {
               "name": "LERT 8.00X",
@@ -368,7 +368,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-              "fetchTimestamp": "2026-05-12T14:47:40.973Z"
+              "fetchTimestamp": "2026-05-12T20:05:39.913Z"
             }
           ],
           "totalPoints": 100,
@@ -382,7 +382,7 @@ export const consensusBuilds = {
         "category": "Sniper"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:00.616Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:03.014Z",
       "rankingConsensus": {
         "weaponId": "m2010-esr",
         "weaponName": "M2010 ESR",
@@ -400,13 +400,13 @@ export const consensusBuilds = {
           "category": "Sniper Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:00.616Z"
+        "fetchTimestamp": "2026-05-12T20:07:03.014Z"
       },
       "imagePath": "/weapons/m2010-esr.webp"
     },
     "DRS-IAR": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-      "fetchTimestamp": "2026-05-12T14:47:42.196Z",
+      "fetchTimestamp": "2026-05-12T20:05:41.015Z",
       "tier": "META",
       "categoryRank": {
         "position": 2,
@@ -427,7 +427,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -435,7 +435,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "POLYMER CASE",
@@ -443,7 +443,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -451,7 +451,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "36 RND",
@@ -459,7 +459,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -467,7 +467,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             }
           ],
           "totalPoints": 100,
@@ -486,7 +486,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -494,7 +494,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "POLYMER CASE",
@@ -502,7 +502,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "FLASH COMP",
@@ -510,7 +510,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "36 RND",
@@ -518,7 +518,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -526,7 +526,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             }
           ],
           "totalPoints": 100,
@@ -545,7 +545,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -553,7 +553,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "FMJ",
@@ -561,7 +561,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -569,7 +569,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "36 RND",
@@ -577,7 +577,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -585,7 +585,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             }
           ],
           "totalPoints": 100,
@@ -604,7 +604,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -612,7 +612,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "POLYMER CASE",
@@ -620,7 +620,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "36 RND",
@@ -628,7 +628,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -636,7 +636,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "50 MW GREEN",
@@ -644,7 +644,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "RAIL COVER",
@@ -652,7 +652,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -660,7 +660,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-              "fetchTimestamp": "2026-05-12T14:47:42.196Z"
+              "fetchTimestamp": "2026-05-12T20:05:41.015Z"
             }
           ],
           "totalPoints": 100,
@@ -674,7 +674,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "drs-iar",
         "weaponName": "DRS-IAR",
@@ -692,13 +692,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/drs-iar.webp"
     },
     "AK-205": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-      "fetchTimestamp": "2026-05-12T14:47:43.535Z",
+      "fetchTimestamp": "2026-05-12T20:05:42.429Z",
       "tier": "META",
       "categoryRank": {
         "position": 1,
@@ -719,7 +719,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FMJ",
@@ -727,7 +727,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -735,7 +735,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "45RND MAGAZINE",
@@ -743,7 +743,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -751,7 +751,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             }
           ],
           "totalPoints": 100,
@@ -770,7 +770,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "RIBBED VERTICAL",
@@ -778,7 +778,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FMJ",
@@ -786,7 +786,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FLASH COMP",
@@ -794,7 +794,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "45RND MAGAZINE",
@@ -802,7 +802,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -810,7 +810,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             }
           ],
           "totalPoints": 100,
@@ -829,7 +829,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FULL ANGLED",
@@ -837,7 +837,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FMJ",
@@ -845,7 +845,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "DOUBLE-PORT BRAKE",
@@ -853,7 +853,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "45RND MAGAZINE",
@@ -861,7 +861,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -869,7 +869,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -877,7 +877,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             }
           ],
           "totalPoints": 100,
@@ -896,7 +896,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FMJ",
@@ -904,7 +904,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "45RND MAGAZINE",
@@ -912,7 +912,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -920,7 +920,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "50 MW GREEN",
@@ -928,7 +928,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -936,7 +936,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-              "fetchTimestamp": "2026-05-12T14:47:43.535Z"
+              "fetchTimestamp": "2026-05-12T20:05:42.429Z"
             }
           ],
           "totalPoints": 100,
@@ -950,7 +950,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "ak-205",
         "weaponName": "AK-205",
@@ -968,13 +968,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/ak-205.webp"
     },
     "SG-553R": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-      "fetchTimestamp": "2026-05-12T14:47:44.846Z",
+      "fetchTimestamp": "2026-05-12T20:05:43.852Z",
       "tier": "A",
       "categoryRank": {
         "position": 4,
@@ -995,7 +995,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -1003,7 +1003,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "FMJ",
@@ -1011,7 +1011,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -1019,7 +1019,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -1027,7 +1027,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -1035,7 +1035,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             }
           ],
           "totalPoints": 100,
@@ -1054,7 +1054,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -1062,7 +1062,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "FMJ",
@@ -1070,7 +1070,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "FLASH COMP",
@@ -1078,7 +1078,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -1086,7 +1086,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -1094,7 +1094,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             }
           ],
           "totalPoints": 100,
@@ -1113,7 +1113,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -1121,7 +1121,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "FMJ",
@@ -1129,7 +1129,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -1137,7 +1137,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -1145,7 +1145,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -1153,7 +1153,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             }
           ],
           "totalPoints": 100,
@@ -1172,7 +1172,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "POLYMER CASE",
@@ -1180,7 +1180,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "LINEAR COMP",
@@ -1188,7 +1188,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -1196,7 +1196,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -1204,7 +1204,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "50 MW GREEN",
@@ -1212,7 +1212,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -1220,7 +1220,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -1228,7 +1228,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-              "fetchTimestamp": "2026-05-12T14:47:44.846Z"
+              "fetchTimestamp": "2026-05-12T20:05:43.852Z"
             }
           ],
           "totalPoints": 100,
@@ -1242,7 +1242,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "sg-553r",
         "weaponName": "SG-553R",
@@ -1260,13 +1260,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/sg-553r.webp"
     },
     "VCR-2": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-      "fetchTimestamp": "2026-05-12T14:47:46.102Z",
+      "fetchTimestamp": "2026-05-12T20:05:45.184Z",
       "tier": "META",
       "categoryRank": {
         "position": 1,
@@ -1287,7 +1287,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "FOLDING VERTICAL",
@@ -1295,7 +1295,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "FMJ",
@@ -1303,7 +1303,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -1311,7 +1311,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "40RND FAST MAG",
@@ -1319,7 +1319,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -1327,7 +1327,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             }
           ],
           "totalPoints": 100,
@@ -1346,7 +1346,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -1354,7 +1354,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "FMJ",
@@ -1362,7 +1362,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "LINEAR COMP",
@@ -1370,7 +1370,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -1378,7 +1378,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -1386,7 +1386,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             }
           ],
           "totalPoints": 100,
@@ -1405,7 +1405,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -1413,7 +1413,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "FMJ",
@@ -1421,7 +1421,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -1429,7 +1429,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 11,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -1437,7 +1437,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -1445,7 +1445,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             }
           ],
           "totalPoints": 100,
@@ -1464,7 +1464,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "POLYMER CASE",
@@ -1472,7 +1472,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "40RND FAST MAG",
@@ -1480,7 +1480,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -1488,7 +1488,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "50 MW GREEN",
@@ -1496,7 +1496,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -1504,7 +1504,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-              "fetchTimestamp": "2026-05-12T14:47:46.102Z"
+              "fetchTimestamp": "2026-05-12T20:05:45.184Z"
             }
           ],
           "totalPoints": 95,
@@ -1518,7 +1518,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "vcr-2",
         "weaponName": "VCR-2",
@@ -1536,13 +1536,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/vcr-2.webp"
     },
     "SGX": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-      "fetchTimestamp": "2026-05-12T14:47:47.361Z",
+      "fetchTimestamp": "2026-05-12T20:05:46.438Z",
       "tier": "META",
       "categoryRank": {
         "position": 1,
@@ -1563,7 +1563,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "FMJ",
@@ -1571,7 +1571,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -1579,7 +1579,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "41RND MAGAZINE",
@@ -1587,7 +1587,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "120 MW BLUE",
@@ -1595,7 +1595,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -1603,7 +1603,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             }
           ],
           "totalPoints": 100,
@@ -1622,7 +1622,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -1630,7 +1630,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "FMJ",
@@ -1638,7 +1638,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -1646,7 +1646,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "41RND MAGAZINE",
@@ -1654,7 +1654,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -1662,7 +1662,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             }
           ],
           "totalPoints": 100,
@@ -1681,7 +1681,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -1689,7 +1689,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "FMJ",
@@ -1697,7 +1697,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -1705,7 +1705,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "41RND MAGAZINE",
@@ -1713,7 +1713,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -1721,7 +1721,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             }
           ],
           "totalPoints": 100,
@@ -1740,7 +1740,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -1748,7 +1748,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "FMJ",
@@ -1756,7 +1756,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "41RND MAGAZINE",
@@ -1764,7 +1764,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -1772,7 +1772,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "50 MW GREEN",
@@ -1780,7 +1780,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -1788,7 +1788,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-              "fetchTimestamp": "2026-05-12T14:47:47.361Z"
+              "fetchTimestamp": "2026-05-12T20:05:46.438Z"
             }
           ],
           "totalPoints": 100,
@@ -1802,7 +1802,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "sgx",
         "weaponName": "SGX",
@@ -1820,13 +1820,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/sgx.webp"
     },
     "L110": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-      "fetchTimestamp": "2026-05-12T14:47:48.641Z",
+      "fetchTimestamp": "2026-05-12T20:05:48.070Z",
       "tier": "META",
       "categoryRank": {
         "position": 4,
@@ -1847,7 +1847,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -1855,7 +1855,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "FMJ",
@@ -1863,7 +1863,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -1871,7 +1871,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -1879,7 +1879,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -1887,7 +1887,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             }
           ],
           "totalPoints": 95,
@@ -1906,7 +1906,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -1914,7 +1914,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -1922,7 +1922,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "FLASH COMP",
@@ -1930,7 +1930,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -1938,7 +1938,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -1946,7 +1946,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             }
           ],
           "totalPoints": 95,
@@ -1965,7 +1965,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -1973,7 +1973,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "FMJ",
@@ -1981,7 +1981,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "FLASH COMP",
@@ -1989,7 +1989,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -1997,7 +1997,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -2005,7 +2005,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             }
           ],
           "totalPoints": 95,
@@ -2024,7 +2024,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -2032,7 +2032,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -2040,7 +2040,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -2048,7 +2048,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "50 MW GREEN",
@@ -2056,7 +2056,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -2064,7 +2064,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -2072,7 +2072,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-              "fetchTimestamp": "2026-05-12T14:47:48.641Z"
+              "fetchTimestamp": "2026-05-12T20:05:48.070Z"
             }
           ],
           "totalPoints": 95,
@@ -2086,7 +2086,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "l110",
         "weaponName": "L110",
@@ -2104,13 +2104,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/l110.webp"
     },
     "SCW-10": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-      "fetchTimestamp": "2026-05-12T14:47:49.945Z",
+      "fetchTimestamp": "2026-05-12T20:05:49.775Z",
       "tier": "A",
       "categoryRank": {
         "position": 8,
@@ -2131,7 +2131,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "FMJ",
@@ -2139,7 +2139,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "LONG SUPPRESSOR",
@@ -2147,7 +2147,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -2155,7 +2155,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2163,7 +2163,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             }
           ],
           "totalPoints": 100,
@@ -2182,7 +2182,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "RIBBED VERTICAL",
@@ -2190,7 +2190,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 11,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "FMJ",
@@ -2198,7 +2198,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "LINEAR COMP",
@@ -2206,7 +2206,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -2214,7 +2214,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2222,7 +2222,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             }
           ],
           "totalPoints": 100,
@@ -2241,7 +2241,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -2249,7 +2249,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "FMJ",
@@ -2257,7 +2257,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "LINEAR COMP",
@@ -2265,7 +2265,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -2273,7 +2273,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2281,7 +2281,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             }
           ],
           "totalPoints": 100,
@@ -2300,7 +2300,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "FMJ",
@@ -2308,7 +2308,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -2316,7 +2316,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -2324,7 +2324,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "50 MW GREEN",
@@ -2332,7 +2332,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2340,7 +2340,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-              "fetchTimestamp": "2026-05-12T14:47:49.945Z"
+              "fetchTimestamp": "2026-05-12T20:05:49.775Z"
             }
           ],
           "totalPoints": 100,
@@ -2354,7 +2354,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "scw-10",
         "weaponName": "SCW-10",
@@ -2372,13 +2372,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/scw-10.webp"
     },
     "KV9": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-      "fetchTimestamp": "2026-05-12T14:47:51.200Z",
+      "fetchTimestamp": "2026-05-12T20:05:51.185Z",
       "tier": "A",
       "categoryRank": {
         "position": 9,
@@ -2399,7 +2399,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "FMJ",
@@ -2407,7 +2407,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "LONG SUPPRESSOR",
@@ -2415,7 +2415,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "27RND MAGAZINE",
@@ -2423,7 +2423,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2431,7 +2431,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             }
           ],
           "totalPoints": 100,
@@ -2450,7 +2450,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -2458,7 +2458,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "FMJ",
@@ -2466,7 +2466,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -2474,7 +2474,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "27RND MAGAZINE",
@@ -2482,7 +2482,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2490,7 +2490,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             }
           ],
           "totalPoints": 100,
@@ -2509,7 +2509,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -2517,7 +2517,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "FMJ",
@@ -2525,7 +2525,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "LINEAR COMP",
@@ -2533,7 +2533,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 11,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "27RND MAGAZINE",
@@ -2541,7 +2541,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2549,7 +2549,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             }
           ],
           "totalPoints": 100,
@@ -2568,7 +2568,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "FMJ",
@@ -2576,7 +2576,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "27RND MAGAZINE",
@@ -2584,7 +2584,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "50 MW GREEN",
@@ -2592,7 +2592,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -2600,7 +2600,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -2608,7 +2608,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-              "fetchTimestamp": "2026-05-12T14:47:51.200Z"
+              "fetchTimestamp": "2026-05-12T20:05:51.185Z"
             }
           ],
           "totalPoints": 100,
@@ -2622,7 +2622,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "kv9",
         "weaponName": "KV9",
@@ -2640,13 +2640,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/kv9.webp"
     },
     "M39 EMR": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-      "fetchTimestamp": "2026-05-12T14:47:52.490Z",
+      "fetchTimestamp": "2026-05-12T20:05:52.552Z",
       "tier": "A",
       "categoryRank": {
         "position": 1,
@@ -2667,7 +2667,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -2675,7 +2675,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "FMJ",
@@ -2683,7 +2683,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -2691,7 +2691,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -2699,7 +2699,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -2707,7 +2707,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             }
           ],
           "totalPoints": 100,
@@ -2726,7 +2726,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -2734,7 +2734,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "FMJ",
@@ -2742,7 +2742,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "FLASH COMP",
@@ -2750,7 +2750,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -2758,7 +2758,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -2766,7 +2766,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             }
           ],
           "totalPoints": 100,
@@ -2785,7 +2785,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -2793,7 +2793,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "FMJ",
@@ -2801,7 +2801,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "FLASH COMP",
@@ -2809,7 +2809,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -2817,7 +2817,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -2825,7 +2825,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             }
           ],
           "totalPoints": 100,
@@ -2844,7 +2844,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -2852,7 +2852,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "POLYMER CASE",
@@ -2860,7 +2860,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "DOUBLE-PORT BRAKE",
@@ -2868,7 +2868,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -2876,7 +2876,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -2884,7 +2884,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "50 MW GREEN",
@@ -2892,7 +2892,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -2900,7 +2900,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -2908,7 +2908,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-              "fetchTimestamp": "2026-05-12T14:47:52.490Z"
+              "fetchTimestamp": "2026-05-12T20:05:52.552Z"
             }
           ],
           "totalPoints": 100,
@@ -2922,7 +2922,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:59.362Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:01.978Z",
       "rankingConsensus": {
         "weaponId": "m39-emr",
         "weaponName": "M39 EMR",
@@ -2940,13 +2940,13 @@ export const consensusBuilds = {
           "category": "DMR"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:59.362Z"
+        "fetchTimestamp": "2026-05-12T20:07:01.978Z"
       },
       "imagePath": "/weapons/m39-emr.webp"
     },
     "M4A1": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-      "fetchTimestamp": "2026-05-12T14:47:53.809Z",
+      "fetchTimestamp": "2026-05-12T20:05:53.871Z",
       "tier": "A",
       "categoryRank": {
         "position": 5,
@@ -2967,7 +2967,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -2975,7 +2975,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "FMJ",
@@ -2983,7 +2983,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -2991,7 +2991,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "36 RND",
@@ -2999,7 +2999,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3007,7 +3007,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             }
           ],
           "totalPoints": 100,
@@ -3026,7 +3026,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -3034,7 +3034,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "FMJ",
@@ -3042,7 +3042,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "FLASH COMP",
@@ -3050,7 +3050,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "36 RND",
@@ -3058,7 +3058,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3066,7 +3066,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             }
           ],
           "totalPoints": 100,
@@ -3085,7 +3085,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -3093,7 +3093,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "FMJ",
@@ -3101,7 +3101,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -3109,7 +3109,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "36 RND",
@@ -3117,7 +3117,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3125,7 +3125,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             }
           ],
           "totalPoints": 100,
@@ -3144,7 +3144,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -3152,7 +3152,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "POLYMER CASE",
@@ -3160,7 +3160,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "36 RND",
@@ -3168,7 +3168,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -3176,7 +3176,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "50 MW GREEN",
@@ -3184,7 +3184,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -3192,7 +3192,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3200,7 +3200,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m4a1",
-              "fetchTimestamp": "2026-05-12T14:47:53.809Z"
+              "fetchTimestamp": "2026-05-12T20:05:53.871Z"
             }
           ],
           "totalPoints": 100,
@@ -3214,7 +3214,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "m4a1",
         "weaponName": "M4A1",
@@ -3232,13 +3232,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/m4a1.webp"
     },
     "M45A1": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-      "fetchTimestamp": "2026-05-12T04:02:39.636Z",
+      "fetchTimestamp": "2026-05-12T20:05:55.311Z",
       "tier": "C",
       "categoryRank": {
         "position": 6,
@@ -3259,7 +3259,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-              "fetchTimestamp": "2026-05-12T04:02:39.636Z"
+              "fetchTimestamp": "2026-05-12T20:05:55.311Z"
             },
             {
               "name": "5 MW GREEN",
@@ -3267,7 +3267,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-              "fetchTimestamp": "2026-05-12T04:02:39.636Z"
+              "fetchTimestamp": "2026-05-12T20:05:55.311Z"
             },
             {
               "name": "FMJ",
@@ -3275,7 +3275,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-              "fetchTimestamp": "2026-05-12T04:02:39.636Z"
+              "fetchTimestamp": "2026-05-12T20:05:55.311Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -3283,7 +3283,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-              "fetchTimestamp": "2026-05-12T04:02:39.636Z"
+              "fetchTimestamp": "2026-05-12T20:05:55.311Z"
             },
             {
               "name": "11 RND MAGAZINE",
@@ -3291,7 +3291,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-              "fetchTimestamp": "2026-05-12T04:02:39.636Z"
+              "fetchTimestamp": "2026-05-12T20:05:55.311Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -3299,7 +3299,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-              "fetchTimestamp": "2026-05-12T04:02:39.636Z"
+              "fetchTimestamp": "2026-05-12T20:05:55.311Z"
             }
           ],
           "totalPoints": 60,
@@ -3307,13 +3307,13 @@ export const consensusBuilds = {
         }
       },
       "imageUrl": "https://img.battlefieldmeta.gg/m45a1_version2/gunDisplayLoadouts",
-      "loadoutTier": "C",
+      "loadoutTier": "D",
       "loadoutCategoryRank": {
-        "position": 6,
+        "position": 21,
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "m45a1",
         "weaponName": "M45A1",
@@ -3331,19 +3331,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
-      "imagePath": "/weapons/m45a1.webp",
-      "loadoutFallback": {
-        "reason": "M45A1: budget-text parse failed from https://battlefieldmeta.gg/best-loadouts/m45a1",
-        "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m45a1",
-        "fallbackAt": "2026-05-12T14:47:56.130Z",
-        "fallbackSource": "previous generated consensusBuilds"
-      }
+      "imagePath": "/weapons/m45a1.webp"
     },
     "KTS100 MK8": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-      "fetchTimestamp": "2026-05-12T14:47:56.339Z",
+      "fetchTimestamp": "2026-05-12T20:05:56.366Z",
       "tier": "META",
       "categoryRank": {
         "position": 1,
@@ -3364,7 +3358,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -3372,7 +3366,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "POLYMER CASE",
@@ -3380,7 +3374,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -3388,7 +3382,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "RAIL COVER",
@@ -3396,7 +3390,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "60RND MAGAZINE",
@@ -3404,7 +3398,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -3412,7 +3406,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             }
           ],
           "totalPoints": 100,
@@ -3431,7 +3425,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -3439,7 +3433,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "SYNTHETIC TIP",
@@ -3447,7 +3441,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "FLASH COMP",
@@ -3455,7 +3449,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "60RND DRUM MAG",
@@ -3463,7 +3457,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -3471,7 +3465,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             }
           ],
           "totalPoints": 100,
@@ -3490,7 +3484,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -3498,7 +3492,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "FMJ",
@@ -3506,7 +3500,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "FLASH COMP",
@@ -3514,7 +3508,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "60RND DRUM MAG",
@@ -3522,7 +3516,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -3530,7 +3524,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             }
           ],
           "totalPoints": 100,
@@ -3549,7 +3543,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -3557,7 +3551,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "POLYMER CASE",
@@ -3565,7 +3559,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "DOUBLE-PORT BRAKE",
@@ -3573,7 +3567,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "50 MW GREEN",
@@ -3581,7 +3575,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "RAIL COVER",
@@ -3589,7 +3583,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "60RND DRUM MAG",
@@ -3597,7 +3591,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -3605,7 +3599,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-              "fetchTimestamp": "2026-05-12T14:47:56.339Z"
+              "fetchTimestamp": "2026-05-12T20:05:56.366Z"
             }
           ],
           "totalPoints": 100,
@@ -3619,7 +3613,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "kts100-mk8",
         "weaponName": "KTS100 MK8",
@@ -3637,13 +3631,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/kts100-mk8.webp"
     },
     "M433": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-      "fetchTimestamp": "2026-05-12T14:47:57.657Z",
+      "fetchTimestamp": "2026-05-12T20:05:57.591Z",
       "tier": "A",
       "categoryRank": {
         "position": 6,
@@ -3664,7 +3658,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -3672,7 +3666,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "FMJ",
@@ -3680,7 +3674,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -3688,7 +3682,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -3696,7 +3690,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3704,7 +3698,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             }
           ],
           "totalPoints": 100,
@@ -3723,7 +3717,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -3731,7 +3725,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "FMJ",
@@ -3739,7 +3733,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "FLASH COMP",
@@ -3747,7 +3741,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -3755,7 +3749,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3763,7 +3757,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             }
           ],
           "totalPoints": 100,
@@ -3782,7 +3776,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -3790,7 +3784,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "FMJ",
@@ -3798,7 +3792,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "LINEAR COMP",
@@ -3806,7 +3800,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -3814,7 +3808,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3822,7 +3816,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             }
           ],
           "totalPoints": 100,
@@ -3841,7 +3835,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "ADJUSTABLE ANGLED",
@@ -3849,7 +3843,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "POLYMER CASE",
@@ -3857,7 +3851,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -3865,7 +3859,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -3873,7 +3867,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "50 MW GREEN",
@@ -3881,7 +3875,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -3889,7 +3883,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m433",
-              "fetchTimestamp": "2026-05-12T14:47:57.657Z"
+              "fetchTimestamp": "2026-05-12T20:05:57.591Z"
             }
           ],
           "totalPoints": 95,
@@ -3903,7 +3897,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "m433",
         "weaponName": "M433",
@@ -3921,13 +3915,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/m433.webp"
     },
     "SOR-556 Mk2": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-      "fetchTimestamp": "2026-05-12T14:47:58.939Z",
+      "fetchTimestamp": "2026-05-12T20:05:58.951Z",
       "tier": "A",
       "categoryRank": {
         "position": 2,
@@ -3948,7 +3942,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -3956,7 +3950,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "POLYMER CASE",
@@ -3964,7 +3958,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -3972,7 +3966,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "36 RND",
@@ -3980,7 +3974,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -3988,7 +3982,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             }
           ],
           "totalPoints": 100,
@@ -4007,7 +4001,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -4015,7 +4009,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "POLYMER CASE",
@@ -4023,7 +4017,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "FLASH COMP",
@@ -4031,7 +4025,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "36 RND",
@@ -4039,7 +4033,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4047,7 +4041,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             }
           ],
           "totalPoints": 100,
@@ -4066,7 +4060,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -4074,7 +4068,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "FMJ",
@@ -4082,7 +4076,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "LINEAR COMP",
@@ -4090,7 +4084,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "36 RND",
@@ -4098,7 +4092,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4106,7 +4100,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             }
           ],
           "totalPoints": 100,
@@ -4125,7 +4119,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -4133,7 +4127,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "POLYMER CASE",
@@ -4141,7 +4135,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "36 RND",
@@ -4149,7 +4143,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "50 MW GREEN",
@@ -4157,7 +4151,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -4165,7 +4159,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "RAIL COVER",
@@ -4173,7 +4167,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4181,7 +4175,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-556-mk2",
-              "fetchTimestamp": "2026-05-12T14:47:58.939Z"
+              "fetchTimestamp": "2026-05-12T20:05:58.951Z"
             }
           ],
           "totalPoints": 100,
@@ -4195,7 +4189,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "sor-556-mk2",
         "weaponName": "SOR-556 MK2",
@@ -4213,13 +4207,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/sor-556-mk2.webp"
     },
     "M250": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-      "fetchTimestamp": "2026-05-12T14:48:00.249Z",
+      "fetchTimestamp": "2026-05-12T20:06:00.255Z",
       "tier": "META",
       "categoryRank": {
         "position": 3,
@@ -4240,7 +4234,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "STIPPLED STUBBY",
@@ -4248,7 +4242,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "FMJ",
@@ -4256,7 +4250,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -4264,7 +4258,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "50RND BELT POUCH",
@@ -4272,7 +4266,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4280,7 +4274,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             }
           ],
           "totalPoints": 95,
@@ -4299,7 +4293,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "STIPPLED STUBBY",
@@ -4307,7 +4301,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -4315,7 +4309,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "FLASH COMP",
@@ -4323,7 +4317,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "50RND BELT POUCH",
@@ -4331,7 +4325,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4339,7 +4333,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             }
           ],
           "totalPoints": 95,
@@ -4358,7 +4352,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "STIPPLED STUBBY",
@@ -4366,7 +4360,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -4374,7 +4368,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "FLASH COMP",
@@ -4382,7 +4376,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "50RND BELT POUCH",
@@ -4390,7 +4384,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4398,7 +4392,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             }
           ],
           "totalPoints": 95,
@@ -4417,7 +4411,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "STIPPLED STUBBY",
@@ -4425,7 +4419,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "FMJ",
@@ -4433,7 +4427,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -4441,7 +4435,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "50RND BELT POUCH",
@@ -4449,7 +4443,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "50 MW GREEN",
@@ -4457,7 +4451,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4465,7 +4459,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-              "fetchTimestamp": "2026-05-12T14:48:00.249Z"
+              "fetchTimestamp": "2026-05-12T20:06:00.255Z"
             }
           ],
           "totalPoints": 95,
@@ -4479,7 +4473,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "m250",
         "weaponName": "M250",
@@ -4497,13 +4491,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/m250.webp"
     },
     "M44": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m44",
-      "fetchTimestamp": "2026-05-12T04:02:46.235Z",
+      "fetchTimestamp": "2026-05-12T20:06:01.619Z",
       "tier": "A",
       "categoryRank": {
         "position": 3,
@@ -4524,7 +4518,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m44",
-              "fetchTimestamp": "2026-05-12T04:02:46.235Z"
+              "fetchTimestamp": "2026-05-12T20:06:01.619Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -4532,7 +4526,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m44",
-              "fetchTimestamp": "2026-05-12T04:02:46.235Z"
+              "fetchTimestamp": "2026-05-12T20:06:01.619Z"
             },
             {
               "name": "6RND SPEEDLOADER",
@@ -4540,7 +4534,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m44",
-              "fetchTimestamp": "2026-05-12T04:02:46.235Z"
+              "fetchTimestamp": "2026-05-12T20:06:01.619Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -4548,7 +4542,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m44",
-              "fetchTimestamp": "2026-05-12T04:02:46.235Z"
+              "fetchTimestamp": "2026-05-12T20:06:01.619Z"
             }
           ],
           "totalPoints": 40,
@@ -4556,13 +4550,13 @@ export const consensusBuilds = {
         }
       },
       "imageUrl": "https://img.battlefieldmeta.gg/m44_version2/gunDisplayLoadouts",
-      "loadoutTier": "A",
+      "loadoutTier": "C",
       "loadoutCategoryRank": {
-        "position": 3,
+        "position": 17,
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "m44",
         "weaponName": "M44",
@@ -4580,19 +4574,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
-      "imagePath": "/weapons/m44.webp",
-      "loadoutFallback": {
-        "reason": "M44: budget-text parse failed from https://battlefieldmeta.gg/best-loadouts/m44",
-        "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m44",
-        "fallbackAt": "2026-05-12T14:48:02.587Z",
-        "fallbackSource": "previous generated consensusBuilds"
-      }
+      "imagePath": "/weapons/m44.webp"
     },
     "TR-7": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-      "fetchTimestamp": "2026-05-12T14:48:02.825Z",
+      "fetchTimestamp": "2026-05-12T20:06:03.433Z",
       "tier": "C",
       "categoryRank": {
         "position": 8,
@@ -4613,7 +4601,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "RIBBED VERTICAL",
@@ -4621,7 +4609,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "FMJ",
@@ -4629,7 +4617,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -4637,7 +4625,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "25 RND",
@@ -4645,7 +4633,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -4653,7 +4641,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             }
           ],
           "totalPoints": 100,
@@ -4672,7 +4660,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -4680,7 +4668,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "FMJ",
@@ -4688,7 +4676,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "FLASH COMP",
@@ -4696,7 +4684,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "25 RND",
@@ -4704,7 +4692,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -4712,7 +4700,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             }
           ],
           "totalPoints": 100,
@@ -4731,7 +4719,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -4739,7 +4727,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "FMJ",
@@ -4747,7 +4735,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "LINEAR COMP",
@@ -4755,7 +4743,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "25 RND",
@@ -4763,7 +4751,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -4771,7 +4759,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             }
           ],
           "totalPoints": 100,
@@ -4790,7 +4778,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "POLYMER CASE",
@@ -4798,7 +4786,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "25 FAST",
@@ -4806,7 +4794,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -4814,7 +4802,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "50 MW GREEN",
@@ -4822,7 +4810,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -4830,7 +4818,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -4838,7 +4826,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-              "fetchTimestamp": "2026-05-12T14:48:02.825Z"
+              "fetchTimestamp": "2026-05-12T20:06:03.433Z"
             }
           ],
           "totalPoints": 95,
@@ -4852,7 +4840,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "tr-7",
         "weaponName": "TR-7",
@@ -4870,13 +4858,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/tr-7.webp"
     },
     "QBZ-192": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-      "fetchTimestamp": "2026-05-12T14:48:03.918Z",
+      "fetchTimestamp": "2026-05-12T20:06:04.747Z",
       "tier": "A",
       "categoryRank": {
         "position": 2,
@@ -4897,7 +4885,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -4905,7 +4893,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "FMJ",
@@ -4913,7 +4901,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -4921,7 +4909,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -4929,7 +4917,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4937,7 +4925,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             }
           ],
           "totalPoints": 100,
@@ -4956,7 +4944,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -4964,7 +4952,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "FMJ",
@@ -4972,7 +4960,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "50 MW BLUE",
@@ -4980,7 +4968,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -4988,7 +4976,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -4996,7 +4984,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             }
           ],
           "totalPoints": 100,
@@ -5015,7 +5003,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -5023,7 +5011,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -5031,7 +5019,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -5039,7 +5027,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -5047,7 +5035,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             }
           ],
           "totalPoints": 100,
@@ -5066,7 +5054,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -5074,7 +5062,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "POLYMER CASE",
@@ -5082,7 +5070,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -5090,7 +5078,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "50 MW GREEN",
@@ -5098,7 +5086,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "RAIL COVER",
@@ -5106,7 +5094,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -5114,7 +5102,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -5122,7 +5110,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-              "fetchTimestamp": "2026-05-12T14:48:03.918Z"
+              "fetchTimestamp": "2026-05-12T20:06:04.747Z"
             }
           ],
           "totalPoints": 100,
@@ -5136,7 +5124,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "qbz-192",
         "weaponName": "QBZ-192",
@@ -5154,13 +5142,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/qbz-192.webp"
     },
     "M123K": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-      "fetchTimestamp": "2026-05-12T14:48:05.203Z",
+      "fetchTimestamp": "2026-05-12T20:06:06.082Z",
       "tier": "B",
       "categoryRank": {
         "position": 8,
@@ -5181,7 +5169,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -5189,7 +5177,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "FMJ",
@@ -5197,7 +5185,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -5205,7 +5193,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -5213,7 +5201,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5221,7 +5209,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             }
           ],
           "totalPoints": 95,
@@ -5240,7 +5228,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -5248,7 +5236,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -5256,7 +5244,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "FLASH COMP",
@@ -5264,7 +5252,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -5272,7 +5260,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5280,7 +5268,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             }
           ],
           "totalPoints": 95,
@@ -5299,7 +5287,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -5307,7 +5295,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "FMJ",
@@ -5315,7 +5303,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "FLASH COMP",
@@ -5323,7 +5311,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -5331,7 +5319,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5339,7 +5327,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             }
           ],
           "totalPoints": 100,
@@ -5358,7 +5346,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -5366,7 +5354,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -5374,7 +5362,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "LINEAR COMP",
@@ -5382,7 +5370,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -5390,7 +5378,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "50 MW GREEN",
@@ -5398,7 +5386,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "100RND BELT POUCH",
@@ -5406,7 +5394,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5414,7 +5402,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m123k",
-              "fetchTimestamp": "2026-05-12T14:48:05.203Z"
+              "fetchTimestamp": "2026-05-12T20:06:06.082Z"
             }
           ],
           "totalPoints": 100,
@@ -5428,7 +5416,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "m123k",
         "weaponName": "M123K",
@@ -5446,13 +5434,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/m123k.webp"
     },
     "L85A3": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-      "fetchTimestamp": "2026-05-12T14:48:06.458Z",
+      "fetchTimestamp": "2026-05-12T20:06:07.403Z",
       "tier": "A",
       "categoryRank": {
         "position": 4,
@@ -5473,7 +5461,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -5481,7 +5469,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "POLYMER CASE",
@@ -5489,7 +5477,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -5497,7 +5485,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "36 RND",
@@ -5505,7 +5493,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5513,7 +5501,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             }
           ],
           "totalPoints": 100,
@@ -5532,7 +5520,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -5540,7 +5528,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "POLYMER CASE",
@@ -5548,7 +5536,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "FLASH COMP",
@@ -5556,7 +5544,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "36 RND",
@@ -5564,7 +5552,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5572,7 +5560,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             }
           ],
           "totalPoints": 100,
@@ -5591,7 +5579,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -5599,7 +5587,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "FMJ",
@@ -5607,7 +5595,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -5615,7 +5603,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "36 RND",
@@ -5623,7 +5611,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5631,7 +5619,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             }
           ],
           "totalPoints": 100,
@@ -5650,7 +5638,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -5658,7 +5646,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "POLYMER CASE",
@@ -5666,7 +5654,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "36 RND",
@@ -5674,7 +5662,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "50 MW GREEN",
@@ -5682,7 +5670,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -5690,7 +5678,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -5698,7 +5686,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l85a3",
-              "fetchTimestamp": "2026-05-12T14:48:06.458Z"
+              "fetchTimestamp": "2026-05-12T20:06:07.403Z"
             }
           ],
           "totalPoints": 95,
@@ -5712,7 +5700,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "l85a3",
         "weaponName": "L85A3",
@@ -5730,13 +5718,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/l85a3.webp"
     },
     "SVDM": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-      "fetchTimestamp": "2026-05-12T14:48:07.757Z",
+      "fetchTimestamp": "2026-05-12T20:06:09.172Z",
       "tier": "B",
       "categoryRank": {
         "position": 2,
@@ -5757,7 +5745,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "FMJ",
@@ -5765,7 +5753,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "LONG SUPPRESSOR",
@@ -5773,7 +5761,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 11,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "20 RND",
@@ -5781,7 +5769,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -5789,7 +5777,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             }
           ],
           "totalPoints": 100,
@@ -5808,7 +5796,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "RIBBED VERTICAL",
@@ -5816,7 +5804,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "FMJ",
@@ -5824,7 +5812,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "LINEAR COMP",
@@ -5832,7 +5820,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "20 RND",
@@ -5840,7 +5828,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -5848,7 +5836,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             }
           ],
           "totalPoints": 100,
@@ -5867,7 +5855,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "FOLDING STUBBY",
@@ -5875,7 +5863,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "FMJ",
@@ -5883,7 +5871,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "LINEAR COMP",
@@ -5891,7 +5879,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "20 RND",
@@ -5899,7 +5887,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -5907,7 +5895,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             }
           ],
           "totalPoints": 100,
@@ -5926,7 +5914,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "FMJ",
@@ -5934,7 +5922,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -5942,7 +5930,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "20 RND",
@@ -5950,7 +5938,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "50 MW GREEN",
@@ -5958,7 +5946,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -5966,7 +5954,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-              "fetchTimestamp": "2026-05-12T14:48:07.757Z"
+              "fetchTimestamp": "2026-05-12T20:06:09.172Z"
             }
           ],
           "totalPoints": 100,
@@ -5980,7 +5968,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:59.362Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:01.978Z",
       "rankingConsensus": {
         "weaponId": "svdm",
         "weaponName": "SVDM",
@@ -5998,13 +5986,13 @@ export const consensusBuilds = {
           "category": "DMR"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:59.362Z"
+        "fetchTimestamp": "2026-05-12T20:07:01.978Z"
       },
       "imagePath": "/weapons/svdm.webp"
     },
     "MINI SCOUT": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-      "fetchTimestamp": "2026-05-12T14:48:09.914Z",
+      "fetchTimestamp": "2026-05-12T20:06:10.877Z",
       "tier": "A",
       "categoryRank": {
         "position": 3,
@@ -6025,7 +6013,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -6033,7 +6021,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "FMJ",
@@ -6041,7 +6029,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -6049,7 +6037,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "ANTI-GLARE COATING",
@@ -6057,7 +6045,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "RANGE FINDER",
@@ -6065,7 +6053,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -6073,7 +6061,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             },
             {
               "name": "SSDS 6.00X",
@@ -6081,7 +6069,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-              "fetchTimestamp": "2026-05-12T14:48:09.914Z"
+              "fetchTimestamp": "2026-05-12T20:06:10.877Z"
             }
           ],
           "totalPoints": 95,
@@ -6095,7 +6083,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:00.616Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:03.014Z",
       "rankingConsensus": {
         "weaponId": "mini-scout",
         "weaponName": "MINI SCOUT",
@@ -6113,13 +6101,13 @@ export const consensusBuilds = {
           "category": "Sniper Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:00.616Z"
+        "fetchTimestamp": "2026-05-12T20:07:03.014Z"
       },
       "imagePath": "/weapons/mini-scout.webp"
     },
     "ES 5.7": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-      "fetchTimestamp": "2026-05-12T14:48:11.199Z",
+      "fetchTimestamp": "2026-05-12T20:06:12.207Z",
       "tier": "C",
       "categoryRank": {
         "position": 7,
@@ -6140,7 +6128,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             },
             {
               "name": "5 MW GREEN",
@@ -6148,7 +6136,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             },
             {
               "name": "FMJ",
@@ -6156,7 +6144,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -6164,7 +6152,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -6172,7 +6160,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -6180,7 +6168,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -6188,7 +6176,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/es57",
-              "fetchTimestamp": "2026-05-12T14:48:11.199Z"
+              "fetchTimestamp": "2026-05-12T20:06:12.207Z"
             }
           ],
           "totalPoints": 60,
@@ -6202,7 +6190,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "es57",
         "weaponName": "ES 5.7",
@@ -6220,13 +6208,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
       "imagePath": "/weapons/es57.webp"
     },
     "SOR-300C": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-      "fetchTimestamp": "2026-05-12T14:48:12.428Z",
+      "fetchTimestamp": "2026-05-12T20:06:13.528Z",
       "tier": "A",
       "categoryRank": {
         "position": 3,
@@ -6247,7 +6235,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -6255,7 +6243,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "FMJ",
@@ -6263,7 +6251,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -6271,7 +6259,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "36 RND",
@@ -6279,7 +6267,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -6287,7 +6275,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             }
           ],
           "totalPoints": 100,
@@ -6306,7 +6294,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -6314,7 +6302,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "FMJ",
@@ -6322,7 +6310,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "FLASH COMP",
@@ -6330,7 +6318,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "36 RND",
@@ -6338,7 +6326,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -6346,7 +6334,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             }
           ],
           "totalPoints": 100,
@@ -6365,7 +6353,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -6373,7 +6361,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "FMJ",
@@ -6381,7 +6369,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -6389,7 +6377,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "36 RND",
@@ -6397,7 +6385,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -6405,7 +6393,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             }
           ],
           "totalPoints": 100,
@@ -6424,7 +6412,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -6432,7 +6420,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "POLYMER CASE",
@@ -6440,7 +6428,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "36 RND",
@@ -6448,7 +6436,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -6456,7 +6444,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "RAIL COVER",
@@ -6464,7 +6452,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "50 MW GREEN",
@@ -6472,7 +6460,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -6480,7 +6468,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sor-300sc",
-              "fetchTimestamp": "2026-05-12T14:48:12.428Z"
+              "fetchTimestamp": "2026-05-12T20:06:13.528Z"
             }
           ],
           "totalPoints": 100,
@@ -6494,7 +6482,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "sor-300sc",
         "weaponName": "SOR-300SC",
@@ -6512,13 +6500,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/sor-300sc.webp"
     },
     "RPKM": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-      "fetchTimestamp": "2026-05-12T14:48:13.710Z",
+      "fetchTimestamp": "2026-05-12T20:06:14.839Z",
       "tier": "A",
       "categoryRank": {
         "position": 5,
@@ -6539,7 +6527,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -6547,7 +6535,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "FMJ",
@@ -6555,7 +6543,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -6563,7 +6551,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "40RND FAST MAG",
@@ -6571,7 +6559,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -6579,7 +6567,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             }
           ],
           "totalPoints": 100,
@@ -6598,7 +6586,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -6606,7 +6594,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -6614,7 +6602,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "FLASH COMP",
@@ -6622,7 +6610,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -6630,7 +6618,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -6638,7 +6626,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             }
           ],
           "totalPoints": 100,
@@ -6657,7 +6645,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -6665,7 +6653,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "FMJ",
@@ -6673,7 +6661,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "FLASH COMP",
@@ -6681,7 +6669,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -6689,7 +6677,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -6697,7 +6685,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             }
           ],
           "totalPoints": 100,
@@ -6716,7 +6704,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -6724,7 +6712,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "POLYMER CASE",
@@ -6732,7 +6720,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "DOUBLE-PORT BRAKE",
@@ -6740,7 +6728,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -6748,7 +6736,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "50 MW GREEN",
@@ -6756,7 +6744,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -6764,7 +6752,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             },
             {
               "name": "BF-2M 2.50X",
@@ -6772,7 +6760,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpkm",
-              "fetchTimestamp": "2026-05-12T14:48:13.710Z"
+              "fetchTimestamp": "2026-05-12T20:06:14.839Z"
             }
           ],
           "totalPoints": 95,
@@ -6786,7 +6774,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "rpkm",
         "weaponName": "RPKM",
@@ -6804,13 +6792,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/rpkm.webp"
     },
     "PW5A3": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-      "fetchTimestamp": "2026-05-12T14:48:15.022Z",
+      "fetchTimestamp": "2026-05-12T20:06:16.168Z",
       "tier": "META",
       "categoryRank": {
         "position": 3,
@@ -6831,7 +6819,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "FMJ",
@@ -6839,7 +6827,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -6847,7 +6835,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -6855,7 +6843,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "120 MW BLUE",
@@ -6863,7 +6851,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -6871,7 +6859,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             }
           ],
           "totalPoints": 100,
@@ -6890,7 +6878,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -6898,7 +6886,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "FMJ",
@@ -6906,7 +6894,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "FLASH COMP",
@@ -6914,7 +6902,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -6922,7 +6910,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -6930,7 +6918,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             }
           ],
           "totalPoints": 100,
@@ -6949,7 +6937,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "STIPPLED STUBBY",
@@ -6957,7 +6945,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "FMJ",
@@ -6965,7 +6953,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "FLASH COMP",
@@ -6973,7 +6961,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -6981,7 +6969,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -6989,7 +6977,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             }
           ],
           "totalPoints": 100,
@@ -7008,7 +6996,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "SYNTHETIC TIP",
@@ -7016,7 +7004,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -7024,7 +7012,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -7032,7 +7020,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "50 MW GREEN",
@@ -7040,7 +7028,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -7048,7 +7036,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -7056,7 +7044,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-              "fetchTimestamp": "2026-05-12T14:48:15.022Z"
+              "fetchTimestamp": "2026-05-12T20:06:16.168Z"
             }
           ],
           "totalPoints": 100,
@@ -7070,7 +7058,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "pw5a3",
         "weaponName": "PW5A3",
@@ -7088,13 +7076,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/pw5a3.webp"
     },
     "SVK-8.6": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-      "fetchTimestamp": "2026-05-12T14:48:16.300Z",
+      "fetchTimestamp": "2026-05-12T20:06:17.508Z",
       "tier": "B",
       "categoryRank": {
         "position": 3,
@@ -7115,7 +7103,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -7123,7 +7111,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "FMJ",
@@ -7131,7 +7119,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -7139,7 +7127,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -7147,7 +7135,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "PVQ-31 4.00X",
@@ -7155,7 +7143,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             }
           ],
           "totalPoints": 100,
@@ -7174,7 +7162,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -7182,7 +7170,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "FMJ",
@@ -7190,7 +7178,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -7198,7 +7186,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -7206,7 +7194,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "PVQ-31 4.00X",
@@ -7214,7 +7202,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             }
           ],
           "totalPoints": 100,
@@ -7233,7 +7221,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -7241,7 +7229,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "FMJ",
@@ -7249,7 +7237,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -7257,7 +7245,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -7265,7 +7253,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "PVQ-31 4.00X",
@@ -7273,7 +7261,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             }
           ],
           "totalPoints": 100,
@@ -7292,7 +7280,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -7300,7 +7288,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "FMJ",
@@ -7308,7 +7296,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "LINEAR COMP",
@@ -7316,7 +7304,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -7324,7 +7312,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "50 MW GREEN",
@@ -7332,7 +7320,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -7340,7 +7328,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             },
             {
               "name": "PVQ-31 4.00X",
@@ -7348,7 +7336,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-              "fetchTimestamp": "2026-05-12T14:48:16.300Z"
+              "fetchTimestamp": "2026-05-12T20:06:17.508Z"
             }
           ],
           "totalPoints": 100,
@@ -7362,7 +7350,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:59.362Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:01.978Z",
       "rankingConsensus": {
         "weaponId": "svk-86",
         "weaponName": "SVK-8.6",
@@ -7380,13 +7368,13 @@ export const consensusBuilds = {
           "category": "DMR"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:59.362Z"
+        "fetchTimestamp": "2026-05-12T20:07:01.978Z"
       },
       "imagePath": "/weapons/svk-86.webp"
     },
     "PW7A2": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-      "fetchTimestamp": "2026-05-12T14:48:17.599Z",
+      "fetchTimestamp": "2026-05-12T20:06:18.881Z",
       "tier": "A",
       "categoryRank": {
         "position": 5,
@@ -7407,7 +7395,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "FMJ",
@@ -7415,7 +7403,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -7423,7 +7411,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -7431,7 +7419,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -7439,7 +7427,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "120 MW BLUE",
@@ -7447,7 +7435,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -7455,7 +7443,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             }
           ],
           "totalPoints": 100,
@@ -7474,7 +7462,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -7482,7 +7470,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "FMJ",
@@ -7490,7 +7478,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "FLASH COMP",
@@ -7498,7 +7486,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -7506,7 +7494,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -7514,7 +7502,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             }
           ],
           "totalPoints": 100,
@@ -7533,7 +7521,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -7541,7 +7529,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "FMJ",
@@ -7549,7 +7537,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -7557,7 +7545,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -7565,7 +7553,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -7573,7 +7561,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -7581,7 +7569,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             }
           ],
           "totalPoints": 100,
@@ -7600,7 +7588,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -7608,7 +7596,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "FMJ",
@@ -7616,7 +7604,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "40RND MAGAZINE",
@@ -7624,7 +7612,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -7632,7 +7620,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -7640,7 +7628,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "50 MW GREEN",
@@ -7648,7 +7636,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -7656,7 +7644,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw7a2",
-              "fetchTimestamp": "2026-05-12T14:48:17.599Z"
+              "fetchTimestamp": "2026-05-12T20:06:18.881Z"
             }
           ],
           "totalPoints": 100,
@@ -7670,7 +7658,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "pw7a2",
         "weaponName": "PW7A2",
@@ -7688,13 +7676,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/pw7a2.webp"
     },
     "B36A4": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-      "fetchTimestamp": "2026-05-12T14:48:18.894Z",
+      "fetchTimestamp": "2026-05-12T20:06:20.222Z",
       "tier": "A",
       "categoryRank": {
         "position": 3,
@@ -7715,7 +7703,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -7723,7 +7711,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "POLYMER CASE",
@@ -7731,7 +7719,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -7739,7 +7727,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "36 RND",
@@ -7747,7 +7735,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -7755,7 +7743,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             }
           ],
           "totalPoints": 100,
@@ -7774,7 +7762,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -7782,7 +7770,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "POLYMER CASE",
@@ -7790,7 +7778,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "FLASH COMP",
@@ -7798,7 +7786,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "36 RND",
@@ -7806,7 +7794,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -7814,7 +7802,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             }
           ],
           "totalPoints": 100,
@@ -7833,7 +7821,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -7841,7 +7829,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "FMJ",
@@ -7849,7 +7837,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "LINEAR COMP",
@@ -7857,7 +7845,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "36 RND",
@@ -7865,7 +7853,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -7873,7 +7861,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             }
           ],
           "totalPoints": 100,
@@ -7892,7 +7880,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -7900,7 +7888,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "POLYMER CASE",
@@ -7908,7 +7896,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "36 RND",
@@ -7916,7 +7904,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "50 MW GREEN",
@@ -7924,7 +7912,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -7932,7 +7920,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -7940,7 +7928,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/b36a4",
-              "fetchTimestamp": "2026-05-12T14:48:18.894Z"
+              "fetchTimestamp": "2026-05-12T20:06:20.222Z"
             }
           ],
           "totalPoints": 95,
@@ -7954,7 +7942,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "b36a4",
         "weaponName": "B36A4",
@@ -7972,13 +7960,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/b36a4.webp"
     },
     "NVO-228E": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-      "fetchTimestamp": "2026-05-12T14:48:20.192Z",
+      "fetchTimestamp": "2026-05-12T20:06:21.536Z",
       "tier": "A",
       "categoryRank": {
         "position": 5,
@@ -7999,7 +7987,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -8007,7 +7995,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "FMJ",
@@ -8015,7 +8003,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -8023,7 +8011,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8031,7 +8019,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8039,7 +8027,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             }
           ],
           "totalPoints": 100,
@@ -8058,7 +8046,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -8066,7 +8054,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "FMJ",
@@ -8074,7 +8062,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "FLASH COMP",
@@ -8082,7 +8070,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8090,7 +8078,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8098,7 +8086,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             }
           ],
           "totalPoints": 100,
@@ -8117,7 +8105,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -8125,7 +8113,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "FMJ",
@@ -8133,7 +8121,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -8141,7 +8129,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8149,7 +8137,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8157,7 +8145,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             }
           ],
           "totalPoints": 100,
@@ -8176,7 +8164,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -8184,7 +8172,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "POLYMER CASE",
@@ -8192,7 +8180,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8200,7 +8188,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -8208,7 +8196,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "50 MW GREEN",
@@ -8216,7 +8204,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8224,7 +8212,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/nvo-228e",
-              "fetchTimestamp": "2026-05-12T14:48:20.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:21.536Z"
             }
           ],
           "totalPoints": 95,
@@ -8238,7 +8226,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "nvo-228e",
         "weaponName": "NVO-228E",
@@ -8256,13 +8244,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/nvo-228e.webp"
     },
     "M277": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-      "fetchTimestamp": "2026-05-12T14:48:21.471Z",
+      "fetchTimestamp": "2026-05-12T20:06:22.894Z",
       "tier": "B",
       "categoryRank": {
         "position": 7,
@@ -8283,7 +8271,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -8291,7 +8279,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "FMJ",
@@ -8299,7 +8287,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -8307,7 +8295,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "25 RND",
@@ -8315,7 +8303,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8323,7 +8311,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             }
           ],
           "totalPoints": 100,
@@ -8342,7 +8330,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -8350,7 +8338,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "FMJ",
@@ -8358,7 +8346,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "FLASH COMP",
@@ -8366,7 +8354,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "25 RND",
@@ -8374,7 +8362,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8382,7 +8370,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             }
           ],
           "totalPoints": 100,
@@ -8401,7 +8389,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -8409,7 +8397,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "FMJ",
@@ -8417,7 +8405,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "LINEAR COMP",
@@ -8425,7 +8413,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "25 RND",
@@ -8433,7 +8421,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8441,7 +8429,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             }
           ],
           "totalPoints": 100,
@@ -8460,7 +8448,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "FMJ",
@@ -8468,7 +8456,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "25 FAST",
@@ -8476,7 +8464,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -8484,7 +8472,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "50 MW GREEN",
@@ -8492,7 +8480,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -8500,7 +8488,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -8508,7 +8496,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m277",
-              "fetchTimestamp": "2026-05-12T14:48:21.471Z"
+              "fetchTimestamp": "2026-05-12T20:06:22.894Z"
             }
           ],
           "totalPoints": 95,
@@ -8522,7 +8510,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "m277",
         "weaponName": "M277",
@@ -8540,13 +8528,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/m277.webp"
     },
     "GRT-BC": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-      "fetchTimestamp": "2026-05-12T14:48:22.721Z",
+      "fetchTimestamp": "2026-05-12T20:06:24.226Z",
       "tier": "D",
       "categoryRank": {
         "position": 8,
@@ -8567,7 +8555,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -8575,7 +8563,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "FMJ",
@@ -8583,7 +8571,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "FLASH COMP",
@@ -8591,7 +8579,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8599,7 +8587,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "GRIM 1.50X",
@@ -8607,7 +8595,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             }
           ],
           "totalPoints": 100,
@@ -8626,7 +8614,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -8634,7 +8622,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "FMJ",
@@ -8642,7 +8630,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -8650,7 +8638,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8658,7 +8646,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "GRIM 1.50X",
@@ -8666,7 +8654,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             }
           ],
           "totalPoints": 100,
@@ -8685,7 +8673,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "STIPPLED STUBBY",
@@ -8693,7 +8681,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "FMJ",
@@ -8701,7 +8689,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "LINEAR COMP",
@@ -8709,7 +8697,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8717,7 +8705,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "GRIM 1.50X",
@@ -8725,7 +8713,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             }
           ],
           "totalPoints": 100,
@@ -8744,7 +8732,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "POLYMER CASE",
@@ -8752,7 +8740,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -8760,7 +8748,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -8768,7 +8756,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "50 MW GREEN",
@@ -8776,7 +8764,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             },
             {
               "name": "GRIM 1.50X",
@@ -8784,7 +8772,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 27,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-              "fetchTimestamp": "2026-05-12T14:48:22.721Z"
+              "fetchTimestamp": "2026-05-12T20:06:24.226Z"
             }
           ],
           "totalPoints": 95,
@@ -8798,7 +8786,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "grt-bc",
         "weaponName": "GRT-BC",
@@ -8816,13 +8804,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/grt-bc.webp"
     },
     "M/60": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-      "fetchTimestamp": "2026-05-12T14:48:23.994Z",
+      "fetchTimestamp": "2026-05-12T20:06:25.538Z",
       "tier": "A",
       "categoryRank": {
         "position": 7,
@@ -8843,7 +8831,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -8851,7 +8839,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "FMJ",
@@ -8859,7 +8847,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -8867,7 +8855,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "100 RND",
@@ -8875,7 +8863,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -8883,7 +8871,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             }
           ],
           "totalPoints": 95,
@@ -8902,7 +8890,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -8910,7 +8898,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -8918,7 +8906,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "FLASH COMP",
@@ -8926,7 +8914,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "100 RND",
@@ -8934,7 +8922,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -8942,7 +8930,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             }
           ],
           "totalPoints": 100,
@@ -8961,7 +8949,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -8969,7 +8957,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "FMJ",
@@ -8977,7 +8965,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "FLASH COMP",
@@ -8985,7 +8973,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "100 RND",
@@ -8993,7 +8981,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -9001,7 +8989,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             }
           ],
           "totalPoints": 95,
@@ -9020,7 +9008,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -9028,7 +9016,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -9036,7 +9024,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -9044,7 +9032,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "50 MW GREEN",
@@ -9052,7 +9040,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "100 RND",
@@ -9060,7 +9048,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -9068,7 +9056,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-              "fetchTimestamp": "2026-05-12T14:48:23.994Z"
+              "fetchTimestamp": "2026-05-12T20:06:25.538Z"
             }
           ],
           "totalPoints": 100,
@@ -9082,7 +9070,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "m60",
         "weaponName": "M60",
@@ -9100,13 +9088,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/m60.webp"
     },
     "LMR 27": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-      "fetchTimestamp": "2026-05-12T14:48:25.297Z",
+      "fetchTimestamp": "2026-05-12T20:06:26.857Z",
       "tier": "D",
       "categoryRank": {
         "position": 5,
@@ -9127,7 +9115,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "FMJ",
@@ -9135,7 +9123,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "LONG SUPPRESSOR",
@@ -9143,7 +9131,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 20,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "20 RND",
@@ -9151,7 +9139,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -9159,7 +9147,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             }
           ],
           "totalPoints": 100,
@@ -9178,7 +9166,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -9186,7 +9174,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "FMJ",
@@ -9194,7 +9182,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -9202,7 +9190,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "20 RND",
@@ -9210,7 +9198,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -9218,7 +9206,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             }
           ],
           "totalPoints": 100,
@@ -9237,7 +9225,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "FULL ANGLED",
@@ -9245,7 +9233,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "FMJ",
@@ -9253,7 +9241,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -9261,7 +9249,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "20 RND",
@@ -9269,7 +9257,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -9277,7 +9265,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             }
           ],
           "totalPoints": 100,
@@ -9296,7 +9284,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "FMJ",
@@ -9304,7 +9292,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "20 RND",
@@ -9312,7 +9300,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 28,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -9320,7 +9308,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "50 MW GREEN",
@@ -9328,7 +9316,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -9336,7 +9324,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/lmr27",
-              "fetchTimestamp": "2026-05-12T14:48:25.297Z"
+              "fetchTimestamp": "2026-05-12T20:06:26.857Z"
             }
           ],
           "totalPoints": 100,
@@ -9350,7 +9338,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:59.362Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:01.978Z",
       "rankingConsensus": {
         "weaponId": "lmr27",
         "weaponName": "LMR27",
@@ -9368,13 +9356,13 @@ export const consensusBuilds = {
           "category": "DMR"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:59.362Z"
+        "fetchTimestamp": "2026-05-12T20:07:01.978Z"
       },
       "imagePath": "/weapons/lmr27.webp"
     },
     "AK4D": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-      "fetchTimestamp": "2026-05-12T14:48:26.635Z",
+      "fetchTimestamp": "2026-05-12T20:06:28.071Z",
       "tier": "A",
       "categoryRank": {
         "position": 7,
@@ -9395,7 +9383,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -9403,7 +9391,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "FMJ",
@@ -9411,7 +9399,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -9419,7 +9407,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "20 FAST",
@@ -9427,7 +9415,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9435,7 +9423,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             }
           ],
           "totalPoints": 100,
@@ -9454,7 +9442,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -9462,7 +9450,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -9470,7 +9458,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "FLASH COMP",
@@ -9478,7 +9466,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "20 RND",
@@ -9486,7 +9474,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9494,7 +9482,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             }
           ],
           "totalPoints": 100,
@@ -9513,7 +9501,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -9521,7 +9509,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "FMJ",
@@ -9529,7 +9517,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "FLASH COMP",
@@ -9537,7 +9525,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "20 RND",
@@ -9545,7 +9533,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9553,7 +9541,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             }
           ],
           "totalPoints": 100,
@@ -9572,7 +9560,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -9580,7 +9568,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "POLYMER CASE",
@@ -9588,7 +9576,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "LINEAR COMP",
@@ -9596,7 +9584,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -9604,7 +9592,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "50 MW GREEN",
@@ -9612,7 +9600,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 31,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "20 RND",
@@ -9620,7 +9608,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9628,7 +9616,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-              "fetchTimestamp": "2026-05-12T14:48:26.635Z"
+              "fetchTimestamp": "2026-05-12T20:06:28.071Z"
             }
           ],
           "totalPoints": 95,
@@ -9642,7 +9630,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "ak4d",
         "weaponName": "AK4D",
@@ -9660,13 +9648,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/ak4d.webp"
     },
     "M417 A2": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-      "fetchTimestamp": "2026-05-12T14:48:27.889Z",
+      "fetchTimestamp": "2026-05-12T20:06:29.485Z",
       "tier": "A",
       "categoryRank": {
         "position": 6,
@@ -9687,7 +9675,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "6H64 VERTICAL",
@@ -9695,7 +9683,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "FMJ",
@@ -9703,7 +9691,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -9711,7 +9699,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -9719,7 +9707,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9727,7 +9715,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             }
           ],
           "totalPoints": 100,
@@ -9746,7 +9734,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -9754,7 +9742,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "FMJ",
@@ -9762,7 +9750,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "FLASH COMP",
@@ -9770,7 +9758,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -9778,7 +9766,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9786,7 +9774,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             }
           ],
           "totalPoints": 100,
@@ -9805,7 +9793,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -9813,7 +9801,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "FMJ",
@@ -9821,7 +9809,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "LINEAR COMP",
@@ -9829,7 +9817,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -9837,7 +9825,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9845,7 +9833,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             }
           ],
           "totalPoints": 100,
@@ -9864,7 +9852,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -9872,7 +9860,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "POLYMER CASE",
@@ -9880,7 +9868,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "25RND MAGAZINE",
@@ -9888,7 +9876,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -9896,7 +9884,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "50 MW GREEN",
@@ -9904,7 +9892,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -9912,7 +9900,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m417-a2",
-              "fetchTimestamp": "2026-05-12T14:48:27.889Z"
+              "fetchTimestamp": "2026-05-12T20:06:29.485Z"
             }
           ],
           "totalPoints": 95,
@@ -9926,7 +9914,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:56.061Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:58.890Z",
       "rankingConsensus": {
         "weaponId": "m417-a2",
         "weaponName": "M417 A2",
@@ -9944,13 +9932,13 @@ export const consensusBuilds = {
           "category": "Carbine"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-carbines-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:56.061Z"
+        "fetchTimestamp": "2026-05-12T20:06:58.890Z"
       },
       "imagePath": "/weapons/m417-a2.webp"
     },
     "USG-90": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-      "fetchTimestamp": "2026-05-12T14:48:29.236Z",
+      "fetchTimestamp": "2026-05-12T20:06:30.945Z",
       "tier": "META",
       "categoryRank": {
         "position": 2,
@@ -9971,7 +9959,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "POLYMER CASE",
@@ -9979,7 +9967,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -9987,7 +9975,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -9995,7 +9983,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 MW BLUE",
@@ -10003,7 +9991,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 RND MAGAZINE",
@@ -10011,7 +9999,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10019,7 +10007,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             }
           ],
           "totalPoints": 100,
@@ -10038,7 +10026,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -10046,7 +10034,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "FLASH COMP",
@@ -10054,7 +10042,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -10062,7 +10050,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 MW BLUE",
@@ -10070,7 +10058,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 RND MAGAZINE",
@@ -10078,7 +10066,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10086,7 +10074,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             }
           ],
           "totalPoints": 95,
@@ -10105,7 +10093,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -10113,7 +10101,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "FLASH COMP",
@@ -10121,7 +10109,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -10129,7 +10117,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 MW BLUE",
@@ -10137,7 +10125,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 RND MAGAZINE",
@@ -10145,7 +10133,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10153,7 +10141,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             }
           ],
           "totalPoints": 95,
@@ -10172,7 +10160,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "POLYMER CASE",
@@ -10180,7 +10168,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "LINEAR COMP",
@@ -10188,7 +10176,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -10196,7 +10184,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -10204,7 +10192,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "120 MW BLUE",
@@ -10212,7 +10200,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "50 RND MAGAZINE",
@@ -10220,7 +10208,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10228,7 +10216,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-              "fetchTimestamp": "2026-05-12T14:48:29.236Z"
+              "fetchTimestamp": "2026-05-12T20:06:30.945Z"
             }
           ],
           "totalPoints": 100,
@@ -10242,7 +10230,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "usg-90",
         "weaponName": "USG-90",
@@ -10260,13 +10248,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/usg-90.webp"
     },
     "M240L": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-      "fetchTimestamp": "2026-05-12T14:48:30.551Z",
+      "fetchTimestamp": "2026-05-12T20:06:32.290Z",
       "tier": "B",
       "categoryRank": {
         "position": 9,
@@ -10287,7 +10275,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -10295,7 +10283,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FMJ",
@@ -10303,7 +10291,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -10311,7 +10299,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 39,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "75RND BELT BOX",
@@ -10319,7 +10307,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -10327,7 +10315,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             }
           ],
           "totalPoints": 100,
@@ -10346,7 +10334,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -10354,7 +10342,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FMJ",
@@ -10362,7 +10350,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FLASH COMP",
@@ -10370,7 +10358,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "75RND BELT BOX",
@@ -10378,7 +10366,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -10386,7 +10374,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             }
           ],
           "totalPoints": 100,
@@ -10405,7 +10393,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -10413,7 +10401,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FMJ",
@@ -10421,7 +10409,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FLASH COMP",
@@ -10429,7 +10417,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "75RND BELT BOX",
@@ -10437,7 +10425,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -10445,7 +10433,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             }
           ],
           "totalPoints": 100,
@@ -10464,7 +10452,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -10472,7 +10460,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FMJ",
@@ -10480,7 +10468,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "75RND BELT BOX",
@@ -10488,7 +10476,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -10496,7 +10484,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "50 MW GREEN",
@@ -10504,7 +10492,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "RAIL COVER",
@@ -10512,7 +10500,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -10520,7 +10508,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-              "fetchTimestamp": "2026-05-12T14:48:30.551Z"
+              "fetchTimestamp": "2026-05-12T20:06:32.290Z"
             }
           ],
           "totalPoints": 95,
@@ -10534,7 +10522,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "m240l",
         "weaponName": "M240L",
@@ -10552,13 +10540,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/m240l.webp"
     },
     "PSR": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-      "fetchTimestamp": "2026-05-12T14:48:31.905Z",
+      "fetchTimestamp": "2026-05-12T20:06:33.685Z",
       "tier": "A",
       "categoryRank": {
         "position": 1,
@@ -10579,7 +10567,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -10587,7 +10575,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "MATCH GRADE",
@@ -10595,7 +10583,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -10603,7 +10591,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "ANTI-GLARE COATING",
@@ -10611,7 +10599,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "RANGE FINDER",
@@ -10619,7 +10607,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -10627,7 +10615,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             },
             {
               "name": "LERT 8.00X",
@@ -10635,7 +10623,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/psr",
-              "fetchTimestamp": "2026-05-12T14:48:31.905Z"
+              "fetchTimestamp": "2026-05-12T20:06:33.685Z"
             }
           ],
           "totalPoints": 100,
@@ -10649,7 +10637,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:00.616Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:03.014Z",
       "rankingConsensus": {
         "weaponId": "psr",
         "weaponName": "PSR",
@@ -10667,13 +10655,13 @@ export const consensusBuilds = {
           "category": "Sniper Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:00.616Z"
+        "fetchTimestamp": "2026-05-12T20:07:03.014Z"
       },
       "imagePath": "/weapons/psr.webp"
     },
     "UMG-40": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-      "fetchTimestamp": "2026-05-12T14:48:33.192Z",
+      "fetchTimestamp": "2026-05-12T20:06:35.048Z",
       "tier": "A",
       "categoryRank": {
         "position": 7,
@@ -10694,7 +10682,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "FMJ",
@@ -10702,7 +10690,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -10710,7 +10698,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -10718,7 +10706,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "120 MW BLUE",
@@ -10726,7 +10714,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10734,7 +10722,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             }
           ],
           "totalPoints": 95,
@@ -10753,7 +10741,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 16,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -10761,7 +10749,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "FMJ",
@@ -10769,7 +10757,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "FLASH COMP",
@@ -10777,7 +10765,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -10785,7 +10773,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10793,7 +10781,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             }
           ],
           "totalPoints": 95,
@@ -10812,7 +10800,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -10820,7 +10808,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "FMJ",
@@ -10828,7 +10816,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "LINEAR COMP",
@@ -10836,7 +10824,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -10844,7 +10832,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10852,7 +10840,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             }
           ],
           "totalPoints": 100,
@@ -10871,7 +10859,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -10879,7 +10867,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 17,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "FMJ",
@@ -10887,7 +10875,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "36RND MAGAZINE",
@@ -10895,7 +10883,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -10903,7 +10891,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "50 MW GREEN",
@@ -10911,7 +10899,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -10919,7 +10907,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/umg-40",
-              "fetchTimestamp": "2026-05-12T14:48:33.192Z"
+              "fetchTimestamp": "2026-05-12T20:06:35.048Z"
             }
           ],
           "totalPoints": 100,
@@ -10933,7 +10921,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "umg-40",
         "weaponName": "UMG-40",
@@ -10951,13 +10939,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/umg-40.webp"
     },
     "M16A4": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-      "fetchTimestamp": "2026-05-12T14:48:34.541Z",
+      "fetchTimestamp": "2026-05-12T20:06:36.123Z",
       "tier": "D",
       "categoryRank": {
         "position": 9,
@@ -10978,7 +10966,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -10986,7 +10974,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "POLYMER CASE",
@@ -10994,7 +10982,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "LONG SUPPRESSOR",
@@ -11002,7 +10990,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "CCO 2.00X",
@@ -11010,7 +10998,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             }
           ],
           "totalPoints": 100,
@@ -11029,7 +11017,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -11037,7 +11025,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "FMJ",
@@ -11045,7 +11033,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -11053,7 +11041,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "50 MW BLUE",
@@ -11061,7 +11049,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "CCO 2.00X",
@@ -11069,7 +11057,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             }
           ],
           "totalPoints": 100,
@@ -11088,7 +11076,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -11096,7 +11084,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "FMJ",
@@ -11104,7 +11092,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -11112,7 +11100,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "CCO 2.00X",
@@ -11120,7 +11108,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             }
           ],
           "totalPoints": 100,
@@ -11139,7 +11127,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "POLYMER CASE",
@@ -11147,7 +11135,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -11155,7 +11143,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11163,7 +11151,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11171,7 +11159,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11179,7 +11167,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             },
             {
               "name": "CCO 2.00X",
@@ -11187,7 +11175,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-              "fetchTimestamp": "2026-05-12T14:48:34.541Z"
+              "fetchTimestamp": "2026-05-12T20:06:36.123Z"
             }
           ],
           "totalPoints": 100,
@@ -11201,7 +11189,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:54.829Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:57.864Z",
       "rankingConsensus": {
         "weaponId": "m16a4",
         "weaponName": "M16A4",
@@ -11219,13 +11207,13 @@ export const consensusBuilds = {
           "category": "Assault Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-assault-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:54.829Z"
+        "fetchTimestamp": "2026-05-12T20:06:57.864Z"
       },
       "imagePath": "/weapons/m16a4.webp"
     },
     "CZ3A1": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-      "fetchTimestamp": "2026-05-12T14:48:35.812Z",
+      "fetchTimestamp": "2026-05-12T20:06:37.634Z",
       "tier": "A",
       "categoryRank": {
         "position": 4,
@@ -11246,7 +11234,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 24,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -11254,7 +11242,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "FMJ",
@@ -11262,7 +11250,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -11270,7 +11258,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "35RND MAGAZINE",
@@ -11278,7 +11266,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11286,7 +11274,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             }
           ],
           "totalPoints": 100,
@@ -11305,7 +11293,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -11313,7 +11301,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "FMJ",
@@ -11321,7 +11309,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -11329,7 +11317,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "35RND MAGAZINE",
@@ -11337,7 +11325,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -11345,7 +11333,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11353,7 +11341,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             }
           ],
           "totalPoints": 100,
@@ -11372,7 +11360,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -11380,7 +11368,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "FMJ",
@@ -11388,7 +11376,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "SINGLE-PORT BRAKE",
@@ -11396,7 +11384,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "35RND MAGAZINE",
@@ -11404,7 +11392,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11412,7 +11400,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             }
           ],
           "totalPoints": 100,
@@ -11431,7 +11419,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "POLYMER CASE",
@@ -11439,7 +11427,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "35RND MAGAZINE",
@@ -11447,7 +11435,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "5 MW GREEN",
@@ -11455,7 +11443,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11463,7 +11451,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11471,7 +11459,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11479,7 +11467,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-              "fetchTimestamp": "2026-05-12T14:48:35.812Z"
+              "fetchTimestamp": "2026-05-12T20:06:37.634Z"
             }
           ],
           "totalPoints": 100,
@@ -11493,7 +11481,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "cz3a1",
         "weaponName": "CZ3A1",
@@ -11511,13 +11499,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/cz3a1.webp"
     },
     "SL9": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-      "fetchTimestamp": "2026-05-12T14:48:37.105Z",
+      "fetchTimestamp": "2026-05-12T20:06:39.013Z",
       "tier": "A",
       "categoryRank": {
         "position": 6,
@@ -11538,7 +11526,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "FMJ",
@@ -11546,7 +11534,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -11554,7 +11542,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "60RND MAGAZINE",
@@ -11562,7 +11550,7 @@ export const consensusBuilds = {
               "pointCost": 55,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11570,7 +11558,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             }
           ],
           "totalPoints": 100,
@@ -11589,7 +11577,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "FOLDING VERTICAL",
@@ -11597,7 +11585,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 2,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "FMJ",
@@ -11605,7 +11593,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "LINEAR COMP",
@@ -11613,7 +11601,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "60RND MAGAZINE",
@@ -11621,7 +11609,7 @@ export const consensusBuilds = {
               "pointCost": 55,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11629,7 +11617,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             }
           ],
           "totalPoints": 100,
@@ -11648,7 +11636,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "FACTORY ANGLED",
@@ -11656,7 +11644,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "FMJ",
@@ -11664,7 +11652,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "60RND MAGAZINE",
@@ -11672,7 +11660,7 @@ export const consensusBuilds = {
               "pointCost": 55,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11680,7 +11668,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             }
           ],
           "totalPoints": 100,
@@ -11699,7 +11687,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "FMJ",
@@ -11707,7 +11695,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "60RND MAGAZINE",
@@ -11715,7 +11703,7 @@ export const consensusBuilds = {
               "pointCost": 55,
               "unlockLevel": 30,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11723,7 +11711,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -11731,7 +11719,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 5,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sl9",
-              "fetchTimestamp": "2026-05-12T14:48:37.105Z"
+              "fetchTimestamp": "2026-05-12T20:06:39.013Z"
             }
           ],
           "totalPoints": 100,
@@ -11745,7 +11733,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:57.265Z",
+      "rankingFetchTimestamp": "2026-05-12T20:06:59.919Z",
       "rankingConsensus": {
         "weaponId": "sl9",
         "weaponName": "SL9",
@@ -11763,13 +11751,13 @@ export const consensusBuilds = {
           "category": "SMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-smg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:57.265Z"
+        "fetchTimestamp": "2026-05-12T20:06:59.919Z"
       },
       "imagePath": "/weapons/sl9.webp"
     },
     "SV-98": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-      "fetchTimestamp": "2026-05-12T14:48:38.392Z",
+      "fetchTimestamp": "2026-05-12T20:06:40.362Z",
       "tier": "A",
       "categoryRank": {
         "position": 2,
@@ -11790,7 +11778,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             },
             {
               "name": "MATCH GRADE",
@@ -11798,7 +11786,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             },
             {
               "name": "LONG SUPPRESSOR",
@@ -11806,7 +11794,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             },
             {
               "name": "ANTI-GLARE COATING",
@@ -11814,7 +11802,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             },
             {
               "name": "RANGE FINDER",
@@ -11822,7 +11810,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             },
             {
               "name": "10RND MAGAZINE",
@@ -11830,7 +11818,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             },
             {
               "name": "LERT 8.00X",
@@ -11838,7 +11826,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sv-98",
-              "fetchTimestamp": "2026-05-12T14:48:38.392Z"
+              "fetchTimestamp": "2026-05-12T20:06:40.362Z"
             }
           ],
           "totalPoints": 95,
@@ -11852,7 +11840,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:00.616Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:03.014Z",
       "rankingConsensus": {
         "weaponId": "sv-98",
         "weaponName": "SV-98",
@@ -11870,13 +11858,13 @@ export const consensusBuilds = {
           "category": "Sniper Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:00.616Z"
+        "fetchTimestamp": "2026-05-12T20:07:03.014Z"
       },
       "imagePath": "/weapons/sv-98.webp"
     },
     "M1014": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-      "fetchTimestamp": "2026-05-12T14:48:39.475Z",
+      "fetchTimestamp": "2026-05-12T20:06:41.700Z",
       "tier": "C",
       "categoryRank": {
         "position": 3,
@@ -11897,7 +11885,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 40,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-              "fetchTimestamp": "2026-05-12T14:48:39.475Z"
+              "fetchTimestamp": "2026-05-12T20:06:41.700Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -11905,7 +11893,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-              "fetchTimestamp": "2026-05-12T14:48:39.475Z"
+              "fetchTimestamp": "2026-05-12T20:06:41.700Z"
             },
             {
               "name": "BUCKSHOT",
@@ -11913,7 +11901,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-              "fetchTimestamp": "2026-05-12T14:48:39.475Z"
+              "fetchTimestamp": "2026-05-12T20:06:41.700Z"
             },
             {
               "name": "CQB SUPPRESSOR",
@@ -11921,7 +11909,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-              "fetchTimestamp": "2026-05-12T14:48:39.475Z"
+              "fetchTimestamp": "2026-05-12T20:06:41.700Z"
             },
             {
               "name": "50 MW GREEN",
@@ -11929,7 +11917,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 34,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-              "fetchTimestamp": "2026-05-12T14:48:39.475Z"
+              "fetchTimestamp": "2026-05-12T20:06:41.700Z"
             },
             {
               "name": "ST PRISIM 5.00X",
@@ -11937,7 +11925,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-              "fetchTimestamp": "2026-05-12T14:48:39.475Z"
+              "fetchTimestamp": "2026-05-12T20:06:41.700Z"
             }
           ],
           "totalPoints": 95,
@@ -11951,7 +11939,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:01.947Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:04.037Z",
       "rankingConsensus": {
         "weaponId": "m1014",
         "weaponName": "M1014",
@@ -11969,13 +11957,13 @@ export const consensusBuilds = {
           "category": "Shotgun"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:01.947Z"
+        "fetchTimestamp": "2026-05-12T20:07:04.037Z"
       },
       "imagePath": "/weapons/m1014.webp"
     },
     "M121 A2": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-      "fetchTimestamp": "2026-05-12T14:48:40.712Z",
+      "fetchTimestamp": "2026-05-12T20:06:43.019Z",
       "tier": "A",
       "categoryRank": {
         "position": 6,
@@ -11996,7 +11984,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -12004,7 +11992,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "FMJ",
@@ -12012,7 +12000,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -12020,7 +12008,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "50RND BELT POUCH",
@@ -12028,7 +12016,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -12036,7 +12024,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             }
           ],
           "totalPoints": 100,
@@ -12055,7 +12043,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -12063,7 +12051,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 37,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -12071,7 +12059,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 33,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -12079,7 +12067,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "50RND DRUM",
@@ -12087,7 +12075,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -12095,7 +12083,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             }
           ],
           "totalPoints": 100,
@@ -12114,7 +12102,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -12122,7 +12110,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "FMJ",
@@ -12130,7 +12118,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -12138,7 +12126,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "50RND DRUM",
@@ -12146,7 +12134,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -12154,7 +12142,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             }
           ],
           "totalPoints": 100,
@@ -12173,7 +12161,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -12181,7 +12169,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 19,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "FMJ",
@@ -12189,7 +12177,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "LINEAR COMP",
@@ -12197,7 +12185,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 13,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -12205,7 +12193,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 8,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "50 MW GREEN",
@@ -12213,7 +12201,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "50RND DRUM",
@@ -12221,7 +12209,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             },
             {
               "name": "RO-M 1.75X",
@@ -12229,7 +12217,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 10,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-              "fetchTimestamp": "2026-05-12T14:48:40.712Z"
+              "fetchTimestamp": "2026-05-12T20:06:43.019Z"
             }
           ],
           "totalPoints": 100,
@@ -12243,7 +12231,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "m121-a2",
         "weaponName": "M121 A2",
@@ -12261,13 +12249,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/m121-a2.webp"
     },
     "RPK-74M": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-      "fetchTimestamp": "2026-05-12T14:48:42.011Z",
+      "fetchTimestamp": "2026-05-12T20:06:44.087Z",
       "tier": "D",
       "categoryRank": {
         "position": 10,
@@ -12288,7 +12276,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -12296,7 +12284,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "FMJ",
@@ -12304,7 +12292,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -12312,7 +12300,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "CCO 2.00X",
@@ -12320,7 +12308,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             }
           ],
           "totalPoints": 100,
@@ -12339,7 +12327,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "CLASSIC VERTICAL",
@@ -12347,7 +12335,7 @@ export const consensusBuilds = {
               "pointCost": 35,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "FMJ",
@@ -12355,7 +12343,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -12363,7 +12351,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "50 MW BLUE",
@@ -12371,7 +12359,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "CCO 2.00X",
@@ -12379,7 +12367,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             }
           ],
           "totalPoints": 100,
@@ -12398,7 +12386,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -12406,7 +12394,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "FMJ",
@@ -12414,7 +12402,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "COMPENSATED BRAKE",
@@ -12422,7 +12410,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "CCO 2.00X",
@@ -12430,7 +12418,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             }
           ],
           "totalPoints": 100,
@@ -12449,7 +12437,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "POLYMER CASE",
@@ -12457,7 +12445,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -12465,7 +12453,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "50 MW GREEN",
@@ -12473,7 +12461,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "50 MW GREEN",
@@ -12481,7 +12469,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "50 MW GREEN",
@@ -12489,7 +12477,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             },
             {
               "name": "CCO 2.00X",
@@ -12497,7 +12485,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/rpk-74m",
-              "fetchTimestamp": "2026-05-12T14:48:42.011Z"
+              "fetchTimestamp": "2026-05-12T20:06:44.087Z"
             }
           ],
           "totalPoints": 100,
@@ -12511,7 +12499,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:58.315Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:00.949Z",
       "rankingConsensus": {
         "weaponId": "rpk-74m",
         "weaponName": "RPK-74M",
@@ -12529,13 +12517,13 @@ export const consensusBuilds = {
           "category": "LMG"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-lmg-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:58.315Z"
+        "fetchTimestamp": "2026-05-12T20:07:00.949Z"
       },
       "imagePath": "/weapons/rpk-74m.webp"
     },
     "GRT-CPS": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-      "fetchTimestamp": "2026-05-12T14:48:43.352Z",
+      "fetchTimestamp": "2026-05-12T20:06:46.002Z",
       "tier": "B",
       "categoryRank": {
         "position": 4,
@@ -12556,7 +12544,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "SLIM ANGLED",
@@ -12564,7 +12552,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "POLYMER CASE",
@@ -12572,7 +12560,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "LIGHTENED SUPPRESSOR",
@@ -12580,7 +12568,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 38,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "20RND FAST MAG",
@@ -12588,7 +12576,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 7,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -12596,7 +12584,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             }
           ],
           "totalPoints": 100,
@@ -12615,7 +12603,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -12623,7 +12611,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "FMJ",
@@ -12631,7 +12619,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "FLASH COMP",
@@ -12639,7 +12627,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -12647,7 +12635,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -12655,7 +12643,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             }
           ],
           "totalPoints": 100,
@@ -12674,7 +12662,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "LOW-PROFILE STUBBY",
@@ -12682,7 +12670,7 @@ export const consensusBuilds = {
               "pointCost": 45,
               "unlockLevel": 32,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "FMJ",
@@ -12690,7 +12678,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "FLASH COMP",
@@ -12698,7 +12686,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -12706,7 +12694,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -12714,7 +12702,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             }
           ],
           "totalPoints": 100,
@@ -12733,7 +12721,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -12741,7 +12729,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "POLYMER CASE",
@@ -12749,7 +12737,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 36,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "DOUBLE-PORT BRAKE",
@@ -12757,7 +12745,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 23,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "FLASHLIGHT",
@@ -12765,7 +12753,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "50 MW GREEN",
@@ -12773,7 +12761,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 21,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -12781,7 +12769,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             },
             {
               "name": "BAKER 3.00X",
@@ -12789,7 +12777,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-              "fetchTimestamp": "2026-05-12T14:48:43.352Z"
+              "fetchTimestamp": "2026-05-12T20:06:46.002Z"
             }
           ],
           "totalPoints": 95,
@@ -12803,7 +12791,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:48:59.362Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:01.978Z",
       "rankingConsensus": {
         "weaponId": "grt-cps",
         "weaponName": "GRT-CPS",
@@ -12821,13 +12809,13 @@ export const consensusBuilds = {
           "category": "DMR"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-dmr-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:48:59.362Z"
+        "fetchTimestamp": "2026-05-12T20:07:01.978Z"
       },
       "imagePath": "/weapons/grt-cps.webp"
     },
     "L115": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-      "fetchTimestamp": "2026-05-12T14:48:44.691Z",
+      "fetchTimestamp": "2026-05-12T20:06:47.079Z",
       "tier": "D",
       "categoryRank": {
         "position": 4,
@@ -12848,7 +12836,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             },
             {
               "name": "ADJUSTABLE ANGLED",
@@ -12856,7 +12844,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             },
             {
               "name": "MATCH GRADE",
@@ -12864,7 +12852,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             },
             {
               "name": "MAGWELL FLARE",
@@ -12872,7 +12860,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             },
             {
               "name": "ANTI-GLARE COATING",
@@ -12880,7 +12868,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             },
             {
               "name": "RANGE FINDER",
@@ -12888,7 +12876,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             },
             {
               "name": "1P88 VARIABLE",
@@ -12896,7 +12884,7 @@ export const consensusBuilds = {
               "pointCost": 25,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-              "fetchTimestamp": "2026-05-12T14:48:44.691Z"
+              "fetchTimestamp": "2026-05-12T20:06:47.079Z"
             }
           ],
           "totalPoints": 100,
@@ -12910,7 +12898,7 @@ export const consensusBuilds = {
         "category": "Long Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:00.616Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:03.014Z",
       "rankingConsensus": {
         "weaponId": "l115",
         "weaponName": "L115",
@@ -12928,13 +12916,13 @@ export const consensusBuilds = {
           "category": "Sniper Rifle"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-sniper-rifles-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:00.616Z"
+        "fetchTimestamp": "2026-05-12T20:07:03.014Z"
       },
       "imagePath": "/weapons/l115.webp"
     },
     "DB-12": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-      "fetchTimestamp": "2026-05-12T14:48:45.942Z",
+      "fetchTimestamp": "2026-05-12T20:06:48.402Z",
       "tier": "C",
       "categoryRank": {
         "position": 4,
@@ -12955,7 +12943,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             },
             {
               "name": "FACTORY ANGLED",
@@ -12963,7 +12951,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             },
             {
               "name": "BUCKSHOT",
@@ -12971,7 +12959,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             },
             {
               "name": "CQB SUPPRESSOR",
@@ -12979,7 +12967,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 25,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             },
             {
               "name": "50 MW GREEN",
@@ -12987,7 +12975,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             },
             {
               "name": "7 SHELL DUAL TUBES",
@@ -12995,7 +12983,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -13003,7 +12991,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 3,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-              "fetchTimestamp": "2026-05-12T14:48:45.942Z"
+              "fetchTimestamp": "2026-05-12T20:06:48.402Z"
             }
           ],
           "totalPoints": 100,
@@ -13017,7 +13005,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:01.947Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:04.037Z",
       "rankingConsensus": {
         "weaponId": "db-12",
         "weaponName": "DB-12",
@@ -13035,13 +13023,13 @@ export const consensusBuilds = {
           "category": "Shotgun"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:01.947Z"
+        "fetchTimestamp": "2026-05-12T20:07:04.037Z"
       },
       "imagePath": "/weapons/db-12.webp"
     },
     "M357 TRAIT": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-      "fetchTimestamp": "2026-05-12T14:48:47.226Z",
+      "fetchTimestamp": "2026-05-12T20:06:49.791Z",
       "tier": "B",
       "categoryRank": {
         "position": 5,
@@ -13062,7 +13050,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-              "fetchTimestamp": "2026-05-12T14:48:47.226Z"
+              "fetchTimestamp": "2026-05-12T20:06:49.791Z"
             },
             {
               "name": "5 MW GREEN",
@@ -13070,7 +13058,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 11,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-              "fetchTimestamp": "2026-05-12T14:48:47.226Z"
+              "fetchTimestamp": "2026-05-12T20:06:49.791Z"
             },
             {
               "name": "HOLLOW POINT",
@@ -13078,7 +13066,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 29,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-              "fetchTimestamp": "2026-05-12T14:48:47.226Z"
+              "fetchTimestamp": "2026-05-12T20:06:49.791Z"
             },
             {
               "name": "8RND SPEEDLOADER",
@@ -13086,7 +13074,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-              "fetchTimestamp": "2026-05-12T14:48:47.226Z"
+              "fetchTimestamp": "2026-05-12T20:06:49.791Z"
             },
             {
               "name": "MINI FLEX 1.00X",
@@ -13094,7 +13082,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-              "fetchTimestamp": "2026-05-12T14:48:47.226Z"
+              "fetchTimestamp": "2026-05-12T20:06:49.791Z"
             }
           ],
           "totalPoints": 55,
@@ -13108,7 +13096,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "m357-trait",
         "weaponName": "M357 TRAIT",
@@ -13126,13 +13114,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
       "imagePath": "/weapons/m357-trait.webp"
     },
     "VZ. 61": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-      "fetchTimestamp": "2026-05-12T14:48:48.461Z",
+      "fetchTimestamp": "2026-05-12T20:06:51.169Z",
       "tier": "A",
       "categoryRank": {
         "position": 1,
@@ -13153,7 +13141,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-              "fetchTimestamp": "2026-05-12T14:48:48.461Z"
+              "fetchTimestamp": "2026-05-12T20:06:51.169Z"
             },
             {
               "name": "FMJ",
@@ -13161,7 +13149,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-              "fetchTimestamp": "2026-05-12T14:48:48.461Z"
+              "fetchTimestamp": "2026-05-12T20:06:51.169Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -13169,7 +13157,7 @@ export const consensusBuilds = {
               "pointCost": 40,
               "unlockLevel": 26,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-              "fetchTimestamp": "2026-05-12T14:48:48.461Z"
+              "fetchTimestamp": "2026-05-12T20:06:51.169Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -13177,7 +13165,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vz-61",
-              "fetchTimestamp": "2026-05-12T14:48:48.461Z"
+              "fetchTimestamp": "2026-05-12T20:06:51.169Z"
             }
           ],
           "totalPoints": 60,
@@ -13191,7 +13179,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "vz-61",
         "weaponName": "vz. 61",
@@ -13209,13 +13197,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
       "imagePath": "/weapons/vz-61.webp"
     },
     "GGH-22": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-      "fetchTimestamp": "2026-05-12T14:48:49.693Z",
+      "fetchTimestamp": "2026-05-12T20:06:52.501Z",
       "tier": "B",
       "categoryRank": {
         "position": 4,
@@ -13236,7 +13224,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-              "fetchTimestamp": "2026-05-12T14:48:49.693Z"
+              "fetchTimestamp": "2026-05-12T20:06:52.501Z"
             },
             {
               "name": "FMJ",
@@ -13244,7 +13232,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-              "fetchTimestamp": "2026-05-12T14:48:49.693Z"
+              "fetchTimestamp": "2026-05-12T20:06:52.501Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -13252,7 +13240,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 15,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-              "fetchTimestamp": "2026-05-12T14:48:49.693Z"
+              "fetchTimestamp": "2026-05-12T20:06:52.501Z"
             },
             {
               "name": "20RND MAGAZINE",
@@ -13260,7 +13248,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 12,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-              "fetchTimestamp": "2026-05-12T14:48:49.693Z"
+              "fetchTimestamp": "2026-05-12T20:06:52.501Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -13268,7 +13256,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ggh-22",
-              "fetchTimestamp": "2026-05-12T14:48:49.693Z"
+              "fetchTimestamp": "2026-05-12T20:06:52.501Z"
             }
           ],
           "totalPoints": 60,
@@ -13282,7 +13270,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "ggh-22",
         "weaponName": "GGH-22",
@@ -13300,13 +13288,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
       "imagePath": "/weapons/ggh-22.webp"
     },
     "P18": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-      "fetchTimestamp": "2026-05-12T14:48:50.986Z",
+      "fetchTimestamp": "2026-05-12T20:06:53.833Z",
       "tier": "A",
       "categoryRank": {
         "position": 2,
@@ -13327,7 +13315,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-              "fetchTimestamp": "2026-05-12T14:48:50.986Z"
+              "fetchTimestamp": "2026-05-12T20:06:53.833Z"
             },
             {
               "name": "FMJ",
@@ -13335,7 +13323,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-              "fetchTimestamp": "2026-05-12T14:48:50.986Z"
+              "fetchTimestamp": "2026-05-12T20:06:53.833Z"
             },
             {
               "name": "STANDARD SUPPRESSOR",
@@ -13343,7 +13331,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 14,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-              "fetchTimestamp": "2026-05-12T14:48:50.986Z"
+              "fetchTimestamp": "2026-05-12T20:06:53.833Z"
             },
             {
               "name": "21RND MAGAZINE",
@@ -13351,7 +13339,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 9,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-              "fetchTimestamp": "2026-05-12T14:48:50.986Z"
+              "fetchTimestamp": "2026-05-12T20:06:53.833Z"
             },
             {
               "name": "IMPROVED MAG CATCH",
@@ -13359,7 +13347,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-              "fetchTimestamp": "2026-05-12T14:48:50.986Z"
+              "fetchTimestamp": "2026-05-12T20:06:53.833Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -13367,7 +13355,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-              "fetchTimestamp": "2026-05-12T14:48:50.986Z"
+              "fetchTimestamp": "2026-05-12T20:06:53.833Z"
             }
           ],
           "totalPoints": 60,
@@ -13381,7 +13369,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:03.147Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:05.063Z",
       "rankingConsensus": {
         "weaponId": "p18",
         "weaponName": "P18",
@@ -13399,13 +13387,13 @@ export const consensusBuilds = {
           "category": "Secondary"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-secondaries-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:03.147Z"
+        "fetchTimestamp": "2026-05-12T20:07:05.063Z"
       },
       "imagePath": "/weapons/p18.webp"
     },
     "M87A1": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-      "fetchTimestamp": "2026-05-12T14:48:52.274Z",
+      "fetchTimestamp": "2026-05-12T20:06:55.129Z",
       "tier": "A",
       "categoryRank": {
         "position": 1,
@@ -13426,7 +13414,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -13434,7 +13422,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             },
             {
               "name": "BUCKSHOT",
@@ -13442,7 +13430,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             },
             {
               "name": "CQB SUPPRESSOR",
@@ -13450,7 +13438,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             },
             {
               "name": "50 MW GREEN",
@@ -13458,7 +13446,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 35,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             },
             {
               "name": "7 SHELL TUBE",
@@ -13466,7 +13454,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             },
             {
               "name": "IRON SIGHTS",
@@ -13474,7 +13462,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-              "fetchTimestamp": "2026-05-12T14:48:52.274Z"
+              "fetchTimestamp": "2026-05-12T20:06:55.129Z"
             }
           ],
           "totalPoints": 95,
@@ -13488,7 +13476,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:01.947Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:04.037Z",
       "rankingConsensus": {
         "weaponId": "m87a1",
         "weaponName": "M87A1",
@@ -13506,13 +13494,13 @@ export const consensusBuilds = {
           "category": "Shotgun"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:01.947Z"
+        "fetchTimestamp": "2026-05-12T20:07:04.037Z"
       },
       "imagePath": "/weapons/m87a1.webp"
     },
     "18.5KS-K": {
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-      "fetchTimestamp": "2026-05-12T14:48:53.567Z",
+      "fetchTimestamp": "2026-05-12T20:06:56.806Z",
       "tier": "B",
       "categoryRank": {
         "position": 2,
@@ -13533,7 +13521,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             },
             {
               "name": "SLIM HANDSTOP",
@@ -13541,7 +13529,7 @@ export const consensusBuilds = {
               "pointCost": 15,
               "unlockLevel": 4,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             },
             {
               "name": "BUCKSHOT",
@@ -13549,7 +13537,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 0,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             },
             {
               "name": "CQB SUPPRESSOR",
@@ -13557,7 +13545,7 @@ export const consensusBuilds = {
               "pointCost": 30,
               "unlockLevel": 18,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             },
             {
               "name": "5 MW GREEN",
@@ -13565,7 +13553,7 @@ export const consensusBuilds = {
               "pointCost": 10,
               "unlockLevel": 22,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             },
             {
               "name": "4 RND",
@@ -13573,7 +13561,7 @@ export const consensusBuilds = {
               "pointCost": 5,
               "unlockLevel": 6,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             },
             {
               "name": "SU-230 LPVO",
@@ -13581,7 +13569,7 @@ export const consensusBuilds = {
               "pointCost": 20,
               "unlockLevel": 1,
               "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-              "fetchTimestamp": "2026-05-12T14:48:53.567Z"
+              "fetchTimestamp": "2026-05-12T20:06:56.806Z"
             }
           ],
           "totalPoints": 100,
@@ -13595,7 +13583,7 @@ export const consensusBuilds = {
         "category": "Close Range"
       },
       "rankingSourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-      "rankingFetchTimestamp": "2026-05-12T14:49:01.947Z",
+      "rankingFetchTimestamp": "2026-05-12T20:07:04.037Z",
       "rankingConsensus": {
         "weaponId": "185ks-k",
         "weaponName": "18.5KS-K",
@@ -13613,7 +13601,7 @@ export const consensusBuilds = {
           "category": "Shotgun"
         },
         "sourceUrl": "https://battlefieldmeta.gg/best-guns/best-shotguns-in-battlefield",
-        "fetchTimestamp": "2026-05-12T14:49:01.947Z"
+        "fetchTimestamp": "2026-05-12T20:07:04.037Z"
       },
       "imagePath": "/weapons/185ks-k.webp"
     }
