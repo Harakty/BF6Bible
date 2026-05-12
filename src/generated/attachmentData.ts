@@ -5,7 +5,7 @@ export const generatedAttachmentData = {
   "sourceHash": "e9348813750af51f",
   "consensusSource": {
     "source": "battlefieldmeta.gg",
-    "fetchedAt": "2026-05-12T14:41:26.848Z",
+    "fetchedAt": "2026-05-12T14:46:32.703Z",
     "schemaVersion": 3
   },
   "attachments": [
@@ -550,7 +550,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-      "fetchTimestamp": "2026-05-12T14:40:08.468Z",
+      "fetchTimestamp": "2026-05-12T14:44:43.930Z",
       "unlockLevel": 38
     },
     {
@@ -561,7 +561,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-      "fetchTimestamp": "2026-05-12T14:40:08.468Z",
+      "fetchTimestamp": "2026-05-12T14:44:43.930Z",
       "unlockLevel": 13
     },
     {
@@ -572,7 +572,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-      "fetchTimestamp": "2026-05-12T14:40:08.468Z",
+      "fetchTimestamp": "2026-05-12T14:44:43.930Z",
       "unlockLevel": 8
     },
     {
@@ -583,7 +583,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-      "fetchTimestamp": "2026-05-12T14:40:08.468Z",
+      "fetchTimestamp": "2026-05-12T14:44:43.930Z",
       "unlockLevel": 0
     },
     {
@@ -594,7 +594,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kord-6p67",
-      "fetchTimestamp": "2026-05-12T14:40:08.468Z",
+      "fetchTimestamp": "2026-05-12T14:44:43.930Z",
       "unlockLevel": 28
     },
     {
@@ -605,7 +605,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-      "fetchTimestamp": "2026-05-12T14:40:09.982Z",
+      "fetchTimestamp": "2026-05-12T14:44:45.515Z",
       "unlockLevel": 3
     },
     {
@@ -616,7 +616,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-      "fetchTimestamp": "2026-05-12T14:40:09.982Z",
+      "fetchTimestamp": "2026-05-12T14:44:45.515Z",
       "unlockLevel": 2
     },
     {
@@ -627,7 +627,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-      "fetchTimestamp": "2026-05-12T14:40:09.982Z",
+      "fetchTimestamp": "2026-05-12T14:44:45.515Z",
       "unlockLevel": 36
     },
     {
@@ -638,7 +638,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-      "fetchTimestamp": "2026-05-12T14:40:09.982Z",
+      "fetchTimestamp": "2026-05-12T14:44:45.515Z",
       "unlockLevel": 0
     },
     {
@@ -649,7 +649,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m2010-esr",
-      "fetchTimestamp": "2026-05-12T14:40:09.982Z",
+      "fetchTimestamp": "2026-05-12T14:44:45.515Z",
       "unlockLevel": 26
     },
     {
@@ -660,7 +660,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-      "fetchTimestamp": "2026-05-12T14:40:11.273Z",
+      "fetchTimestamp": "2026-05-12T14:44:47.028Z",
       "unlockLevel": 8
     },
     {
@@ -671,7 +671,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-      "fetchTimestamp": "2026-05-12T14:40:11.273Z",
+      "fetchTimestamp": "2026-05-12T14:44:47.028Z",
       "unlockLevel": 19
     },
     {
@@ -682,7 +682,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/drs-iar",
-      "fetchTimestamp": "2026-05-12T14:40:11.273Z",
+      "fetchTimestamp": "2026-05-12T14:44:47.028Z",
       "unlockLevel": 2
     },
     {
@@ -693,7 +693,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-      "fetchTimestamp": "2026-05-12T14:40:12.617Z",
+      "fetchTimestamp": "2026-05-12T14:44:48.568Z",
       "unlockLevel": 25
     },
     {
@@ -704,7 +704,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-      "fetchTimestamp": "2026-05-12T14:40:12.617Z",
+      "fetchTimestamp": "2026-05-12T14:44:48.568Z",
       "unlockLevel": 6
     },
     {
@@ -715,7 +715,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak-205",
-      "fetchTimestamp": "2026-05-12T14:40:12.617Z",
+      "fetchTimestamp": "2026-05-12T14:44:48.568Z",
       "unlockLevel": 8
     },
     {
@@ -726,7 +726,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-      "fetchTimestamp": "2026-05-12T14:40:14.067Z",
+      "fetchTimestamp": "2026-05-12T14:44:51.011Z",
       "unlockLevel": 29
     },
     {
@@ -737,7 +737,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sg-553r",
-      "fetchTimestamp": "2026-05-12T14:40:14.067Z",
+      "fetchTimestamp": "2026-05-12T14:44:51.011Z",
       "unlockLevel": 35
     },
     {
@@ -748,7 +748,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-      "fetchTimestamp": "2026-05-12T14:40:15.704Z",
+      "fetchTimestamp": "2026-05-12T14:44:52.732Z",
       "unlockLevel": 40
     },
     {
@@ -759,7 +759,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-      "fetchTimestamp": "2026-05-12T14:40:15.704Z",
+      "fetchTimestamp": "2026-05-12T14:44:52.732Z",
       "unlockLevel": 1
     },
     {
@@ -770,7 +770,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/vcr-2",
-      "fetchTimestamp": "2026-05-12T14:40:15.704Z",
+      "fetchTimestamp": "2026-05-12T14:44:52.732Z",
       "unlockLevel": 35
     },
     {
@@ -781,7 +781,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-      "fetchTimestamp": "2026-05-12T14:40:17.082Z",
+      "fetchTimestamp": "2026-05-12T14:44:54.240Z",
       "unlockLevel": 32
     },
     {
@@ -792,7 +792,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-      "fetchTimestamp": "2026-05-12T14:40:17.082Z",
+      "fetchTimestamp": "2026-05-12T14:44:54.240Z",
       "unlockLevel": 26
     },
     {
@@ -803,7 +803,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/sgx",
-      "fetchTimestamp": "2026-05-12T14:40:17.082Z",
+      "fetchTimestamp": "2026-05-12T14:44:54.240Z",
       "unlockLevel": 0
     },
     {
@@ -814,7 +814,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-      "fetchTimestamp": "2026-05-12T14:40:18.441Z",
+      "fetchTimestamp": "2026-05-12T14:44:55.844Z",
       "unlockLevel": 0
     },
     {
@@ -825,7 +825,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l110",
-      "fetchTimestamp": "2026-05-12T14:40:18.441Z",
+      "fetchTimestamp": "2026-05-12T14:44:55.844Z",
       "unlockLevel": 15
     },
     {
@@ -836,7 +836,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/scw-10",
-      "fetchTimestamp": "2026-05-12T14:40:19.836Z",
+      "fetchTimestamp": "2026-05-12T14:44:57.502Z",
       "unlockLevel": 27
     },
     {
@@ -847,7 +847,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kv9",
-      "fetchTimestamp": "2026-05-12T14:40:21.243Z",
+      "fetchTimestamp": "2026-05-12T14:44:59.020Z",
       "unlockLevel": 40
     },
     {
@@ -858,7 +858,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m39-emr",
-      "fetchTimestamp": "2026-05-12T14:40:22.593Z",
+      "fetchTimestamp": "2026-05-12T14:45:00.585Z",
       "unlockLevel": 0
     },
     {
@@ -880,7 +880,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-      "fetchTimestamp": "2026-05-12T14:40:26.585Z",
+      "fetchTimestamp": "2026-05-12T14:45:05.138Z",
       "unlockLevel": 21
     },
     {
@@ -891,7 +891,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-      "fetchTimestamp": "2026-05-12T14:40:26.585Z",
+      "fetchTimestamp": "2026-05-12T14:45:05.138Z",
       "unlockLevel": 17
     },
     {
@@ -902,7 +902,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-      "fetchTimestamp": "2026-05-12T14:40:26.585Z",
+      "fetchTimestamp": "2026-05-12T14:45:05.138Z",
       "unlockLevel": 38
     },
     {
@@ -913,7 +913,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/kts100-mk8",
-      "fetchTimestamp": "2026-05-12T14:40:26.585Z",
+      "fetchTimestamp": "2026-05-12T14:45:05.138Z",
       "unlockLevel": 0
     },
     {
@@ -924,7 +924,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m250",
-      "fetchTimestamp": "2026-05-12T14:40:30.685Z",
+      "fetchTimestamp": "2026-05-12T14:45:12.043Z",
       "unlockLevel": 0
     },
     {
@@ -946,7 +946,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-      "fetchTimestamp": "2026-05-12T14:40:33.342Z",
+      "fetchTimestamp": "2026-05-12T14:45:15.094Z",
       "unlockLevel": 26
     },
     {
@@ -957,7 +957,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/tr-7",
-      "fetchTimestamp": "2026-05-12T14:40:33.342Z",
+      "fetchTimestamp": "2026-05-12T14:45:15.094Z",
       "unlockLevel": 35
     },
     {
@@ -968,7 +968,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/qbz-192",
-      "fetchTimestamp": "2026-05-12T14:40:34.694Z",
+      "fetchTimestamp": "2026-05-12T14:45:16.623Z",
       "unlockLevel": 26
     },
     {
@@ -979,7 +979,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svdm",
-      "fetchTimestamp": "2026-05-12T14:40:38.861Z",
+      "fetchTimestamp": "2026-05-12T14:45:21.110Z",
       "unlockLevel": 25
     },
     {
@@ -990,7 +990,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-      "fetchTimestamp": "2026-05-12T14:40:40.222Z",
+      "fetchTimestamp": "2026-05-12T14:45:22.617Z",
       "unlockLevel": 0
     },
     {
@@ -1001,7 +1001,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/mini-scout",
-      "fetchTimestamp": "2026-05-12T14:40:40.222Z",
+      "fetchTimestamp": "2026-05-12T14:45:22.617Z",
       "unlockLevel": 23
     },
     {
@@ -1012,7 +1012,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/pw5a3",
-      "fetchTimestamp": "2026-05-12T14:40:45.526Z",
+      "fetchTimestamp": "2026-05-12T14:45:28.648Z",
       "unlockLevel": 35
     },
     {
@@ -1023,7 +1023,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/svk-86",
-      "fetchTimestamp": "2026-05-12T14:40:46.843Z",
+      "fetchTimestamp": "2026-05-12T14:45:30.140Z",
       "unlockLevel": 22
     },
     {
@@ -1034,7 +1034,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-bc",
-      "fetchTimestamp": "2026-05-12T14:40:53.601Z",
+      "fetchTimestamp": "2026-05-12T14:45:38.122Z",
       "unlockLevel": 27
     },
     {
@@ -1045,7 +1045,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m60",
-      "fetchTimestamp": "2026-05-12T14:40:54.934Z",
+      "fetchTimestamp": "2026-05-12T14:45:39.640Z",
       "unlockLevel": 0
     },
     {
@@ -1056,7 +1056,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/ak4d",
-      "fetchTimestamp": "2026-05-12T14:40:57.751Z",
+      "fetchTimestamp": "2026-05-12T14:45:42.923Z",
       "unlockLevel": 15
     },
     {
@@ -1067,7 +1067,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-      "fetchTimestamp": "2026-05-12T14:41:00.463Z",
+      "fetchTimestamp": "2026-05-12T14:45:46.113Z",
       "unlockLevel": 25
     },
     {
@@ -1078,7 +1078,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-      "fetchTimestamp": "2026-05-12T14:41:00.463Z",
+      "fetchTimestamp": "2026-05-12T14:45:46.113Z",
       "unlockLevel": 0
     },
     {
@@ -1089,7 +1089,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/usg-90",
-      "fetchTimestamp": "2026-05-12T14:41:00.463Z",
+      "fetchTimestamp": "2026-05-12T14:45:46.113Z",
       "unlockLevel": 36
     },
     {
@@ -1100,7 +1100,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m240l",
-      "fetchTimestamp": "2026-05-12T14:41:01.837Z",
+      "fetchTimestamp": "2026-05-12T14:45:47.681Z",
       "unlockLevel": 17
     },
     {
@@ -1111,7 +1111,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-      "fetchTimestamp": "2026-05-12T14:41:06.041Z",
+      "fetchTimestamp": "2026-05-12T14:45:52.213Z",
       "unlockLevel": 0
     },
     {
@@ -1122,7 +1122,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m16a4",
-      "fetchTimestamp": "2026-05-12T14:41:06.041Z",
+      "fetchTimestamp": "2026-05-12T14:45:52.213Z",
       "unlockLevel": 0
     },
     {
@@ -1133,7 +1133,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-      "fetchTimestamp": "2026-05-12T14:41:07.624Z",
+      "fetchTimestamp": "2026-05-12T14:45:53.764Z",
       "unlockLevel": 36
     },
     {
@@ -1144,7 +1144,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/cz3a1",
-      "fetchTimestamp": "2026-05-12T14:41:07.624Z",
+      "fetchTimestamp": "2026-05-12T14:45:53.764Z",
       "unlockLevel": 15
     },
     {
@@ -1155,7 +1155,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-      "fetchTimestamp": "2026-05-12T14:41:11.573Z",
+      "fetchTimestamp": "2026-05-12T14:45:58.446Z",
       "unlockLevel": 0
     },
     {
@@ -1166,7 +1166,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m1014",
-      "fetchTimestamp": "2026-05-12T14:41:11.573Z",
+      "fetchTimestamp": "2026-05-12T14:45:58.446Z",
       "unlockLevel": 33
     },
     {
@@ -1177,7 +1177,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m121-a2",
-      "fetchTimestamp": "2026-05-12T14:41:12.953Z",
+      "fetchTimestamp": "2026-05-12T14:45:59.934Z",
       "unlockLevel": 0
     },
     {
@@ -1188,7 +1188,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/grt-cps",
-      "fetchTimestamp": "2026-05-12T14:41:15.901Z",
+      "fetchTimestamp": "2026-05-12T14:46:20.740Z",
       "unlockLevel": 7
     },
     {
@@ -1199,7 +1199,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-      "fetchTimestamp": "2026-05-12T14:41:17.240Z",
+      "fetchTimestamp": "2026-05-12T14:46:22.364Z",
       "unlockLevel": 0
     },
     {
@@ -1210,7 +1210,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-      "fetchTimestamp": "2026-05-12T14:41:17.240Z",
+      "fetchTimestamp": "2026-05-12T14:46:22.364Z",
       "unlockLevel": 0
     },
     {
@@ -1221,7 +1221,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/l115",
-      "fetchTimestamp": "2026-05-12T14:41:17.240Z",
+      "fetchTimestamp": "2026-05-12T14:46:22.364Z",
       "unlockLevel": 0
     },
     {
@@ -1232,7 +1232,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/db-12",
-      "fetchTimestamp": "2026-05-12T14:41:18.605Z",
+      "fetchTimestamp": "2026-05-12T14:46:23.877Z",
       "unlockLevel": 0
     },
     {
@@ -1243,7 +1243,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m357-trait",
-      "fetchTimestamp": "2026-05-12T14:41:19.970Z",
+      "fetchTimestamp": "2026-05-12T14:46:25.330Z",
       "unlockLevel": 0
     },
     {
@@ -1254,7 +1254,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/p18",
-      "fetchTimestamp": "2026-05-12T14:41:24.215Z",
+      "fetchTimestamp": "2026-05-12T14:46:29.720Z",
       "unlockLevel": 9
     },
     {
@@ -1265,7 +1265,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/m87a1",
-      "fetchTimestamp": "2026-05-12T14:41:25.540Z",
+      "fetchTimestamp": "2026-05-12T14:46:31.192Z",
       "unlockLevel": 0
     },
     {
@@ -1276,7 +1276,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-      "fetchTimestamp": "2026-05-12T14:41:26.848Z",
+      "fetchTimestamp": "2026-05-12T14:46:32.703Z",
       "unlockLevel": 6
     },
     {
@@ -1287,7 +1287,7 @@ export const generatedAttachmentData = {
       "layer": "B",
       "source": "battlefieldmeta.gg",
       "sourceUrl": "https://battlefieldmeta.gg/best-loadouts/185ks-k",
-      "fetchTimestamp": "2026-05-12T14:41:26.848Z",
+      "fetchTimestamp": "2026-05-12T14:46:32.703Z",
       "unlockLevel": 1
     }
   ]
