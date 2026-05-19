@@ -741,6 +741,16 @@ const generatedWeaponMetric = (entry: GeneratedWeaponStat): WeaponMetric => {
   )
 }
 
+const generatedPlannerWeapon = (name: string): WeaponMetric => {
+  const entry = generatedWeaponStats.weapons.find(
+    (candidate) => normalizeWeaponName(candidate.name) === normalizeWeaponName(name),
+  )
+  if (!entry) {
+    throw new Error(`Missing generated weapon stats for planner weapon ${name}`)
+  }
+  return generatedWeaponMetric(entry)
+}
+
 const primaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
   metric,
   attachments,
@@ -819,6 +829,14 @@ const kits = {
     attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
     attachment('CINTURA CON TASCHE DA 100 MUNIZIONI', '100RND BELT POUCH', 5),
     attachment('RO-M 1,75X', 'RO-M 1.75X', 10),
+  ]),
+  rpk74mAnchor: primaryKit(generatedPlannerWeapon('RPK-74M'), [
+    attachment('SILENZIATORE ALLEGGERITO', 'LIGHT SUPPRESSOR', 30),
+    attachment('CANNA PESANTE', 'HEAVY BARREL', 10),
+    attachment('CLASSICA VERTICALE', 'CLASSIC VERTICAL', 35),
+    attachment('FMJ', 'FMJ', 5),
+    attachment('CARICATORE RAPIDO DA 45 MUNIZIONI', '45RND FAST MAG', 10),
+    attachment('BAKER 3X', 'BAKER 3.00X', 10),
   ]),
   ak205Flex: primaryKit(weapons.ak205, [
     attachment('SCANALATA DA 314 MM', '314MM FLUTED', 20),
@@ -1077,8 +1095,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Keep the team alive, cover revives, and win long armor fights.',
         },
         swapRule: {
-          it: 'Default DRS-IAR. Passa a L110 se vuoi più mobilità in rotate e trade.',
-          en: 'Default DRS-IAR. Swap to L110 when you need more rotation and trade mobility.',
+          it: 'Default DRS-IAR. Passa a RPK-74M se vuoi più lane pressure Season 3 e sustain da LMG meta.',
+          en: 'Default DRS-IAR. Swap to RPK-74M when you want more Season 3 lane pressure and meta LMG sustain.',
         },
         loadouts: [
           loadout(
@@ -1115,12 +1133,12 @@ export const modePlans: Record<ModeId, ModePlan> = {
             0.8,
           ),
           loadout(
-            'support-l110',
-            'Alternativa mobile',
-            'Mobile alternative',
-            'L110 + SGX: più leggera per squad che ruotano aggressivamente e vogliono close DPS.',
-            'L110 + SGX: lighter pair for aggressive rotations and close DPS.',
-            kits.l110Mobile,
+            'support-rpk',
+            'Season 3 sustain',
+            'Season 3 sustain',
+            'RPK-74M + SGX: LMG Season 3 META #2 per lane pressure, con SGX per difendere push sotto i 20 m.',
+            'RPK-74M + SGX: Season 3 META #2 LMG for lane pressure, with SGX to defend pushes under 20 m.',
+            kits.rpk74mAnchor,
             kits.sgxSecondary,
             term('Fire Support / Fuoco di supporto', 'Fire Support'),
             skills.fireSupport,
@@ -1129,23 +1147,23 @@ export const modePlans: Record<ModeId, ModePlan> = {
               term('Defibrillatore', 'Defibrillator'),
               term('Granata smoke', 'Smoke Grenade'),
             ],
-            { it: '15-65 m, pressione continua in movimento', en: '15-65 m, moving sustained pressure' },
+            { it: '25-80 m, pressione sostenuta e crossfire', en: '25-80 m, sustained pressure and crossfire' },
             [
               {
-                it: 'Gioca più vicino all entry, ma non trasformarti in primo uomo.',
-                en: 'Play closer to the entry, but do not become the first man in.',
+                it: 'Usala come LMG da controllo: non cercare entry se il team non ha già crackato armor.',
+                en: 'Use it as a control LMG: do not entry unless the squad has already cracked armor.',
               },
               {
-                it: 'Il reload va coperto: comunica quando perdi volume di fuoco.',
-                en: 'Reloads need cover: call when your fire volume drops.',
+                it: 'Il caricatore rapido aiuta il tempo morto, ma il reload va comunque chiamato.',
+                en: 'The fast mag helps downtime, but reloads still need to be called.',
               },
               {
-                it: 'Se il team è rotto, torna immediatamente in modalità medic anchor.',
-                en: 'If the team breaks, immediately return to medic-anchor mode.',
+                it: 'Se il cerchio diventa indoor puro, lascia lavorare SGX e torna a coprire revive.',
+                en: 'If the circle becomes pure indoor, let SGX work and return to revive cover.',
               },
             ],
             ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
-            0.72,
+            0.82,
           ),
         ],
       },
@@ -1239,8 +1257,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Provide information, cut rotations, and turn armor cracks into clean wipes.',
         },
         swapRule: {
-          it: 'Default M39 se giochi info e distanza. SG-553R se il cerchio obbliga movimento.',
-          en: 'Default M39 for information and range. SG-553R when the circle forces movement.',
+          it: 'Default M39 se giochi info e distanza. M2010 solo se la squadra converte davvero headshot e armor crack.',
+          en: 'Default M39 for information and range. M2010 only when the squad truly converts headshots and armor cracks.',
         },
         loadouts: [
           loadout(
@@ -1278,11 +1296,11 @@ export const modePlans: Record<ModeId, ModePlan> = {
           ),
           loadout(
             'recon-sniper-smg',
-            'Scout + SMG',
-            'Scout + SMG',
-            'MINI SCOUT + SGX: sniper mobile solo se hai la SMG consensus top per sopravvivere al push.',
-            'MINI SCOUT + SGX: mobile sniper only if you carry the top consensus SMG to survive the push.',
-            kits.miniScoutRange,
+            'Sniper meta + SMG',
+            'Meta sniper + SMG',
+            'M2010 ESR + SGX: sniper consensus META #1 con SMG top per non perdere i push ravvicinati.',
+            'M2010 ESR + SGX: consensus META #1 sniper with the top SMG so close pushes are not lost.',
+            kits.m2010Range,
             kits.sgxSecondary,
             term('Spec Ops / Forze speciali', 'Spec Ops'),
             skills.specOps,
@@ -1291,15 +1309,15 @@ export const modePlans: Record<ModeId, ModePlan> = {
               term('Recon Drone', 'Recon Drone'),
               term('Granata smoke', 'Smoke Grenade'),
             ],
-            { it: '0-25 m con SMG, 60+ m con MINI SCOUT', en: '0-25 m with SMG, 60+ m with MINI SCOUT' },
+            { it: '0-25 m con SGX, 70+ m con M2010', en: '0-25 m with SGX, 70+ m with M2010' },
             [
               {
                 it: 'Usa motion info per entrare secondo, mai per ego-push ciechi.',
                 en: 'Use motion info to enter second, never for blind ego-pushes.',
               },
               {
-                it: 'La SGX è obbligatoria: MINI SCOUT serve per aprire/convertire, non per vincere push close.',
-                en: 'The SGX is mandatory: MINI SCOUT opens and converts fights, it does not win close pushes alone.',
+                it: 'La SGX è obbligatoria: M2010 apre e converte fight, non vince push close da sola.',
+                en: 'The SGX is mandatory: M2010 opens and converts fights, it does not win close pushes alone.',
               },
               {
                 it: 'Se perdi visione, rallenta: senza info sei solo un secondo Assault.',
@@ -1307,7 +1325,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
               },
             ],
             ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
-            0.74,
+            0.82,
           ),
         ],
       },
@@ -1353,12 +1371,12 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Keep the duo alive and turn every down into a reset, not panic.',
         },
         swapRule: {
-          it: 'Default DRS-IAR. L110 solo se il duo gioca molto mobile.',
-          en: 'Default DRS-IAR. L110 only when the duo plays very mobile.',
+          it: 'Default DRS-IAR. RPK-74M se vuoi più sustain Season 3 e lane pressure.',
+          en: 'Default DRS-IAR. RPK-74M when you want more Season 3 sustain and lane pressure.',
         },
         loadouts: [
           modePlansPlaceholder('support-drs'),
-          modePlansPlaceholder('support-l110'),
+          modePlansPlaceholder('support-rpk'),
         ],
       },
       {
