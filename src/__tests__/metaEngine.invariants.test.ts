@@ -7,6 +7,10 @@ import { metaEngineTestHooks, metaScenarios, rankWeapons, type RankedWeapon } fr
 import { generatedWeaponStats, normalizeWeaponName } from '../weaponStats'
 import { generatedStatForName } from '../weaponStats'
 
+type ConsensusBuild = (typeof consensusBuilds.builds)[keyof typeof consensusBuilds.builds]
+
+const consensusByWeapon = consensusBuilds.builds as Record<string, ConsensusBuild>
+
 const tierOrder = {
   D: 0,
   C: 1,
@@ -154,10 +158,10 @@ describe('metaEngine invariants', () => {
     }
 
     for (const [category, members] of byCategory) {
-      const top = [...members].sort((a, b) => b.score - a.score)[0]
+      const top = members.find((ranked) => ranked.categoryRank.position === 1)
       expect(
-        top.categoryTier,
-        `top of ${category} (${top.metric.weapon.name.en}) should be S, got ${top.categoryTier}`,
+        top?.categoryTier,
+        `top of ${category} (${top?.metric.weapon.name.en ?? 'missing'}) should be S, got ${top?.categoryTier}`,
       ).toBe('S')
     }
   })
@@ -168,22 +172,31 @@ describe('metaEngine invariants', () => {
     expect(m39?.categoryTier).toBe('S')
   })
 
-  it('does not promote SCW-10 above the public META SMGs', () => {
+  it('keeps SCW-10 aligned with the public SMG category rank', () => {
     const ranking = rankWeapons(metaWeapons, 'all')
     const smgs = ranking.filter((ranked) => ranked.metric.className.en === 'SMG')
     const scw = smgs.find((ranked) => ranked.metric.weapon.name.en === 'SCW-10')
-    const publicMetaSmgs = ['SGX', 'USG-90', 'PW5A3']
+    const scwConsensus = consensusByWeapon['SCW-10']
+    const scwPublicRank =
+      'rankingConsensus' in scwConsensus && 'weaponTypeRank' in scwConsensus.rankingConsensus
+        ? scwConsensus.rankingConsensus.weaponTypeRank.position
+        : scwConsensus.categoryRank.position
+    const publicSmgsAboveScw = smgs.filter((ranked) => {
+      const consensus = consensusByWeapon[ranked.metric.weapon.name.en]
+      const publicRank =
+        consensus && 'rankingConsensus' in consensus && 'weaponTypeRank' in consensus.rankingConsensus
+          ? consensus.rankingConsensus.weaponTypeRank.position
+          : consensus?.categoryRank.position
+      return publicRank !== undefined && publicRank < scwPublicRank
+    })
 
     expect(scw, 'SCW-10 missing from SMG ranking').toBeDefined()
-    expect(scw?.calculatedTier).toBe('A')
-    expect(scw?.categoryRank.position, 'SCW-10 should not rank as a top-3 SMG after category-page consensus sync').toBeGreaterThan(3)
+    expect(scw?.categoryRank.position, 'SCW-10 should follow the public SMG category rank').toBe(scwPublicRank)
 
-    for (const weaponName of publicMetaSmgs) {
-      const publicMeta = smgs.find((ranked) => ranked.metric.weapon.name.en === weaponName)
-      expect(publicMeta, `${weaponName} missing from SMG ranking`).toBeDefined()
+    for (const publicMeta of publicSmgsAboveScw) {
       expect(
-        publicMeta?.categoryRank.position ?? Number.POSITIVE_INFINITY,
-        `${weaponName} should stay above SCW-10`,
+        publicMeta.categoryRank.position,
+        `${publicMeta.metric.weapon.name.en} should stay above SCW-10`,
       ).toBeLessThan(scw?.categoryRank.position ?? 0)
     }
   })

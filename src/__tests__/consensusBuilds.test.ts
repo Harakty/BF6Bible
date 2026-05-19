@@ -114,17 +114,17 @@ describe('consensus builds dataset', () => {
     }
   })
 
-  it('keeps the SCW-10 stale loadout ranking from overriding the category ranking', () => {
+  it('uses the SCW-10 category ranking instead of the loadout page audit', () => {
     const scw = consensusByWeapon['SCW-10']
 
-    expect(scw.tier).toBe('A')
-    expect(scw.categoryRank).toEqual({ position: 8, category: 'Close Range' })
+    expect(scw.tier).toBe('META')
+    expect(scw.categoryRank).toEqual({ position: 4, category: 'Close Range' })
     expect('loadoutTier' in scw ? scw.loadoutTier : undefined).toBe('META')
     expect('rankingSourceUrl' in scw ? scw.rankingSourceUrl : '').toContain('/best-guns/best-smg-in-battlefield')
     const weaponTypeRank =
       'rankingConsensus' in scw && 'weaponTypeRank' in scw.rankingConsensus ? scw.rankingConsensus.weaponTypeRank : undefined
     expect(weaponTypeRank).toEqual({
-      position: 8,
+      position: 4,
       category: 'SMG',
     })
   })

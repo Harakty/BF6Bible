@@ -1021,10 +1021,12 @@ function MetaTierSection({ lang }: { lang: Lang }) {
   const activeScenario = getMetaScenario(scenarioId)
   const rankedWeapons = useMemo(() => rankWeapons(metaWeapons, scenarioId), [scenarioId])
   const filteredRankedWeapons = useMemo(
-    () =>
-      weaponTypeId === 'all'
-        ? rankedWeapons
-        : rankedWeapons.filter((ranked) => weaponTypeKeyForMetric(ranked.metric) === weaponTypeId),
+    () => {
+      if (weaponTypeId === 'all') return rankedWeapons
+      return rankedWeapons
+        .filter((ranked) => weaponTypeKeyForMetric(ranked.metric) === weaponTypeId)
+        .sort((a, b) => a.categoryRank.position - b.categoryRank.position)
+    },
     [rankedWeapons, weaponTypeId],
   )
   const groupedRanking = useMemo(() => {
@@ -1042,7 +1044,7 @@ function MetaTierSection({ lang }: { lang: Lang }) {
       .map((category) => ({
         categoryEn: category,
         categoryLabel: groups.get(category)![0].metric.className,
-        weapons: groups.get(category)!,
+        weapons: [...groups.get(category)!].sort((a, b) => a.categoryRank.position - b.categoryRank.position),
       }))
   }, [filteredRankedWeapons, weaponTypeId])
   const compareEntries = comparedWeapons

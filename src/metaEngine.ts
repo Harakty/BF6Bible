@@ -196,13 +196,7 @@ export function rankWeapons(weapons: WeaponMetric[], scenarioId: MetaScenarioId)
   const scenario = getMetaScenario(scenarioId)
   const rankedList = weapons
     .map((metric) => scoreWeapon(metric, scenario))
-    .sort(
-      (a, b) =>
-        b.score - a.score ||
-        b.roleFit - a.roleFit ||
-        b.dataQuality - a.dataQuality ||
-        b.metric.redsecScore - a.metric.redsecScore,
-    )
+    .sort(compareGlobalRankedWeapons)
 
   assignCategoryTiers(rankedList)
   return rankedList
@@ -261,13 +255,43 @@ function assignCategoryTiers(rankedList: RankedWeapon[]) {
   }
 
   for (const members of byCategory.values()) {
-    const sorted = [...members].sort((a, b) => b.score - a.score)
+    const sorted = [...members].sort(compareCategoryRankedWeapons)
     const total = sorted.length
     for (let index = 0; index < total; index += 1) {
       sorted[index].categoryTier = categoryTierForPosition(index + 1, total)
       sorted[index].categoryRank = { position: index + 1, total }
     }
   }
+}
+
+function compareGlobalRankedWeapons(a: RankedWeapon, b: RankedWeapon) {
+  return (
+    b.score - a.score ||
+    b.roleFit - a.roleFit ||
+    b.dataQuality - a.dataQuality ||
+    b.metric.redsecScore - a.metric.redsecScore
+  )
+}
+
+function compareCategoryRankedWeapons(a: RankedWeapon, b: RankedWeapon) {
+  const scoreDelta = b.score - a.score
+  const publicRankDelta = consensusCategoryRank(a) - consensusCategoryRank(b)
+
+  if (publicRankDelta !== 0 && Math.abs(scoreDelta) <= 2) {
+    return publicRankDelta
+  }
+
+  return scoreDelta || b.roleFit - a.roleFit || b.dataQuality - a.dataQuality || b.metric.redsecScore - a.metric.redsecScore
+}
+
+function consensusCategoryRank(ranked: RankedWeapon) {
+  const consensus = consensusByNormalizedWeapon.get(normalizeWeaponName(ranked.metric.weapon.name.en))
+  const weaponTypeRank =
+    consensus && 'rankingConsensus' in consensus && 'weaponTypeRank' in consensus.rankingConsensus
+      ? consensus.rankingConsensus.weaponTypeRank
+      : undefined
+
+  return weaponTypeRank?.position ?? consensus?.categoryRank.position ?? Number.POSITIVE_INFINITY
 }
 
 function categoryTierForPosition(position: number, total: number): CategoryTier {
