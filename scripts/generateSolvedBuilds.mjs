@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import { archetypeForCategory, inferAttachmentSlot, solveBuild } from '../src/buildSolver.ts'
+import { generatedChaseBuilds } from '../src/generated/chaseBuilds.ts'
 import { consensusBuilds } from '../src/generated/consensusBuilds.ts'
 import { consensusSlotMapping, isLayerASlot, isLayerBSlot, layerASlots } from '../src/slotAuthority.ts'
 
@@ -142,6 +143,25 @@ function localizedConsensusAttachment(attachment) {
   }
 }
 
+function localizedChaseAttachment(attachment) {
+  return {
+    id: `CHASE_${attachment.id}`,
+    slot: attachment.slot,
+    name: {
+      it: attachment.name,
+      en: attachment.name,
+    },
+    points: attachment.pointCost,
+    pointCost: attachment.pointCost,
+    pointCostKnown: attachment.pointCostKnown,
+    costSource: attachment.costSource,
+    effects: {},
+    layer: 'B',
+    source: 'Chasenoface Battlefield Redsec Builds',
+    sourceUrl: generatedChaseBuilds.sourceUrl,
+  }
+}
+
 function recommendedVariantForConsensus(weaponName, consensus) {
   const recommended = consensus.variants?.Recommended
   if (!recommended) throw new Error(`${weaponName}: missing Recommended consensus variant`)
@@ -161,6 +181,26 @@ function alternativeVariantsFromConsensus(consensus) {
       attachments: variant.attachments.map(localizedConsensusAttachment),
       totalPoints: variant.totalPoints,
     }))
+}
+
+const chaseBuildByNormalizedWeapon = new Map(
+  Object.values(generatedChaseBuilds.builds).map((build) => [normalizeWeaponName(build.weaponName), build]),
+)
+
+function chaseVariantForWeapon(weaponName) {
+  const build = generatedChaseBuilds.builds[weaponName] ?? chaseBuildByNormalizedWeapon.get(normalizeWeaponName(weaponName))
+  if (!build) return undefined
+
+  return {
+    variantId: 'chasenoface-redsec',
+    variantLabel: { it: 'Chase REDSEC', en: 'Chase REDSEC' },
+    attachments: build.attachments.map(localizedChaseAttachment),
+    totalPoints: build.totalKnownPoints,
+    source: generatedChaseBuilds.source,
+    sourceUrl: generatedChaseBuilds.sourceUrl,
+    asOf: build.asOf,
+    pointCostsVerified: !build.hasUnknownPointCosts,
+  }
 }
 
 function sumPoints(attachments) {
@@ -295,6 +335,8 @@ async function main() {
     const layerBFinalAttachments = layerBAttachments.map(localizedConsensusAttachment)
     const finalAttachments = [...layerAAttachments, ...layerBFinalAttachments]
     const alternativeVariants = alternativeVariantsFromConsensus(consensus)
+    const chaseVariant = chaseVariantForWeapon(weapon.name)
+    if (chaseVariant) alternativeVariants.push(chaseVariant)
     const finalTotal = finalAttachments.reduce((sum, attachment) => sum + attachment.points, 0)
     if (finalTotal !== weaponMaxBudget) {
       throw new Error(`${weapon.name}: build totals ${finalTotal}/${weaponMaxBudget}, must match weapon cap exactly`)

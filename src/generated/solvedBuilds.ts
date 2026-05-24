@@ -483,6 +483,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_RIBBEDSTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Ribbed Stubby",
+                "en": "Ribbed Stubby"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -1005,6 +1131,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_ROM175X",
+              "slot": "optic",
+              "name": {
+                "it": "RO-M 1.75x",
+                "en": "RO-M 1.75x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -1575,6 +1827,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_RAILCOVER",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Rail Cover",
+                "en": "Rail Cover"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_SYNTHETICTIP",
+              "slot": "ammo",
+              "name": {
+                "it": "Synthetic",
+                "en": "Synthetic"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_40RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "40 Rnd",
+                "en": "40 Rnd"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -2120,6 +2498,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_20RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "20 Fast",
+                "en": "20 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 80,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -2647,6 +3135,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_DOUBLEPORTBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "Double-Port Brake",
+                "en": "Double-Port Brake"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_5MWGREENLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "5 MW Green Laser",
+                "en": "5 MW Green Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_25RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "25 Rnd",
+                "en": "25 Rnd"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_RIBBEDSTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Ribbed Stubby",
+                "en": "Ribbed Stubby"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -3169,6 +3783,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_GRIM150X",
+              "slot": "optic",
+              "name": {
+                "it": "Grim 1.50x",
+                "en": "Grim 1.50x"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_40RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "40 Fast",
+                "en": "40 Fast"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy",
+                "en": "Heavy"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -3693,6 +4417,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -4215,6 +5065,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Fast",
+                "en": "30 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -4724,6 +5700,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_DOUBLEPORTBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "Double-Port Brake",
+                "en": "Double-Port Brake"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Rnd",
+                "en": "30 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_LIGHT",
+              "slot": "barrel",
+              "name": {
+                "it": "Light",
+                "en": "Light"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -5295,6 +6397,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_FLASHHIDER",
+              "slot": "muzzle",
+              "name": {
+                "it": "Flash Hider",
+                "en": "Flash Hider"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight (2nd)",
+                "en": "Basic Sight (2nd)"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 75,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-15",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -5837,6 +7049,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_DOUBLEPORTBRAKE",
+              "slot": "muzzle",
+              "name": {
+                "it": "Double-Port Brake",
+                "en": "Double-Port Brake"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_RIBBEDVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Ribbed Vertical",
+                "en": "Ribbed Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_LIGHT",
+              "slot": "barrel",
+              "name": {
+                "it": "Light",
+                "en": "Light"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 90,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-22",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -6365,6 +7703,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LIGHTENEDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Lightened Suppressor",
+                "en": "Lightened Suppressor"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_ROM175X",
+              "slot": "optic",
+              "name": {
+                "it": "RO-M 1.75x",
+                "en": "RO-M 1.75x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_20RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "20 Fast",
+                "en": "20 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 90,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -6891,6 +8355,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_LDS450X",
+              "slot": "optic",
+              "name": {
+                "it": "LDS 4.50x",
+                "en": "LDS 4.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "scope-family-inference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_40RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "40 Fast",
+                "en": "40 Fast"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -7928,6 +9518,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_LIGHTWEIGHT",
+              "slot": "ammo",
+              "name": {
+                "it": "Lightweight",
+                "en": "Lightweight"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_LIGHT",
+              "slot": "barrel",
+              "name": {
+                "it": "Light",
+                "en": "Light"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 85,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -8454,6 +10154,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_RAILCOVER",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Rail Cover",
+                "en": "Rail Cover"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Fast",
+                "en": "30 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -8996,6 +10838,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_5MWGREENLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "5 MW Green Laser",
+                "en": "5 MW Green Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_AFTERMARKETBUFFER",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Aftermarket Buffer",
+                "en": "Aftermarket Buffer"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": false,
+              "costSource": "unresolved",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 90,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-15",
+          "pointCostsVerified": false
         }
       ],
       "rationale": {
@@ -9538,6 +11522,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_RAILCOVER",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Rail Cover",
+                "en": "Rail Cover"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Fast",
+                "en": "30 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -10082,6 +12208,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -10626,6 +12878,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_120MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "120 MW Blue Laser",
+                "en": "120 MW Blue Laser"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_SYNTHETICTIP",
+              "slot": "ammo",
+              "name": {
+                "it": "Synthetic",
+                "en": "Synthetic"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Fast",
+                "en": "30 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -11214,6 +13592,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_120MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "120 MW Blue Laser",
+                "en": "120 MW Blue Laser"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_40RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "40 Rnd",
+                "en": "40 Rnd"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -12363,6 +14867,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_RIGHTACCESSORY_FLASHLIGHT",
+              "slot": "rightAccessory",
+              "name": {
+                "it": "Flashlight",
+                "en": "Flashlight"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_50RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "50 Rnd",
+                "en": "50 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_LEFTACCESSORY_120MWBLUELASER",
+              "slot": "leftAccessory",
+              "name": {
+                "it": "120 MW Blue Laser",
+                "en": "120 MW Blue Laser"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy",
+                "en": "Heavy"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -12873,6 +15519,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_23RND",
+              "slot": "magazine",
+              "name": {
+                "it": "23 Rnd",
+                "en": "23 Rnd"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": false,
+              "costSource": "unresolved",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 75,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": false
         }
       ],
       "rationale": {
@@ -13383,6 +16139,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_25RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "25 Rnd",
+                "en": "25 Rnd"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -13859,6 +16725,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_120MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "120 MW Blue Laser",
+                "en": "120 MW Blue Laser"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_SYNTHETICTIP",
+              "slot": "ammo",
+              "name": {
+                "it": "Synthetic",
+                "en": "Synthetic"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Rnd",
+                "en": "30 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -14386,6 +17378,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_30RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "30 Rnd",
+                "en": "30 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_LIGHT",
+              "slot": "barrel",
+              "name": {
+                "it": "Light",
+                "en": "Light"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -14911,6 +18029,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_100RND",
+              "slot": "magazine",
+              "name": {
+                "it": "100 Rnd",
+                "en": "100 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -15466,6 +18710,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_36RND",
+              "slot": "magazine",
+              "name": {
+                "it": "36 Rnd",
+                "en": "36 Rnd"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -15992,6 +19362,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_100RND",
+              "slot": "magazine",
+              "name": {
+                "it": "100 Rnd",
+                "en": "100 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_RIBBEDSTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Ribbed Stubby",
+                "en": "Ribbed Stubby"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 90,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -16533,6 +20029,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_40RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "40 Fast",
+                "en": "40 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -17075,6 +20697,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_100RND",
+              "slot": "magazine",
+              "name": {
+                "it": "100 Rnd",
+                "en": "100 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_RIBBEDSTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Ribbed Stubby",
+                "en": "Ribbed Stubby"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -17600,6 +21348,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_RAILCOVER",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Rail Cover",
+                "en": "Rail Cover"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_75RNDBELTBOX",
+              "slot": "magazine",
+              "name": {
+                "it": "75 Rnd",
+                "en": "75 Rnd"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_ALLOYVERTICAL",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Alloy Vertical",
+                "en": "Alloy Vertical"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 85,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -18157,6 +22047,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_RAILCOVER",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Rail Cover",
+                "en": "Rail Cover"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_SYNTHETICTIP",
+              "slot": "ammo",
+              "name": {
+                "it": "Synthetic",
+                "en": "Synthetic"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_60RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "60 Fast",
+                "en": "60 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -19239,6 +23271,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LONGSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Long Suppressor",
+                "en": "Long Suppressor"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_50RNDBELTPOUCH",
+              "slot": "magazine",
+              "name": {
+                "it": "50 Fast",
+                "en": "50 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMANGLED",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Angled",
+                "en": "Slim Angled"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 90,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -19780,6 +23938,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_45RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "45 Rnd",
+                "en": "45 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMANGLED",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Angled",
+                "en": "Slim Angled"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_HEAVYEXTENDEDBARREL",
+              "slot": "barrel",
+              "name": {
+                "it": "Heavy Extended",
+                "en": "Heavy Extended"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-19",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -20341,6 +24625,148 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_20RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "20 Fast",
+                "en": "20 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 85,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -20852,6 +25278,116 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_15FAST",
+              "slot": "magazine",
+              "name": {
+                "it": "15 Fast",
+                "en": "15 Fast"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": false,
+              "costSource": "unresolved",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 70,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": false
         }
       ],
       "rationale": {
@@ -21397,6 +25933,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_10RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "10 Rnd",
+                "en": "10 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 75,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -21908,6 +26570,100 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 100
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_LONGRANGE",
+              "slot": "ammo",
+              "name": {
+                "it": "Long Range",
+                "en": "Long Range"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "community-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_20RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "20 Rnd",
+                "en": "20 Rnd"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-19",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -22451,6 +27207,132 @@ export const generatedSolvedBuilds = {
             }
           ],
           "totalPoints": 95
+        },
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_BF2M250X",
+              "slot": "optic",
+              "name": {
+                "it": "BF-2M 2.50x",
+                "en": "BF-2M 2.50x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_HOLLOWPOINT",
+              "slot": "ammo",
+              "name": {
+                "it": "Hollow Point",
+                "en": "Hollow Point"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_20RNDFASTMAG",
+              "slot": "magazine",
+              "name": {
+                "it": "20 Fast",
+                "en": "20 Fast"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
         }
       ],
       "rationale": {
@@ -22681,7 +27563,150 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 26
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_TSHD600X",
+              "slot": "optic",
+              "name": {
+                "it": "TS-HD 6.00x",
+                "en": "TS-HD 6.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "scope-family-inference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTICACCESSORY_ANTIGLARECOATING",
+              "slot": "opticAccessory",
+              "name": {
+                "it": "Anti-Glare",
+                "en": "Anti-Glare"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_LONGRANGE",
+              "slot": "ammo",
+              "name": {
+                "it": "Long Range",
+                "en": "Long Range"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "community-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_5RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "5 Rnd",
+                "en": "5 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_FULLANGLED",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Full Angled",
+                "en": "Full Angled"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Sniper piu giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
         "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
@@ -22910,7 +27935,150 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 22
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_LIGHTENEDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Lightened Suppressor",
+                "en": "Lightened Suppressor"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_NFX800X",
+              "slot": "optic",
+              "name": {
+                "it": "NFX 8.00x",
+                "en": "NFX 8.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "scope-family-inference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_LONGRANGE",
+              "slot": "ammo",
+              "name": {
+                "it": "Long Range",
+                "en": "Long Range"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "community-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_10RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "10 Rnd",
+                "en": "10 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_LOWPROFILESTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Low Profile Stubby",
+                "en": "Low Profile Stubby"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 125,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Sniper piu giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
         "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
@@ -23139,7 +28307,150 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 22
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_NFX800X",
+              "slot": "optic",
+              "name": {
+                "it": "NFX 8.00x",
+                "en": "NFX 8.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "scope-family-inference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_LONGRANGE",
+              "slot": "ammo",
+              "name": {
+                "it": "Long Range",
+                "en": "Long Range"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "community-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_7SHELLTUBE",
+              "slot": "magazine",
+              "name": {
+                "it": "7 Rnd",
+                "en": "7 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_LOWPROFILESTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Low Profile Stubby",
+                "en": "Low Profile Stubby"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 115,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Sniper piu giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
         "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
@@ -23363,7 +28674,150 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 23
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_NFX800X",
+              "slot": "optic",
+              "name": {
+                "it": "NFX 8.00x",
+                "en": "NFX 8.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "scope-family-inference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTICACCESSORY_ANTIGLARECOATING",
+              "slot": "opticAccessory",
+              "name": {
+                "it": "Anti-Glare",
+                "en": "Anti-Glare"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_10FAST",
+              "slot": "magazine",
+              "name": {
+                "it": "10 Fast",
+                "en": "10 Fast"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": false,
+              "costSource": "unresolved",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_LOWPROFILESTUBBY",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Low Profile Stubby",
+                "en": "Low Profile Stubby"
+              },
+              "points": 45,
+              "pointCost": 45,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 110,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": false
+        }
+      ],
       "rationale": {
         "it": "Sniper piu giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
         "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
@@ -23592,7 +29046,166 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 0
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_STANDARDSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "Standard Suppressor",
+                "en": "Standard Suppressor"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWVIOLETLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Violet Laser",
+                "en": "50 MW Violet Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "public-attachment-sheet",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_NFX800X",
+              "slot": "optic",
+              "name": {
+                "it": "NFX 8.00x",
+                "en": "NFX 8.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "scope-family-inference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTICACCESSORY_ANTIGLARECOATING",
+              "slot": "opticAccessory",
+              "name": {
+                "it": "Anti-Glare",
+                "en": "Anti-Glare"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_ERGONOMICS_IMPROVEDMAGCATCH",
+              "slot": "ergonomics",
+              "name": {
+                "it": "Mag Catch",
+                "en": "Mag Catch"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_LONGRANGE",
+              "slot": "ammo",
+              "name": {
+                "it": "Long Range",
+                "en": "Long Range"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "community-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_7SHELLTUBE",
+              "slot": "magazine",
+              "name": {
+                "it": "7 Rnd",
+                "en": "7 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_FULLANGLED",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Full Angled",
+                "en": "Full Angled"
+              },
+              "points": 25,
+              "pointCost": 25,
+              "pointCostKnown": true,
+              "costSource": "public-csv",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_EXTENDED",
+              "slot": "barrel",
+              "name": {
+                "it": "Extended",
+                "en": "Extended"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 105,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-19",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Sniper piu giocabile in REDSEC: pick a distanza, ma abbastanza handling per riposizionarsi.",
         "en": "More playable REDSEC sniper: ranged picks with enough handling to reposition."
@@ -23802,7 +29415,134 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 0
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_CQBSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "CQB Suppressor",
+                "en": "CQB Suppressor"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_BUCKSHOT",
+              "slot": "ammo",
+              "name": {
+                "it": "Buckshot",
+                "en": "Buckshot"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_7SHELLTUBE",
+              "slot": "magazine",
+              "name": {
+                "it": "7 Rnd",
+                "en": "7 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 100,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Solo per finali chiusi: massimizza close pressure e clear di edifici.",
         "en": "Only for closed endings: maximizes close pressure and building clears."
@@ -23996,7 +29736,150 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 19
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_CQBSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "CQB Suppressor",
+                "en": "CQB Suppressor"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_50MWBLUELASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "50 MW Blue Laser",
+                "en": "50 MW Blue Laser"
+              },
+              "points": 20,
+              "pointCost": 20,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_BUCKSHOT",
+              "slot": "ammo",
+              "name": {
+                "it": "Buckshot",
+                "en": "Buckshot"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_6RNDSPEEDLOADER",
+              "slot": "magazine",
+              "name": {
+                "it": "6 Rnd",
+                "en": "6 Rnd"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_LEFTACCESSORY_TACLIGHTAIMED",
+              "slot": "leftAccessory",
+              "name": {
+                "it": "Taclight-Aimed",
+                "en": "Taclight-Aimed"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefield-wiki-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 105,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Solo per finali chiusi: massimizza close pressure e clear di edifici.",
         "en": "Only for closed endings: maximizes close pressure and building clears."
@@ -24208,7 +30091,150 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 1
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_MUZZLE_CQBSUPPRESSOR",
+              "slot": "muzzle",
+              "name": {
+                "it": "CQB Suppressor",
+                "en": "CQB Suppressor"
+              },
+              "points": 30,
+              "pointCost": 30,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_TOPACCESSORY_5MWGREENLASER",
+              "slot": "topAccessory",
+              "name": {
+                "it": "5 MW Green Laser",
+                "en": "5 MW Green Laser"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_OPTIC_MINIFLEX100X",
+              "slot": "optic",
+              "name": {
+                "it": "Mini Flex 1.00x",
+                "en": "Mini Flex 1.00x"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_BUCKSHOT",
+              "slot": "ammo",
+              "name": {
+                "it": "Buckshot",
+                "en": "Buckshot"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_8RNDSPEEDLOADER",
+              "slot": "magazine",
+              "name": {
+                "it": "8 Fast",
+                "en": "8 Fast"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_SLIMHANDSTOP",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Slim Handstop",
+                "en": "Slim Handstop"
+              },
+              "points": 15,
+              "pointCost": 15,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_LEFTACCESSORY_TACLIGHTAIMED",
+              "slot": "leftAccessory",
+              "name": {
+                "it": "Taclight-Aimed",
+                "en": "Taclight-Aimed"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefield-wiki-cost-reference",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 95,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Solo per finali chiusi: massimizza close pressure e clear di edifici.",
         "en": "Only for closed endings: maximizes close pressure and building clears."
@@ -25455,7 +31481,102 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 6
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_8RNDSPEEDLOADER",
+              "slot": "magazine",
+              "name": {
+                "it": "8 Fast",
+                "en": "8 Fast"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_UNDERBARREL_5MWGREEN",
+              "slot": "underbarrel",
+              "name": {
+                "it": "Laser/Light Green",
+                "en": "Laser/Light Green"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 30,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-09",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Sidearm trattata come backup: costo basso, draw/close utility, nessuna falsa promessa REDSEC.",
         "en": "Sidearm treated as backup: low cost, draw/close utility, no false REDSEC promise."
@@ -25605,7 +31726,86 @@ export const generatedSolvedBuilds = {
           "unlockLevel": 0
         }
       ],
-      "alternativeVariants": [],
+      "alternativeVariants": [
+        {
+          "variantId": "chasenoface-redsec",
+          "variantLabel": {
+            "it": "Chase REDSEC",
+            "en": "Chase REDSEC"
+          },
+          "attachments": [
+            {
+              "id": "CHASE_OPTIC_IRONSIGHTS",
+              "slot": "optic",
+              "name": {
+                "it": "Basic Sight",
+                "en": "Basic Sight"
+              },
+              "points": 5,
+              "pointCost": 5,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_AMMO_STANDARD",
+              "slot": "ammo",
+              "name": {
+                "it": "Standard",
+                "en": "Standard"
+              },
+              "points": 0,
+              "pointCost": 0,
+              "pointCostKnown": true,
+              "costSource": "default-zero",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_MAGAZINE_20RNDMAGAZINE",
+              "slot": "magazine",
+              "name": {
+                "it": "20 Rnd",
+                "en": "20 Rnd"
+              },
+              "points": 40,
+              "pointCost": 40,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg weapon page",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            },
+            {
+              "id": "CHASE_BARREL_BASIC",
+              "slot": "barrel",
+              "name": {
+                "it": "Basic",
+                "en": "Basic"
+              },
+              "points": 10,
+              "pointCost": 10,
+              "pointCostKnown": true,
+              "costSource": "battlefieldmeta.gg",
+              "effects": {},
+              "layer": "B",
+              "source": "Chasenoface Battlefield Redsec Builds",
+              "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0"
+            }
+          ],
+          "totalPoints": 55,
+          "source": "Chasenoface Battlefield Redsec Builds",
+          "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
+          "asOf": "2026-05-19",
+          "pointCostsVerified": true
+        }
+      ],
       "rationale": {
         "it": "Sidearm trattata come backup: costo basso, draw/close utility, nessuna falsa promessa REDSEC.",
         "en": "Sidearm treated as backup: low cost, draw/close utility, no false REDSEC promise."

@@ -214,7 +214,7 @@ function roleIcon(roleId: string) {
 function Term({ value, lang }: { value: LocalizedTerm; lang: Lang }) {
   const alt = t(value.name, otherLang(lang))
   const main = t(value.name, lang)
-  const cost = value.points !== undefined ? ` (${value.points})` : ''
+  const cost = value.points !== undefined ? ` (${value.points})` : value.verified === false ? ' (?)' : ''
 
   return (
     <span className={value.verified === false ? 'term unverified' : 'term'}>
@@ -260,11 +260,12 @@ function AttachmentBlock({
 function SolvedAttachmentTerm({ value, lang }: { value: DisplaySolvedAttachment; lang: Lang }) {
   const main = t(value.name, lang)
   const alt = t(value.name, otherLang(lang))
+  const pointLabel = 'pointCostKnown' in value && value.pointCostKnown === false ? '?' : value.points
 
   return (
     <span className="term attachment-term">
       <span>
-        {main} ({value.points})
+        {main} ({pointLabel})
       </span>
       {alt !== main ? <small>{alt}</small> : null}
     </span>
@@ -557,6 +558,8 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
     new Set([
       ...activeLoadout.primary.metric.sourceIds,
       ...activeLoadout.secondary.metric.sourceIds,
+      ...activeLoadout.primary.attachments.flatMap((attachment) => (attachment.sourceId ? [attachment.sourceId] : [])),
+      ...activeLoadout.secondary.attachments.flatMap((attachment) => (attachment.sourceId ? [attachment.sourceId] : [])),
       ...activeLoadout.sourceIds,
       'ea-classes',
       'ea-redsec-armor',
@@ -769,7 +772,11 @@ function SolvedMetaBuildPanel({
   onClose: () => void
 }) {
   const [selectedVariantId, setSelectedVariantId] = useState('recommended')
-  const buildSources = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
+  const buildSourceIds = ['sheetonmyface', 'attachment-sheet', 'battlefieldmeta']
+  if (build.alternativeVariants.some((variant) => variant.variantId === 'chasenoface-redsec')) {
+    buildSourceIds.push('chasenoface-redsec')
+  }
+  const buildSources = buildSourceIds
     .map((id) => sourceMap.get(id))
     .filter((source): source is Source => Boolean(source))
   useEffect(() => {
@@ -781,6 +788,10 @@ function SolvedMetaBuildPanel({
   const isRecommendedVariant = selectedVariantId === 'recommended' || !selectedAlternative
   const activeAttachments = isRecommendedVariant ? build.attachments : selectedAlternative.attachments
   const activeTotalPoints = isRecommendedVariant ? build.totalPoints : selectedAlternative.totalPoints
+  const activeHasUnknownPointCosts =
+    !isRecommendedVariant && selectedAlternative
+      ? 'pointCostsVerified' in selectedAlternative && selectedAlternative.pointCostsVerified === false
+      : false
   const consensus = consensusEntryForWeapon(build.weaponName)
   const consensusConfidence = consensus?.confidence ?? 'absent'
   const consensusLabel =
@@ -924,7 +935,12 @@ function SolvedMetaBuildPanel({
           <div className="setup-metrics">
             <div className="setup-metric">
               <span>{t(copy.costPoints, lang)}</span>
-              <strong>{activeTotalPoints}/{build.weaponMaxBudget}</strong>
+              <strong>
+                {activeHasUnknownPointCosts ? `${activeTotalPoints}+?` : activeTotalPoints}/{build.weaponMaxBudget}
+              </strong>
+              {activeHasUnknownPointCosts ? (
+                <small>{t({ it: 'costi Chase parziali', en: 'partial Chase costs' }, lang)}</small>
+              ) : null}
             </div>
           </div>
         </section>

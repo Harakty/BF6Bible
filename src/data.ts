@@ -1,3 +1,4 @@
+import { generatedChaseBuilds } from './generated/chaseBuilds'
 import { generatedWeaponStats, normalizeWeaponName, rangeValue, type GeneratedWeaponStat } from './weaponStats'
 
 export type Lang = 'it' | 'en'
@@ -154,6 +155,17 @@ export const sources: Source[] = [
     },
   },
   {
+    id: 'chasenoface-redsec',
+    label: 'Chasenoface REDSEC Builds',
+    url: 'https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0',
+    kind: 'community-sheet',
+    weight: 0.85,
+    note: {
+      it: 'Fonte community REDSEC autorevole per build attachment per arma, usata come variante dedicata e controllo del Planner.',
+      en: 'Authoritative REDSEC community source for per-weapon attachment builds, used as a dedicated variant and Planner check.',
+    },
+  },
+  {
     id: 'attachment-sheet',
     label: 'BF6 Public Attachment Dataset',
     url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRMZduKhsB9OmLZT6hjwvh8JHvN0-6PXjBccEuhI2WoeO4v_U-zBT2NtzMHeEb9NRETtLS9H_LoJ0M8/pubhtml',
@@ -206,6 +218,26 @@ const term = (it: string, en: string, options: Omit<LocalizedTerm, 'name' | 'ali
 
 const attachment = (it: string, en: string, points: number): LocalizedTerm =>
   term(it, en, { points, verified: true, sourceId: 'battlefieldmeta' })
+
+const chaseBuildByWeapon = new Map(
+  Object.values(generatedChaseBuilds.builds).map((build) => [normalizeWeaponName(build.weaponName), build]),
+)
+
+const chaseAttachmentsForWeapon = (weaponName: string): LocalizedTerm[] | undefined => {
+  const build = chaseBuildByWeapon.get(normalizeWeaponName(weaponName))
+  if (!build) return undefined
+
+  return build.attachments.map((item) =>
+    term(item.name, item.name, {
+      points: item.pointCostKnown ? item.pointCost : undefined,
+      verified: item.pointCostKnown,
+      sourceId: 'chasenoface-redsec',
+    }),
+  )
+}
+
+const plannerAttachmentsForWeapon = (metric: WeaponMetric, fallback: LocalizedTerm[]): LocalizedTerm[] =>
+  chaseAttachmentsForWeapon(metric.weapon.name.en) ?? fallback
 
 const weapon = (
   name: string,
@@ -753,12 +785,12 @@ const generatedPlannerWeapon = (name: string): WeaponMetric => {
 
 const primaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
   metric,
-  attachments,
+  attachments: plannerAttachmentsForWeapon(metric, attachments),
 })
 
 const secondaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
   metric,
-  attachments,
+  attachments: plannerAttachmentsForWeapon(metric, attachments),
 })
 
 const loadoutRegistry = new Map<string, Loadout>()
@@ -989,7 +1021,16 @@ export const modePlans: Record<ModeId, ModePlan> = {
       it: 'Season 3 introduce Ranked Battle Royale Quads il 12 maggio 2026. La struttura è pronta per ranking, ma i valori delle armi vanno ricontrollati dopo le note complete.',
       en: 'Season 3 introduces Ranked Battle Royale Quads on May 12, 2026. This structure is ranked-ready, but weapon values need revalidation after full notes.',
     },
-    sourceIds: ['ea-redsec-armor', 'ea-redsec-br101', 'pcgamer-custom-loadouts', 'ea-season3', 'ea-classes', 'sym-bf6', 'sheetonmyface'],
+    sourceIds: [
+      'ea-redsec-armor',
+      'ea-redsec-br101',
+      'pcgamer-custom-loadouts',
+      'ea-season3',
+      'ea-classes',
+      'sym-bf6',
+      'sheetonmyface',
+      'chasenoface-redsec',
+    ],
     pressureRules: [
       {
         it: 'Se il fight è aperto, non chaseare armor crack: Recon marca, Support tiene crossfire, Geniere controlla veicoli.',
@@ -1346,7 +1387,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
       it: 'Duos resta il banco prova migliore per validare eTTK, revive economy e armor discipline prima di ranked Quads.',
       en: 'Duos remains the best test bed for validating eTTK, revive economy, and armor discipline before ranked Quads.',
     },
-    sourceIds: ['ea-redsec-armor', 'ea-classes', 'sym-bf6', 'sheetonmyface'],
+    sourceIds: ['ea-redsec-armor', 'ea-classes', 'sym-bf6', 'sheetonmyface', 'chasenoface-redsec'],
     pressureRules: [
       {
         it: 'Se non avete Support, ogni trade perso diventa coin flip. Non è consigliato.',
@@ -1468,8 +1509,8 @@ export const copy = {
   whyWeaponTitle: { it: 'Perche questa arma', en: 'Why this weapon' },
   baselineSourcesTitle: { it: 'Fonti dei dati baseline', en: 'Baseline data sources' },
   baselineSourcesNote: {
-    it: 'Build calcolata combinando il nostro motore di ottimizzazione per recoil, handling e precisione con la build consenso pubblica da battlefieldmeta.gg per ottica, munizioni, caricatore e accessori. Il budget di ogni arma usa il cap reale BF6: sidearm 60, alcune armi 95, la maggior parte 100.',
-    en: 'Build calculated by combining our recoil, handling, and precision optimizer with the public battlefieldmeta.gg consensus build for optic, ammo, magazine, and accessories. Each weapon budget uses the real BF6 cap: sidearms 60, some weapons 95, most weapons 100.',
+    it: 'Build calcolata combinando il nostro motore di ottimizzazione per recoil, handling e precisione con la build consenso pubblica da battlefieldmeta.gg per ottica, munizioni, caricatore e accessori. La variante Chase REDSEC arriva dalla sheet Chasenoface e resta separata dalla build ufficiale cap-validata.',
+    en: 'Build calculated by combining our recoil, handling, and precision optimizer with the public battlefieldmeta.gg consensus build for optic, ammo, magazine, and accessories. The Chase REDSEC variant comes from the Chasenoface sheet and stays separate from the official cap-validated build.',
   },
   attachmentsConsidered: {
     it: '{n} alternative valutate',

@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import { consensusBuilds } from '../generated/consensusBuilds'
+import { generatedChaseBuilds } from '../generated/chaseBuilds'
 import { generatedSolvedBuilds } from '../generated/solvedBuilds'
+import { normalizeWeaponName } from '../weaponStats'
 
 describe('build variants', () => {
   it('every weapon has at least one variant (Recommended)', () => {
@@ -19,11 +21,28 @@ describe('build variants', () => {
     }
   })
 
-  it('alternativeVariants in solvedBuilds matches consensus variants minus Recommended', () => {
+  it('alternativeVariants in solvedBuilds matches consensus variants plus Chase REDSEC when available', () => {
     for (const build of generatedSolvedBuilds.builds) {
       const consensus = consensusBuilds.builds[build.consensusWeaponName]
-      const expectedAltCount = Object.keys(consensus.variants).length - 1
+      const hasChaseVariant = Object.values(generatedChaseBuilds.builds).some(
+        (chaseBuild) => normalizeWeaponName(chaseBuild.weaponName) === normalizeWeaponName(build.weaponName),
+      )
+      const expectedAltCount = Object.keys(consensus.variants).length - 1 + (hasChaseVariant ? 1 : 0)
       expect(build.alternativeVariants.length, `${build.weaponName}: alternative variant count mismatch`).toBe(expectedAltCount)
+    }
+  })
+
+  it('adds the Chase REDSEC variant for weapons covered by Chasenoface', () => {
+    for (const weaponName of Object.keys(generatedChaseBuilds.builds)) {
+      const solved = generatedSolvedBuilds.builds.find(
+        (build) => normalizeWeaponName(build.weaponName) === normalizeWeaponName(weaponName),
+      )
+      if (!solved) continue
+
+      expect(
+        solved.alternativeVariants.some((variant) => variant.variantId === 'chasenoface-redsec'),
+        `${weaponName}: missing Chase REDSEC variant`,
+      ).toBe(true)
     }
   })
 })

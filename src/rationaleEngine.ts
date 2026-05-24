@@ -20,10 +20,6 @@ function formatMs(value: number | undefined, lang: Lang) {
   return lang === 'it' ? 'non disponibile' : 'unavailable'
 }
 
-function attachmentName(attachment: SolvedBuild['attachments'][number], lang: Lang) {
-  return attachment.name[lang] ?? attachment.name.en
-}
-
 export function generateRationale(
   weaponName: string,
   build: SolvedBuild,
@@ -40,9 +36,6 @@ export function generateRationale(
     .slice(0, 3)
     .map(([key, value]) => `${effectUiCopy[key]?.[lang] ?? key} (+${value})`)
 
-  const allNames = build.attachments
-    .map((attachment) => attachmentName(attachment, lang))
-    .join(', ')
   const consensus = consensusByWeapon.get(normalizeWeaponName(weaponName))
   const consensusTier = consensus?.tier
 
@@ -52,18 +45,14 @@ export function generateRationale(
           `Tier ${ranking.calculatedTier} in ${scenario} (rank ${positionInScenario}/${totalInScenario})`,
           `TTK MP ${formatMs(ranking.mpTtkMs, lang)}, REDSEC ${formatMs(ranking.redsecTtkMs, lang)}`,
           `RoleFit ${ranking.roleFit}/100`,
-          `Costo build ${build.totalPoints}/${build.weaponMaxBudget} sul cap arma`,
-          topEffects.length ? `Il solver privilegia ${topEffects.join(', ')}` : '',
-          allNames ? `Setup: ${allNames}` : '',
+          topEffects.length ? `La build ufficiale BF6Bible privilegia ${topEffects.join(', ')}` : '',
           consensusTier ? `Riferimento meta pubblica: ${consensusTier}` : '',
         ]
       : [
           `Tier ${ranking.calculatedTier} in ${scenario} (rank ${positionInScenario}/${totalInScenario})`,
           `MP TTK ${formatMs(ranking.mpTtkMs, lang)}, REDSEC ${formatMs(ranking.redsecTtkMs, lang)}`,
           `RoleFit ${ranking.roleFit}/100`,
-          `Build cost ${build.totalPoints}/${build.weaponMaxBudget} against weapon cap`,
-          topEffects.length ? `Solver prioritizes ${topEffects.join(', ')}` : '',
-          allNames ? `Setup: ${allNames}` : '',
+          topEffects.length ? `The official BF6Bible build prioritizes ${topEffects.join(', ')}` : '',
           consensusTier ? `Public meta reference: ${consensusTier}` : '',
         ]
 
