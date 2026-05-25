@@ -59,7 +59,7 @@ describe('planner consensus guardrails', () => {
     }
   })
 
-  it('keeps Support LMG planner picks inside the public META LMG pool', () => {
+  it('keeps Support LMG planner picks inside the public top-two META LMG pool', () => {
     const supportLmgUsages = plannerWeaponUsages().filter(
       (usage) => usage.className === 'LMG' && usage.slot === 'primary',
     )
@@ -74,8 +74,8 @@ describe('planner consensus guardrails', () => {
       ).toBe('META')
       expect(
         consensus.categoryRank.position,
-        `${usage.modeId}/${usage.roleId}/${usage.loadoutId}: ${usage.weaponName} is outside the public top-four LMG pool`,
-      ).toBeLessThanOrEqual(4)
+        `${usage.modeId}/${usage.roleId}/${usage.loadoutId}: ${usage.weaponName} is outside the public top-two LMG pool`,
+      ).toBeLessThanOrEqual(2)
     }
   })
 

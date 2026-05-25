@@ -603,6 +603,15 @@ function RoleCard({ role, lang }: { role: (typeof modePlans)[ModeId]['roles'][nu
       </div>
 
       <p className="loadout-summary">{t(activeLoadout.summary, lang)}</p>
+      {activeLoadout.selectionReason ? (
+        <div className="planner-selection-reason">
+          <span>
+            {t(copy.selectionReasonTitle, lang)}
+            {activeLoadout.selectionScore !== undefined ? ` ${activeLoadout.selectionScore}/100` : ''}
+          </span>
+          <p>{t(activeLoadout.selectionReason, lang)}</p>
+        </div>
+      ) : null}
 
       <div className="role-grid">
         <WeaponPanel lang={lang} label={copy.primary} metric={activeLoadout.primary.metric} />

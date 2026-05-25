@@ -1,4 +1,11 @@
 import { generatedChaseBuilds } from './generated/chaseBuilds'
+import { generatedSolvedBuilds } from './generated/solvedBuilds'
+import {
+  pickPlannerLoadoutPair,
+  type PlannerLoadoutPair,
+  type PlannerRoleId,
+  type PlannerVariantId,
+} from './plannerEngine'
 import { generatedWeaponStats, normalizeWeaponName, rangeValue, type GeneratedWeaponStat } from './weaponStats'
 
 export type Lang = 'it' | 'en'
@@ -56,6 +63,8 @@ export type Loadout = {
   id: string
   label: Localized
   summary: Localized
+  selectionScore?: number
+  selectionReason?: Localized
   primary: WeaponKit
   secondary: WeaponKit
   gadgets: LocalizedTerm[]
@@ -215,9 +224,6 @@ const term = (it: string, en: string, options: Omit<LocalizedTerm, 'name' | 'ali
   name: { it, en },
   ...options,
 })
-
-const attachment = (it: string, en: string, points: number): LocalizedTerm =>
-  term(it, en, { points, verified: true, sourceId: 'battlefieldmeta' })
 
 const chaseBuildByWeapon = new Map(
   Object.values(generatedChaseBuilds.builds).map((build) => [normalizeWeaponName(build.weaponName), build]),
@@ -773,15 +779,18 @@ const generatedWeaponMetric = (entry: GeneratedWeaponStat): WeaponMetric => {
   )
 }
 
-const generatedPlannerWeapon = (name: string): WeaponMetric => {
-  const entry = generatedWeaponStats.weapons.find(
-    (candidate) => normalizeWeaponName(candidate.name) === normalizeWeaponName(name),
-  )
-  if (!entry) {
-    throw new Error(`Missing generated weapon stats for planner weapon ${name}`)
-  }
-  return generatedWeaponMetric(entry)
-}
+const manualMetaWeapons = [...Object.values(weapons), ...Object.values(weaponCatalog)]
+const manualWeaponKeys = new Set(manualMetaWeapons.map((metric) => normalizeWeaponName(metric.weapon.name.en)))
+const generatedOnlyWeapons = generatedWeaponStats.weapons
+  .filter((entry) => !manualWeaponKeys.has(normalizeWeaponName(entry.name)))
+  .map(generatedWeaponMetric)
+
+export const metaWeapons = [...manualMetaWeapons, ...generatedOnlyWeapons].sort((a, b) => {
+  const tierRank: Record<Tier, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D: 5 }
+  return tierRank[a.tier] - tierRank[b.tier] || b.redsecScore - a.redsecScore
+})
+
+const metaWeaponByNormalizedName = new Map(metaWeapons.map((metric) => [normalizeWeaponName(metric.weapon.name.en), metric]))
 
 const primaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): WeaponKit => ({
   metric,
@@ -792,6 +801,43 @@ const secondaryKit = (metric: WeaponMetric, attachments: LocalizedTerm[]): Weapo
   metric,
   attachments: plannerAttachmentsForWeapon(metric, attachments),
 })
+
+const solvedBuildByWeapon = new Map(
+  generatedSolvedBuilds.builds.map((build) => [normalizeWeaponName(build.weaponName), build]),
+)
+
+const solvedAttachmentsForWeapon = (weaponName: string): LocalizedTerm[] => {
+  const build = solvedBuildByWeapon.get(normalizeWeaponName(weaponName))
+  if (!build) return []
+
+  return build.attachments.map((item) =>
+    term(item.name.it, item.name.en, {
+      points: item.pointCost,
+      verified: true,
+      sourceId: item.layer === 'B' ? 'battlefieldmeta' : 'attachment-sheet',
+    }),
+  )
+}
+
+const plannerWeaponMetric = (weaponName: string): WeaponMetric => {
+  const metric = metaWeaponByNormalizedName.get(normalizeWeaponName(weaponName))
+  if (!metric) {
+    throw new Error(`Missing planner weapon metric for ${weaponName}`)
+  }
+  return metric
+}
+
+const plannerKit = (weaponName: string, slot: WeaponSlot): WeaponKit => {
+  const metric = plannerWeaponMetric(weaponName)
+  const fallback = solvedAttachmentsForWeapon(weaponName)
+  return slot === 'primary' ? primaryKit(metric, fallback) : secondaryKit(metric, fallback)
+}
+
+const plannerPair = (roleId: PlannerRoleId, variantId: PlannerVariantId) =>
+  pickPlannerLoadoutPair(metaWeapons, roleId, variantId)
+
+const plannerPrimaryKit = (pair: PlannerLoadoutPair) => plannerKit(pair.primary.weaponName, 'primary')
+const plannerSecondaryKit = (pair: PlannerLoadoutPair) => plannerKit(pair.secondary.weaponName, 'secondary')
 
 const loadoutRegistry = new Map<string, Loadout>()
 
@@ -810,11 +856,14 @@ const loadout = (
   playbook: Localized[],
   sourceIds: string[],
   confidence: number,
+  plannerSelection?: PlannerLoadoutPair,
 ): Loadout => {
   const entry = {
     id,
     label: { it: labelIt, en: labelEn },
     summary: { it: summaryIt, en: summaryEn },
+    selectionScore: plannerSelection?.score,
+    selectionReason: plannerSelection?.reason,
     primary,
     secondary,
     fieldSpec,
@@ -822,149 +871,11 @@ const loadout = (
     gadgets,
     engagement,
     playbook,
-    sourceIds,
+    sourceIds: Array.from(new Set([...sourceIds, ...(plannerSelection?.sourceIds ?? [])])),
     confidence,
   }
   loadoutRegistry.set(id, entry)
   return entry
-}
-
-const kits = {
-  kordControl: primaryKit(weapons.kord, [
-    attachment('PROTOTIPO DA 415 MM', '415MM PROTOTYPE', 10),
-    attachment('6H64 VERTICALE', '6H64 VERTICAL', 25),
-    attachment('CUSTODIA POLIMERICA', 'POLYMER CASE', 10),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 36 MUNIZIONI', '36 RND', 15),
-    attachment('BAKER 3X', 'BAKER 3.00X', 10),
-  ]),
-  vcrEntry: primaryKit(weapons.vcr2, [
-    attachment('20" MARKSMAN', '20" MARKSMAN', 15),
-    attachment('VERTICALE PIEGHEVOLE', 'FOLDING VERTICAL', 10),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE RAPIDO DA 40 MUNIZIONI', '40RND FAST MAG', 30),
-    attachment('MINI FLEX 1X', 'MINI FLEX 1.00X', 10),
-  ]),
-  drsAnchor: primaryKit(weapons.drs, [
-    attachment('SDM-R DA 20"', '20" SDM-R', 10),
-    attachment('6H64 VERTICALE', '6H64 VERTICAL', 25),
-    attachment('CUSTODIA POLIMERICA', 'POLYMER CASE', 10),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 36 MUNIZIONI', '36 RND', 15),
-    attachment('BAKER 3X', 'BAKER 3.00X', 10),
-  ]),
-  l110Mobile: primaryKit(weapons.l110, [
-    attachment('LB DA 465 MM', '465MM LB', 10),
-    attachment('CLASSICA VERTICALE', 'CLASSIC VERTICAL', 35),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CINTURA CON TASCHE DA 100 MUNIZIONI', '100RND BELT POUCH', 5),
-    attachment('RO-M 1,75X', 'RO-M 1.75X', 10),
-  ]),
-  rpk74mAnchor: primaryKit(generatedPlannerWeapon('RPK-74M'), [
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHT SUPPRESSOR', 30),
-    attachment('CANNA PESANTE', 'HEAVY BARREL', 10),
-    attachment('CLASSICA VERTICALE', 'CLASSIC VERTICAL', 35),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('CARICATORE RAPIDO DA 45 MUNIZIONI', '45RND FAST MAG', 10),
-    attachment('BAKER 3X', 'BAKER 3.00X', 10),
-  ]),
-  ak205Flex: primaryKit(weapons.ak205, [
-    attachment('SCANALATA DA 314 MM', '314MM FLUTED', 20),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 45 MUNIZIONI', '45RND MAGAZINE', 35),
-    attachment('BAKER 3X', 'BAKER 3.00X', 10),
-  ]),
-  sgxClose: primaryKit(weapons.sgx, [
-    attachment('ALLUNGATA DA 8"', '8" EXTENDED', 15),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE STANDARD', 'STANDARD SUPPRESSOR', 20),
-    attachment('CARICATORE DA 41 COLPI', '41RND MAGAZINE', 25),
-    attachment('120 MW BLU', '120 MW BLUE', 30),
-    attachment('MIRINI STANDARD', 'IRON SIGHTS', 5),
-  ]),
-  scwClose: primaryKit(weapons.scw, [
-    attachment('CANNA ALLUNGATA', 'EXTENDED BARREL', 15),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE LUNGO', 'LONG SUPPRESSOR', 25),
-    attachment('CARICATORE DA 25 MUNIZIONI', '25RND MAGAZINE', 45),
-    attachment('MINI FLEX 1X', 'MINI FLEX 1.00X', 10),
-  ]),
-  scwSecondary: secondaryKit(weapons.scw, [
-    attachment('CANNA ALLUNGATA', 'EXTENDED BARREL', 15),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE LUNGO', 'LONG SUPPRESSOR', 25),
-    attachment('CARICATORE DA 25 MUNIZIONI', '25RND MAGAZINE', 45),
-    attachment('MINI FLEX 1X', 'MINI FLEX 1.00X', 10),
-  ]),
-  sgxSecondary: secondaryKit(weapons.sgx, [
-    attachment('ALLUNGATA DA 8"', '8" EXTENDED', 15),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE STANDARD', 'STANDARD SUPPRESSOR', 20),
-    attachment('CARICATORE DA 41 COLPI', '41RND MAGAZINE', 25),
-    attachment('120 MW BLU', '120 MW BLUE', 30),
-    attachment('MIRINI STANDARD', 'IRON SIGHTS', 5),
-  ]),
-  kv9Secondary: secondaryKit(weaponCatalog.kv9, [
-    attachment('ALLUNGATA DA 6,5"', '6.5" EXTENDED', 15),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE LUNGO', 'LONG SUPPRESSOR', 25),
-    attachment('CARICATORE DA 27 MUNIZIONI', '27RND MAGAZINE', 45),
-    attachment('MINI FLEX 1,00X', 'MINI FLEX 1.00X', 10),
-  ]),
-  m39Info: primaryKit(weapons.m39, [
-    attachment('DI FABBRICA DA 22"', 'EXTENDED', 15),
-    attachment('CLASSICA VERTICALE', 'CLASSIC VERTICAL', 35),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 20 MUNIZIONI', '20RND MAGAZINE', 5),
-    attachment('BAKER 3X', 'BAKER 3.00X', 10),
-  ]),
-  sg553Mobile: primaryKit(weapons.sg553, [
-    attachment('CANNA LUNGA DA 303 MM', '303MM LB', 15),
-    attachment('6H64 VERTICALE', '6H64 VERTICAL', 25),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 36 MUNIZIONI', '36RND MAGAZINE', 15),
-    attachment('RO-M 1,75X', 'RO-M 1.75X', 10),
-  ]),
-  sg553Secondary: secondaryKit(weapons.sg553, [
-    attachment('CANNA LUNGA DA 303 MM', '303MM LB', 15),
-    attachment('6H64 VERTICALE', '6H64 VERTICAL', 25),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 36 MUNIZIONI', '36RND MAGAZINE', 15),
-    attachment('RO-M 1,75X', 'RO-M 1.75X', 10),
-  ]),
-  ak205Secondary: secondaryKit(weapons.ak205, [
-    attachment('SCANALATA DA 314 MM', '314MM FLUTED', 20),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE ALLEGGERITO', 'LIGHTENED SUPPRESSOR', 30),
-    attachment('CARICATORE DA 45 MUNIZIONI', '45RND MAGAZINE', 35),
-    attachment('BAKER 3X', 'BAKER 3.00X', 10),
-  ]),
-  m2010Range: primaryKit(weapons.m2010, [
-    attachment('CARBONIO DA 26"', '26" CARBON', 15),
-    attachment('ANGOLATA SOTTILE', 'SLIM ANGLED', 15),
-    attachment('QUALITÀ SUPERIORE', 'MATCH GRADE', 10),
-    attachment('SILENZIATORE STANDARD', 'STANDARD SUPPRESSOR', 20),
-    attachment('TELEMETRO', 'RANGE FINDER', 15),
-    attachment('RIVESTIMENTO ANTI-RIFLESSO', 'ANTI-GLARE COATING', 10),
-    attachment('CARICATORE DA 5 MUNIZIONI', '5RND MAGAZINE', 5),
-    attachment('LERT 8X', 'LERT 8.00X', 10),
-  ]),
-  miniScoutRange: primaryKit(weaponCatalog.miniFix, [
-    attachment('ALLUNGATA DA 18"', '18" EXTENDED', 15),
-    attachment('ANGOLATA SOTTILE', 'SLIM ANGLED', 15),
-    attachment('FMJ', 'FMJ', 5),
-    attachment('SILENZIATORE STANDARD', 'STANDARD SUPPRESSOR', 20),
-    attachment('RIVESTIMENTO ANTI-RIFLESSO', 'ANTI-GLARE COATING', 10),
-    attachment('TELEMETRO', 'RANGE FINDER', 15),
-    attachment('CARICATORE DA 10 MUNIZIONI', '10RND MAGAZINE', 5),
-    attachment('SSDS 6,00X', 'SSDS 6.00X', 10),
-  ]),
 }
 
 const skills = {
@@ -1003,6 +914,17 @@ const skills = {
     term('Motion info', 'Motion info'),
     term('Rotazioni silenziose', 'Silent rotations'),
   ],
+}
+
+const plannerSelections = {
+  assaultDefault: plannerPair('assault-entry', 'default'),
+  assaultAlternative: plannerPair('assault-entry', 'alternative'),
+  supportDefault: plannerPair('support-anchor', 'default'),
+  supportAlternative: plannerPair('support-anchor', 'alternative'),
+  engineerDefault: plannerPair('engineer-av', 'default'),
+  engineerAlternative: plannerPair('engineer-av', 'alternative'),
+  reconDefault: plannerPair('recon-info', 'default'),
+  reconAlternative: plannerPair('recon-info', 'alternative'),
 }
 
 export const modePlans: Record<ModeId, ModePlan> = {
@@ -1065,8 +987,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'Control meta',
             'KORD + SGX: primaria mid-range e SMG consensus #1 Close Range per chiudere fight sotto i 20 m.',
             'KORD + SGX: mid-range primary and #1 Close Range consensus SMG for fights under 20 m.',
-            kits.kordControl,
-            kits.sgxSecondary,
+            plannerPrimaryKit(plannerSelections.assaultDefault),
+            plannerSecondaryKit(plannerSelections.assaultDefault),
             term('Frontliner / Prima linea', 'Frontliner'),
             skills.frontliner,
             [
@@ -1091,6 +1013,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
             0.82,
+            plannerSelections.assaultDefault,
           ),
           loadout(
             'assault-vcr',
@@ -1098,8 +1021,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'Close alternative',
             'VCR-2 + SG-553R: entry close con secondaria carbine per non morire appena il fight si apre.',
             'VCR-2 + SG-553R: close entry with carbine secondary so you do not collapse when the fight opens.',
-            kits.vcrEntry,
-            kits.sg553Secondary,
+            plannerPrimaryKit(plannerSelections.assaultAlternative),
+            plannerSecondaryKit(plannerSelections.assaultAlternative),
             term('Breacher / Sfondamento', 'Breacher'),
             skills.breacher,
             [
@@ -1124,6 +1047,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
             0.72,
+            plannerSelections.assaultAlternative,
           ),
         ],
       },
@@ -1136,18 +1060,18 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Keep the team alive, cover revives, and win long armor fights.',
         },
         swapRule: {
-          it: 'Default DRS-IAR. Passa a RPK-74M se vuoi più lane pressure Season 3 e sustain da LMG meta.',
-          en: 'Default DRS-IAR. Swap to RPK-74M when you want more Season 3 lane pressure and meta LMG sustain.',
+          it: 'Default KTS100 MK8. Passa a RPK-74M solo se vuoi la seconda LMG long-range del consenso pubblico.',
+          en: 'Default KTS100 MK8. Swap to RPK-74M only when you want the second public-consensus long-range LMG.',
         },
         loadouts: [
           loadout(
-            'support-drs',
+            'support-kts',
             'Medic anchor',
             'Medic anchor',
-            'DRS-IAR + SGX: anchor da revive economy con la SMG consensus top per difendere push ravvicinati.',
-            'DRS-IAR + SGX: revive economy anchor with the top consensus SMG for close push defense.',
-            kits.drsAnchor,
-            kits.sgxSecondary,
+            'KTS100 MK8 + SGX: LMG #1 per categoria e SMG consensus #1 per difendere push ravvicinati.',
+            'KTS100 MK8 + SGX: #1 category LMG and #1 consensus SMG for close push defense.',
+            plannerPrimaryKit(plannerSelections.supportDefault),
+            plannerSecondaryKit(plannerSelections.supportDefault),
             term('Combat Medic / Medico da combattimento', 'Combat Medic'),
             skills.medic,
             [
@@ -1172,6 +1096,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
             0.8,
+            plannerSelections.supportDefault,
           ),
           loadout(
             'support-rpk',
@@ -1179,8 +1104,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'Season 3 sustain',
             'RPK-74M + SGX: LMG Season 3 META #2 per lane pressure, con SGX per difendere push sotto i 20 m.',
             'RPK-74M + SGX: Season 3 META #2 LMG for lane pressure, with SGX to defend pushes under 20 m.',
-            kits.rpk74mAnchor,
-            kits.sgxSecondary,
+            plannerPrimaryKit(plannerSelections.supportAlternative),
+            plannerSecondaryKit(plannerSelections.supportAlternative),
             term('Fire Support / Fuoco di supporto', 'Fire Support'),
             skills.fireSupport,
             [
@@ -1205,6 +1130,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
             0.82,
+            plannerSelections.supportAlternative,
           ),
         ],
       },
@@ -1217,18 +1143,18 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Deny tanks, transports, and vehicle third parties without losing infantry duels.',
         },
         swapRule: {
-          it: 'Default AK-205. Passa a SGX solo se il cerchio è bunker/tunnel.',
-          en: 'Default AK-205. Swap to SGX only when the circle is bunker/tunnel heavy.',
+          it: 'Default SG-553R. Passa a SGX solo se il cerchio è bunker/tunnel, con AK-205 come carbine di uscita.',
+          en: 'Default SG-553R. Swap to SGX only when the circle is bunker/tunnel heavy, with AK-205 as the exit carbine.',
         },
         loadouts: [
           loadout(
-            'engineer-ak',
+            'engineer-sg553',
             'Flex AV',
             'Flex AV',
-            'AK-205 + SGX: anti-vehicle con SMG consensus #1 per non perdere i duel close.',
-            'AK-205 + SGX: anti-vehicle with the #1 consensus SMG so close duels are not sacrificed.',
-            kits.ak205Flex,
-            kits.sgxSecondary,
+            'SG-553R + SGX: carbine #1 per Geniere flex con SMG consensus #1 per non perdere i duel close.',
+            'SG-553R + SGX: #1 flex Engineer carbine with the #1 consensus SMG so close duels are not sacrificed.',
+            plannerPrimaryKit(plannerSelections.engineerDefault),
+            plannerSecondaryKit(plannerSelections.engineerDefault),
             term('Anti-Armour / Anti-corazza', 'Anti-Armour'),
             skills.antiArmor,
             [
@@ -1253,6 +1179,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
             0.78,
+            plannerSelections.engineerDefault,
           ),
           loadout(
             'engineer-sgx',
@@ -1260,8 +1187,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'Bunker alternative',
             'SGX + AK-205: close primary per bunker con secondaria mid-range quando devi ruotare.',
             'SGX + AK-205: close primary for bunkers with a mid-range secondary when you need to rotate.',
-            kits.sgxClose,
-            kits.ak205Secondary,
+            plannerPrimaryKit(plannerSelections.engineerAlternative),
+            plannerSecondaryKit(plannerSelections.engineerAlternative),
             term('Combat Engineer / Geniere da combattimento', 'Combat Engineer'),
             skills.combatEngineer,
             [
@@ -1286,6 +1213,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'battlefieldmeta'],
             0.72,
+            plannerSelections.engineerAlternative,
           ),
         ],
       },
@@ -1308,8 +1236,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'Info DMR',
             'M39 EMR + SG-553R: info/range con seconda arma vera per trade e wipe in movimento.',
             'M39 EMR + SG-553R: info/range with a true second weapon for moving trades and wipes.',
-            kits.m39Info,
-            kits.sg553Secondary,
+            plannerPrimaryKit(plannerSelections.reconDefault),
+            plannerSecondaryKit(plannerSelections.reconDefault),
             term('Spec Ops / Forze speciali', 'Spec Ops'),
             skills.specOps,
             [
@@ -1334,6 +1262,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sheetonmyface', 'battlefieldmeta'],
             0.68,
+            plannerSelections.reconDefault,
           ),
           loadout(
             'recon-sniper-smg',
@@ -1341,8 +1270,8 @@ export const modePlans: Record<ModeId, ModePlan> = {
             'Meta sniper + SMG',
             'M2010 ESR + SGX: sniper consensus META #1 con SMG top per non perdere i push ravvicinati.',
             'M2010 ESR + SGX: consensus META #1 sniper with the top SMG so close pushes are not lost.',
-            kits.m2010Range,
-            kits.sgxSecondary,
+            plannerPrimaryKit(plannerSelections.reconAlternative),
+            plannerSecondaryKit(plannerSelections.reconAlternative),
             term('Spec Ops / Forze speciali', 'Spec Ops'),
             skills.specOps,
             [
@@ -1367,6 +1296,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
             ],
             ['ea-classes', 'ea-redsec-armor', 'sym-bf6', 'sheetonmyface'],
             0.82,
+            plannerSelections.reconAlternative,
           ),
         ],
       },
@@ -1412,11 +1342,11 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Keep the duo alive and turn every down into a reset, not panic.',
         },
         swapRule: {
-          it: 'Default DRS-IAR. RPK-74M se vuoi più sustain Season 3 e lane pressure.',
-          en: 'Default DRS-IAR. RPK-74M when you want more Season 3 sustain and lane pressure.',
+          it: 'Default KTS100 MK8. RPK-74M se vuoi la seconda LMG long-range del consenso pubblico.',
+          en: 'Default KTS100 MK8. RPK-74M when you want the second public-consensus long-range LMG.',
         },
         loadouts: [
-          modePlansPlaceholder('support-drs'),
+          modePlansPlaceholder('support-kts'),
           modePlansPlaceholder('support-rpk'),
         ],
       },
@@ -1433,7 +1363,7 @@ export const modePlans: Record<ModeId, ModePlan> = {
           en: 'Only serious alternative: Recon Spec Ops with SG-553R if the lobby is infantry-only.',
         },
         loadouts: [
-          modePlansPlaceholder('engineer-ak'),
+          modePlansPlaceholder('engineer-sg553'),
           modePlansPlaceholder('recon-m39'),
         ],
       },
@@ -1449,17 +1379,6 @@ function modePlansPlaceholder(loadoutId: string): Loadout {
   return found
 }
 
-const manualMetaWeapons = [...Object.values(weapons), ...Object.values(weaponCatalog)]
-const manualWeaponKeys = new Set(manualMetaWeapons.map((metric) => normalizeWeaponName(metric.weapon.name.en)))
-const generatedOnlyWeapons = generatedWeaponStats.weapons
-  .filter((entry) => !manualWeaponKeys.has(normalizeWeaponName(entry.name)))
-  .map(generatedWeaponMetric)
-
-export const metaWeapons = [...manualMetaWeapons, ...generatedOnlyWeapons].sort((a, b) => {
-  const tierRank: Record<Tier, number> = { 'S+': 0, S: 1, A: 2, B: 3, C: 4, D: 5 }
-  return tierRank[a.tier] - tierRank[b.tier] || b.redsecScore - a.redsecScore
-})
-
 export const copy = {
   appName: { it: 'BF6 Bible', en: 'BF6 Bible' },
   mainNavigation: { it: 'Navigazione principale', en: 'Main navigation' },
@@ -1474,6 +1393,7 @@ export const copy = {
   secondary: { it: 'Arma 2 REDSEC', en: 'REDSEC weapon 2' },
   alternativeLoadout: { it: 'Loadout alternativo', en: 'Alternative loadout' },
   chooseLoadout: { it: 'Scegli loadout', en: 'Choose loadout' },
+  selectionReasonTitle: { it: 'Scelta algoritmo', en: 'Algorithm pick' },
   buildPrimary: { it: 'Build arma 1', en: 'Weapon 1 build' },
   buildSecondary: { it: 'Build arma 2 REDSEC', en: 'REDSEC weapon 2 build' },
   build: { it: 'Build', en: 'Build' },
