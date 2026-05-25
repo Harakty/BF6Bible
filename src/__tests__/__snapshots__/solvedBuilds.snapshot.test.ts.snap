@@ -518,11 +518,11 @@ exports[`solvedBuilds generated output > keeps solved builds stable 1`] = `
   {
     "archetype": "anchor-sustain",
     "attachments": [
-      "Light Suppressor",
+      "Long Suppressor",
       "Heavy Barrel",
       "Classic Vertical",
-      "FMJ",
-      "45RND FAST MAG",
+      "POLYMER CASE",
+      "50RND MAGAZINE",
       "BAKER 3.00X",
     ],
     "objectiveScore": 100,

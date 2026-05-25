@@ -4,7 +4,7 @@ export const generatedChaseBuilds = {
   "source": "Chasenoface Battlefield Redsec Builds",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
   "csvUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/export?format=csv&gid=0",
-  "fetchedAt": "2026-05-25T04:49:20.411Z",
+  "fetchedAt": "2026-05-25T10:46:29.841Z",
   "sourceHash": "8d632217224eaacf",
   "buildCount": 49,
   "builds": {
@@ -2772,7 +2772,7 @@ export const generatedChaseBuilds = {
           "slotType": "Muzzle",
           "pointCost": 20,
           "pointCostKnown": true,
-          "costSource": "public-csv",
+          "costSource": "battlefieldmeta.gg weapon page",
           "sourceColumn": "Muzzle"
         },
         {
@@ -3003,9 +3003,9 @@ export const generatedChaseBuilds = {
           "canonicalName": "45RND MAGAZINE",
           "slot": "magazine",
           "slotType": "Magazine",
-          "pointCost": 5,
+          "pointCost": 35,
           "pointCostKnown": true,
-          "costSource": "battlefieldmeta.gg weapon page",
+          "costSource": "battlefieldmeta.gg",
           "sourceColumn": "Mag"
         },
         {
@@ -3031,7 +3031,7 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Barrel"
         }
       ],
-      "totalKnownPoints": 95,
+      "totalKnownPoints": 125,
       "hasUnknownPointCosts": false
     },
     "M39 EMR": {
