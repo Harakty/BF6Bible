@@ -4,8 +4,8 @@ export const generatedChaseBuilds = {
   "source": "Chasenoface Battlefield Redsec Builds",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
   "csvUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/export?format=csv&gid=0",
-  "fetchedAt": "2026-05-25T04:49:20.411Z",
-  "sourceHash": "8d632217224eaacf",
+  "fetchedAt": "2026-05-26T16:06:39.178Z",
+  "sourceHash": "f7a527b93e1c0cd4",
   "buildCount": 49,
   "builds": {
     "M433": {
@@ -2772,7 +2772,7 @@ export const generatedChaseBuilds = {
           "slotType": "Muzzle",
           "pointCost": 20,
           "pointCostKnown": true,
-          "costSource": "public-csv",
+          "costSource": "battlefieldmeta.gg weapon page",
           "sourceColumn": "Muzzle"
         },
         {
@@ -3003,9 +3003,9 @@ export const generatedChaseBuilds = {
           "canonicalName": "45RND MAGAZINE",
           "slot": "magazine",
           "slotType": "Magazine",
-          "pointCost": 5,
+          "pointCost": 35,
           "pointCostKnown": true,
-          "costSource": "battlefieldmeta.gg weapon page",
+          "costSource": "battlefieldmeta.gg",
           "sourceColumn": "Mag"
         },
         {
@@ -3031,7 +3031,7 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Barrel"
         }
       ],
-      "totalKnownPoints": 95,
+      "totalKnownPoints": 125,
       "hasUnknownPointCosts": false
     },
     "M39 EMR": {
@@ -3332,14 +3332,25 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Optic"
         },
         {
-          "id": "AMMO_LONGRANGE",
-          "name": "Long Range",
-          "canonicalName": "LONG RANGE",
+          "id": "ERGONOMICS_AFTERMMARKETBUFFER",
+          "name": "Aftermmarket Buffer",
+          "canonicalName": "AFTERMMARKET BUFFER",
+          "slot": "ergonomics",
+          "slotType": "Ergonomics",
+          "pointCost": 0,
+          "pointCostKnown": false,
+          "costSource": "unresolved",
+          "sourceColumn": "Ergonomics"
+        },
+        {
+          "id": "AMMO_STANDARD",
+          "name": "Standard",
+          "canonicalName": "STANDARD",
           "slot": "ammo",
           "slotType": "Ammunition",
-          "pointCost": 5,
+          "pointCost": 0,
           "pointCostKnown": true,
-          "costSource": "community-cost-reference",
+          "costSource": "default-zero",
           "sourceColumn": "Ammo"
         },
         {
@@ -3365,8 +3376,8 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Barrel"
         }
       ],
-      "totalKnownPoints": 95,
-      "hasUnknownPointCosts": false
+      "totalKnownPoints": 90,
+      "hasUnknownPointCosts": true
     },
     "GRT-CPS": {
       "weaponName": "GRT-CPS",
@@ -4400,6 +4411,12 @@ export const generatedChaseBuilds = {
       "sourceName": "15 Fast",
       "slot": "magazine",
       "rowNumber": 44
+    },
+    {
+      "weaponName": "SVDM",
+      "sourceName": "Aftermmarket Buffer",
+      "slot": "ergonomics",
+      "rowNumber": 46
     },
     {
       "weaponName": "MINI SCOUT",
