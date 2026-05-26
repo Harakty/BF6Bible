@@ -6,7 +6,13 @@ import {
   type PlannerRoleId,
   type PlannerVariantId,
 } from './plannerEngine'
-import { generatedWeaponStats, normalizeWeaponName, rangeValue, type GeneratedWeaponStat } from './weaponStats'
+import {
+  generatedStatForName,
+  generatedWeaponStats,
+  normalizeWeaponName,
+  rangeValue,
+  type GeneratedWeaponStat,
+} from './weaponStats'
 
 export type Lang = 'it' | 'en'
 export type ModeId = 'quads' | 'duos'
@@ -277,23 +283,30 @@ const weapon = (
   riskEn: string,
   sourceIds: string[],
   confidence: number,
-): WeaponMetric => ({
-  weapon: { name: { it: name, en: name } },
-  className: { it: classIt, en: classEn },
-  slot,
-  tier,
-  redsecScore,
-  baselineTtkMs,
-  baselineStk,
-  rpm,
-  magSize,
-  tierReason: { it: tierReasonIt, en: tierReasonEn },
-  redsecUse: { it: redsecUseIt, en: redsecUseEn },
-  strength: { it: strengthIt, en: strengthEn },
-  risk: { it: riskIt, en: riskEn },
-  sourceIds,
-  confidence,
-})
+): WeaponMetric => {
+  const generatedStat = generatedStatForName(name)
+  const hydratedTtk = generatedStat ? rangeValue(generatedStat.ttk100ByRange, [20, 10, 0, 35]) : undefined
+  const hydratedStk = generatedStat ? rangeValue(generatedStat.stk100ByRange, [20, 10, 0, 35]) : undefined
+  const hydratedSourceIds = generatedStat ? Array.from(new Set([...sourceIds, 'sheetonmyface'])) : sourceIds
+
+  return {
+    weapon: { name: { it: name, en: name } },
+    className: { it: classIt, en: classEn },
+    slot,
+    tier,
+    redsecScore,
+    baselineTtkMs: baselineTtkMs ?? hydratedTtk,
+    baselineStk: baselineStk ?? hydratedStk,
+    rpm: rpm ?? generatedStat?.rpm,
+    magSize: magSize ?? generatedStat?.magSize,
+    tierReason: { it: tierReasonIt, en: tierReasonEn },
+    redsecUse: { it: redsecUseIt, en: redsecUseEn },
+    strength: { it: strengthIt, en: strengthEn },
+    risk: { it: riskIt, en: riskEn },
+    sourceIds: hydratedSourceIds,
+    confidence,
+  }
+}
 
 export const weapons = {
   kord: weapon(

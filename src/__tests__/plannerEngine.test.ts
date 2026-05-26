@@ -50,4 +50,16 @@ describe('planner engine integration', () => {
     expect(supportDefault?.primary.metric.weapon.name.en).toBe('KTS100 MK8')
     expect(supportDefault?.selectionReason?.en).toContain('category ranks 1/10')
   })
+
+  it('hydrates hard stats for every Planner weapon card', () => {
+    for (const loadout of uniquePlannerLoadouts()) {
+      for (const kit of [loadout.primary, loadout.secondary]) {
+        const name = kit.metric.weapon.name.en
+        expect(kit.metric.baselineTtkMs, `${loadout.id}/${name} missing base MP TTK`).toBeDefined()
+        expect(kit.metric.baselineStk, `${loadout.id}/${name} missing STK`).toBeDefined()
+        expect(kit.metric.rpm, `${loadout.id}/${name} missing RPM`).toBeDefined()
+        expect(kit.metric.magSize, `${loadout.id}/${name} missing Mag`).toBeDefined()
+      }
+    }
+  })
 })
