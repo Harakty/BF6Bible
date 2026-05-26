@@ -5,6 +5,7 @@ import {
   Crosshair,
   Database,
   ExternalLink,
+  FileText,
   Gauge,
   Languages,
   Layers,
@@ -39,11 +40,12 @@ import {
 import { effectLabel } from './effectCopy'
 import { consensusBuilds } from './generated/consensusBuilds'
 import { externalMetaConsensus, type ConsensusEntry } from './generated/externalMetaConsensus'
+import { generatedPatchStatus } from './generated/patchStatus'
 import { getMetaScenario, metaScenarios, rankWeapons, type MetaScenarioId, type RankedWeapon } from './metaEngine'
 import { generateRationale } from './rationaleEngine'
 import { generatedStatForName, generatedWeaponStats, normalizeWeaponName, type GeneratedWeaponStat } from './weaponStats'
 
-type ViewId = 'planner' | 'meta'
+type ViewId = 'planner' | 'meta' | 'patch'
 type WeaponTypeFilterId = 'all' | GeneratedWeaponStat['categoryKey']
 type DisplaySolvedAttachment = SolvedBuild['attachments'][number] | SolvedBuild['alternativeVariants'][number]['attachments'][number]
 
@@ -192,6 +194,31 @@ function formatMs(value?: number) {
 
 function formatNumber(value?: number) {
   return value !== undefined ? String(value) : '—'
+}
+
+function formatDate(value: string, lang: Lang) {
+  return new Intl.DateTimeFormat(lang === 'it' ? 'it-IT' : 'en-US', {
+    dateStyle: 'medium',
+    timeZone: 'Europe/Rome',
+  }).format(new Date(value))
+}
+
+function formatDateTime(value: string, lang: Lang) {
+  return new Intl.DateTimeFormat(lang === 'it' ? 'it-IT' : 'en-US', {
+    dateStyle: 'medium',
+    timeStyle: 'short',
+    timeZone: 'Europe/Rome',
+  }).format(new Date(value))
+}
+
+function patchImpactLabel(level: string, lang: Lang) {
+  const labels: Record<string, Localized> = {
+    high: { it: 'Alto', en: 'High' },
+    medium: { it: 'Medio', en: 'Medium' },
+    low: { it: 'Basso', en: 'Low' },
+    none: { it: 'Nessuno', en: 'None' },
+  }
+  return t(labels[level] ?? labels.low, lang)
 }
 
 function attachmentPointTotal(items: LocalizedTerm[]) {
@@ -429,6 +456,15 @@ function AppHeader({
         >
           <BarChart3 aria-hidden="true" />
           <span>{t(copy.metaPage, lang)}</span>
+        </button>
+        <button
+          className={view === 'patch' ? 'active' : ''}
+          type="button"
+          aria-pressed={view === 'patch'}
+          onClick={() => setView('patch')}
+        >
+          <FileText aria-hidden="true" />
+          <span>{t(copy.patchPage, lang)}</span>
         </button>
       </nav>
       <div className="top-actions">
@@ -722,6 +758,100 @@ function PlanSummary({ mode, lang }: { mode: ModeId; lang: Lang }) {
           ))}
         </div>
       </div>
+    </section>
+  )
+}
+
+function PatchStatusSection({ lang }: { lang: Lang }) {
+  const patch = generatedPatchStatus.currentPatch
+  const previousPatch = generatedPatchStatus.previousMetaRelevantPatch
+  const weaponImpact = patch.weaponBalanceChanged ? 'high' : 'none'
+  const redsecImpact = patch.redsecFlowChanged ? patch.metaImpactLevel : 'none'
+
+  return (
+    <section className="patch-page">
+      <div className="patch-hero">
+        <div>
+          <div className="summary-label">
+            <FileText aria-hidden="true" />
+            <span>{t(copy.patchPage, lang)}</span>
+          </div>
+          <h1>{t(patch.title, lang)}</h1>
+          <p>{t(patch.summary, lang)}</p>
+        </div>
+        <a className="patch-official-link" href={patch.sourceUrl} rel="noreferrer" target="_blank">
+          <span>{t(copy.officialPatchNotes, lang)}</span>
+          <ExternalLink aria-hidden="true" />
+        </a>
+      </div>
+
+      <div className="patch-kpi-grid">
+        <div className="patch-kpi">
+          <span>{t(copy.patchVersion, lang)}</span>
+          <strong>{patch.version}</strong>
+          <small>{formatDate(patch.publishedDate, lang)}</small>
+        </div>
+        <div className="patch-kpi">
+          <span>{t(copy.patchActiveSince, lang)}</span>
+          <strong>{formatDateTime(patch.effectiveAt, lang)}</strong>
+          <small>Europe/Rome</small>
+        </div>
+        <div className={`patch-kpi impact-${patch.metaImpactLevel}`}>
+          <span>{t(copy.patchMetaImpact, lang)}</span>
+          <strong>{patchImpactLabel(patch.metaImpactLevel, lang)}</strong>
+          <small>{patch.weaponBalanceChanged ? t(copy.weaponMetaChanged, lang) : t(copy.weaponMetaUnchanged, lang)}</small>
+        </div>
+      </div>
+
+      <div className="patch-impact-grid">
+        <section className={`patch-impact-card impact-${weaponImpact}`}>
+          <span>{t(copy.weaponMeta, lang)}</span>
+          <strong>{patchImpactLabel(weaponImpact, lang)}</strong>
+          <p>{t(patch.rankingDecision, lang)}</p>
+        </section>
+        <section className={`patch-impact-card impact-${redsecImpact}`}>
+          <span>{t(copy.redsecFlow, lang)}</span>
+          <strong>{patchImpactLabel(redsecImpact, lang)}</strong>
+          <p>{t(patch.plannerDecision, lang)}</p>
+        </section>
+      </div>
+
+      <section className="patch-changes">
+        <div className="patch-section-head">
+          <span>{t(copy.patchChanges, lang)}</span>
+          <strong>{generatedPatchStatus.source.label}</strong>
+        </div>
+        {patch.sections.map((section) => (
+          <article className="patch-change-section" key={section.id}>
+            <header>
+              <h2>{t(section.label, lang)}</h2>
+              <span className={`patch-impact-badge impact-${section.impactLevel}`}>
+                {patchImpactLabel(section.impactLevel, lang)}
+              </span>
+            </header>
+            <ul>
+              {section.items.map((item) => (
+                <li key={item.it}>
+                  <span className={`patch-signal-dot impact-${item.metaSignal}`} aria-hidden="true" />
+                  <span>{t(item, lang)}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </section>
+
+      <section className="patch-previous">
+        <div>
+          <span>{t(copy.lastMetaPatch, lang)}</span>
+          <h2>{t(previousPatch.title, lang)}</h2>
+          <p>{t(previousPatch.summary, lang)}</p>
+        </div>
+        <a href={previousPatch.sourceUrl} rel="noreferrer" target="_blank">
+          {t(copy.officialSource, lang)}
+          <ExternalLink aria-hidden="true" />
+        </a>
+      </section>
     </section>
   )
 }
@@ -1392,6 +1522,7 @@ export function App() {
         </>
       ) : null}
       {view === 'meta' ? <MetaTierSection lang={lang} /> : null}
+      {view === 'patch' ? <PatchStatusSection lang={lang} /> : null}
     </main>
   )
 }

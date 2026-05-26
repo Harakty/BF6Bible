@@ -398,6 +398,11 @@ h1 {
 .tactical-diagram,
 .meta-band,
 .meta-page,
+.patch-kpi,
+.patch-impact-card,
+.patch-changes,
+.patch-change-section,
+.patch-previous,
 .role-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -425,6 +430,209 @@ h1 {
   font-size: clamp(22px, 3vw, 38px);
   line-height: 1.1;
   letter-spacing: 0;
+}
+
+.patch-page {
+  display: grid;
+  gap: 18px;
+  padding: clamp(24px, 5vw, 52px) clamp(16px, 4vw, 48px) 48px;
+}
+
+.patch-hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 8px;
+}
+
+.patch-hero h1 {
+  max-width: 980px;
+  font-size: clamp(36px, 6vw, 72px);
+}
+
+.patch-hero p {
+  max-width: 820px;
+  margin-top: 14px;
+  color: #d9e3da;
+  line-height: 1.6;
+}
+
+.patch-official-link,
+.patch-previous a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  border: 1px solid rgba(120, 208, 138, 0.36);
+  border-radius: 8px;
+  padding: 0 14px;
+  color: #f8fff9;
+  background: rgba(120, 208, 138, 0.12);
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.patch-kpi-grid,
+.patch-impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.patch-impact-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.patch-kpi,
+.patch-impact-card,
+.patch-changes,
+.patch-change-section,
+.patch-previous {
+  box-shadow: none;
+}
+
+.patch-kpi,
+.patch-impact-card {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+}
+
+.patch-kpi span,
+.patch-impact-card span,
+.patch-section-head span,
+.patch-previous span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.patch-kpi strong {
+  color: #f8fff9;
+  font-size: clamp(22px, 3vw, 34px);
+}
+
+.patch-kpi small,
+.patch-impact-card p,
+.patch-previous p {
+  color: #d9e3da;
+}
+
+.patch-impact-card strong {
+  color: #f8fff9;
+  font-size: 26px;
+}
+
+.impact-high {
+  border-color: rgba(229, 106, 84, 0.44);
+  background: rgba(229, 106, 84, 0.09);
+}
+
+.impact-medium {
+  border-color: rgba(242, 184, 75, 0.42);
+  background: rgba(242, 184, 75, 0.075);
+}
+
+.impact-low {
+  border-color: rgba(105, 199, 213, 0.34);
+  background: rgba(105, 199, 213, 0.06);
+}
+
+.impact-none {
+  border-color: rgba(120, 208, 138, 0.36);
+  background: rgba(120, 208, 138, 0.07);
+}
+
+.patch-changes {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.patch-section-head,
+.patch-change-section header,
+.patch-previous {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.patch-section-head strong {
+  color: #f8fff9;
+  font-size: 14px;
+}
+
+.patch-change-section {
+  padding: 16px;
+}
+
+.patch-change-section h2,
+.patch-previous h2 {
+  color: #f8fff9;
+  font-size: 18px;
+}
+
+.patch-impact-badge {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 999px;
+  padding: 0 10px;
+  color: #f8fff9;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.patch-change-section ul {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.patch-change-section li {
+  display: grid;
+  grid-template-columns: 12px 1fr;
+  gap: 10px;
+  color: #d9e3da;
+}
+
+.patch-signal-dot {
+  width: 9px;
+  height: 9px;
+  margin-top: 7px;
+  border-radius: 999px;
+  background: var(--soft);
+}
+
+.patch-signal-dot.impact-high {
+  background: var(--red);
+}
+
+.patch-signal-dot.impact-medium {
+  background: var(--amber);
+}
+
+.patch-signal-dot.impact-low {
+  background: var(--cyan);
+}
+
+.patch-previous {
+  padding: 18px;
+}
+
+.patch-previous div {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
 }
 
 .summary-stats {
@@ -1793,7 +2001,9 @@ h1 {
   .role-grid,
   .meta-build-grid,
   .loadout-buttons,
-  .build-grid {
+  .build-grid,
+  .patch-kpi-grid,
+  .patch-impact-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2013,6 +2223,23 @@ h1 {
   .compare-attachments {
     max-height: none;
   }
+
+  .patch-page {
+    padding: 22px 14px 42px;
+  }
+
+  .patch-hero,
+  .patch-section-head,
+  .patch-change-section header,
+  .patch-previous {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .patch-official-link,
+  .patch-previous a {
+    width: 100%;
+  }
 }
 
 @media (max-width: 620px) {
@@ -2028,7 +2255,7 @@ h1 {
   .app-nav {
     order: 3;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     width: 100%;
   }
 
@@ -2052,7 +2279,12 @@ h1 {
   .command-board,
   .tactical-diagram,
   .meta-band,
-  .meta-page {
+  .meta-page,
+  .patch-kpi,
+  .patch-impact-card,
+  .patch-changes,
+  .patch-change-section,
+  .patch-previous {
     box-shadow: none;
   }
 
