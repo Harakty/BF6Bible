@@ -518,11 +518,11 @@ exports[`solvedBuilds generated output > keeps solved builds stable 1`] = `
   {
     "archetype": "anchor-sustain",
     "attachments": [
-      "Light Suppressor",
+      "Long Suppressor",
       "Heavy Barrel",
       "Classic Vertical",
-      "FMJ",
-      "45RND FAST MAG",
+      "POLYMER CASE",
+      "50RND MAGAZINE",
       "BAKER 3.00X",
     ],
     "objectiveScore": 100,
@@ -769,9 +769,10 @@ exports[`solvedBuilds generated output > keeps solved builds stable 1`] = `
   {
     "archetype": "emergency-backup",
     "attachments": [
-      "Double-Port Brake",
+      "Single-Port Brake",
       "Short Barrel",
       "FMJ",
+      "IMPROVED MAG CATCH",
       "11 RND MAGAZINE",
       "IRON SIGHTS",
     ],
