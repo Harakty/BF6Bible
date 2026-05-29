@@ -82,47 +82,37 @@ jobs:
             node scripts/reportRankingShifts.mjs > ranking-shifts.md
           fi
 
-      - name: Open ranking shift PR
+      - name: Report ranking shifts
         if: github.event_name != 'pull_request' && steps.snapshot-shifts.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          branch="automated/data-refresh-${GITHUB_RUN_ID}"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -c "$branch"
-          git add src/generated src/__tests__/__snapshots__
-          git commit -m "Refresh BF6 data with ranking shifts"
-          git push origin "$branch"
-          gh pr create \
-            --repo "$GITHUB_REPOSITORY" \
-            --base main \
-            --head "$branch" \
-            --title "Data refresh $(date -u +%F): ranking shifts detected" \
-            --body-file ranking-shifts.md
-          echo "Ranking snapshots changed; opened review PR instead of deploying."
+          echo "Ranking snapshots changed; committing refreshed data and deploying."
+          cat ranking-shifts.md
+          {
+            echo "### Ranking shifts detected"
+            echo
+            cat ranking-shifts.md
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit refreshed datasets
-        if: github.event_name != 'pull_request' && steps.snapshot-shifts.outputs.changed == 'false'
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- src/generated; then
+          git add src/generated src/__tests__/__snapshots__
+          if git diff --cached --quiet; then
             echo "No generated data changes."
           else
-            git add src/generated
             git commit -m "Refresh generated BF6 data [skip ci]"
             git push origin HEAD:main
           fi
 
       - name: Build site
-        if: github.event_name == 'pull_request' || steps.snapshot-shifts.outputs.changed == 'false'
         run: npm run build
 
       - name: Deploy to gh-pages
-        if: github.event_name != 'pull_request' && steps.snapshot-shifts.outputs.changed == 'false'
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
