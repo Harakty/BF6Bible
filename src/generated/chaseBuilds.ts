@@ -4,8 +4,8 @@ export const generatedChaseBuilds = {
   "source": "Chasenoface Battlefield Redsec Builds",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
   "csvUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/export?format=csv&gid=0",
-  "fetchedAt": "2026-06-01T18:17:07.334Z",
-  "sourceHash": "f7a527b93e1c0cd4",
+  "fetchedAt": "2026-06-02T04:59:59.816Z",
+  "sourceHash": "a8cf7f74407d9594",
   "buildCount": 49,
   "builds": {
     "M433": {
@@ -524,7 +524,7 @@ export const generatedChaseBuilds = {
       "weaponName": "NVO-228E",
       "sourceWeaponName": "NVO-228E",
       "category": "Assault Rifles",
-      "asOf": "2026-05-09",
+      "asOf": "2026-06-01",
       "sourceRow": 9,
       "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
       "attachments": [
@@ -540,26 +540,37 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Muzzle"
         },
         {
-          "id": "TOPACCESSORY_50MWVIOLETLASER",
-          "name": "50 MW Violet Laser",
-          "canonicalName": "50 MW VIOLET LASER",
+          "id": "TOPACCESSORY_5MWGREENLASER",
+          "name": "5 MW Green Laser",
+          "canonicalName": "5 MW GREEN LASER",
           "slot": "topAccessory",
           "slotType": "Top Accessory",
           "pointCost": 10,
           "pointCostKnown": true,
-          "costSource": "public-attachment-sheet",
+          "costSource": "battlefieldmeta.gg",
           "sourceColumn": "Top Accessory"
         },
         {
-          "id": "OPTIC_BF2M250X",
-          "name": "BF-2M 2.50x",
-          "canonicalName": "BF-2M 2.50X",
+          "id": "OPTIC_MINIFLEX100X",
+          "name": "Mini Flex 1.00x",
+          "canonicalName": "MINI FLEX 1.00X",
           "slot": "optic",
           "slotType": "Scope",
           "pointCost": 10,
           "pointCostKnown": true,
           "costSource": "battlefieldmeta.gg",
           "sourceColumn": "Optic"
+        },
+        {
+          "id": "ERGONOMICS_AFTERMARKETBUFFER",
+          "name": "Aftermarket Buffer",
+          "canonicalName": "AFTERMARKET BUFFER",
+          "slot": "ergonomics",
+          "slotType": "Ergonomics",
+          "pointCost": 0,
+          "pointCostKnown": false,
+          "costSource": "unresolved",
+          "sourceColumn": "Ergonomics"
         },
         {
           "id": "AMMO_STANDARD",
@@ -584,14 +595,14 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Mag"
         },
         {
-          "id": "UNDERBARREL_ALLOYVERTICAL",
-          "name": "Alloy Vertical",
-          "canonicalName": "ALLOY VERTICAL",
+          "id": "UNDERBARREL_SLIMHANDSTOP",
+          "name": "Slim Handstop",
+          "canonicalName": "SLIM HANDSTOP",
           "slot": "underbarrel",
           "slotType": "Underbarrel",
-          "pointCost": 20,
+          "pointCost": 15,
           "pointCostKnown": true,
-          "costSource": "public-csv",
+          "costSource": "battlefieldmeta.gg weapon page",
           "sourceColumn": "Underbarrel"
         },
         {
@@ -606,8 +617,8 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Barrel"
         }
       ],
-      "totalKnownPoints": 95,
-      "hasUnknownPointCosts": false
+      "totalKnownPoints": 90,
+      "hasUnknownPointCosts": true
     },
     "L85A3": {
       "weaponName": "L85A3",
@@ -2949,7 +2960,7 @@ export const generatedChaseBuilds = {
       "weaponName": "RPK-74M",
       "sourceWeaponName": "RPK-74M",
       "category": "LMGs",
-      "asOf": "2026-05-19",
+      "asOf": "2026-06-01",
       "sourceRow": 41,
       "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
       "attachments": [
@@ -2998,14 +3009,14 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Ammo"
         },
         {
-          "id": "MAGAZINE_45RNDMAGAZINE",
-          "name": "45 Rnd",
-          "canonicalName": "45RND MAGAZINE",
+          "id": "MAGAZINE_50RNDMAGAZINE",
+          "name": "50 Rnd",
+          "canonicalName": "50 RND MAGAZINE",
           "slot": "magazine",
           "slotType": "Magazine",
-          "pointCost": 35,
+          "pointCost": 10,
           "pointCostKnown": true,
-          "costSource": "battlefieldmeta.gg",
+          "costSource": "battlefieldmeta.gg weapon page",
           "sourceColumn": "Mag"
         },
         {
@@ -3031,7 +3042,7 @@ export const generatedChaseBuilds = {
           "sourceColumn": "Barrel"
         }
       ],
-      "totalKnownPoints": 125,
+      "totalKnownPoints": 100,
       "hasUnknownPointCosts": false
     },
     "M39 EMR": {
@@ -4394,6 +4405,12 @@ export const generatedChaseBuilds = {
   },
   "skippedRows": [],
   "unresolved": [
+    {
+      "weaponName": "NVO-228E",
+      "sourceName": "Aftermarket Buffer",
+      "slot": "ergonomics",
+      "rowNumber": 9
+    },
     {
       "weaponName": "SG 553R",
       "sourceName": "Aftermarket Buffer",
