@@ -4,7 +4,7 @@ export const generatedChaseBuilds = {
   "source": "Chasenoface Battlefield Redsec Builds",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/edit?gid=0#gid=0",
   "csvUrl": "https://docs.google.com/spreadsheets/d/10soga9S1xoksCx2JmvmYjNYm14HblE4uE2XLFRagpnk/export?format=csv&gid=0",
-  "fetchedAt": "2026-06-04T05:03:26.976Z",
+  "fetchedAt": "2026-06-04T10:12:54.164Z",
   "sourceHash": "a8cf7f74407d9594",
   "buildCount": 49,
   "builds": {
